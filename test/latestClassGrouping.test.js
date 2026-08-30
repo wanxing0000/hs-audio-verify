@@ -189,7 +189,9 @@ function relativeIds(list, classId, legendary) {
 {
   const latestJs = fs.readFileSync(path.join(ROOT, 'miniprogram', 'pages', 'latest', 'latest.js'), 'utf8');
   assert.ok(latestJs.includes('/pages/card/card?id='));
-  assert.ok(latestJs.includes('groupLatestCardsByClass'));
+  assert.ok(latestJs.includes('orderLatestCards'));
+  assert.ok(latestJs.includes('sliceLatestVisible'));
+  assert.ok(latestJs.includes('onReachBottom'));
   assert.ok(!latestJs.includes('ESCAPEFROM_VIOLET_HOLD'));
   assert.ok(fs.readFileSync(path.join(ROOT, 'miniprogram', 'pages', 'latest', 'latest.wxml'), 'utf8').includes('groups'));
 }

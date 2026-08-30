@@ -2,6 +2,6 @@
   "usingComponents": {
     "mini-player": "../../components/mini-player/mini-player"
   },
-  "navigationBarTitleText": "更多",
+  "navigationBarTitleText": "HS卡牌声鉴",
   "backgroundColor": "#141824"
 }

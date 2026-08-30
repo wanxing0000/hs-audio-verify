@@ -45,6 +45,10 @@ const GROUPS = [
     labels: ['latest class grouping'],
   },
   {
+    file: 'test/latestImageBatch.test.js',
+    labels: ['latest image batch'],
+  },
+  {
     file: 'test/cardAudioIndex.test.js',
     labels: ['card audio index'],
   },

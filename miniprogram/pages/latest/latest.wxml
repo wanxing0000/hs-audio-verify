@@ -29,6 +29,11 @@
       </view>
     </view>
     <view wx:else class="empty">{{emptyText}}</view>
+
+    <view wx:if="{{hasData}}" class="footer">
+      <view wx:if="{{loadingMoreLatest}}" class="foot-text">正在加载更多卡牌...</view>
+      <view wx:elif="{{!hasMoreLatest}}" class="foot-text">—— 已经到底啦 ——</view>
+    </view>
   </view>
 
   <view

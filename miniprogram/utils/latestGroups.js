@@ -27,6 +27,37 @@ function groupLabel(cards, key) {
   return key || '未知';
 }
 
+const LATEST_BATCH_SIZE = 20;
+
+function flattenLatestGroups(groups) {
+  const out = [];
+  const list = Array.isArray(groups) ? groups : [];
+  for (let i = 0; i < list.length; i++) {
+    const cards = list[i] && list[i].cards;
+    if (!Array.isArray(cards)) continue;
+    for (let j = 0; j < cards.length; j++) out.push(cards[j]);
+  }
+  return out;
+}
+
+function orderLatestCards(cards) {
+  return flattenLatestGroups(groupLatestCardsByClass(cards));
+}
+
+function sliceLatestVisible(orderedCards, displayCount) {
+  const all = Array.isArray(orderedCards) ? orderedCards : [];
+  let n = Number(displayCount);
+  if (!Number.isFinite(n) || n < 0) n = 0;
+  n = Math.min(Math.floor(n), all.length);
+  const visible = all.slice(0, n);
+  return {
+    visible: visible,
+    groups: groupLatestCardsByClass(visible),
+    displayCount: visible.length,
+    hasMore: visible.length < all.length,
+  };
+}
+
 function groupLatestCardsByClass(cards) {
   const list = Array.isArray(cards) ? cards : [];
   const buckets = Object.create(null);
@@ -59,6 +90,10 @@ function groupLatestCardsByClass(cards) {
 }
 
 module.exports = {
+  LATEST_BATCH_SIZE,
+  flattenLatestGroups,
+  orderLatestCards,
+  sliceLatestVisible,
   groupLatestCardsByClass,
   legendaryFirst,
   isLegendary,

@@ -43,7 +43,6 @@ Page({
     catalogApi.loadCardDetail(getApiBase(), this.cardId).then(function (card) {
       if (!self.debug && card.debug) delete card.debug;
       self.setData({ card: card, status: 'ready', error: '' });
-      wx.setNavigationBarTitle({ title: card.name || '卡牌详情' });
       self.bindPlayer();
     }).catch(function () {
       self.setData({

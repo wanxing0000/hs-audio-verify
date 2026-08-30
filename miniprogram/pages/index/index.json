@@ -4,7 +4,7 @@
     "filter-bar": "../../components/filter-bar/filter-bar",
     "mini-player": "../../components/mini-player/mini-player"
   },
-  "navigationBarTitleText": "卡牌语音图鉴",
+  "navigationBarTitleText": "HS卡牌声鉴",
   "onReachBottomDistance": 120,
   "backgroundColor": "#141824"
 }
