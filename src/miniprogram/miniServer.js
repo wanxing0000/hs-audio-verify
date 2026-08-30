@@ -34,6 +34,11 @@ const {
   parseLatestSetConfig,
 } = require('./catalogAdapter.js');
 const { getCardAudioAvailability } = require('./audioAvailability.js');
+const {
+  createRelatedCardIndex,
+  resolveDetailCard,
+  attachRelatedCards,
+} = require('./relatedCards.js');
 const { AudioCache } = require('../services/audioCache.js');
 const { AudioService, audioErrorHttpStatus, audioErrorBody } = require('../services/audioService.js');
 const { EntrancePreviewService } = require('../services/entrancePreviewService.js');
@@ -149,6 +154,7 @@ let unified = loadJson(path.join(ROOT, 'data', 'index', 'card-audio-index.json')
 let audioIndex = loadJson(path.join(ROOT, 'data', 'index', 'audio-index.json'));
 let musicAssets = loadJson(path.join(ROOT, 'data', 'index', 'music-assets.json'));
 let catalog = buildCatalog(unified);
+const relatedIndex = createRelatedCardIndex(unified.cards);
 const productionInventory = isProductionAudioSource(audioSourceMode)
   ? loadProductionAudioInventory(audioDirs.packageDir)
   : null;
@@ -420,12 +426,13 @@ const server = http.createServer(async (req, res) => {
 
     if (req.method === 'GET' && url.pathname.startsWith('/api/mini/card/')) {
       const id = decodeURIComponent(url.pathname.slice('/api/mini/card/'.length));
-      const card = catalog.byId[id];
+      const card = resolveDetailCard(id, catalog, unified);
       if (!card) return send(res, 404, { error: '没有找到相关卡牌' });
       const raw = unified.cards[id];
       const diag = getCardAudioAvailability(raw, audioIndex.clips);
       let body = publicDetail(card, diag);
       if (productionInventory) body = applyProductionToPublicDetail(body, productionInventory);
+      attachRelatedCards(body, relatedIndex, productionInventory);
       if (isDebug(url)) body.debug = card;
       return send(res, 200, body);
     }

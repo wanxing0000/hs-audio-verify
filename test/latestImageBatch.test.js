@@ -58,7 +58,10 @@ assert.ok(cardItem.includes('src="{{card.imageUrl}}"'));
 
 const cardPage = fs.readFileSync(path.join(ROOT, 'miniprogram', 'pages', 'card', 'card.wxml'), 'utf8');
 assert.ok(cardPage.includes('src="{{card.imageUrl}}"'));
-assert.ok(!cardPage.includes('lazy-load'));
+const heroArt = cardPage.match(/<image class="art[\s\S]*?\/>/);
+assert.ok(heroArt, 'card detail hero image');
+assert.ok(!heroArt[0].includes('lazy-load'), 'detail hero image is not lazy-load');
+assert.ok(/related-art[\s\S]*lazy-load/.test(cardPage), 'related card images stay lazy-load');
 
 const latestWxss = fs.readFileSync(path.join(ROOT, 'miniprogram', 'pages', 'latest', 'latest.wxss'), 'utf8');
 assert.ok(/\.cell\s*\{[^}]*width:\s*33\.333%/.test(latestWxss), 'latest grid is three columns');

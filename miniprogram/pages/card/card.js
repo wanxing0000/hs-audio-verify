@@ -5,6 +5,7 @@ const { getApiBase } = require('../../utils/config.js');
 Page({
   data: {
     card: null,
+    relatedCards: [],
     error: '',
     status: 'loading',
     entranceText: '🎵 完整登场试听',
@@ -36,18 +37,24 @@ Page({
   load() {
     const self = this;
     if (!this.cardId) {
-      this.setData({ status: 'error', error: '没有找到相关卡牌', card: null });
+      this.setData({ status: 'error', error: '没有找到相关卡牌', card: null, relatedCards: [] });
       return;
     }
-    this.setData({ status: 'loading', error: '', card: null });
+    this.setData({ status: 'loading', error: '', card: null, relatedCards: [] });
     catalogApi.loadCardDetail(getApiBase(), this.cardId).then(function (card) {
       if (!self.debug && card.debug) delete card.debug;
-      self.setData({ card: card, status: 'ready', error: '' });
+      self.setData({
+        card: card,
+        relatedCards: (card.relatedCards || []).slice(0, 12),
+        status: 'ready',
+        error: '',
+      });
       self.bindPlayer();
     }).catch(function () {
       self.setData({
         status: 'error',
         card: null,
+        relatedCards: [],
         error: '网络异常，请稍后重试',
       });
     });
@@ -93,5 +100,35 @@ Page({
   },
   onImgErr() {
     this.setData({ 'card.imageUrl': '' });
+  },
+  onRelatedTap(e) {
+    const id = e && e.currentTarget && e.currentTarget.dataset && e.currentTarget.dataset.id;
+    if (!id) return;
+    wx.navigateTo({ url: '/pages/card/card?id=' + encodeURIComponent(id) });
+  },
+  findRelated(id) {
+    const list = this.data.relatedCards || [];
+    for (let i = 0; i < list.length; i++) {
+      if (list[i].id === id) return list[i];
+      const kids = list[i].relatedCards || [];
+      for (let j = 0; j < kids.length; j++) {
+        if (kids[j].id === id) return kids[j];
+      }
+    }
+    return null;
+  },
+  onRelatedPlay(e) {
+    const id = e && e.currentTarget && e.currentTarget.dataset && e.currentTarget.dataset.id;
+    const related = this.findRelated(id);
+    const app = getApp();
+    if (!related || !related.audio || !related.audio.playable || !related.audio.hasVoice || !app.player) return;
+    app.player.playAudio({
+      type: 'voice',
+      cardId: related.id,
+      url: audio.getVoiceUrl(related.id, 'play'),
+      key: related.id + ':play',
+      title: related.name + ' · 登场语音',
+      debug: !!this.debug,
+    });
   },
 });

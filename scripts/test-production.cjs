@@ -61,6 +61,18 @@ const GROUPS = [
     labels: ['production audio availability'],
   },
   {
+    file: 'test/phase210RelatedAudioAudit.test.js',
+    labels: ['related / generated card audio audit'],
+  },
+  {
+    file: 'test/relatedCardDisplay.test.js',
+    labels: ['related card display'],
+  },
+  {
+    file: 'test/phase210BProductionCopy.test.js',
+    labels: ['related card production copy'],
+  },
+  {
     file: 'test/tabBar.test.js',
     labels: ['tabBar'],
   },

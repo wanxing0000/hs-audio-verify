@@ -1,0 +1,156 @@
+{
+  "phase": "2.10-B",
+  "mode": "dry-run-blocked",
+  "generatedAt": "2026-08-30T11:35:00.000Z",
+  "scope": "TIME_609 family + TIME_005 family only",
+  "sourceSearchDirs": [
+    "tmp/audio",
+    "tmp/production-audio-extract/voice",
+    "data/production-audio/voice",
+    "tmp/audio-verification"
+  ],
+  "extractor": "NOT_CALLED",
+  "hearthstone": "NOT_ACCESSED",
+  "summary": {
+    "candidatesTotal": 12,
+    "sourceFound": 0,
+    "sourceMissing": 12,
+    "alreadyPresent": 0,
+    "toCopy": 0,
+    "conflicts": 0,
+    "remainingDisplayableVoicedProductionMissing": 1362
+  },
+  "productionBefore": {
+    "voice": 350,
+    "music": 200,
+    "entrance": 98,
+    "manifestRows": 648,
+    "filesIncludingManifest": 649,
+    "bytes": 483129187,
+    "manifestSha256": "8def0fcce41ee413a4503e9202b59322be787c71a6330e98015146f81ac1ab08"
+  },
+  "candidates": [
+    {
+      "cardId": "TIME_609t1",
+      "name": "游侠队长奥蕾莉亚",
+      "parentCardId": "TIME_609",
+      "depth": 1,
+      "relationConfidence": "STRUCTURED",
+      "displayable": true,
+      "indexed": true,
+      "production": false,
+      "slots": [
+        { "type": "play", "voiceKey": "VO_TIME_609t1_Female_HighElf_Play_01", "source": null, "destination": "data/production-audio/voice/VO_TIME_609t1_Female_HighElf_Play_01.wav", "existing": false, "status": "SOURCE_NOT_AVAILABLE" },
+        { "type": "attack", "voiceKey": "VO_TIME_609t1_Female_HighElf_Attack_01", "source": null, "destination": "data/production-audio/voice/VO_TIME_609t1_Female_HighElf_Attack_01.wav", "existing": false, "status": "SOURCE_NOT_AVAILABLE" },
+        { "type": "death", "voiceKey": "VO_TIME_609t1_Female_HighElf_Death_01", "source": null, "destination": "data/production-audio/voice/VO_TIME_609t1_Female_HighElf_Death_01.wav", "existing": false, "status": "SOURCE_NOT_AVAILABLE" }
+      ]
+    },
+    {
+      "cardId": "TIME_609t2",
+      "name": "游侠新兵温蕾萨",
+      "parentCardId": "TIME_609",
+      "depth": 1,
+      "relationConfidence": "STRUCTURED",
+      "displayable": true,
+      "indexed": true,
+      "production": false,
+      "slots": [
+        { "type": "play", "voiceKey": "VO_TIME_609t2_Female_HighElf_Play_01", "source": null, "destination": "data/production-audio/voice/VO_TIME_609t2_Female_HighElf_Play_01.wav", "existing": false, "status": "SOURCE_NOT_AVAILABLE" },
+        { "type": "attack", "voiceKey": "VO_TIME_609t2_Female_HighElf_Attack_01", "source": null, "destination": "data/production-audio/voice/VO_TIME_609t2_Female_HighElf_Attack_01.wav", "existing": false, "status": "SOURCE_NOT_AVAILABLE" },
+        { "type": "death", "voiceKey": "VO_TIME_609t2_Female_HighElf_Death_01", "source": null, "destination": "data/production-audio/voice/VO_TIME_609t2_Female_HighElf_Death_01.wav", "existing": false, "status": "SOURCE_NOT_AVAILABLE" }
+      ]
+    },
+    {
+      "cardId": "TIME_005t1",
+      "name": "小小拉法姆",
+      "parentCardId": "TIME_005",
+      "depth": 1,
+      "status": "SOURCE_NOT_AVAILABLE",
+      "playVoiceKey": "VO_TIME_005t1_Male_Ethereal_Play_01"
+    },
+    {
+      "cardId": "TIME_005t2",
+      "name": "绿色拉法姆",
+      "parentCardId": "TIME_005",
+      "depth": 1,
+      "status": "SOURCE_NOT_AVAILABLE",
+      "playVoiceKey": "VO_TIME_005t2_Male_Ethereal_Play_01"
+    },
+    {
+      "cardId": "TIME_005t3",
+      "name": "探险者拉法姆",
+      "parentCardId": "TIME_005",
+      "depth": 1,
+      "status": "SOURCE_NOT_AVAILABLE",
+      "playVoiceKey": "VO_TIME_005t3_Male_Ethereal_Play_01"
+    },
+    {
+      "cardId": "TIME_005t4",
+      "name": "大酋长拉法姆",
+      "parentCardId": "TIME_005",
+      "depth": 1,
+      "status": "SOURCE_NOT_AVAILABLE",
+      "playVoiceKey": "VO_TIME_005t4_Male_Ethereal_Play_01"
+    },
+    {
+      "cardId": "TIME_005t5",
+      "name": "夺心者拉法姆",
+      "parentCardId": "TIME_005",
+      "depth": 1,
+      "status": "SOURCE_NOT_AVAILABLE",
+      "playVoiceKey": "VO_TIME_005t5_Male_EtherealFaceless_Play_01"
+    },
+    {
+      "cardId": "TIME_005t6",
+      "name": "灾异拉法姆",
+      "parentCardId": "TIME_005",
+      "depth": 1,
+      "status": "SOURCE_NOT_AVAILABLE",
+      "playVoiceKey": "VO_TIME_005t6_Male_EtherealDemon_Play_01"
+    },
+    {
+      "cardId": "TIME_005t7",
+      "name": "巨人拉法姆",
+      "parentCardId": "TIME_005",
+      "depth": 1,
+      "status": "SOURCE_NOT_AVAILABLE",
+      "playVoiceKey": "VO_TIME_005t7_Male_Ethereal_Play_01"
+    },
+    {
+      "cardId": "TIME_005t8",
+      "name": "鱼人拉法姆",
+      "parentCardId": "TIME_005",
+      "depth": 1,
+      "status": "SOURCE_NOT_AVAILABLE",
+      "playVoiceKey": "VO_TIME_005t8_Male_EtherealMurloc_Play_01"
+    },
+    {
+      "cardId": "TIME_005t9",
+      "name": "大法师拉法姆",
+      "parentCardId": "TIME_005",
+      "depth": 1,
+      "status": "SOURCE_NOT_AVAILABLE",
+      "playVoiceKey": "VO_TIME_005t9_Female_Ethereal_Play_01"
+    },
+    {
+      "cardId": "TIME_005t9t",
+      "name": "拉法姆绵羊",
+      "parentCardId": "TIME_005t9",
+      "depth": 2,
+      "status": "SOURCE_NOT_AVAILABLE",
+      "playVoiceKey": "TIME_005t9t_Play"
+    }
+  ],
+  "filtered": {
+    "TIME_609t2e": "ENCHANTMENT / not displayed / not copied",
+    "TIME_005t2e": "ENCHANTMENT / not displayed / not copied",
+    "TIME_005t8e": "ENCHANTMENT / not displayed / not copied",
+    "HERO_05z": "same-name hero skin / not a structured child",
+    "HERO_07bk": "same-name hero skin / not a structured child"
+  },
+  "nonVoiceHitsInTmp": [
+    "tmp/audio/AV_Rafaam_Play_Stinger.wav",
+    "tmp/audio/Vereesa_Play_Stinger.wav"
+  ],
+  "nonVoiceHitsNote": "These are unrelated/other stingers. They are not TIME_609t* or TIME_005t* voiceKeys and were not used."
+}

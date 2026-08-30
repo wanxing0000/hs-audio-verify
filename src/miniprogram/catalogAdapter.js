@@ -251,6 +251,7 @@ function publicDetail(card, diag) {
       special: special,
       message: special ? '该卡使用特殊语音系统，当前版本暂未完整收录' : null,
     },
+    relatedCards: [],
   };
 }
 

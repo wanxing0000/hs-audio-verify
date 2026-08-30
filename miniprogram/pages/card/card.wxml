@@ -18,6 +18,39 @@
       <button class="entrance" hover-class="entrance-hover" bindtap="onEntrance">{{entranceText}}</button>
     </view>
 
+    <view wx:if="{{relatedCards.length}}" class="related">
+      <view class="related-title">关联卡</view>
+      <view class="related-list">
+        <view
+          wx:for="{{relatedCards}}"
+          wx:key="id"
+          class="related-item"
+          data-id="{{item.id}}"
+          bindtap="onRelatedTap"
+        >
+          <image class="related-art" src="{{item.imageUrl}}" mode="widthFix" lazy-load />
+          <view class="related-name">{{item.name}}</view>
+          <view wx:if="{{item.audio.playable}}" class="related-play" data-id="{{item.id}}" catchtap="onRelatedPlay">试听</view>
+          <view wx:else class="related-off">暂时无法播放</view>
+          <view wx:if="{{item.relatedCards.length}}" class="related-nested">
+            <view
+              wx:for="{{item.relatedCards}}"
+              wx:for-item="child"
+              wx:key="id"
+              class="related-item related-child"
+              data-id="{{child.id}}"
+              bindtap="onRelatedTap"
+            >
+              <image class="related-art" src="{{child.imageUrl}}" mode="widthFix" lazy-load />
+              <view class="related-name">{{child.name}}</view>
+              <view wx:if="{{child.audio.playable}}" class="related-play" data-id="{{child.id}}" catchtap="onRelatedPlay">试听</view>
+              <view wx:else class="related-off">暂时无法播放</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
     <view class="tracks">
       <audio-button
         cardId="{{card.id}}"

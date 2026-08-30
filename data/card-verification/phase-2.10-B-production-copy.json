@@ -1,0 +1,212 @@
+{
+  "phase": "2.10-B",
+  "status": "COMPLETE_VERIFIED",
+  "tests": {
+    "npmTest": "PASS",
+    "testProduction": "PASS",
+    "productionCheckPackage": "PASS",
+    "audioProductionCheck": "PASS"
+  },
+  "generatedAt": "2026-08-30T11:40:25.398Z",
+  "extractor": "NOT_CALLED",
+  "hearthstone": "NOT_ACCESSED",
+  "sourcePrecheck": {
+    "total": 12,
+    "sourceFound": 12,
+    "sourceMissing": 0,
+    "wavValid": 12,
+    "wavInvalid": 0,
+    "ambiguous": 0,
+    "duplicate": 0,
+    "mismatch": 0
+  },
+  "summary": {
+    "total": 12,
+    "sourceFound": 12,
+    "sourceMissing": 0,
+    "wavValid": 12,
+    "wavInvalid": 0,
+    "ambiguous": 0,
+    "duplicate": 0,
+    "mismatch": 0,
+    "alreadyPresent": 0,
+    "toCopy": 12,
+    "conflict": 0,
+    "copied": 12,
+    "newWavBytes": 4749556,
+    "audioBytesAfter": 487681100
+  },
+  "baseline": {
+    "files": 649,
+    "bytes": 483129187,
+    "voice": 350,
+    "music": 200,
+    "entrance": 98,
+    "voiceFiles": 350,
+    "musicFiles": 200,
+    "entranceFiles": 98,
+    "manifestSha256": "8def0fcce41ee413a4503e9202b59322be787c71a6330e98015146f81ac1ab08",
+    "schemaVersion": 1
+  },
+  "copiedCardIds": [
+    "TIME_609t1",
+    "TIME_609t2",
+    "TIME_005t1",
+    "TIME_005t2",
+    "TIME_005t3",
+    "TIME_005t4",
+    "TIME_005t5",
+    "TIME_005t6",
+    "TIME_005t7",
+    "TIME_005t8",
+    "TIME_005t9",
+    "TIME_005t9t"
+  ],
+  "copyVerification": [
+    {
+      "cardId": "TIME_609t1",
+      "voiceKey": "VO_TIME_609t1_Female_HighElf_Play_01",
+      "sourcePath": "C:\\Users\\123\\hs-audio-verify\\tmp\\production-audio-extract\\voice\\VO_TIME_609t1_Female_HighElf_Play_01.wav",
+      "productionPath": "C:\\Users\\123\\hs-audio-verify\\data\\production-audio\\voice\\VO_TIME_609t1_Female_HighElf_Play_01.wav",
+      "sourceBytes": 357392,
+      "productionBytes": 357392,
+      "sourceSha256": "aaf1f1f79e92a0752f47e3cd825b7fbdfa8fcf7c6f5cb0763e6686a1c9643cc3",
+      "productionSha256": "aaf1f1f79e92a0752f47e3cd825b7fbdfa8fcf7c6f5cb0763e6686a1c9643cc3",
+      "ok": true
+    },
+    {
+      "cardId": "TIME_609t2",
+      "voiceKey": "VO_TIME_609t2_Female_HighElf_Play_01",
+      "sourcePath": "C:\\Users\\123\\hs-audio-verify\\tmp\\production-audio-extract\\voice\\VO_TIME_609t2_Female_HighElf_Play_01.wav",
+      "productionPath": "C:\\Users\\123\\hs-audio-verify\\data\\production-audio\\voice\\VO_TIME_609t2_Female_HighElf_Play_01.wav",
+      "sourceBytes": 321200,
+      "productionBytes": 321200,
+      "sourceSha256": "2541cdc94ecaa15dbd26a20656c98f16482e52a99c07431fa04840ce9d2abef2",
+      "productionSha256": "2541cdc94ecaa15dbd26a20656c98f16482e52a99c07431fa04840ce9d2abef2",
+      "ok": true
+    },
+    {
+      "cardId": "TIME_005t1",
+      "voiceKey": "VO_TIME_005t1_Male_Ethereal_Play_01",
+      "sourcePath": "C:\\Users\\123\\hs-audio-verify\\tmp\\production-audio-extract\\voice\\VO_TIME_005t1_Male_Ethereal_Play_01.wav",
+      "productionPath": "C:\\Users\\123\\hs-audio-verify\\data\\production-audio\\voice\\VO_TIME_005t1_Male_Ethereal_Play_01.wav",
+      "sourceBytes": 393928,
+      "productionBytes": 393928,
+      "sourceSha256": "8680ce727f38c589c231a5744ac5e40c619f2123e7afe19d1083c274b91996de",
+      "productionSha256": "8680ce727f38c589c231a5744ac5e40c619f2123e7afe19d1083c274b91996de",
+      "ok": true
+    },
+    {
+      "cardId": "TIME_005t2",
+      "voiceKey": "VO_TIME_005t2_Male_Ethereal_Play_01",
+      "sourcePath": "C:\\Users\\123\\hs-audio-verify\\tmp\\production-audio-extract\\voice\\VO_TIME_005t2_Male_Ethereal_Play_01.wav",
+      "productionPath": "C:\\Users\\123\\hs-audio-verify\\data\\production-audio\\voice\\VO_TIME_005t2_Male_Ethereal_Play_01.wav",
+      "sourceBytes": 519522,
+      "productionBytes": 519522,
+      "sourceSha256": "a72601bca0b024d6e599093c2051422eeb0477434bfdc6eee4b628ada3fab66e",
+      "productionSha256": "a72601bca0b024d6e599093c2051422eeb0477434bfdc6eee4b628ada3fab66e",
+      "ok": true
+    },
+    {
+      "cardId": "TIME_005t3",
+      "voiceKey": "VO_TIME_005t3_Male_Ethereal_Play_01",
+      "sourcePath": "C:\\Users\\123\\hs-audio-verify\\tmp\\production-audio-extract\\voice\\VO_TIME_005t3_Male_Ethereal_Play_01.wav",
+      "productionPath": "C:\\Users\\123\\hs-audio-verify\\data\\production-audio\\voice\\VO_TIME_005t3_Male_Ethereal_Play_01.wav",
+      "sourceBytes": 349112,
+      "productionBytes": 349112,
+      "sourceSha256": "a6f87eaba8934f9c1f88f60b19d5dba624d9c5a1607f6afe3c133edf09633526",
+      "productionSha256": "a6f87eaba8934f9c1f88f60b19d5dba624d9c5a1607f6afe3c133edf09633526",
+      "ok": true
+    },
+    {
+      "cardId": "TIME_005t4",
+      "voiceKey": "VO_TIME_005t4_Male_Ethereal_Play_01",
+      "sourcePath": "C:\\Users\\123\\hs-audio-verify\\tmp\\production-audio-extract\\voice\\VO_TIME_005t4_Male_Ethereal_Play_01.wav",
+      "productionPath": "C:\\Users\\123\\hs-audio-verify\\data\\production-audio\\voice\\VO_TIME_005t4_Male_Ethereal_Play_01.wav",
+      "sourceBytes": 485944,
+      "productionBytes": 485944,
+      "sourceSha256": "f77676beb7fe02418009fbe8278f77d51adaedb7e33385793916950921ebaa55",
+      "productionSha256": "f77676beb7fe02418009fbe8278f77d51adaedb7e33385793916950921ebaa55",
+      "ok": true
+    },
+    {
+      "cardId": "TIME_005t5",
+      "voiceKey": "VO_TIME_005t5_Male_EtherealFaceless_Play_01",
+      "sourcePath": "C:\\Users\\123\\hs-audio-verify\\tmp\\production-audio-extract\\voice\\VO_TIME_005t5_Male_EtherealFaceless_Play_01.wav",
+      "productionPath": "C:\\Users\\123\\hs-audio-verify\\data\\production-audio\\voice\\VO_TIME_005t5_Male_EtherealFaceless_Play_01.wav",
+      "sourceBytes": 502766,
+      "productionBytes": 502766,
+      "sourceSha256": "de50bb5ed19c6e341b18b8cf8cb87f6ce16f8ff5a37cc2eedf2498255d0abf6f",
+      "productionSha256": "de50bb5ed19c6e341b18b8cf8cb87f6ce16f8ff5a37cc2eedf2498255d0abf6f",
+      "ok": true
+    },
+    {
+      "cardId": "TIME_005t6",
+      "voiceKey": "VO_TIME_005t6_Male_EtherealDemon_Play_01",
+      "sourcePath": "C:\\Users\\123\\hs-audio-verify\\tmp\\production-audio-extract\\voice\\VO_TIME_005t6_Male_EtherealDemon_Play_01.wav",
+      "productionPath": "C:\\Users\\123\\hs-audio-verify\\data\\production-audio\\voice\\VO_TIME_005t6_Male_EtherealDemon_Play_01.wav",
+      "sourceBytes": 506318,
+      "productionBytes": 506318,
+      "sourceSha256": "e17e1b955eaf930c78d27425934d3ef23c5afb8e88b8e693ff439e64aa0240ec",
+      "productionSha256": "e17e1b955eaf930c78d27425934d3ef23c5afb8e88b8e693ff439e64aa0240ec",
+      "ok": true
+    },
+    {
+      "cardId": "TIME_005t7",
+      "voiceKey": "VO_TIME_005t7_Male_Ethereal_Play_01",
+      "sourcePath": "C:\\Users\\123\\hs-audio-verify\\tmp\\production-audio-extract\\voice\\VO_TIME_005t7_Male_Ethereal_Play_01.wav",
+      "productionPath": "C:\\Users\\123\\hs-audio-verify\\data\\production-audio\\voice\\VO_TIME_005t7_Male_Ethereal_Play_01.wav",
+      "sourceBytes": 443342,
+      "productionBytes": 443342,
+      "sourceSha256": "23a7b604e93c219a5272171740cd79959234d1d249834cf8e906f9ec5dc14f8f",
+      "productionSha256": "23a7b604e93c219a5272171740cd79959234d1d249834cf8e906f9ec5dc14f8f",
+      "ok": true
+    },
+    {
+      "cardId": "TIME_005t8",
+      "voiceKey": "VO_TIME_005t8_Male_EtherealMurloc_Play_01",
+      "sourcePath": "C:\\Users\\123\\hs-audio-verify\\tmp\\production-audio-extract\\voice\\VO_TIME_005t8_Male_EtherealMurloc_Play_01.wav",
+      "productionPath": "C:\\Users\\123\\hs-audio-verify\\data\\production-audio\\voice\\VO_TIME_005t8_Male_EtherealMurloc_Play_01.wav",
+      "sourceBytes": 287868,
+      "productionBytes": 287868,
+      "sourceSha256": "6ffa80c5394b2c9bf487604543d1119cc3be984860058b51e6515c73b263d7a7",
+      "productionSha256": "6ffa80c5394b2c9bf487604543d1119cc3be984860058b51e6515c73b263d7a7",
+      "ok": true
+    },
+    {
+      "cardId": "TIME_005t9",
+      "voiceKey": "VO_TIME_005t9_Female_Ethereal_Play_01",
+      "sourcePath": "C:\\Users\\123\\hs-audio-verify\\tmp\\production-audio-extract\\voice\\VO_TIME_005t9_Female_Ethereal_Play_01.wav",
+      "productionPath": "C:\\Users\\123\\hs-audio-verify\\data\\production-audio\\voice\\VO_TIME_005t9_Female_Ethereal_Play_01.wav",
+      "sourceBytes": 446826,
+      "productionBytes": 446826,
+      "sourceSha256": "a230b97f6edc022ca8b0f4ca09c87bfd5c09a192f2617b882e26a381879f8b6f",
+      "productionSha256": "a230b97f6edc022ca8b0f4ca09c87bfd5c09a192f2617b882e26a381879f8b6f",
+      "ok": true
+    },
+    {
+      "cardId": "TIME_005t9t",
+      "voiceKey": "TIME_005t9t_Play",
+      "sourcePath": "C:\\Users\\123\\hs-audio-verify\\tmp\\production-audio-extract\\voice\\TIME_005t9t_Play.wav",
+      "productionPath": "C:\\Users\\123\\hs-audio-verify\\data\\production-audio\\voice\\TIME_005t9t_Play.wav",
+      "sourceBytes": 135338,
+      "productionBytes": 135338,
+      "sourceSha256": "fcc38e23de7e2f26678ce058fe6cb119bf6aa8c19173e3e745a313f3d6a9d91a",
+      "productionSha256": "fcc38e23de7e2f26678ce058fe6cb119bf6aa8c19173e3e745a313f3d6a9d91a",
+      "ok": true
+    }
+  ],
+  "manifestAdded": 12,
+  "after": {
+    "files": 661,
+    "bytes": 487882720,
+    "voice": 362,
+    "music": 200,
+    "entrance": 98,
+    "voiceFiles": 362,
+    "musicFiles": 200,
+    "entranceFiles": 98,
+    "manifestSha256": "9cd9d82fff14c39805229e169a49cb32ff173d5487993092e7f0fc684d7b7135"
+  },
+  "existingFilesModified": 0
+}

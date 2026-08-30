@@ -73,6 +73,54 @@
 .entrance-hover { opacity: 0.9; }
 .entrance::after { border: none; }
 .tracks { margin-top: 4px; }
+.related {
+  margin: 20px 0 8px;
+}
+.related-title {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.related-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -6px;
+}
+.related-item {
+  width: 33.333%;
+  box-sizing: border-box;
+  padding: 0 6px 14px;
+  text-align: center;
+}
+.related-child {
+  width: 100%;
+  padding: 10px 0 0;
+}
+.related-art {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  background: #1a1d28;
+}
+.related-name {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.related-off {
+  margin-top: 4px;
+  color: #9aa3b5;
+  font-size: 11px;
+}
+.related-play {
+  margin-top: 4px;
+  color: #d7b56d;
+  font-size: 12px;
+  font-weight: 700;
+}
+.related-nested {
+  margin-top: 4px;
+}
 .empty {
   padding: 48px 16px;
   text-align: center;
