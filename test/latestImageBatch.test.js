@@ -60,6 +60,10 @@ const cardPage = fs.readFileSync(path.join(ROOT, 'miniprogram', 'pages', 'card',
 assert.ok(cardPage.includes('src="{{card.imageUrl}}"'));
 assert.ok(!cardPage.includes('lazy-load'));
 
+const latestWxss = fs.readFileSync(path.join(ROOT, 'miniprogram', 'pages', 'latest', 'latest.wxss'), 'utf8');
+assert.ok(/\.cell\s*\{[^}]*width:\s*33\.333%/.test(latestWxss), 'latest grid is three columns');
+assert.ok(!/\.cell\s*\{[^}]*width:\s*50%/.test(latestWxss));
+
 const latestJs = fs.readFileSync(path.join(ROOT, 'miniprogram', 'pages', 'latest', 'latest.js'), 'utf8');
 assert.ok(latestJs.includes('loadingMoreLatest'));
 assert.ok(latestJs.includes('hasMoreLatest'));

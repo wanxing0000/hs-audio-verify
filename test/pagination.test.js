@@ -102,5 +102,8 @@ assert.ok(indexJs.includes('onBackTop'));
 assert.ok(!/if\s*\(\s*card\.id\s*===\s*['"]EX1_116['"]/.test(indexJs));
 assert.ok(fs.readFileSync(path.join(ROOT, 'miniprogram', 'pages', 'index', 'index.wxml'), 'utf8').includes('back-top'));
 assert.ok(fs.readFileSync(path.join(ROOT, 'miniprogram', 'components', 'card-item', 'card-item.wxml'), 'utf8').includes('catchtap="onPlay"'));
+const indexWxss = fs.readFileSync(path.join(ROOT, 'miniprogram', 'pages', 'index', 'index.wxss'), 'utf8');
+assert.ok(/\.cell\s*\{[^}]*width:\s*33\.333%/.test(indexWxss), 'home grid is three columns');
+assert.ok(!/\.cell\s*\{[^}]*width:\s*50%/.test(indexWxss));
 
 console.log('ok pagination', { total: p1.total, lastPage });

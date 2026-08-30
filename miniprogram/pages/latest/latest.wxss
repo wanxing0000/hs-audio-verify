@@ -80,7 +80,7 @@
   margin: 0 -6px;
 }
 .cell {
-  width: 50%;
+  width: 33.333%;
   padding: 0 6px 14px;
   box-sizing: border-box;
 }
