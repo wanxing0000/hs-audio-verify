@@ -73,6 +73,22 @@ const GROUPS = [
     labels: ['related card production copy'],
   },
   {
+    file: 'test/phase210DRelatedAudioDeepAudit.test.js',
+    labels: ['related card audio deep audit'],
+  },
+  {
+    file: 'test/phase210ERelatedAudioProductionAudit.test.js',
+    labels: ['related card audio production audit'],
+  },
+  {
+    file: 'test/phase210FRelatedAudioUi.test.js',
+    labels: ['related card multi-slot audio UI'],
+  },
+  {
+    file: 'test/phase210GRelatedAudioDiscovery.test.js',
+    labels: ['related card audio discovery audit'],
+  },
+  {
     file: 'test/tabBar.test.js',
     labels: ['tabBar'],
   },

@@ -112,8 +112,14 @@
   color: #9aa3b5;
   font-size: 11px;
 }
-.related-play {
+.related-slots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 4px;
+}
+.related-play {
+  margin: 0 4px 2px;
   color: #d7b56d;
   font-size: 12px;
   font-weight: 700;

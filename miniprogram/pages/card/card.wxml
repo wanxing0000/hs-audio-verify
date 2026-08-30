@@ -30,7 +30,11 @@
         >
           <image class="related-art" src="{{item.imageUrl}}" mode="widthFix" lazy-load />
           <view class="related-name">{{item.name}}</view>
-          <view wx:if="{{item.audio.playable}}" class="related-play" data-id="{{item.id}}" catchtap="onRelatedPlay">试听</view>
+          <view wx:if="{{item.audioSlots.play.available || item.audioSlots.attack.available || item.audioSlots.death.available}}" class="related-slots">
+            <view wx:if="{{item.audioSlots.play.available}}" class="related-play" data-id="{{item.id}}" data-slot="play" catchtap="onRelatedAudio">{{item.audioSlots.attack.available || item.audioSlots.death.available ? '播放' : '试听'}}</view>
+            <view wx:if="{{item.audioSlots.attack.available}}" class="related-play" data-id="{{item.id}}" data-slot="attack" catchtap="onRelatedAudio">攻击</view>
+            <view wx:if="{{item.audioSlots.death.available}}" class="related-play" data-id="{{item.id}}" data-slot="death" catchtap="onRelatedAudio">死亡</view>
+          </view>
           <view wx:else class="related-off">暂时无法播放</view>
           <view wx:if="{{item.relatedCards.length}}" class="related-nested">
             <view
@@ -43,7 +47,11 @@
             >
               <image class="related-art" src="{{child.imageUrl}}" mode="widthFix" lazy-load />
               <view class="related-name">{{child.name}}</view>
-              <view wx:if="{{child.audio.playable}}" class="related-play" data-id="{{child.id}}" catchtap="onRelatedPlay">试听</view>
+              <view wx:if="{{child.audioSlots.play.available || child.audioSlots.attack.available || child.audioSlots.death.available}}" class="related-slots">
+                <view wx:if="{{child.audioSlots.play.available}}" class="related-play" data-id="{{child.id}}" data-slot="play" catchtap="onRelatedAudio">{{child.audioSlots.attack.available || child.audioSlots.death.available ? '播放' : '试听'}}</view>
+                <view wx:if="{{child.audioSlots.attack.available}}" class="related-play" data-id="{{child.id}}" data-slot="attack" catchtap="onRelatedAudio">攻击</view>
+                <view wx:if="{{child.audioSlots.death.available}}" class="related-play" data-id="{{child.id}}" data-slot="death" catchtap="onRelatedAudio">死亡</view>
+              </view>
               <view wx:else class="related-off">暂时无法播放</view>
             </view>
           </view>

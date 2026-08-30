@@ -118,16 +118,26 @@ Page({
     return null;
   },
   onRelatedPlay(e) {
-    const id = e && e.currentTarget && e.currentTarget.dataset && e.currentTarget.dataset.id;
+    this.onRelatedAudio(e);
+  },
+  onRelatedAudio(e) {
+    const ds = e && e.currentTarget && e.currentTarget.dataset;
+    const id = ds && ds.id;
+    const slot = (ds && ds.slot) || 'play';
     const related = this.findRelated(id);
     const app = getApp();
-    if (!related || !related.audio || !related.audio.playable || !related.audio.hasVoice || !app.player) return;
+    if (!related || !app.player) return;
+    const slots = related.audioSlots || {};
+    const rec = slots[slot];
+    if (!rec || rec.available !== true) return;
+    if (slot !== 'play' && slot !== 'attack' && slot !== 'death') return;
+    const labels = { play: '播放', attack: '攻击', death: '死亡' };
     app.player.playAudio({
       type: 'voice',
       cardId: related.id,
-      url: audio.getVoiceUrl(related.id, 'play'),
-      key: related.id + ':play',
-      title: related.name + ' · 登场语音',
+      url: audio.getVoiceUrl(related.id, slot),
+      key: related.id + ':' + slot,
+      title: related.name + ' · ' + (labels[slot] || slot),
       debug: !!this.debug,
     });
   },

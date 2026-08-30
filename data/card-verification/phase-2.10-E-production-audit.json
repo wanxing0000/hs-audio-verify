@@ -1,0 +1,344 @@
+{
+  "phase": "2.10-E",
+  "mode": "COPY",
+  "status": "COMPLETE_VERIFIED",
+  "generatedAt": "2026-08-30T12:45:49.311Z",
+  "gitHead": "418b95ab35c05dfeb47d4288da32398863b46b81",
+  "productionBefore": {
+    "files": 661,
+    "voice": 362,
+    "music": 200,
+    "entrance": 98,
+    "bytes": 487882720,
+    "manifestSha256": "9cd9d82fff14c39805229e169a49cb32ff173d5487993092e7f0fc684d7b7135"
+  },
+  "productionAfter": {
+    "files": 685,
+    "voice": 386,
+    "music": 200,
+    "entrance": 98,
+    "bytes": 493400551,
+    "manifestSha256": "a7cd2e1e923348123064e4f67dafe1aa255a266576871ae47493f90569376bec"
+  },
+  "summary": {
+    "cardCandidates": 1970,
+    "slotCandidates": 3595,
+    "indexed": 3595,
+    "sourceFound": 74,
+    "sourceMissing": 3521,
+    "alreadyPresent": 50,
+    "conflict": 0,
+    "ready": 24,
+    "ambiguous": 0,
+    "filterBug": 0,
+    "byType": {
+      "play": {
+        "indexed": 1054,
+        "sourceFound": 29,
+        "sourceMissing": 1025,
+        "alreadyPresent": 29,
+        "conflict": 0,
+        "ready": 0,
+        "ambiguous": 0,
+        "copied": 0
+      },
+      "attack": {
+        "indexed": 1054,
+        "sourceFound": 23,
+        "sourceMissing": 1031,
+        "alreadyPresent": 11,
+        "conflict": 0,
+        "ready": 12,
+        "ambiguous": 0,
+        "copied": 0
+      },
+      "death": {
+        "indexed": 1054,
+        "sourceFound": 22,
+        "sourceMissing": 1032,
+        "alreadyPresent": 10,
+        "conflict": 0,
+        "ready": 12,
+        "ambiguous": 0,
+        "copied": 0
+      },
+      "music": {
+        "indexed": 231,
+        "sourceFound": 0,
+        "sourceMissing": 231,
+        "alreadyPresent": 0,
+        "conflict": 0,
+        "ready": 0,
+        "ambiguous": 0,
+        "copied": 0
+      },
+      "entrance": {
+        "indexed": 202,
+        "sourceFound": 0,
+        "sourceMissing": 202,
+        "alreadyPresent": 0,
+        "conflict": 0,
+        "ready": 0,
+        "ambiguous": 0,
+        "copied": 0
+      }
+    }
+  },
+  "copied": [
+    {
+      "cardId": "TIME_005t1",
+      "audioType": "attack",
+      "destRel": "voice/VO_TIME_005t1_Male_Ethereal_Attack_01.wav",
+      "sha256": "9a9ceb48d0c759452816bc665be2c01471becc3549669edefd5ebb19bd605805"
+    },
+    {
+      "cardId": "TIME_005t1",
+      "audioType": "death",
+      "destRel": "voice/VO_TIME_005t1_Male_Ethereal_Death_01.wav",
+      "sha256": "4b23d5f31616e9cab2a55221d06b4176d142fafa2c4c6c15a3c0ca4271b08fb8"
+    },
+    {
+      "cardId": "TIME_005t2",
+      "audioType": "attack",
+      "destRel": "voice/VO_TIME_005t2_Male_Ethereal_Attack_01.wav",
+      "sha256": "407ebd2b26a7e9a1cbd91c90a2d3e2216979ba82405301151cc43ba906c98333"
+    },
+    {
+      "cardId": "TIME_005t2",
+      "audioType": "death",
+      "destRel": "voice/VO_TIME_005t2_Male_Ethereal_Death_01.wav",
+      "sha256": "1cbf69fcd74a279b34976f26f83e3c01f7f0ff7956022aded78e95ec5fca0c30"
+    },
+    {
+      "cardId": "TIME_005t3",
+      "audioType": "attack",
+      "destRel": "voice/VO_TIME_005t3_Male_Ethereal_Attack_01.wav",
+      "sha256": "8341731253d5914cd7c0f9d2363f9e81c3ed996b801f0d374fd0e415f8d68dd1"
+    },
+    {
+      "cardId": "TIME_005t3",
+      "audioType": "death",
+      "destRel": "voice/VO_TIME_005t3_Male_Ethereal_Death_01.wav",
+      "sha256": "dfa24466a2cd63153b018404aa6fd46c0eb8758160e58a8eda60c8518267d632"
+    },
+    {
+      "cardId": "TIME_005t4",
+      "audioType": "attack",
+      "destRel": "voice/VO_TIME_005t4_Male_Ethereal_Attack_01.wav",
+      "sha256": "4e0d86d16a5a67a2e678b22d55b1383d4e2ba28dc285161c4f1c4a93df23c6c5"
+    },
+    {
+      "cardId": "TIME_005t4",
+      "audioType": "death",
+      "destRel": "voice/VO_TIME_005t4_Male_Ethereal_Death_01.wav",
+      "sha256": "281b77454c9fd2c749643fe56dd1abefd22e6e36a73aa6405b862e5808a32870"
+    },
+    {
+      "cardId": "TIME_005t5",
+      "audioType": "attack",
+      "destRel": "voice/VO_TIME_005t5_Male_EtherealFaceless_Attack_01.wav",
+      "sha256": "bdda5ecc69c6c05598f08134c6de09c84809e9436c36db9048a51d800937b747"
+    },
+    {
+      "cardId": "TIME_005t5",
+      "audioType": "death",
+      "destRel": "voice/VO_TIME_005t5_Male_EtherealFaceless_Death_01.wav",
+      "sha256": "08bed8f6b8e6f9c25f47f93f776938ecb80d98b63d23eb17bc911e581bc9e79a"
+    },
+    {
+      "cardId": "TIME_005t6",
+      "audioType": "attack",
+      "destRel": "voice/VO_TIME_005t6_Male_EtherealDemon_Attack_01.wav",
+      "sha256": "307af3f1dd60bc4e8d9bce08f5ffa36d8d9b1aacf2516ac4a4d308e68d0f1d9b"
+    },
+    {
+      "cardId": "TIME_005t6",
+      "audioType": "death",
+      "destRel": "voice/VO_TIME_005t6_Male_EtherealDemon_Death_01.wav",
+      "sha256": "64e14fccfb27aa4420de729b04e9d62f9119007fe85d5148fe0704daaa6a92eb"
+    },
+    {
+      "cardId": "TIME_005t7",
+      "audioType": "attack",
+      "destRel": "voice/VO_TIME_005t7_Male_Ethereal_Attack_01.wav",
+      "sha256": "db94923c488f304cfb61777e708c9ff2d65b9bde66dd11525ad56d6d0de28202"
+    },
+    {
+      "cardId": "TIME_005t7",
+      "audioType": "death",
+      "destRel": "voice/VO_TIME_005t7_Male_Ethereal_Death_01.wav",
+      "sha256": "900c062644f70a15cb9c8e353de624befe953ba8c618be9a189a4f987df40a87"
+    },
+    {
+      "cardId": "TIME_005t8",
+      "audioType": "attack",
+      "destRel": "voice/VO_TIME_005t8_Male_EtherealMurloc_Attack_01.wav",
+      "sha256": "99473288059234ef3e6a6d243a28700082ba2cff474fb28a1aff86fad15f2e6c"
+    },
+    {
+      "cardId": "TIME_005t8",
+      "audioType": "death",
+      "destRel": "voice/VO_TIME_005t8_Male_EtherealMurloc_Death_01.wav",
+      "sha256": "b9306dd4c07d39c53f887f5794d851dec78f2775ad951f713f87f3cdcbe49344"
+    },
+    {
+      "cardId": "TIME_005t9",
+      "audioType": "attack",
+      "destRel": "voice/VO_TIME_005t9_Female_Ethereal_Attack_01.wav",
+      "sha256": "d48009641aeae7946cd96c4d0d02af63a64de54e32aedd6e7d1274e5f41afb5e"
+    },
+    {
+      "cardId": "TIME_005t9",
+      "audioType": "death",
+      "destRel": "voice/VO_TIME_005t9_Female_Ethereal_Death_01.wav",
+      "sha256": "35a517654325ab218012e46d2973c7ff93e73a91483b52e4f127b87992a1a1c8"
+    },
+    {
+      "cardId": "TIME_005t9t",
+      "audioType": "attack",
+      "destRel": "voice/TIME_005t9t_Attack.wav",
+      "sha256": "e2aa93cb11af870d2fd4f17621fda194d15258d5aee8b2e12309f2d20cb8ec51"
+    },
+    {
+      "cardId": "TIME_005t9t",
+      "audioType": "death",
+      "destRel": "voice/TIME_005t9t_Death.wav",
+      "sha256": "f16518b2a9eb6aa0372ba60c32d7a61efb150ea7af13908b6ab04a237be61843"
+    },
+    {
+      "cardId": "TIME_609t1",
+      "audioType": "attack",
+      "destRel": "voice/VO_TIME_609t1_Female_HighElf_Attack_01.wav",
+      "sha256": "54cdcb77fd9c2cfe3b68de34f6543bd0404baa20f7318bccf5f201ca5d306c04"
+    },
+    {
+      "cardId": "TIME_609t1",
+      "audioType": "death",
+      "destRel": "voice/VO_TIME_609t1_Female_HighElf_Death_01.wav",
+      "sha256": "302c0cb7ba9320fdc1814aca1a0d6c8bc3f24ce4a712b797443384e2c368d0c9"
+    },
+    {
+      "cardId": "TIME_609t2",
+      "audioType": "attack",
+      "destRel": "voice/VO_TIME_609t2_Female_HighElf_Attack_01.wav",
+      "sha256": "5084d4f9e793ddb12e55c40c8d48fa57c773315725713250c6577dc2212f4ba5"
+    },
+    {
+      "cardId": "TIME_609t2",
+      "audioType": "death",
+      "destRel": "voice/VO_TIME_609t2_Female_HighElf_Death_01.wav",
+      "sha256": "4c3e44053edfb88418ac877b665890ceaee8c0b3f3bb299f809219d10ccf24ce"
+    }
+  ],
+  "added": {
+    "voice": 24,
+    "music": 0,
+    "entrance": 0
+  },
+  "shaMatchAll": true,
+  "existingFilesModified": 0,
+  "catalogTotal": 7263,
+  "regression": {
+    "AT_003": true,
+    "AT_027": true,
+    "AT_072": true,
+    "CAP_107": false,
+    "JAIL_443_entrance": false
+  },
+  "TIME_609t1": {
+    "play": "AVAILABLE",
+    "attack": "AVAILABLE",
+    "death": "AVAILABLE",
+    "music": "SOURCE_MISSING",
+    "entrance": "SOURCE_MISSING",
+    "completeness": "VOICE_COMPLETE"
+  },
+  "TIME_609t2": {
+    "play": "AVAILABLE",
+    "attack": "AVAILABLE",
+    "death": "AVAILABLE",
+    "music": "SOURCE_MISSING",
+    "entrance": "SOURCE_MISSING",
+    "completeness": "VOICE_COMPLETE"
+  },
+  "TIME_005t1": {
+    "play": "AVAILABLE",
+    "attack": "AVAILABLE",
+    "death": "AVAILABLE",
+    "music": "SOURCE_MISSING",
+    "entrance": "SOURCE_MISSING",
+    "completeness": "VOICE_COMPLETE"
+  },
+  "TIME_005t2": {
+    "play": "AVAILABLE",
+    "attack": "AVAILABLE",
+    "death": "AVAILABLE",
+    "music": "SOURCE_MISSING",
+    "entrance": "SOURCE_MISSING",
+    "completeness": "VOICE_COMPLETE"
+  },
+  "TIME_005t3": {
+    "play": "AVAILABLE",
+    "attack": "AVAILABLE",
+    "death": "AVAILABLE",
+    "music": "SOURCE_MISSING",
+    "entrance": "SOURCE_MISSING",
+    "completeness": "VOICE_COMPLETE"
+  },
+  "TIME_005t4": {
+    "play": "AVAILABLE",
+    "attack": "AVAILABLE",
+    "death": "AVAILABLE",
+    "music": "SOURCE_MISSING",
+    "entrance": "SOURCE_MISSING",
+    "completeness": "VOICE_COMPLETE"
+  },
+  "TIME_005t5": {
+    "play": "AVAILABLE",
+    "attack": "AVAILABLE",
+    "death": "AVAILABLE",
+    "music": "SOURCE_MISSING",
+    "entrance": "SOURCE_MISSING",
+    "completeness": "VOICE_COMPLETE"
+  },
+  "TIME_005t6": {
+    "play": "AVAILABLE",
+    "attack": "AVAILABLE",
+    "death": "AVAILABLE",
+    "music": "SOURCE_MISSING",
+    "entrance": "SOURCE_MISSING",
+    "completeness": "VOICE_COMPLETE"
+  },
+  "TIME_005t7": {
+    "play": "AVAILABLE",
+    "attack": "AVAILABLE",
+    "death": "AVAILABLE",
+    "music": "SOURCE_MISSING",
+    "entrance": "SOURCE_MISSING",
+    "completeness": "VOICE_COMPLETE"
+  },
+  "TIME_005t8": {
+    "play": "AVAILABLE",
+    "attack": "AVAILABLE",
+    "death": "AVAILABLE",
+    "music": "SOURCE_MISSING",
+    "entrance": "SOURCE_MISSING",
+    "completeness": "VOICE_COMPLETE"
+  },
+  "TIME_005t9": {
+    "play": "AVAILABLE",
+    "attack": "AVAILABLE",
+    "death": "AVAILABLE",
+    "music": "SOURCE_MISSING",
+    "entrance": "SOURCE_MISSING",
+    "completeness": "VOICE_COMPLETE"
+  },
+  "TIME_005t9t": {
+    "play": "AVAILABLE",
+    "attack": "AVAILABLE",
+    "death": "AVAILABLE",
+    "music": "NOT_APPLICABLE",
+    "entrance": "NOT_APPLICABLE",
+    "completeness": "FULL_INDEXED"
+  }
+}

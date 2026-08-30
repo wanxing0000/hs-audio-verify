@@ -59,6 +59,9 @@ assert.strictEqual(alleria.relationConfidence, 'STRUCTURED');
 assert.strictEqual(alleria.audio.indexed, true);
 assert.strictEqual(alleria.audio.productionAvailable, true);
 assert.strictEqual(alleria.audio.playable, true);
+assert.strictEqual(alleria.audioSlots.play.available, true);
+assert.strictEqual(alleria.audioSlots.attack.available, true);
+assert.strictEqual(alleria.audioSlots.death.available, true);
 
 const vereesa = syl.relatedCards.find((row) => row.id === 'TIME_609t2');
 assert.strictEqual(vereesa.name, '游侠新兵温蕾萨');

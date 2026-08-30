@@ -1,6 +1,6 @@
 'use strict';
 
-const { adaptCard, getCardImageUrl, TYPE_ZH } = require('./catalogAdapter.js');
+const { adaptCard, getCardImageUrl, TYPE_ZH, voicePlayable } = require('./catalogAdapter.js');
 const {
   collectStructuredRelations,
   indexAudioFromRaw,
@@ -90,8 +90,34 @@ function relatedAudioStatus(raw, inventory) {
   };
 }
 
+function relatedVoiceSlot(raw, inventory, type) {
+  const slot = raw && raw.voice && raw.voice[type];
+  const mapped = voicePlayable(slot);
+  const present = !!(inventory && raw && inventory.hasVoice(raw.id, type));
+  return {
+    available: !!(mapped && present),
+    voiceKey: mapped ? slot.voiceKey : null,
+  };
+}
+
+function relatedAudioSlots(raw, inventory) {
+  return {
+    play: relatedVoiceSlot(raw, inventory, 'play'),
+    attack: relatedVoiceSlot(raw, inventory, 'attack'),
+    death: relatedVoiceSlot(raw, inventory, 'death'),
+  };
+}
+
+function canPlayRelatedSlot(related, slot) {
+  if (!related || !related.audioSlots) return false;
+  if (slot !== 'play' && slot !== 'attack' && slot !== 'death') return false;
+  const rec = related.audioSlots[slot];
+  return !!(rec && rec.available === true);
+}
+
 function toRelatedCardDto(edge, raw, inventory, children) {
   const audio = relatedAudioStatus(raw, inventory);
+  const audioSlots = relatedAudioSlots(raw, inventory);
   return {
     id: raw.id,
     dbfId: raw.dbfId == null ? null : raw.dbfId,
@@ -103,6 +129,7 @@ function toRelatedCardDto(edge, raw, inventory, children) {
     relationType: edge.relationType,
     relationConfidence: edge.relationConfidence,
     audio: audio,
+    audioSlots: audioSlots,
     relatedCards: Array.isArray(children) ? children : [],
   };
 }
@@ -149,6 +176,8 @@ module.exports = {
   shouldDisplayRelatedEdge,
   createRelatedCardIndex,
   relatedAudioStatus,
+  relatedAudioSlots,
+  canPlayRelatedSlot,
   getDisplayRelatedCards,
   resolveDetailCard,
   attachRelatedCards,
