@@ -1,13 +1,14 @@
 const assert = require('assert');
 const { spawnSync } = require('child_process');
 const fs = require('fs');
+const os = require('os');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
 
-function run(script, env) {
+function run(script, env, cwd) {
   return spawnSync(process.execPath, [path.join(ROOT, 'scripts', script)], {
-    cwd: ROOT,
+    cwd: cwd || ROOT,
     encoding: 'utf8',
     env: env || process.env,
   });
@@ -31,23 +32,42 @@ assert.ok(/GIT_NOT_INITIALIZED|GIT_INITIALIZED|status=GIT_READY/.test(git.stdout
 assert.strictEqual(pkg.scripts['git:check'], 'node scripts/check-git-release.cjs');
 assert.strictEqual(pkg.scripts['test:production'], 'node scripts/test-production.cjs');
 
+const isolated = fs.mkdtempSync(path.join(os.tmpdir(), 'hs-env-check-'));
 const cleanEnv = {
   PATH: process.env.PATH,
   SystemRoot: process.env.SystemRoot,
   windir: process.env.windir,
 };
-const missing = run('check-production-env.cjs', cleanEnv);
+const missing = run('check-production-env.cjs', cleanEnv, isolated);
 assert.notStrictEqual(missing.status, 0);
+assert.ok(/\.env: MISSING/.test(missing.stdout), missing.stdout);
 assert.ok(/status=ENV_INVALID/.test(missing.stdout), missing.stdout);
+assert.ok(/SUPABASE_URL: OPTIONAL\/MISSING/.test(missing.stdout), missing.stdout);
 assert.ok(!/eyJ/.test(missing.stdout + missing.stderr));
+
+const audioOnly = run('check-production-env.cjs', Object.assign({}, cleanEnv, {
+  NODE_ENV: 'production',
+  HS_AUDIO_SOURCE: 'production',
+  MINI_HOST: '0.0.0.0',
+  MINI_PORT: '8767',
+}), isolated);
+assert.strictEqual(audioOnly.status, 0, audioOnly.stdout);
+assert.ok(/status=ENV_VALID/.test(audioOnly.stdout), audioOnly.stdout);
+assert.ok(/MINI_HOST: SET/.test(audioOnly.stdout));
+assert.ok(/MINI_PORT: SET/.test(audioOnly.stdout));
+assert.ok(/SUPABASE_URL: OPTIONAL\/MISSING/.test(audioOnly.stdout));
+assert.ok(/SUPABASE_ANON_KEY: OPTIONAL\/MISSING/.test(audioOnly.stdout));
+assert.ok(/SUPABASE_SERVICE_ROLE_KEY: OPTIONAL\/MISSING/.test(audioOnly.stdout));
 
 const valid = run('check-production-env.cjs', Object.assign({}, cleanEnv, {
   NODE_ENV: 'production',
   HS_AUDIO_SOURCE: 'production',
+  MINI_HOST: '0.0.0.0',
+  MINI_PORT: '8767',
   SUPABASE_URL: 'https://example.invalid',
   SUPABASE_ANON_KEY: 'test-anon-key',
   SUPABASE_SERVICE_ROLE_KEY: 'test-service-role-key',
-}));
+}), isolated);
 assert.strictEqual(valid.status, 0, valid.stdout);
 assert.ok(/status=ENV_VALID/.test(valid.stdout));
 assert.ok(/SUPABASE_URL: SET/.test(valid.stdout));
