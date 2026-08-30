@@ -1,0 +1,291 @@
+{
+  "generatedAt": "2026-08-29T02:46:11.664Z",
+  "phase": "1.3.1",
+  "hearthstoneReadOnly": true,
+  "indexChanged": false,
+  "miniApi": {
+    "restarted": true,
+    "port": 8767,
+    "note": "restarted after mixer change and EXTRACT_FAILED to 404 mapping"
+  },
+  "mix": {
+    "disclaimer": "These are preview optimization parameters, not official Hearthstone mix timing.",
+    "timingVerified": false,
+    "cardIdSpecialCase": false,
+    "production": {
+      "version": 2,
+      "musicVolume": 0.7,
+      "voiceVolume": 1,
+      "voiceDelayMs": 0,
+      "leadingPaddingMs": 0,
+      "targetRate": 48000
+    }
+  },
+  "hellscream": {
+    "query": "地狱咆哮",
+    "silentCollectible": "HERO_01",
+    "minionWithVoice": [
+      "CORE_EX1_414",
+      "EX1_414",
+      "VAN_EX1_414"
+    ],
+    "playVoice": {
+      "HERO_01": false,
+      "EX1_414": true,
+      "CORE_EX1_414": true,
+      "VAN_EX1_414": true
+    },
+    "attackVoice": {
+      "HERO_01": true,
+      "EX1_414": true
+    },
+    "deathVoice": {
+      "HERO_01": true,
+      "EX1_414": true
+    },
+    "musicStinger": {
+      "HERO_01": false,
+      "EX1_414": true
+    },
+    "leakLayer": null,
+    "chainsChecked": [
+      "cards.json",
+      "card-audio-index",
+      "CardDef all MonoBehaviours",
+      "all prefab GUIDs",
+      "guid-voice-index",
+      "audio-index clips"
+    ]
+  },
+  "firstSyllable": {
+    "query": "奇利亚斯",
+    "cardId": "BOT_548",
+    "layer": "Music Masking",
+    "voiceOnlyComplete": true,
+    "mixerTruncatedVoice": false,
+    "samples": [
+      {
+        "cardId": "EX1_116",
+        "voice": {
+          "sampleRate": 48000,
+          "channels": 1,
+          "durationMs": 4165.333333333334,
+          "leadingSilenceMs": 87.52083333333334,
+          "peak200ms": 10316,
+          "rms200ms": 1703.5028660943506
+        },
+        "music": {
+          "sampleRate": 44100,
+          "channels": 2,
+          "durationMs": 4271.337868480726,
+          "leadingSilenceMs": 36.678004535147394,
+          "peak200ms": 25874,
+          "rms200ms": 2876.4603286862257
+        },
+        "entranceCurrent": {
+          "sampleRate": 48000,
+          "channels": 2,
+          "durationMs": 4271.333333333334,
+          "leadingSilenceMs": 36.677083333333336,
+          "peak200ms": 25847,
+          "rms200ms": 3327.381594476416
+        },
+        "compare50ms": {
+          "windowMs": 50,
+          "voiceStartMs": 0,
+          "voiceEnergyFrames": 0,
+          "mixedDiffersFrames": 0,
+          "clippedFrames": 0,
+          "maxVoiceAbs": 11,
+          "maxMixedAbs": 25847,
+          "maxMusicAbs": 25841,
+          "voicePresentInWindow": false,
+          "truncated": false,
+          "maskedLikely": false,
+          "mixedDurationMs": 4271.333333333334,
+          "voiceDurationMs": 4165.333333333334,
+          "durationShortened": false
+        },
+        "compare200ms": {
+          "windowMs": 200,
+          "voiceStartMs": 0,
+          "voiceEnergyFrames": 6758,
+          "mixedDiffersFrames": 6758,
+          "clippedFrames": 0,
+          "maxVoiceAbs": 10316,
+          "maxMixedAbs": 25847,
+          "maxMusicAbs": 25841,
+          "voicePresentInWindow": true,
+          "truncated": false,
+          "maskedLikely": true,
+          "mixedDurationMs": 4271.333333333334,
+          "voiceDurationMs": 4165.333333333334,
+          "durationShortened": false
+        },
+        "layer": "Music Masking",
+        "files": [
+          "analysis.json",
+          "entrance-current.wav",
+          "entrance-music55.wav",
+          "entrance-music70.wav",
+          "entrance-padding50.wav",
+          "entrance-voice100.wav",
+          "entrance-voice50.wav",
+          "music-original.wav",
+          "voice-original.wav"
+        ]
+      },
+      {
+        "cardId": "BOT_548",
+        "voice": {
+          "sampleRate": 48000,
+          "channels": 1,
+          "durationMs": 4756.8125,
+          "leadingSilenceMs": 57.895833333333336,
+          "peak200ms": 22379,
+          "rms200ms": 4270.411948585874
+        },
+        "music": {
+          "sampleRate": 48000,
+          "channels": 2,
+          "durationMs": 6537.9375,
+          "leadingSilenceMs": 43.5,
+          "peak200ms": 28090,
+          "rms200ms": 4959.616777130022
+        },
+        "entranceCurrent": {
+          "sampleRate": 48000,
+          "channels": 2,
+          "durationMs": 6537.9375,
+          "leadingSilenceMs": 43.5,
+          "peak200ms": 30705,
+          "rms200ms": 6719.173671607154
+        },
+        "compare50ms": {
+          "windowMs": 50,
+          "voiceStartMs": 0,
+          "voiceEnergyFrames": 0,
+          "mixedDiffersFrames": 0,
+          "clippedFrames": 0,
+          "maxVoiceAbs": 40,
+          "maxMixedAbs": 561,
+          "maxMusicAbs": 552,
+          "voicePresentInWindow": false,
+          "truncated": false,
+          "maskedLikely": false,
+          "mixedDurationMs": 6537.9375,
+          "voiceDurationMs": 4756.8125,
+          "durationShortened": false
+        },
+        "compare200ms": {
+          "windowMs": 200,
+          "voiceStartMs": 0,
+          "voiceEnergyFrames": 12276,
+          "mixedDiffersFrames": 12276,
+          "clippedFrames": 0,
+          "maxVoiceAbs": 22379,
+          "maxMixedAbs": 30705,
+          "maxMusicAbs": 28090,
+          "voicePresentInWindow": true,
+          "truncated": false,
+          "maskedLikely": true,
+          "mixedDurationMs": 6537.9375,
+          "voiceDurationMs": 4756.8125,
+          "durationShortened": false
+        },
+        "layer": "Music Masking",
+        "files": [
+          "analysis.json",
+          "entrance-current.wav",
+          "entrance-music55.wav",
+          "entrance-music70.wav",
+          "entrance-padding50.wav",
+          "entrance-voice100.wav",
+          "entrance-voice50.wav",
+          "music-original.wav",
+          "voice-original.wav"
+        ]
+      },
+      {
+        "cardId": "EX1_572",
+        "voice": {
+          "sampleRate": 48000,
+          "channels": 1,
+          "durationMs": 4821.333333333333,
+          "leadingSilenceMs": 35.916666666666664,
+          "peak200ms": 26377,
+          "rms200ms": 7424.7033825362905
+        },
+        "music": {
+          "sampleRate": 48000,
+          "channels": 2,
+          "durationMs": 4932.791666666667,
+          "leadingSilenceMs": 94.28125,
+          "peak200ms": 2270,
+          "rms200ms": 666.4724377740613
+        },
+        "entranceCurrent": {
+          "sampleRate": 48000,
+          "channels": 2,
+          "durationMs": 4932.791666666667,
+          "leadingSilenceMs": 35.916666666666664,
+          "peak200ms": 26380,
+          "rms200ms": 7439.108028975707
+        },
+        "compare50ms": {
+          "windowMs": 50,
+          "voiceStartMs": 0,
+          "voiceEnergyFrames": 1238,
+          "mixedDiffersFrames": 1238,
+          "clippedFrames": 0,
+          "maxVoiceAbs": 26377,
+          "maxMixedAbs": 26380,
+          "maxMusicAbs": 6,
+          "voicePresentInWindow": true,
+          "truncated": false,
+          "maskedLikely": false,
+          "mixedDurationMs": 4932.791666666667,
+          "voiceDurationMs": 4821.333333333333,
+          "durationShortened": false
+        },
+        "compare200ms": {
+          "windowMs": 200,
+          "voiceStartMs": 0,
+          "voiceEnergyFrames": 15018,
+          "mixedDiffersFrames": 15018,
+          "clippedFrames": 0,
+          "maxVoiceAbs": 26377,
+          "maxMixedAbs": 26380,
+          "maxMusicAbs": 2270,
+          "voicePresentInWindow": true,
+          "truncated": false,
+          "maskedLikely": false,
+          "mixedDurationMs": 4932.791666666667,
+          "voiceDurationMs": 4821.333333333333,
+          "durationShortened": false
+        },
+        "layer": "Unresolved",
+        "files": [
+          "analysis.json",
+          "entrance-current.wav",
+          "entrance-music55.wav",
+          "entrance-music70.wav",
+          "entrance-padding50.wav",
+          "entrance-voice100.wav",
+          "entrance-voice50.wav",
+          "music-original.wav",
+          "voice-original.wav"
+        ]
+      }
+    ]
+  },
+  "acceptance": {
+    "EX1_116": "direct",
+    "VAN_NEW1_010": "shared_resource",
+    "VAC_954": "shared_audio",
+    "CAP_107": "token_clip",
+    "CFM_335": "named_sfx",
+    "HERO_01": "no_play_voice_graceful",
+    "BOT_548": "music_masking_ducked"
+  }
+}

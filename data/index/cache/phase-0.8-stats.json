@@ -1,0 +1,102 @@
+{
+  "build": {
+    "game": "Hearthstone",
+    "locale": "zhCN",
+    "productVersion": "36.4.0.250339",
+    "build": "250339",
+    "unityPlayer": "6000.3.11f1 (3000ef702840)",
+    "buildGuid": "a356d4f6b5bd47d2a6e25f73d2b66d02",
+    "source": [
+      ".product.db",
+      "boot.config",
+      "Hearthstone.exe"
+    ]
+  },
+  "cardDef": {
+    "files": 279,
+    "parsedOk": 279,
+    "parseErrors": 0,
+    "cardDefCount": 35757,
+    "ms": 2832
+  },
+  "guid": {
+    "scannedFiles": 1418,
+    "parsedCount": 1418,
+    "parseErrors": 0,
+    "guidHits": 119216,
+    "ms": 74283
+  },
+  "audio": {
+    "zhcnFiles": 438,
+    "unpackErrors": 0,
+    "clipCount": 70609,
+    "reusedPriorIndex": true,
+    "ms": 132120
+  },
+  "mapped": {
+    "processed": 35807,
+    "error": 0,
+    "slotStats": {
+      "play": {
+        "matched": 10737,
+        "no_voice": 25065,
+        "unresolved": 5,
+        "error": 0
+      },
+      "attack": {
+        "matched": 10945,
+        "no_voice": 24855,
+        "unresolved": 7,
+        "error": 0
+      },
+      "death": {
+        "matched": 11697,
+        "no_voice": 24109,
+        "unresolved": 1,
+        "error": 0
+      }
+    },
+    "mappingCounts": {
+      "no_voice": 74029,
+      "named_sfx": 2823,
+      "shared_resource": 11454,
+      "token_clip": 2959,
+      "direct": 14939,
+      "shared_audio": 1204,
+      "unresolved": 13
+    },
+    "voiceSourceDiffers": 5701,
+    "unresolved": 13,
+    "ms": 368
+  },
+  "types": {
+    "byType": {
+      "HERO": 2952,
+      "MINION": 11608,
+      "SPELL": 6591,
+      "ENCHANTMENT": 6636,
+      "WEAPON": 489,
+      "HERO_POWER": 2159,
+      "MOVE_MINION_HOVER_TARGET": 4,
+      "BATTLEGROUND_HERO_BUDDY": 1,
+      "BATTLEGROUND_QUEST_REWARD": 73,
+      "BATTLEGROUND_SPELL": 205,
+      "BATTLEGROUND_ANOMALY": 112,
+      "BATTLEGROUND_TRINKET": 390,
+      "GAME_MODE_BUTTON": 10,
+      "LOCATION": 98,
+      "LETTUCE_ABILITY": 4438,
+      "UNKNOWN": 9,
+      "PET": 32
+    },
+    "collectible": 8154,
+    "nonCollectible": 27653
+  },
+  "timings": {
+    "totalMs": 211012,
+    "cardDefMs": 2832,
+    "guidIndexMs": 74283,
+    "audioIndexMs": 132120,
+    "voiceMappingMs": 368
+  }
+}

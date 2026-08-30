@@ -1,0 +1,17 @@
+{
+  "game": "Hearthstone",
+  "build": "250339",
+  "productVersion": "36.4.0.250339",
+  "locale": "zhCN",
+  "cardCount": 35807,
+  "generatedAt": "2026-08-28T11:00:50.317Z",
+  "extractorVersion": "0.8",
+  "timings": {
+    "totalMs": 211012,
+    "cardDefMs": 2832,
+    "guidIndexMs": 74283,
+    "audioIndexMs": 132120,
+    "voiceMappingMs": 368
+  },
+  "audioIndexReused": true
+}

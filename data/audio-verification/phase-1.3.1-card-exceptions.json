@@ -1,0 +1,1045 @@
+{
+  "generatedAt": "2026-08-29T02:46:11.663Z",
+  "cards": [
+    {
+      "query": "地狱咆哮",
+      "cardId": "HERO_01",
+      "name": "加尔鲁什·地狱咆哮",
+      "searchHits": [
+        {
+          "id": "CORE_EX1_414",
+          "name": "格罗玛什·地狱咆哮",
+          "nameEn": null,
+          "type": "MINION",
+          "class": "WARRIOR",
+          "rarity": "LEGENDARY",
+          "collectible": true,
+          "set": "CORE",
+          "dbfId": 69643
+        },
+        {
+          "id": "EX1_414",
+          "name": "格罗玛什·地狱咆哮",
+          "nameEn": null,
+          "type": "MINION",
+          "class": "WARRIOR",
+          "rarity": "LEGENDARY",
+          "collectible": true,
+          "set": "EXPERT1",
+          "dbfId": 338
+        },
+        {
+          "id": "HERO_01",
+          "name": "加尔鲁什·地狱咆哮",
+          "nameEn": null,
+          "type": "HERO",
+          "class": "WARRIOR",
+          "rarity": "FREE",
+          "collectible": true,
+          "set": "HERO_SKINS",
+          "dbfId": 7
+        },
+        {
+          "id": "VAN_EX1_414",
+          "name": "格罗玛什·地狱咆哮",
+          "nameEn": null,
+          "type": "MINION",
+          "class": "WARRIOR",
+          "rarity": "LEGENDARY",
+          "collectible": true,
+          "set": "VANILLA",
+          "dbfId": 69958
+        }
+      ],
+      "currentIndex": {
+        "cardId": "HERO_01",
+        "name": "鍔犲皵椴佷粈路鍦扮嫳鍜嗗摦",
+        "type": "HERO",
+        "rarity": "FREE",
+        "collectible": true,
+        "set": "HERO_SKINS",
+        "dbfId": 7,
+        "voice": {
+          "play": {
+            "status": "unavailable",
+            "voiceKey": null,
+            "sourceCardId": null,
+            "reason": null,
+            "mappingType": null
+          },
+          "attack": {
+            "status": "available",
+            "voiceKey": "VO_HERO_01_Attack_16",
+            "sourceCardId": "HERO_01",
+            "reason": null,
+            "mappingType": null
+          },
+          "death": {
+            "status": "available",
+            "voiceKey": "VO_HERO_01_Death_17",
+            "sourceCardId": "HERO_01",
+            "reason": null,
+            "mappingType": null
+          }
+        },
+        "music": {
+          "status": "unavailable",
+          "musicAssetId": null,
+          "sourceCardId": null
+        },
+        "entrancePreview": {
+          "available": false,
+          "reason": "no_play_voice"
+        }
+      },
+      "variants": [
+        {
+          "id": "CORE_EX1_414",
+          "name": "格罗玛什·地狱咆哮",
+          "play": "shared",
+          "music": "shared",
+          "entrance": true
+        },
+        {
+          "id": "EX1_414",
+          "name": "格罗玛什·地狱咆哮",
+          "play": "available",
+          "music": "available",
+          "entrance": true
+        },
+        {
+          "id": "VAN_EX1_414",
+          "name": "格罗玛什·地狱咆哮",
+          "play": "shared",
+          "music": "shared",
+          "entrance": true
+        }
+      ],
+      "cardDef": {
+        "files": [
+          "carddef_base_global-244154c1-prefab-1.unity3d"
+        ],
+        "goFound": true,
+        "monoBehaviourCount": 1,
+        "monoBehaviourSizes": [
+          6944
+        ],
+        "fieldHits": {
+          "m_PlayEffectDef": false,
+          "m_SoundSpellPaths": false,
+          "m_AttackEffectDef": false,
+          "m_DeathEffectDef": false,
+          "m_CustomSummonSpellPath": false,
+          "m_GoldenPlaySpellPath": false,
+          "m_EmoteDefs": false,
+          "m_HeroPowerEffectDef": false,
+          "m_SpawnSpellPath": false
+        },
+        "merged": {
+          "play": null,
+          "attack": "30e37701594b3a943a0d101a34f76a03",
+          "death": "c619dc74ce69e6f47bd772fb1c144099",
+          "customSummon": null,
+          "musicStinger": null,
+          "prefabNames": [
+            "Attack",
+            "Death",
+            "CollectionHeroDef_01",
+            "VO_HERONAME_GARROSH_02",
+            "Emote_Concede",
+            "Emote_Greetings",
+            "Emote_LowCards",
+            "Emote_NoCards",
+            "Emote_Oops",
+            "Emote_Sorry",
+            "Emote_Start",
+            "Emote_Thanks",
+            "Emote_Think1",
+            "Emote_Think2",
+            "Emote_Think3",
+            "Emote_Threaten",
+            "Emote_Timer",
+            "Emote_Well_Played",
+            "Error_FullMinions",
+            "Error_Generic",
+            "Error_HandFull",
+            "Error_IAttacked",
+            "Error_JustPlayed",
+            "Error_MinionAttacked",
+            "Error_NeedMana",
+            "Error_NeedWeapon",
+            "Error_Play",
+            "Error_Stealth",
+            "Error_Target",
+            "Error_Taunt",
+            "Emote_Picked",
+            "Fireworks_Emote_Large_Oneshot",
+            "Emote_LunarNewYear",
+            "Emote_Mirror_Start",
+            "Emote_Winterveil_Greetings",
+            "Emote_Wow",
+            "Fireworks_Emote_Large_Oneshot",
+            "Emote_HappyNewYear",
+            "Fireworks_Emote_Small_Oneshot",
+            "Emote_Wow",
+            "Fireworks_Emote_Medium_Oneshot",
+            "Emote_Wow",
+            "Fireworks_Emote_Large_Oneshot",
+            "Emote_Wow",
+            "Emote_Fire_Festival",
+            "Frostworks_Emote_Small_Oneshot",
+            "Emote_Wow",
+            "Frostworks_Emote_Medium_Oneshot",
+            "Emote_Wow",
+            "Frostworks_Emote_Large_Oneshot",
+            "Emote_Wow",
+            "Emote_Pirate_Day",
+            "Bats_Emote_HallowsEnd_Oneshot",
+            "Emote_HallowsEnd",
+            "Emote_Noblegarden",
+            "Emote_Mirror_Greetings"
+          ]
+        }
+      },
+      "soundReferences": [
+        {
+          "prefabName": "Attack",
+          "guid": "30e37701594b3a943a0d101a34f76a03",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Death",
+          "guid": "c619dc74ce69e6f47bd772fb1c144099",
+          "bundle": "initial_base_global-244154c1-prefab-1.unity3d"
+        },
+        {
+          "prefabName": "CollectionHeroDef_01",
+          "guid": "3241cc94b0f01164fa9a53b5ac00dbd9",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "VO_HERONAME_GARROSH_02",
+          "guid": "09dfecefb46e71d499d288862fdc4c29",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Concede",
+          "guid": "f38c2864d682df34a962b6cd29442982",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Greetings",
+          "guid": "bf490856113bfa34ba905ded8b06e53f",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_LowCards",
+          "guid": "40e12fa6cf6d3d04ea57d81a18b083b8",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_NoCards",
+          "guid": "4a050ec68eeb8d64c9e825442fcae53c",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Oops",
+          "guid": "a53a32525e2d9ad4d9538d7c449aba73",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Sorry",
+          "guid": "bdc7bd20b81322c44bf215b38addce5b",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Start",
+          "guid": "da635ef0d69fdab4ea96c82938f1e330",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Thanks",
+          "guid": "31f1e441c79ae1640995155c053d9133",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Think1",
+          "guid": "78d2cd8c44ee63e4d87c68da8cdf7b68",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Think2",
+          "guid": "5fc2ceeddd4c3bb41a73c1c4e6002da3",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Think3",
+          "guid": "dc843d9ebde617c4faee836102e43df3",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Threaten",
+          "guid": "cf38aa1233c01374d988d0cac6c6b63a",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Timer",
+          "guid": "9a535c76866cfb8428853c0f102d35c6",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Well_Played",
+          "guid": "69684b5662a8bfd4eaa120c315f0d652",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Error_FullMinions",
+          "guid": "d56899633b033a440bb5b546bf1f0adf",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Error_Generic",
+          "guid": "4dc9420f839072941beea6aeb6517d6f",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Error_HandFull",
+          "guid": "de98d2272a0ae7a40b2df70bb30e6968",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Error_IAttacked",
+          "guid": "f2da2ed7f832a7048b6e56d5dac1f29b",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Error_JustPlayed",
+          "guid": "1699446b4053df54697353b36d1d5562",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Error_MinionAttacked",
+          "guid": "a9a13a4c99039184786b4ebb1c9cd0c0",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Error_NeedMana",
+          "guid": "8f5bd1a3473cdc048833c580a45fb2ba",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Error_NeedWeapon",
+          "guid": "add5ed13efc1cdf4c847aa5e68e511bc",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Error_Play",
+          "guid": "3a391c49b19815f438667ad13bffeba8",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Error_Stealth",
+          "guid": "cf201195720b03341b8df5fe11aa0ac3",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Error_Target",
+          "guid": "0de4b6866ccca4b42be5681032bc69f0",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Error_Taunt",
+          "guid": "76f8f5b69e55e37438fb398ce738fd93",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Picked",
+          "guid": "a7c3174dbf3bc7144acfb1f8700ba685",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Fireworks_Emote_Large_Oneshot",
+          "guid": "3e73cf304aa3e6e41ad95f5f27f1a2cf",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_LunarNewYear",
+          "guid": "56c037e364f540345920c3c1068e719e",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Mirror_Start",
+          "guid": "a086da51610c0e9439b6ee86ef46fd2a",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Winterveil_Greetings",
+          "guid": "fc9b3695dce0d3348810e65de8921835",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Wow",
+          "guid": "d9c82c82e6b41074a88e86e627a7c2bc",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_HappyNewYear",
+          "guid": "0dd32f0594276dc409ebf4e9229c17d9",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Fireworks_Emote_Small_Oneshot",
+          "guid": "62108632aba741445aea4bedd471e864",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Fireworks_Emote_Medium_Oneshot",
+          "guid": "5173c8a5a0429214d955c1c70fe8695b",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Fire_Festival",
+          "guid": "0e85818fa3469d14480df05d022a2727",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Frostworks_Emote_Small_Oneshot",
+          "guid": "a1e2b5078d5f29640b1f2ef9744498d2",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Frostworks_Emote_Medium_Oneshot",
+          "guid": "b82750087567a8c4fbdbccc190277bea",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Frostworks_Emote_Large_Oneshot",
+          "guid": "ad8b301a4b474f24089f4009542b1207",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Pirate_Day",
+          "guid": "e6a296cdcf9f4e244853794b84e54a33",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Bats_Emote_HallowsEnd_Oneshot",
+          "guid": "4dcbf3215bfba124b965a2a4a7f02340",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_HallowsEnd",
+          "guid": "0005fe0a0e59a0e48b84690019b28ec4",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Noblegarden",
+          "guid": "22a0e8c635f1e5e488daee9beac52daf",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "prefabName": "Emote_Mirror_Greetings",
+          "guid": "51b812f382ad271449b2f0ac7e083bb1",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "audioReferences": [
+        {
+          "audioClipName": "VO_HERO_01_Attack_16",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-fc6d50fb-prefab-0.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_Death_17",
+          "indexed": true,
+          "bundles": [
+            "soundotherminion_base_zhcn-244154c1-audio-0.unity3d",
+            "initial_base_global-244154c1-prefab-1.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": true
+        },
+        {
+          "audioClipName": "VO_HERONAME_GARROSH_02",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_ANNOUNCER_GARROSH_09",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_ANNOUNCER_GARROSH_09_ALT1",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_ANNOUNCER_GARROSH_09_ALT2",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_ANNOUNCER_GARROSH_10",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_Concede_07",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_Greetings_01",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_LowCards_18",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_NoCards_19",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_Oops_03",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_Sorry_06",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_Start_09",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-fc6d50fb-prefab-0.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_Thanks_05",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_Thinking1_12",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_Thinking2_13",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_Thinking3_14",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_Threaten_04",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-fc6d50fb-prefab-0.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_Time_11",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_Well",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-fc6d50fb-prefab-0.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "Played_02",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "initial_base_global-06d41e57-prefab-4.unity3d",
+            "initial_base_global-06d41e57-prefab-5.unity3d",
+            "initial_base_global-244154c1-prefab-2.unity3d",
+            "initial_base_global-244154c1-prefab-3.unity3d",
+            "initial_base_global-244154c1-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_ERROR07_26",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_ERROR12_31",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_ERROR06_25",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_ERROR04_23",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_ERROR05_24",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_ERROR03_22",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_ERROR02_21",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_HERO_01_ERROR01_20",
+          "indexed": true,
+          "bundles": [
+            "essential_base_global-prefab-0.unity3d",
+            "essential_base_zhcn-content-0.unity3d",
+            "initial_base_global-c9f52d29-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        }
+      ],
+      "conclusion": "game_client_has_no_minion_play_voice_hero_emote_system",
+      "recommendedFix": "do_not_fabricate_voice",
+      "note": "CardDef has no Play.prefab and no MusicStinger. Attack/Death exist. Hero emotes (Start/Greetings/Picked/etc.) are a different audio system and must not be mapped as minion Play voice. Do not rebuild the voice index for this card.",
+      "leakLayer": null
+    },
+    {
+      "query": "奇利亚斯",
+      "cardId": "BOT_548",
+      "name": "奇利亚斯",
+      "searchHits": [
+        {
+          "id": "BOT_548",
+          "name": "奇利亚斯",
+          "nameEn": null,
+          "type": "MINION",
+          "class": "NEUTRAL",
+          "rarity": "LEGENDARY",
+          "collectible": true,
+          "set": "BOOMSDAY",
+          "dbfId": 49184
+        },
+        {
+          "id": "CORE_BOT_548",
+          "name": "奇利亚斯",
+          "nameEn": null,
+          "type": "MINION",
+          "class": "NEUTRAL",
+          "rarity": "LEGENDARY",
+          "collectible": true,
+          "set": "CORE_HIDDEN",
+          "dbfId": 97112
+        },
+        {
+          "id": "TOY_330",
+          "name": "奇利亚斯豪华版3000型",
+          "nameEn": null,
+          "type": "MINION",
+          "class": "NEUTRAL",
+          "rarity": "LEGENDARY",
+          "collectible": true,
+          "set": "WHIZBANGS_WORKSHOP",
+          "dbfId": 102983
+        }
+      ],
+      "currentIndex": {
+        "cardId": "BOT_548",
+        "name": "濂囧埄浜氭柉",
+        "type": "MINION",
+        "rarity": "LEGENDARY",
+        "collectible": true,
+        "set": "BOOMSDAY",
+        "dbfId": 49184,
+        "voice": {
+          "play": {
+            "status": "available",
+            "voiceKey": "VO_BOT_548_Male_Mech_Play_02",
+            "sourceCardId": "BOT_548",
+            "reason": null,
+            "mappingType": null
+          },
+          "attack": {
+            "status": "available",
+            "voiceKey": "VO_BOT_548_Male_Mech_Attack_01",
+            "sourceCardId": "BOT_548",
+            "reason": null,
+            "mappingType": null
+          },
+          "death": {
+            "status": "available",
+            "voiceKey": "VO_BOT_548_Male_Mech_Death_01",
+            "sourceCardId": "BOT_548",
+            "reason": null,
+            "mappingType": null
+          }
+        },
+        "music": {
+          "status": "available",
+          "musicAssetId": "def35f576f08b8f42b7655c81e1a271a",
+          "sourceCardId": "BOT_548",
+          "audioClipName": "Zilliax_Play_Stinger",
+          "loop": false,
+          "volume": 1,
+          "delaySec": 0,
+          "timingVerified": false
+        },
+        "entrancePreview": {
+          "available": true,
+          "musicAssetId": "def35f576f08b8f42b7655c81e1a271a",
+          "voiceKey": "VO_BOT_548_Male_Mech_Play_02"
+        }
+      },
+      "variants": [
+        {
+          "id": "CORE_BOT_548",
+          "name": "奇利亚斯",
+          "play": "shared",
+          "music": "shared",
+          "entrance": true
+        },
+        {
+          "id": "TOY_330",
+          "name": "奇利亚斯豪华版3000型",
+          "play": "available",
+          "music": "available",
+          "entrance": true
+        }
+      ],
+      "cardDef": {
+        "files": [
+          "carddef_base_global-74f91fa9-prefab-2.unity3d"
+        ],
+        "goFound": true,
+        "monoBehaviourCount": 1,
+        "monoBehaviourSizes": [
+          1468
+        ],
+        "fieldHits": {
+          "m_PlayEffectDef": false,
+          "m_SoundSpellPaths": false,
+          "m_AttackEffectDef": false,
+          "m_DeathEffectDef": false,
+          "m_CustomSummonSpellPath": false,
+          "m_GoldenPlaySpellPath": false,
+          "m_EmoteDefs": false,
+          "m_HeroPowerEffectDef": false,
+          "m_SpawnSpellPath": false
+        },
+        "merged": {
+          "play": "495ccfac5a6d144e49d04074bfee35ef",
+          "attack": "41087102c5f744d61a243bd72bea05ff",
+          "death": "2cdbe229c58bd41fca0983a54a11d327",
+          "customSummon": {
+            "name": "Zilliax_CustomSummon",
+            "guid": "dc7ae0aa4f38a9244a3f70c4cf9980d7"
+          },
+          "musicStinger": {
+            "name": "MusicStinger",
+            "guid": "def35f576f08b8f42b7655c81e1a271a"
+          },
+          "prefabNames": [
+            "BOT_548_diamond_zilliax_skip4",
+            "Zilliax_MagneticPlaySpell",
+            "Play",
+            "MusicStinger",
+            "Attack",
+            "Underlay",
+            "Death",
+            "Underlay",
+            "Zilliax_CustomSummon"
+          ]
+        }
+      },
+      "soundReferences": [
+        {
+          "prefabName": "BOT_548_diamond_zilliax_skip4",
+          "guid": "ba09fbf5072c6b54b953a3f0cb4a9512",
+          "bundle": "initial_base_global-74f91fa9-prefab-4.unity3d"
+        },
+        {
+          "prefabName": "Zilliax_MagneticPlaySpell",
+          "guid": "fca7adb32f0aba641b2afc27d6e6a297",
+          "bundle": "initial_base_global-74f91fa9-prefab-4.unity3d"
+        },
+        {
+          "prefabName": "Play",
+          "guid": "495ccfac5a6d144e49d04074bfee35ef",
+          "bundle": "initial_base_global-74f91fa9-prefab-4.unity3d"
+        },
+        {
+          "prefabName": "MusicStinger",
+          "guid": "def35f576f08b8f42b7655c81e1a271a",
+          "bundle": "initial_base_global-74f91fa9-prefab-4.unity3d"
+        },
+        {
+          "prefabName": "Attack",
+          "guid": "41087102c5f744d61a243bd72bea05ff",
+          "bundle": "initial_base_global-74f91fa9-prefab-4.unity3d"
+        },
+        {
+          "prefabName": "Underlay",
+          "guid": "3d84148183eb7b74f87290fb821d7c2a",
+          "bundle": "initial_base_global-74f91fa9-prefab-4.unity3d"
+        },
+        {
+          "prefabName": "Death",
+          "guid": "2cdbe229c58bd41fca0983a54a11d327",
+          "bundle": "initial_base_global-74f91fa9-prefab-4.unity3d"
+        },
+        {
+          "prefabName": "Underlay",
+          "guid": "11e6efa33cc4ea94e8bc6ceb49b32166",
+          "bundle": "initial_base_global-74f91fa9-prefab-4.unity3d"
+        },
+        {
+          "prefabName": "Zilliax_CustomSummon",
+          "guid": "dc7ae0aa4f38a9244a3f70c4cf9980d7",
+          "bundle": "initial_base_global-74f91fa9-prefab-4.unity3d"
+        }
+      ],
+      "audioReferences": [
+        {
+          "audioClipName": "VO_BOT_548_Male_Mech_Play_02",
+          "indexed": true,
+          "bundles": [
+            "playsound_base_zhcn-74f91fa9-audio-0.unity3d",
+            "initial_base_global-74f91fa9-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": true
+        },
+        {
+          "audioClipName": "Zilliax_Play_Stinger",
+          "indexed": true,
+          "bundles": [
+            "initial_base_global-74f91fa9-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_BOT_548_Male_Mech_Attack_01",
+          "indexed": true,
+          "bundles": [
+            "soundotherminion_base_zhcn-74f91fa9-audio-0.unity3d",
+            "initial_base_global-74f91fa9-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": true
+        },
+        {
+          "audioClipName": "CleanMechLarge_Attack_Underlay",
+          "indexed": true,
+          "bundles": [
+            "initial_adventure_global-4670aad5-prefab-26.unity3d",
+            "initial_base_global-17e09d12-prefab-4.unity3d",
+            "initial_base_global-17e09d12-prefab-9.unity3d",
+            "initial_base_global-383d0402-prefab-6.unity3d",
+            "initial_base_global-3aaf7c48-prefab-0.unity3d",
+            "initial_base_global-3aaf7c48-prefab-2.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        },
+        {
+          "audioClipName": "VO_BOT_548_Male_Mech_Death_01",
+          "indexed": true,
+          "bundles": [
+            "soundotherminion_base_zhcn-74f91fa9-audio-0.unity3d",
+            "initial_base_global-74f91fa9-prefab-4.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": true
+        },
+        {
+          "audioClipName": "CleanMechLarge_Death_Underlay",
+          "indexed": true,
+          "bundles": [
+            "initial_adventure_global-4670aad5-prefab-26.unity3d",
+            "initial_base_global-17e09d12-prefab-4.unity3d",
+            "initial_base_global-17e09d12-prefab-9.unity3d",
+            "initial_base_global-383d0402-prefab-6.unity3d",
+            "initial_base_global-3aaf7c48-prefab-0.unity3d",
+            "initial_base_global-3aaf7c48-prefab-2.unity3d"
+          ],
+          "compression": null,
+          "hasFsbHint": false
+        }
+      ],
+      "conclusion": "play_and_music_present_first_syllable_issue_is_music_masking",
+      "recommendedFix": "unified_music_duck_0.70",
+      "leakLayer": null
+    }
+  ]
+}

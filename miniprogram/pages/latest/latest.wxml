@@ -1,0 +1,45 @@
+<view class="page">
+  <view class="hero">
+    <view class="kicker">New Cards</view>
+    <view class="title">最新卡牌</view>
+    <view class="sub" wx:if="{{setName}}">{{setName}}</view>
+    <view class="count" wx:if="{{status === 'ready' && hasData}}">共 {{cardCount}} 张</view>
+  </view>
+
+  <view wx:if="{{status === 'loading' && !hasData}}" class="state">加载卡牌中...</view>
+
+  <view wx:elif="{{status === 'error' && !hasData}}" class="state fail">
+    <view class="fail-title">加载失败</view>
+    <view>无法连接到本地服务</view>
+    <view>请确认 npm run mini 已启动</view>
+    <button class="retry" bindtap="onRetry">重新加载</button>
+  </view>
+
+  <view wx:else>
+    <view wx:if="{{groups.length}}">
+      <view class="class-section" wx:for="{{groups}}" wx:for-item="group" wx:key="class">
+        <view class="class-header">
+          <text class="class-name">{{group.classLabel}}</text>
+          <text class="class-count">{{group.cards.length}} 张</text>
+        </view>
+        <view class="grid">
+          <view class="cell" wx:for="{{group.cards}}" wx:for-item="card" wx:key="id">
+            <card-item card="{{card}}" bindopen="onOpenCard" />
+          </view>
+        </view>
+      </view>
+    </view>
+    <view wx:else class="empty">{{emptyText}}</view>
+  </view>
+
+  <view
+    wx:if="{{showTop}}"
+    class="back-top"
+    hover-class="back-top-hover"
+    hover-stay-time="80"
+    bindtap="onBackTop"
+  >↑</view>
+
+  <view class="pad"></view>
+  <mini-player lift-for-tab-bar="{{true}}" />
+</view>

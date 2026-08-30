@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>用户反馈 · 炉石语音图鉴 Admin</title>
+  <link rel="stylesheet" href="/admin/admin.css" />
+</head>
+<body class="app-body">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-mark">HS</span>
+      <div>
+        <strong>语音图鉴</strong>
+        <small>Admin</small>
+      </div>
+    </div>
+    <nav>
+      <a class="nav-item" href="/admin/">Dashboard</a>
+      <a class="nav-item" href="/admin/latest">最新卡牌</a>
+      <a class="nav-item" href="/admin/data">数据更新</a>
+      <a class="nav-item active" href="/admin/feedback">用户反馈</a>
+      <span class="nav-item disabled">设置 <em>即将开放</em></span>
+      <span class="nav-item disabled">系统状态 <em>即将开放</em></span>
+    </nav>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <div class="page-head">
+        <h1>用户反馈</h1>
+        <p>查看用户提交的反馈，并更新处理状态。</p>
+      </div>
+      <div class="top-actions">
+        <span id="who">加载中…</span>
+        <button type="button" id="logout">退出</button>
+      </div>
+    </header>
+    <section class="notice" id="notice" hidden></section>
+    <section class="panel">
+      <div class="toolbar">
+        <h2>反馈列表</h2>
+        <div class="toolbar-actions filters">
+          <label>
+            状态
+            <select id="filter-status">
+              <option value="">全部</option>
+              <option value="OPEN">OPEN 待处理</option>
+              <option value="IN_PROGRESS">IN_PROGRESS 处理中</option>
+              <option value="RESOLVED">RESOLVED 已解决</option>
+              <option value="CLOSED">CLOSED 已关闭</option>
+            </select>
+          </label>
+          <label>
+            类型
+            <select id="filter-type">
+              <option value="">全部</option>
+              <option value="BUG">Bug 问题</option>
+              <option value="FEATURE_REQUEST">功能建议</option>
+              <option value="CARD_DATA">卡牌数据问题</option>
+              <option value="AUDIO">音频问题</option>
+              <option value="OTHER">其他</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <p class="empty" id="list-empty" hidden>暂无反馈</p>
+      <div class="table-wrap">
+        <table class="data">
+          <thead>
+            <tr>
+              <th>类型</th>
+              <th>内容摘要</th>
+              <th>状态</th>
+              <th>提交时间</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <div class="toolbar" id="pager">
+        <p class="meta" id="page-meta"></p>
+        <div class="toolbar-actions">
+          <button type="button" class="btn ghost" id="prev-page">上一页</button>
+          <button type="button" class="btn ghost" id="next-page">下一页</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="modal-backdrop" id="detail-modal" hidden>
+    <div class="modal wide">
+      <h3>反馈详情</h3>
+      <div class="kv" id="detail-kv"></div>
+      <p class="msg-body" id="detail-message"></p>
+      <label class="form-grid">
+        状态
+        <select id="detail-status">
+          <option value="OPEN">OPEN 待处理</option>
+          <option value="IN_PROGRESS">IN_PROGRESS 处理中</option>
+          <option value="RESOLVED">RESOLVED 已解决</option>
+          <option value="CLOSED">CLOSED 已关闭</option>
+        </select>
+      </label>
+      <div class="modal-actions">
+        <button type="button" class="btn ghost" id="detail-close">关闭</button>
+        <button type="button" class="btn" id="detail-save">更新状态</button>
+      </div>
+    </div>
+  </div>
+  <div class="toast" id="toast" hidden></div>
+  <script src="/admin/vendor/supabase.js"></script>
+  <script src="/admin/config.js"></script>
+  <script src="/admin/auth.js"></script>
+  <script src="/admin/feedback.js"></script>
+</body>
+</html>

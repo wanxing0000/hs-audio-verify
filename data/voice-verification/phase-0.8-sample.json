@@ -1,0 +1,1939 @@
+{
+  "generatedAt": "2026-08-28T11:00:50.317Z",
+  "seed": 20260828,
+  "size": 30,
+  "cards": [
+    {
+      "cardId": "TTN_741",
+      "name": "伪装的克熙尔",
+      "type": "MINION",
+      "collectible": true,
+      "set": "TITANS",
+      "dbfId": 98389,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_TTN_741_Female_Kthir_Play_01",
+          "voiceSourceCardId": "TTN_741",
+          "evidence": {
+            "playPrefabGuid": "4a5acc0eb91073e488faf92e094e1ed2",
+            "prefabGuid": "4a5acc0eb91073e488faf92e094e1ed2",
+            "soundSpellGuid": "4a5acc0eb91073e488faf92e094e1ed2",
+            "audioClipName": "VO_TTN_741_Female_Kthir_Play_01",
+            "prefabBundle": "initial_base_global-8e3e520f-prefab-4.unity3d",
+            "audioBundle": "playsound_base_zhcn-8e3e520f-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_TTN_741_Female_Kthir_Attack_01",
+          "voiceSourceCardId": "TTN_741",
+          "evidence": {
+            "attackPrefabGuid": "c2e1fa05ef00fed42851ce2c51def7c8",
+            "prefabGuid": "c2e1fa05ef00fed42851ce2c51def7c8",
+            "soundSpellGuid": "c2e1fa05ef00fed42851ce2c51def7c8",
+            "audioClipName": "VO_TTN_741_Female_Kthir_Attack_01",
+            "prefabBundle": "initial_base_global-8e3e520f-prefab-4.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-8e3e520f-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_TTN_741_Female_Kthir_Death_01",
+          "voiceSourceCardId": "TTN_741",
+          "evidence": {
+            "deathPrefabGuid": "bae90838afa306c49b57db0e855b301f",
+            "prefabGuid": "bae90838afa306c49b57db0e855b301f",
+            "soundSpellGuid": "bae90838afa306c49b57db0e855b301f",
+            "audioClipName": "VO_TTN_741_Female_Kthir_Death_01",
+            "prefabBundle": "initial_base_global-8e3e520f-prefab-4.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-8e3e520f-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "4a5acc0eb91073e488faf92e094e1ed2",
+        "attackPrefabGuid": "c2e1fa05ef00fed42851ce2c51def7c8",
+        "deathPrefabGuid": "bae90838afa306c49b57db0e855b301f",
+        "cardDefFiles": [
+          "carddef_base_global-8e3e520f-prefab-1.unity3d"
+        ]
+      },
+      "sampleBucket": "direct"
+    },
+    {
+      "cardId": "DINO_434",
+      "name": "迅猛龙巢护工",
+      "type": "MINION",
+      "collectible": true,
+      "set": "THE_LOST_CITY",
+      "dbfId": 118766,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_DINO_434_Female_Tortollan_Play_01",
+          "voiceSourceCardId": "DINO_434",
+          "evidence": {
+            "playPrefabGuid": "27a762fbe1bb95346bb146785acf0828",
+            "prefabGuid": "27a762fbe1bb95346bb146785acf0828",
+            "soundSpellGuid": "27a762fbe1bb95346bb146785acf0828",
+            "audioClipName": "VO_DINO_434_Female_Tortollan_Play_01",
+            "prefabBundle": "initial_base_global-2f546934-prefab-8.unity3d",
+            "audioBundle": "playsound_base_zhcn-2f546934-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_DINO_434_Female_Tortollan_Attack_01",
+          "voiceSourceCardId": "DINO_434",
+          "evidence": {
+            "attackPrefabGuid": "08fab97f3cb80274fa776b381af74bb3",
+            "prefabGuid": "08fab97f3cb80274fa776b381af74bb3",
+            "soundSpellGuid": "08fab97f3cb80274fa776b381af74bb3",
+            "audioClipName": "VO_DINO_434_Female_Tortollan_Attack_01",
+            "prefabBundle": "initial_base_global-2f546934-prefab-8.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-2f546934-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_DINO_434_Female_Tortollan_Death_01",
+          "voiceSourceCardId": "DINO_434",
+          "evidence": {
+            "deathPrefabGuid": "a383b9047560ec74b9606d245544c5b4",
+            "prefabGuid": "a383b9047560ec74b9606d245544c5b4",
+            "soundSpellGuid": "a383b9047560ec74b9606d245544c5b4",
+            "audioClipName": "VO_DINO_434_Female_Tortollan_Death_01",
+            "prefabBundle": "initial_base_global-2f546934-prefab-8.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-2f546934-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "27a762fbe1bb95346bb146785acf0828",
+        "attackPrefabGuid": "08fab97f3cb80274fa776b381af74bb3",
+        "deathPrefabGuid": "a383b9047560ec74b9606d245544c5b4",
+        "cardDefFiles": [
+          "carddef_base_global-2f546934-prefab-2.unity3d"
+        ]
+      },
+      "sampleBucket": "direct"
+    },
+    {
+      "cardId": "CS3_001",
+      "name": "守护者艾格文",
+      "type": "MINION",
+      "collectible": true,
+      "set": "CORE_HIDDEN",
+      "dbfId": 62347,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_CS3_001_Female_Human_Play_01",
+          "voiceSourceCardId": "CS3_001",
+          "evidence": {
+            "playPrefabGuid": "60e60c270262dd543ace5558628eb558",
+            "prefabGuid": "60e60c270262dd543ace5558628eb558",
+            "soundSpellGuid": "60e60c270262dd543ace5558628eb558",
+            "audioClipName": "VO_CS3_001_Female_Human_Play_01",
+            "prefabBundle": "initial_base_global-84b1a5c7-prefab-0.unity3d",
+            "audioBundle": "playsound_base_zhcn-84b1a5c7-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_CS3_001_Female_Human_Attack_02",
+          "voiceSourceCardId": "CS3_001",
+          "evidence": {
+            "attackPrefabGuid": "1edc0a5f0ecc9034fa4930c06e3de210",
+            "prefabGuid": "1edc0a5f0ecc9034fa4930c06e3de210",
+            "soundSpellGuid": "1edc0a5f0ecc9034fa4930c06e3de210",
+            "audioClipName": "VO_CS3_001_Female_Human_Attack_02",
+            "prefabBundle": "initial_base_global-84b1a5c7-prefab-0.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-84b1a5c7-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_CS3_001_Female_Human_Death_01",
+          "voiceSourceCardId": "CS3_001",
+          "evidence": {
+            "deathPrefabGuid": "a691564f971d80f40921ca45b83b03bd",
+            "prefabGuid": "a691564f971d80f40921ca45b83b03bd",
+            "soundSpellGuid": "a691564f971d80f40921ca45b83b03bd",
+            "audioClipName": "VO_CS3_001_Female_Human_Death_01",
+            "prefabBundle": "initial_base_global-84b1a5c7-prefab-0.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-84b1a5c7-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        }
+      },
+      "extra": {
+        "customSummon": {
+          "name": "CS3FX_AegwynnTheGuardian_CustomSummon",
+          "guid": "51a74597c86e3234f84947d11606ae89"
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "60e60c270262dd543ace5558628eb558",
+        "attackPrefabGuid": "1edc0a5f0ecc9034fa4930c06e3de210",
+        "deathPrefabGuid": "a691564f971d80f40921ca45b83b03bd",
+        "cardDefFiles": [
+          "carddef_base_global-84b1a5c7-prefab-3.unity3d"
+        ]
+      },
+      "sampleBucket": "direct"
+    },
+    {
+      "cardId": "SC_405",
+      "name": "超级电容器",
+      "type": "MINION",
+      "collectible": true,
+      "set": "SPACE",
+      "dbfId": 112866,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "SC_405_UltraCapacitor_Play",
+          "voiceSourceCardId": "SC_405",
+          "evidence": {
+            "playPrefabGuid": "4b59511e7175bd841a4dca7822bb7a16",
+            "prefabGuid": "4b59511e7175bd841a4dca7822bb7a16",
+            "soundSpellGuid": "4b59511e7175bd841a4dca7822bb7a16",
+            "audioClipName": "SC_405_UltraCapacitor_Play",
+            "prefabBundle": "initial_base_global-abe88014-prefab-9.unity3d",
+            "audioBundle": "initial_base_global-abe88014-prefab-9.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "SC_405_UltraCapacitor_Attack",
+          "voiceSourceCardId": "SC_405",
+          "evidence": {
+            "attackPrefabGuid": "cef8359a1414dee4eaa77b4d36b83d47",
+            "prefabGuid": "cef8359a1414dee4eaa77b4d36b83d47",
+            "soundSpellGuid": "cef8359a1414dee4eaa77b4d36b83d47",
+            "audioClipName": "SC_405_UltraCapacitor_Attack",
+            "prefabBundle": "initial_base_global-abe88014-prefab-8.unity3d",
+            "audioBundle": "initial_base_global-abe88014-prefab-8.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "SC_405_UltraCapacitor_Death",
+          "voiceSourceCardId": "SC_405",
+          "evidence": {
+            "deathPrefabGuid": "1c1b9bd2d732a854681010e94aedbc26",
+            "prefabGuid": "1c1b9bd2d732a854681010e94aedbc26",
+            "soundSpellGuid": "1c1b9bd2d732a854681010e94aedbc26",
+            "audioClipName": "SC_405_UltraCapacitor_Death",
+            "prefabBundle": "initial_base_global-abe88014-prefab-9.unity3d",
+            "audioBundle": "initial_base_global-abe88014-prefab-9.unity3d",
+            "mappingMethod": "direct"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "4b59511e7175bd841a4dca7822bb7a16",
+        "attackPrefabGuid": "cef8359a1414dee4eaa77b4d36b83d47",
+        "deathPrefabGuid": "1c1b9bd2d732a854681010e94aedbc26",
+        "cardDefFiles": [
+          "carddef_base_global-abe88014-prefab-2.unity3d"
+        ]
+      },
+      "sampleBucket": "direct"
+    },
+    {
+      "cardId": "BOT_543",
+      "name": "欧米茄灵能者",
+      "type": "MINION",
+      "collectible": true,
+      "set": "BOOMSDAY",
+      "dbfId": 49175,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_BOT_543_Female_Goblin_Play_04",
+          "voiceSourceCardId": "BOT_543",
+          "evidence": {
+            "playPrefabGuid": "f84284aea185c426d9bbb8d8ed9fe94f",
+            "prefabGuid": "f84284aea185c426d9bbb8d8ed9fe94f",
+            "soundSpellGuid": "f84284aea185c426d9bbb8d8ed9fe94f",
+            "audioClipName": "VO_BOT_543_Female_Goblin_Play_04",
+            "prefabBundle": "initial_base_global-74f91fa9-prefab-4.unity3d",
+            "audioBundle": "playsound_base_zhcn-74f91fa9-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_BOT_543_Female_Goblin_Attack_01",
+          "voiceSourceCardId": "BOT_543",
+          "evidence": {
+            "attackPrefabGuid": "b1560c260b42e4a3fa6346ced51b6805",
+            "prefabGuid": "b1560c260b42e4a3fa6346ced51b6805",
+            "soundSpellGuid": "b1560c260b42e4a3fa6346ced51b6805",
+            "audioClipName": "VO_BOT_543_Female_Goblin_Attack_01",
+            "prefabBundle": "initial_base_global-74f91fa9-prefab-3.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-74f91fa9-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_BOT_543_Female_Goblin_Death_01",
+          "voiceSourceCardId": "BOT_543",
+          "evidence": {
+            "deathPrefabGuid": "7a11ae85ebe8f4a7e8265efbdaff9a5f",
+            "prefabGuid": "7a11ae85ebe8f4a7e8265efbdaff9a5f",
+            "soundSpellGuid": "7a11ae85ebe8f4a7e8265efbdaff9a5f",
+            "audioClipName": "VO_BOT_543_Female_Goblin_Death_01",
+            "prefabBundle": "initial_base_global-74f91fa9-prefab-3.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-74f91fa9-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "f84284aea185c426d9bbb8d8ed9fe94f",
+        "attackPrefabGuid": "b1560c260b42e4a3fa6346ced51b6805",
+        "deathPrefabGuid": "7a11ae85ebe8f4a7e8265efbdaff9a5f",
+        "cardDefFiles": [
+          "carddef_base_global-74f91fa9-prefab-2.unity3d"
+        ]
+      },
+      "sampleBucket": "direct"
+    },
+    {
+      "cardId": "DMF_067",
+      "name": "奖品商贩",
+      "type": "MINION",
+      "collectible": true,
+      "set": "DARKMOON_FAIRE",
+      "dbfId": 61622,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_DMF_067_Male_Murloc_Play_01",
+          "voiceSourceCardId": "DMF_067",
+          "evidence": {
+            "playPrefabGuid": "b9ab0fe4a5e5f7749a7b032fd6a0f592",
+            "prefabGuid": "b9ab0fe4a5e5f7749a7b032fd6a0f592",
+            "soundSpellGuid": "b9ab0fe4a5e5f7749a7b032fd6a0f592",
+            "audioClipName": "VO_DMF_067_Male_Murloc_Play_01",
+            "prefabBundle": "initial_base_global-384202c8-prefab-0.unity3d",
+            "audioBundle": "playsound_base_zhcn-384202c8-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_DMF_067_Male_Murloc_Attack_02",
+          "voiceSourceCardId": "DMF_067",
+          "evidence": {
+            "attackPrefabGuid": "776c223a77216bc4bbe9414bb9ea2299",
+            "prefabGuid": "776c223a77216bc4bbe9414bb9ea2299",
+            "soundSpellGuid": "776c223a77216bc4bbe9414bb9ea2299",
+            "audioClipName": "VO_DMF_067_Male_Murloc_Attack_02",
+            "prefabBundle": "initial_base_global-384202c8-prefab-0.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-384202c8-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_DMF_067_Male_Murloc_Death_01",
+          "voiceSourceCardId": "DMF_067",
+          "evidence": {
+            "deathPrefabGuid": "9e4ed0d344f3d7c4281ca4a2c23d25c5",
+            "prefabGuid": "9e4ed0d344f3d7c4281ca4a2c23d25c5",
+            "soundSpellGuid": "9e4ed0d344f3d7c4281ca4a2c23d25c5",
+            "audioClipName": "VO_DMF_067_Male_Murloc_Death_01",
+            "prefabBundle": "initial_base_global-384202c8-prefab-0.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-384202c8-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "b9ab0fe4a5e5f7749a7b032fd6a0f592",
+        "attackPrefabGuid": "776c223a77216bc4bbe9414bb9ea2299",
+        "deathPrefabGuid": "9e4ed0d344f3d7c4281ca4a2c23d25c5",
+        "cardDefFiles": [
+          "carddef_base_global-384202c8-prefab-0.unity3d"
+        ]
+      },
+      "sampleBucket": "direct"
+    },
+    {
+      "cardId": "SW_029",
+      "name": "港口匪徒",
+      "type": "MINION",
+      "collectible": true,
+      "set": "STORMWIND",
+      "dbfId": 64277,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_SW_029_Female_Dwarf_Play_01",
+          "voiceSourceCardId": "SW_029",
+          "evidence": {
+            "playPrefabGuid": "43d356edd36cb3340bea89e1b0831a21",
+            "prefabGuid": "43d356edd36cb3340bea89e1b0831a21",
+            "soundSpellGuid": "43d356edd36cb3340bea89e1b0831a21",
+            "audioClipName": "VO_SW_029_Female_Dwarf_Play_01",
+            "prefabBundle": "initial_base_global-40cb6b8d-prefab-1.unity3d",
+            "audioBundle": "playsound_base_zhcn-40cb6b8d-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_SW_029_Female_Dwarf_Attack_01",
+          "voiceSourceCardId": "SW_029",
+          "evidence": {
+            "attackPrefabGuid": "86645c1adc5ab0147b8cf336103a65c8",
+            "prefabGuid": "86645c1adc5ab0147b8cf336103a65c8",
+            "soundSpellGuid": "86645c1adc5ab0147b8cf336103a65c8",
+            "audioClipName": "VO_SW_029_Female_Dwarf_Attack_01",
+            "prefabBundle": "initial_base_global-40cb6b8d-prefab-1.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-40cb6b8d-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_SW_029_Female_Dwarf_Death_01",
+          "voiceSourceCardId": "SW_029",
+          "evidence": {
+            "deathPrefabGuid": "b649415a5a8d4fb48a6d2f01b983cc50",
+            "prefabGuid": "b649415a5a8d4fb48a6d2f01b983cc50",
+            "soundSpellGuid": "b649415a5a8d4fb48a6d2f01b983cc50",
+            "audioClipName": "VO_SW_029_Female_Dwarf_Death_01",
+            "prefabBundle": "initial_base_global-40cb6b8d-prefab-1.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-40cb6b8d-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "43d356edd36cb3340bea89e1b0831a21",
+        "attackPrefabGuid": "86645c1adc5ab0147b8cf336103a65c8",
+        "deathPrefabGuid": "b649415a5a8d4fb48a6d2f01b983cc50",
+        "cardDefFiles": [
+          "carddef_base_global-40cb6b8d-prefab-2.unity3d"
+        ]
+      },
+      "sampleBucket": "direct"
+    },
+    {
+      "cardId": "DAL_090",
+      "name": "荆棘帮小偷",
+      "type": "MINION",
+      "collectible": true,
+      "set": "DALARAN",
+      "dbfId": 52290,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_DAL_090_Male_Quillboar_Play_01",
+          "voiceSourceCardId": "DAL_090",
+          "evidence": {
+            "playPrefabGuid": "776a560594d6f4c66bb6a95b6e46ee94",
+            "prefabGuid": "776a560594d6f4c66bb6a95b6e46ee94",
+            "soundSpellGuid": "776a560594d6f4c66bb6a95b6e46ee94",
+            "audioClipName": "VO_DAL_090_Male_Quillboar_Play_01",
+            "prefabBundle": "initial_base_global-17e09d12-prefab-5.unity3d",
+            "audioBundle": "playsound_base_zhcn-17e09d12-audio-0.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_DAL_090_Male_Quillboar_Attack_01",
+          "voiceSourceCardId": "DAL_090",
+          "evidence": {
+            "attackPrefabGuid": "e95193d9713a248cb8a4e8008d367b96",
+            "prefabGuid": "e95193d9713a248cb8a4e8008d367b96",
+            "soundSpellGuid": "e95193d9713a248cb8a4e8008d367b96",
+            "audioClipName": "VO_DAL_090_Male_Quillboar_Attack_01",
+            "prefabBundle": "initial_base_global-17e09d12-prefab-5.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-17e09d12-audio-2.unity3d",
+            "mappingMethod": "direct"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "direct",
+          "voiceKey": "VO_DAL_090_Male_Quillboar_Death_01",
+          "voiceSourceCardId": "DAL_090",
+          "evidence": {
+            "deathPrefabGuid": "53242131e359047a695282de1a21a502",
+            "prefabGuid": "53242131e359047a695282de1a21a502",
+            "soundSpellGuid": "53242131e359047a695282de1a21a502",
+            "audioClipName": "VO_DAL_090_Male_Quillboar_Death_01",
+            "prefabBundle": "initial_base_global-17e09d12-prefab-5.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-17e09d12-audio-2.unity3d",
+            "mappingMethod": "direct"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "776a560594d6f4c66bb6a95b6e46ee94",
+        "attackPrefabGuid": "e95193d9713a248cb8a4e8008d367b96",
+        "deathPrefabGuid": "53242131e359047a695282de1a21a502",
+        "cardDefFiles": [
+          "carddef_base_global-17e09d12-prefab-4.unity3d"
+        ]
+      },
+      "sampleBucket": "direct"
+    },
+    {
+      "cardId": "BG33_152_G",
+      "name": "即兴小鬼",
+      "type": "MINION",
+      "collectible": false,
+      "set": "BATTLEGROUNDS",
+      "dbfId": 122113,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "VO_REV_244t_Male_Imp_Play_01",
+          "voiceSourceCardId": "REV_244t",
+          "evidence": {
+            "playPrefabGuid": "b06bb4cea9727e94e8bb513b2edf1b80",
+            "prefabGuid": "b06bb4cea9727e94e8bb513b2edf1b80",
+            "soundSpellGuid": "b06bb4cea9727e94e8bb513b2edf1b80",
+            "audioClipName": "VO_REV_244t_Male_Imp_Play_01",
+            "prefabBundle": "initial_base_global-0516e06c-prefab-2.unity3d",
+            "audioBundle": "playsound_base_zhcn-0516e06c-audio-0.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "VO_REV_244t_Male_Imp_Attack_01",
+          "voiceSourceCardId": "REV_244t",
+          "evidence": {
+            "attackPrefabGuid": "3cc11b73da340624aad35f3957e6fa01",
+            "prefabGuid": "3cc11b73da340624aad35f3957e6fa01",
+            "soundSpellGuid": "3cc11b73da340624aad35f3957e6fa01",
+            "audioClipName": "VO_REV_244t_Male_Imp_Attack_01",
+            "prefabBundle": "initial_base_global-0516e06c-prefab-2.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-0516e06c-audio-0.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "VO_REV_244t_Male_Imp_Death_01",
+          "voiceSourceCardId": "REV_244t",
+          "evidence": {
+            "deathPrefabGuid": "8c72019a4b10b204db7c0088bfd46a8e",
+            "prefabGuid": "8c72019a4b10b204db7c0088bfd46a8e",
+            "soundSpellGuid": "8c72019a4b10b204db7c0088bfd46a8e",
+            "audioClipName": "VO_REV_244t_Male_Imp_Death_01",
+            "prefabBundle": "initial_base_global-0516e06c-prefab-2.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-0516e06c-audio-0.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "b06bb4cea9727e94e8bb513b2edf1b80",
+        "attackPrefabGuid": "3cc11b73da340624aad35f3957e6fa01",
+        "deathPrefabGuid": "8c72019a4b10b204db7c0088bfd46a8e",
+        "cardDefFiles": [
+          "carddef_base_global-48ae08f3-prefab-46.unity3d"
+        ]
+      },
+      "sampleBucket": "shared_resource"
+    },
+    {
+      "cardId": "LOEA04_24h",
+      "name": "阿努比萨斯神庙卫士",
+      "type": "MINION",
+      "collectible": false,
+      "set": "LOE",
+      "dbfId": 38613,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "VO_LOEA04_24_Play_01",
+          "voiceSourceCardId": "LOEA04_24",
+          "evidence": {
+            "playPrefabGuid": "d7a3ab8b44ad53342a979a8dcdb60e43",
+            "prefabGuid": "d7a3ab8b44ad53342a979a8dcdb60e43",
+            "soundSpellGuid": "d7a3ab8b44ad53342a979a8dcdb60e43",
+            "audioClipName": "VO_LOEA04_24_Play_01",
+            "prefabBundle": "initial_base_global-19c61f11-prefab-0.unity3d",
+            "audioBundle": "playsound_base_zhcn-19c61f11-audio-0.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "VO_LOEA04_24_Attack2_03",
+          "voiceSourceCardId": "LOEA04_24",
+          "evidence": {
+            "attackPrefabGuid": "9488e3eceeab71040b6f7756bee6fadf",
+            "prefabGuid": "9488e3eceeab71040b6f7756bee6fadf",
+            "soundSpellGuid": "9488e3eceeab71040b6f7756bee6fadf",
+            "audioClipName": "VO_LOEA04_24_Attack2_03",
+            "prefabBundle": "initial_base_global-19c61f11-prefab-0.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-19c61f11-audio-0.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "VO_LOEA04_24_Death_04",
+          "voiceSourceCardId": "LOEA04_24",
+          "evidence": {
+            "deathPrefabGuid": "c452f1c4175f3d84bae718f2d9b5fdcd",
+            "prefabGuid": "c452f1c4175f3d84bae718f2d9b5fdcd",
+            "soundSpellGuid": "c452f1c4175f3d84bae718f2d9b5fdcd",
+            "audioClipName": "VO_LOEA04_24_Death_04",
+            "prefabBundle": "initial_base_global-19c61f11-prefab-0.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-19c61f11-audio-0.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "d7a3ab8b44ad53342a979a8dcdb60e43",
+        "attackPrefabGuid": "9488e3eceeab71040b6f7756bee6fadf",
+        "deathPrefabGuid": "c452f1c4175f3d84bae718f2d9b5fdcd",
+        "cardDefFiles": [
+          "carddef_base_global-19c61f11-prefab-0.unity3d"
+        ]
+      },
+      "sampleBucket": "shared_resource"
+    },
+    {
+      "cardId": "BOM_10_Kurtrus_001t",
+      "name": "平和的库尔特鲁斯",
+      "type": "MINION",
+      "collectible": false,
+      "set": "ALTERAC_VALLEY",
+      "dbfId": 86354,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "VO_AV_204_Male_NightElf_Play_01",
+          "voiceSourceCardId": "AV_204",
+          "evidence": {
+            "playPrefabGuid": "2f3e1194bfd62634e83c044593806bff",
+            "prefabGuid": "2f3e1194bfd62634e83c044593806bff",
+            "soundSpellGuid": "2f3e1194bfd62634e83c044593806bff",
+            "audioClipName": "VO_AV_204_Male_NightElf_Play_01",
+            "prefabBundle": "initial_base_global-5fc02a26-prefab-2.unity3d",
+            "audioBundle": "playsound_base_zhcn-5fc02a26-audio-0.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "VO_AV_204_Male_NightElf_Attack_01",
+          "voiceSourceCardId": "AV_204",
+          "evidence": {
+            "attackPrefabGuid": "4ffffcf4507106244a06df3e694eecad",
+            "prefabGuid": "4ffffcf4507106244a06df3e694eecad",
+            "soundSpellGuid": "4ffffcf4507106244a06df3e694eecad",
+            "audioClipName": "VO_AV_204_Male_NightElf_Attack_01",
+            "prefabBundle": "initial_base_global-5fc02a26-prefab-2.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-5fc02a26-audio-0.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "VO_AV_204_Male_NightElf_Death_01",
+          "voiceSourceCardId": "AV_204",
+          "evidence": {
+            "deathPrefabGuid": "457c2fbe0b7914d439dd821124b2103c",
+            "prefabGuid": "457c2fbe0b7914d439dd821124b2103c",
+            "soundSpellGuid": "457c2fbe0b7914d439dd821124b2103c",
+            "audioClipName": "VO_AV_204_Male_NightElf_Death_01",
+            "prefabBundle": "initial_base_global-5fc02a26-prefab-2.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-5fc02a26-audio-0.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "2f3e1194bfd62634e83c044593806bff",
+        "attackPrefabGuid": "4ffffcf4507106244a06df3e694eecad",
+        "deathPrefabGuid": "457c2fbe0b7914d439dd821124b2103c",
+        "cardDefFiles": [
+          "carddef_base_global-5fc02a26-prefab-3.unity3d"
+        ]
+      },
+      "sampleBucket": "shared_resource"
+    },
+    {
+      "cardId": "LETLT_044_01",
+      "name": "狂暴的枭兽",
+      "type": "MINION",
+      "collectible": false,
+      "set": "LETTUCE",
+      "dbfId": 77900,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "GIL_121_DarkmireMoonkin_Play",
+          "voiceSourceCardId": "GIL_121",
+          "evidence": {
+            "playPrefabGuid": "4634315a22ab6d946bd5dfa3e8491bd7",
+            "prefabGuid": "4634315a22ab6d946bd5dfa3e8491bd7",
+            "soundSpellGuid": "4634315a22ab6d946bd5dfa3e8491bd7",
+            "audioClipName": "GIL_121_DarkmireMoonkin_Play",
+            "prefabBundle": "initial_base_global-d2f4bda7-prefab-2.unity3d",
+            "audioBundle": "initial_base_global-d2f4bda7-prefab-2.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "GIL_121_DarkmireMoonkin_Attack",
+          "voiceSourceCardId": "GIL_121",
+          "evidence": {
+            "attackPrefabGuid": "69fab1870c2775841852a4b48b285b0c",
+            "prefabGuid": "69fab1870c2775841852a4b48b285b0c",
+            "soundSpellGuid": "69fab1870c2775841852a4b48b285b0c",
+            "audioClipName": "GIL_121_DarkmireMoonkin_Attack",
+            "prefabBundle": "initial_base_global-d2f4bda7-prefab-2.unity3d",
+            "audioBundle": "initial_base_global-d2f4bda7-prefab-2.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "GIL_121_DarkmireMoonkin_Death",
+          "voiceSourceCardId": "GIL_121",
+          "evidence": {
+            "deathPrefabGuid": "6dd343ee697fcd145abd57bfe9a8636b",
+            "prefabGuid": "6dd343ee697fcd145abd57bfe9a8636b",
+            "soundSpellGuid": "6dd343ee697fcd145abd57bfe9a8636b",
+            "audioClipName": "GIL_121_DarkmireMoonkin_Death",
+            "prefabBundle": "initial_base_global-d2f4bda7-prefab-2.unity3d",
+            "audioBundle": "initial_base_global-d2f4bda7-prefab-2.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "4634315a22ab6d946bd5dfa3e8491bd7",
+        "attackPrefabGuid": "69fab1870c2775841852a4b48b285b0c",
+        "deathPrefabGuid": "6dd343ee697fcd145abd57bfe9a8636b",
+        "cardDefFiles": [
+          "carddef_base_global-fc6d50fb-prefab-1.unity3d"
+        ]
+      },
+      "sampleBucket": "shared_resource"
+    },
+    {
+      "cardId": "CORE_UNG_844",
+      "name": "巨齿刀叶",
+      "type": "MINION",
+      "collectible": true,
+      "set": "CORE_HIDDEN",
+      "dbfId": 69728,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "UNG_844_HumongusRaptorLeaf_Play",
+          "voiceSourceCardId": "UNG_844",
+          "evidence": {
+            "playPrefabGuid": "95fe91e505b97c34c877483c62293d2b",
+            "prefabGuid": "95fe91e505b97c34c877483c62293d2b",
+            "soundSpellGuid": "95fe91e505b97c34c877483c62293d2b",
+            "audioClipName": "UNG_844_HumongusRaptorLeaf_Play",
+            "prefabBundle": "initial_base_global-46708e9b-prefab-2.unity3d",
+            "audioBundle": "initial_base_global-46708e9b-prefab-2.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "UNG_844_HumongusRaptorLeaf_Attack",
+          "voiceSourceCardId": "UNG_844",
+          "evidence": {
+            "attackPrefabGuid": "b4112a204c94d0e429eaf212c64d466f",
+            "prefabGuid": "b4112a204c94d0e429eaf212c64d466f",
+            "soundSpellGuid": "b4112a204c94d0e429eaf212c64d466f",
+            "audioClipName": "UNG_844_HumongusRaptorLeaf_Attack",
+            "prefabBundle": "initial_base_global-46708e9b-prefab-2.unity3d",
+            "audioBundle": "initial_base_global-46708e9b-prefab-2.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "UNG_844_HumongusRaptorLeaf_Death",
+          "voiceSourceCardId": "UNG_844",
+          "evidence": {
+            "deathPrefabGuid": "fed6be7a87a05594aadcd38ff9e9e1fd",
+            "prefabGuid": "fed6be7a87a05594aadcd38ff9e9e1fd",
+            "soundSpellGuid": "fed6be7a87a05594aadcd38ff9e9e1fd",
+            "audioClipName": "UNG_844_HumongusRaptorLeaf_Death",
+            "prefabBundle": "initial_base_global-46708e9b-prefab-2.unity3d",
+            "audioBundle": "initial_base_global-46708e9b-prefab-2.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "95fe91e505b97c34c877483c62293d2b",
+        "attackPrefabGuid": "b4112a204c94d0e429eaf212c64d466f",
+        "deathPrefabGuid": "fed6be7a87a05594aadcd38ff9e9e1fd",
+        "cardDefFiles": [
+          "carddef_base_global-84b1a5c7-prefab-3.unity3d"
+        ]
+      },
+      "sampleBucket": "shared_resource"
+    },
+    {
+      "cardId": "Story_07_HideousAmalgamation",
+      "name": "丑恶的融合怪",
+      "type": "MINION",
+      "collectible": false,
+      "set": "THE_BARRENS",
+      "dbfId": 71567,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "DMF_532_CircusAmalgam_Play",
+          "voiceSourceCardId": "DMF_532",
+          "evidence": {
+            "playPrefabGuid": "0510e01f1b4b57746b167c4d5e463f6c",
+            "prefabGuid": "0510e01f1b4b57746b167c4d5e463f6c",
+            "soundSpellGuid": "0510e01f1b4b57746b167c4d5e463f6c",
+            "audioClipName": "DMF_532_CircusAmalgam_Play",
+            "prefabBundle": "initial_base_global-384202c8-prefab-5.unity3d",
+            "audioBundle": "initial_base_global-384202c8-prefab-5.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "DMF_532_CircusAmalgam_Attack",
+          "voiceSourceCardId": "DMF_532",
+          "evidence": {
+            "attackPrefabGuid": "68cb44183446fe445be3c663875e4107",
+            "prefabGuid": "68cb44183446fe445be3c663875e4107",
+            "soundSpellGuid": "68cb44183446fe445be3c663875e4107",
+            "audioClipName": "DMF_532_CircusAmalgam_Attack",
+            "prefabBundle": "initial_base_global-384202c8-prefab-5.unity3d",
+            "audioBundle": "initial_base_global-384202c8-prefab-5.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "shared_resource",
+          "voiceKey": "DMF_532_CircusAmalgam_Death",
+          "voiceSourceCardId": "DMF_532",
+          "evidence": {
+            "deathPrefabGuid": "5b71df6fe109c314887928adf9c37aaf",
+            "prefabGuid": "5b71df6fe109c314887928adf9c37aaf",
+            "soundSpellGuid": "5b71df6fe109c314887928adf9c37aaf",
+            "audioClipName": "DMF_532_CircusAmalgam_Death",
+            "prefabBundle": "initial_base_global-384202c8-prefab-5.unity3d",
+            "audioBundle": "initial_base_global-384202c8-prefab-5.unity3d",
+            "mappingMethod": "shared_resource"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "0510e01f1b4b57746b167c4d5e463f6c",
+        "attackPrefabGuid": "68cb44183446fe445be3c663875e4107",
+        "deathPrefabGuid": "5b71df6fe109c314887928adf9c37aaf",
+        "cardDefFiles": [
+          "carddef_base_global-fd9efb99-prefab-4.unity3d"
+        ]
+      },
+      "sampleBucket": "shared_resource"
+    },
+    {
+      "cardId": "CATA_452t",
+      "name": "碧蓝守卫",
+      "type": "MINION",
+      "collectible": false,
+      "set": "CATACLYSM",
+      "dbfId": 122455,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "shared_audio",
+          "voiceKey": "BRMA10_5_ChromaticDrake_EnterPlay_1",
+          "voiceSourceCardId": "BRMA10_5",
+          "evidence": {
+            "playPrefabGuid": "95e008ee907a5cd429b1014b42bc5105",
+            "prefabGuid": "95e008ee907a5cd429b1014b42bc5105",
+            "soundSpellGuid": "95e008ee907a5cd429b1014b42bc5105",
+            "audioClipName": "BRMA10_5_ChromaticDrake_EnterPlay_1",
+            "prefabBundle": "initial_base_global-0647217b-prefab-3.unity3d",
+            "audioBundle": "initial_base_global-0647217b-prefab-3.unity3d",
+            "mappingMethod": "shared_audio"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "shared_audio",
+          "voiceKey": "BRMA10_5_ChromaticDrake_Attack_1",
+          "voiceSourceCardId": "BRMA10_5",
+          "evidence": {
+            "attackPrefabGuid": "f8931dffb4f252f4abcb09dcce818404",
+            "prefabGuid": "f8931dffb4f252f4abcb09dcce818404",
+            "soundSpellGuid": "f8931dffb4f252f4abcb09dcce818404",
+            "audioClipName": "BRMA10_5_ChromaticDrake_Attack_1",
+            "prefabBundle": "initial_base_global-0647217b-prefab-3.unity3d",
+            "audioBundle": "initial_base_global-0647217b-prefab-3.unity3d",
+            "mappingMethod": "shared_audio"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "shared_audio",
+          "voiceKey": "BRMA10_5_ChromaticDrake_Death_1",
+          "voiceSourceCardId": "BRMA10_5",
+          "evidence": {
+            "deathPrefabGuid": "56bc187f46ece414a9a373763eb1c114",
+            "prefabGuid": "56bc187f46ece414a9a373763eb1c114",
+            "soundSpellGuid": "56bc187f46ece414a9a373763eb1c114",
+            "audioClipName": "BRMA10_5_ChromaticDrake_Death_1",
+            "prefabBundle": "initial_base_global-0647217b-prefab-3.unity3d",
+            "audioBundle": "initial_base_global-0647217b-prefab-3.unity3d",
+            "mappingMethod": "shared_audio"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "95e008ee907a5cd429b1014b42bc5105",
+        "attackPrefabGuid": "f8931dffb4f252f4abcb09dcce818404",
+        "deathPrefabGuid": "56bc187f46ece414a9a373763eb1c114",
+        "cardDefFiles": [
+          "carddef_base_global-0647217b-prefab-0.unity3d"
+        ]
+      },
+      "sampleBucket": "shared_audio"
+    },
+    {
+      "cardId": "LT23_011H_02",
+      "name": "钩牙船长",
+      "type": "MINION",
+      "collectible": false,
+      "set": "LETTUCE",
+      "dbfId": 86079,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "shared_audio",
+          "voiceKey": "VO_TSC_934_Female_Troll_Play_01",
+          "voiceSourceCardId": "TSC_934",
+          "evidence": {
+            "playPrefabGuid": "c545e7fdb74c33e4389b1a84da08c7d8",
+            "prefabGuid": "c545e7fdb74c33e4389b1a84da08c7d8",
+            "soundSpellGuid": "c545e7fdb74c33e4389b1a84da08c7d8",
+            "audioClipName": "VO_TSC_934_Female_Troll_Play_01",
+            "prefabBundle": "initial_base_global-fc6d50fb-prefab-3.unity3d",
+            "audioBundle": "playsound_base_zhcn-50dcdbf5-audio-0.unity3d",
+            "mappingMethod": "shared_audio"
+          }
+        },
+        "attack": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "attackPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "shared_audio",
+          "voiceKey": "VO_TSC_934_Female_Troll_Death_01",
+          "voiceSourceCardId": "TSC_934",
+          "evidence": {
+            "deathPrefabGuid": "210779d80c84e344fafd550ab0edec0e",
+            "prefabGuid": "210779d80c84e344fafd550ab0edec0e",
+            "soundSpellGuid": "210779d80c84e344fafd550ab0edec0e",
+            "audioClipName": "VO_TSC_934_Female_Troll_Death_01",
+            "prefabBundle": "initial_base_global-fc6d50fb-prefab-3.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-50dcdbf5-audio-1.unity3d",
+            "mappingMethod": "shared_audio"
+          }
+        }
+      },
+      "extra": {
+        "customSummon": {
+          "name": "TRLFX_CaptainHooktusk_CustomSummon",
+          "guid": "026fc316a00fa2040bd7b9d3e9e74f6e"
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "c545e7fdb74c33e4389b1a84da08c7d8",
+        "attackPrefabGuid": null,
+        "deathPrefabGuid": "210779d80c84e344fafd550ab0edec0e",
+        "cardDefFiles": [
+          "carddef_base_global-fc6d50fb-prefab-29.unity3d"
+        ]
+      },
+      "sampleBucket": "shared_audio"
+    },
+    {
+      "cardId": "ULDA_022",
+      "name": "高级导航员",
+      "type": "MINION",
+      "collectible": false,
+      "set": "ULDUM",
+      "dbfId": 57017,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "shared_audio",
+          "voiceKey": "VO_ULDA_017_Female_NightElf_Play_01",
+          "voiceSourceCardId": "ULDA_017",
+          "evidence": {
+            "playPrefabGuid": "f75ce03edcfc9af4ea066d3a42d2543a",
+            "prefabGuid": "f75ce03edcfc9af4ea066d3a42d2543a",
+            "soundSpellGuid": "f75ce03edcfc9af4ea066d3a42d2543a",
+            "audioClipName": "VO_ULDA_017_Female_NightElf_Play_01",
+            "prefabBundle": "initial_base_global-9f363830-prefab-0.unity3d",
+            "audioBundle": "playsound_base_zhcn-9f363830-audio-0.unity3d",
+            "mappingMethod": "shared_audio"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "shared_audio",
+          "voiceKey": "VO_ULDA_017_Female_NightElf_Attack_04",
+          "voiceSourceCardId": "ULDA_017",
+          "evidence": {
+            "attackPrefabGuid": "cc218402ac21cde44a7060ed3f896c0b",
+            "prefabGuid": "cc218402ac21cde44a7060ed3f896c0b",
+            "soundSpellGuid": "cc218402ac21cde44a7060ed3f896c0b",
+            "audioClipName": "VO_ULDA_017_Female_NightElf_Attack_04",
+            "prefabBundle": "initial_base_global-9f363830-prefab-0.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-9f363830-audio-0.unity3d",
+            "mappingMethod": "shared_audio"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "shared_audio",
+          "voiceKey": "VO_ULDA_017_Female_NightElf_Death_01",
+          "voiceSourceCardId": "ULDA_017",
+          "evidence": {
+            "deathPrefabGuid": "2f7bd1ee80162984093791d20b73b4b4",
+            "prefabGuid": "2f7bd1ee80162984093791d20b73b4b4",
+            "soundSpellGuid": "2f7bd1ee80162984093791d20b73b4b4",
+            "audioClipName": "VO_ULDA_017_Female_NightElf_Death_01",
+            "prefabBundle": "initial_base_global-9f363830-prefab-0.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-9f363830-audio-0.unity3d",
+            "mappingMethod": "shared_audio"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "f75ce03edcfc9af4ea066d3a42d2543a",
+        "attackPrefabGuid": "cc218402ac21cde44a7060ed3f896c0b",
+        "deathPrefabGuid": "2f7bd1ee80162984093791d20b73b4b4",
+        "cardDefFiles": [
+          "carddef_base_global-9f363830-prefab-0.unity3d"
+        ]
+      },
+      "sampleBucket": "shared_audio"
+    },
+    {
+      "cardId": "BG32_433_G",
+      "name": "睡梦织棘者",
+      "type": "MINION",
+      "collectible": false,
+      "set": "BATTLEGROUNDS",
+      "dbfId": 120709,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "token_clip",
+          "voiceKey": "VO_BG32_045_Male_Quilboar_Play_01",
+          "voiceSourceCardId": "BG32_045",
+          "evidence": {
+            "playPrefabGuid": "9b2db03360031d44f968cb6f1cd85393",
+            "prefabGuid": "9b2db03360031d44f968cb6f1cd85393",
+            "soundSpellGuid": "9b2db03360031d44f968cb6f1cd85393",
+            "audioClipName": "VO_BG32_045_Male_Quilboar_Play_01",
+            "prefabBundle": "initial_base_global-48ae08f3-prefab-18.unity3d",
+            "audioBundle": "playsound_base_zhcn-48ae08f3-audio-2.unity3d",
+            "mappingMethod": "token_clip"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "token_clip",
+          "voiceKey": "VO_BG32_045_Male_Quilboar_Attack_01",
+          "voiceSourceCardId": "BG32_045",
+          "evidence": {
+            "attackPrefabGuid": "e54f6e4d960ec424996886805b904436",
+            "prefabGuid": "e54f6e4d960ec424996886805b904436",
+            "soundSpellGuid": "e54f6e4d960ec424996886805b904436",
+            "audioClipName": "VO_BG32_045_Male_Quilboar_Attack_01",
+            "prefabBundle": "initial_base_global-48ae08f3-prefab-18.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-48ae08f3-audio-7.unity3d",
+            "mappingMethod": "token_clip"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "token_clip",
+          "voiceKey": "VO_BG32_045_Male_Quilboar_Death_01",
+          "voiceSourceCardId": "BG32_045",
+          "evidence": {
+            "deathPrefabGuid": "52c254baff343264683031d3ea359795",
+            "prefabGuid": "52c254baff343264683031d3ea359795",
+            "soundSpellGuid": "52c254baff343264683031d3ea359795",
+            "audioClipName": "VO_BG32_045_Male_Quilboar_Death_01",
+            "prefabBundle": "initial_base_global-48ae08f3-prefab-18.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-48ae08f3-audio-7.unity3d",
+            "mappingMethod": "token_clip"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "9b2db03360031d44f968cb6f1cd85393",
+        "attackPrefabGuid": "e54f6e4d960ec424996886805b904436",
+        "deathPrefabGuid": "52c254baff343264683031d3ea359795",
+        "cardDefFiles": [
+          "carddef_base_global-48ae08f3-prefab-44.unity3d"
+        ]
+      },
+      "sampleBucket": "token_clip"
+    },
+    {
+      "cardId": "BG35_701_G",
+      "name": "无耻的海盗",
+      "type": "MINION",
+      "collectible": false,
+      "set": "BATTLEGROUNDS",
+      "dbfId": 130704,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "token_clip",
+          "voiceKey": "VO_BG35_007_Female_Troll_Play_01",
+          "voiceSourceCardId": "BG35_007",
+          "evidence": {
+            "playPrefabGuid": "733d517f43d0f7d45b7b5fad53fff203",
+            "prefabGuid": "733d517f43d0f7d45b7b5fad53fff203",
+            "soundSpellGuid": "733d517f43d0f7d45b7b5fad53fff203",
+            "audioClipName": "VO_BG35_007_Female_Troll_Play_01",
+            "prefabBundle": "initial_base_global-48ae08f3-prefab-21.unity3d",
+            "audioBundle": "playsound_base_zhcn-48ae08f3-audio-2.unity3d",
+            "mappingMethod": "token_clip"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "token_clip",
+          "voiceKey": "VO_BG35_007_Female_Troll_Attack_01",
+          "voiceSourceCardId": "BG35_007",
+          "evidence": {
+            "attackPrefabGuid": "b9a8a747ec68cc64d97228be1bd3f850",
+            "prefabGuid": "b9a8a747ec68cc64d97228be1bd3f850",
+            "soundSpellGuid": "b9a8a747ec68cc64d97228be1bd3f850",
+            "audioClipName": "VO_BG35_007_Female_Troll_Attack_01",
+            "prefabBundle": "initial_base_global-48ae08f3-prefab-21.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-48ae08f3-audio-8.unity3d",
+            "mappingMethod": "token_clip"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "token_clip",
+          "voiceKey": "VO_BG35_007_Female_Troll_Death_01",
+          "voiceSourceCardId": "BG35_007",
+          "evidence": {
+            "deathPrefabGuid": "aec2d9ba1f73680469e6e29434139231",
+            "prefabGuid": "aec2d9ba1f73680469e6e29434139231",
+            "soundSpellGuid": "aec2d9ba1f73680469e6e29434139231",
+            "audioClipName": "VO_BG35_007_Female_Troll_Death_01",
+            "prefabBundle": "initial_base_global-48ae08f3-prefab-21.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-48ae08f3-audio-8.unity3d",
+            "mappingMethod": "token_clip"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "733d517f43d0f7d45b7b5fad53fff203",
+        "attackPrefabGuid": "b9a8a747ec68cc64d97228be1bd3f850",
+        "deathPrefabGuid": "aec2d9ba1f73680469e6e29434139231",
+        "cardDefFiles": [
+          "carddef_base_global-48ae08f3-prefab-54.unity3d"
+        ]
+      },
+      "sampleBucket": "token_clip"
+    },
+    {
+      "cardId": "BG34_Giant_314_G",
+      "name": "时空扭曲诗心龙",
+      "type": "MINION",
+      "collectible": false,
+      "set": "BATTLEGROUNDS",
+      "dbfId": 127442,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "token_clip",
+          "voiceKey": "VO_BG29_018_BronzeWhelp_BG_Play_01",
+          "voiceSourceCardId": "BG29_018",
+          "evidence": {
+            "playPrefabGuid": "f885d16f1e8306f4ca3436bfe2493018",
+            "prefabGuid": "f885d16f1e8306f4ca3436bfe2493018",
+            "soundSpellGuid": "f885d16f1e8306f4ca3436bfe2493018",
+            "audioClipName": "VO_BG29_018_BronzeWhelp_BG_Play_01",
+            "prefabBundle": "initial_base_global-48ae08f3-prefab-15.unity3d",
+            "audioBundle": "playsound_base_zhcn-48ae08f3-audio-1.unity3d",
+            "mappingMethod": "token_clip"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "token_clip",
+          "voiceKey": "VO_BG29_018_BronzeWhelp_BG_Attack_01",
+          "voiceSourceCardId": "BG29_018",
+          "evidence": {
+            "attackPrefabGuid": "3e6714bcb7620424abbf9086beb7aa98",
+            "prefabGuid": "3e6714bcb7620424abbf9086beb7aa98",
+            "soundSpellGuid": "3e6714bcb7620424abbf9086beb7aa98",
+            "audioClipName": "VO_BG29_018_BronzeWhelp_BG_Attack_01",
+            "prefabBundle": "initial_base_global-48ae08f3-prefab-15.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-48ae08f3-audio-6.unity3d",
+            "mappingMethod": "token_clip"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "token_clip",
+          "voiceKey": "VO_BG29_018_BronzeWhelp_BG_Death_01",
+          "voiceSourceCardId": "BG29_018",
+          "evidence": {
+            "deathPrefabGuid": "3ffefc9ab4024ac4d88e71720f0e2f4e",
+            "prefabGuid": "3ffefc9ab4024ac4d88e71720f0e2f4e",
+            "soundSpellGuid": "3ffefc9ab4024ac4d88e71720f0e2f4e",
+            "audioClipName": "VO_BG29_018_BronzeWhelp_BG_Death_01",
+            "prefabBundle": "initial_base_global-48ae08f3-prefab-15.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-48ae08f3-audio-6.unity3d",
+            "mappingMethod": "token_clip"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "f885d16f1e8306f4ca3436bfe2493018",
+        "attackPrefabGuid": "3e6714bcb7620424abbf9086beb7aa98",
+        "deathPrefabGuid": "3ffefc9ab4024ac4d88e71720f0e2f4e",
+        "cardDefFiles": [
+          "carddef_base_global-48ae08f3-prefab-50.unity3d"
+        ]
+      },
+      "sampleBucket": "token_clip"
+    },
+    {
+      "cardId": "CORE_UNG_084",
+      "name": "火羽凤凰",
+      "type": "MINION",
+      "collectible": true,
+      "set": "CORE",
+      "dbfId": 120523,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "named_sfx",
+          "voiceKey": "FireplumePhoenix_UNG084_Play",
+          "voiceSourceCardId": "CORE_UNG_084",
+          "evidence": {
+            "playPrefabGuid": "b5704bacdfbac4ffdbfcabdc75084e44",
+            "prefabGuid": "b5704bacdfbac4ffdbfcabdc75084e44",
+            "soundSpellGuid": "b5704bacdfbac4ffdbfcabdc75084e44",
+            "audioClipName": "FireplumePhoenix_UNG084_Play",
+            "prefabBundle": "initial_base_global-46708e9b-prefab-1.unity3d",
+            "audioBundle": "initial_base_global-384202c8-prefab-7.unity3d",
+            "mappingMethod": "named_sfx"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "named_sfx",
+          "voiceKey": "FireplumePhoenix_UNG084_Attack",
+          "voiceSourceCardId": "CORE_UNG_084",
+          "evidence": {
+            "attackPrefabGuid": "df21596feedb9455ca809dc5545d035a",
+            "prefabGuid": "df21596feedb9455ca809dc5545d035a",
+            "soundSpellGuid": "df21596feedb9455ca809dc5545d035a",
+            "audioClipName": "FireplumePhoenix_UNG084_Attack",
+            "prefabBundle": "initial_base_global-46708e9b-prefab-1.unity3d",
+            "audioBundle": "initial_base_global-46708e9b-prefab-1.unity3d",
+            "mappingMethod": "named_sfx"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "named_sfx",
+          "voiceKey": "FireplumePhoenix_UNG084_Death",
+          "voiceSourceCardId": "CORE_UNG_084",
+          "evidence": {
+            "deathPrefabGuid": "fab6d4261f53c4c60b0dcc2ebfc78ee9",
+            "prefabGuid": "fab6d4261f53c4c60b0dcc2ebfc78ee9",
+            "soundSpellGuid": "fab6d4261f53c4c60b0dcc2ebfc78ee9",
+            "audioClipName": "FireplumePhoenix_UNG084_Death",
+            "prefabBundle": "initial_base_global-46708e9b-prefab-1.unity3d",
+            "audioBundle": "initial_base_global-46708e9b-prefab-1.unity3d",
+            "mappingMethod": "named_sfx"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "b5704bacdfbac4ffdbfcabdc75084e44",
+        "attackPrefabGuid": "df21596feedb9455ca809dc5545d035a",
+        "deathPrefabGuid": "fab6d4261f53c4c60b0dcc2ebfc78ee9",
+        "cardDefFiles": [
+          "carddef_base_global-84b1a5c7-prefab-6.unity3d"
+        ]
+      },
+      "sampleBucket": "named_sfx"
+    },
+    {
+      "cardId": "Story_09_CouncilWarlock",
+      "name": "暗影议会术士",
+      "type": "MINION",
+      "collectible": false,
+      "set": "THE_BARRENS",
+      "dbfId": 74714,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "named_sfx",
+          "voiceKey": "VO_Story_Minion_SCWarlock_Female_Orc_Play_01",
+          "voiceSourceCardId": "Story_09_CouncilWarlock",
+          "evidence": {
+            "playPrefabGuid": "71173a796af03c348a1c330ad452dfce",
+            "prefabGuid": "71173a796af03c348a1c330ad452dfce",
+            "soundSpellGuid": "71173a796af03c348a1c330ad452dfce",
+            "audioClipName": "VO_Story_Minion_SCWarlock_Female_Orc_Play_01",
+            "prefabBundle": "initial_base_global-fd9efb99-prefab-7.unity3d",
+            "audioBundle": "playsound_base_zhcn-fd9efb99-audio-0.unity3d",
+            "mappingMethod": "named_sfx"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "named_sfx",
+          "voiceKey": "VO_Story_Minion_SCWarlock_Female_Orc_Attack_01",
+          "voiceSourceCardId": "Story_09_CouncilWarlock",
+          "evidence": {
+            "attackPrefabGuid": "32b216f682d5a82439e8af63523970bd",
+            "prefabGuid": "32b216f682d5a82439e8af63523970bd",
+            "soundSpellGuid": "32b216f682d5a82439e8af63523970bd",
+            "audioClipName": "VO_Story_Minion_SCWarlock_Female_Orc_Attack_01",
+            "prefabBundle": "initial_base_global-fd9efb99-prefab-7.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-fd9efb99-audio-1.unity3d",
+            "mappingMethod": "named_sfx"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "named_sfx",
+          "voiceKey": "VO_Story_Minion_SCWarlock_Female_Orc_Death_01",
+          "voiceSourceCardId": "Story_09_CouncilWarlock",
+          "evidence": {
+            "deathPrefabGuid": "323d5e379870b414b88efdc9f1a0c423",
+            "prefabGuid": "323d5e379870b414b88efdc9f1a0c423",
+            "soundSpellGuid": "323d5e379870b414b88efdc9f1a0c423",
+            "audioClipName": "VO_Story_Minion_SCWarlock_Female_Orc_Death_01",
+            "prefabBundle": "initial_base_global-fd9efb99-prefab-7.unity3d",
+            "audioBundle": "soundotherminion_base_zhcn-fd9efb99-audio-1.unity3d",
+            "mappingMethod": "named_sfx"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "71173a796af03c348a1c330ad452dfce",
+        "attackPrefabGuid": "32b216f682d5a82439e8af63523970bd",
+        "deathPrefabGuid": "323d5e379870b414b88efdc9f1a0c423",
+        "cardDefFiles": [
+          "carddef_base_global-fd9efb99-prefab-5.unity3d"
+        ]
+      },
+      "sampleBucket": "named_sfx"
+    },
+    {
+      "cardId": "LT23_025H_03",
+      "name": "恩佐斯",
+      "type": "MINION",
+      "collectible": false,
+      "set": "LETTUCE",
+      "dbfId": 87093,
+      "voice": {
+        "play": {
+          "status": "matched",
+          "mappingType": "named_sfx",
+          "voiceKey": "VO_Nzoth_Male_OldGod_LETL_Play_02",
+          "voiceSourceCardId": "LT23_025H_03",
+          "evidence": {
+            "playPrefabGuid": "14009a117807ea64797922013716fced",
+            "prefabGuid": "14009a117807ea64797922013716fced",
+            "soundSpellGuid": "14009a117807ea64797922013716fced",
+            "audioClipName": "VO_Nzoth_Male_OldGod_LETL_Play_02",
+            "prefabBundle": "initial_base_global-fc6d50fb-prefab-3.unity3d",
+            "audioBundle": "playsound_base_zhcn-fc6d50fb-audio-0.unity3d",
+            "mappingMethod": "named_sfx"
+          }
+        },
+        "attack": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "attackPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "named_sfx",
+          "voiceKey": "VO_Nzoth_Male_OldGod_LETL_Death_02",
+          "voiceSourceCardId": "LT23_025H_03",
+          "evidence": {
+            "deathPrefabGuid": "5154f2dffa0f882449c97f344b5960c6",
+            "prefabGuid": "5154f2dffa0f882449c97f344b5960c6",
+            "soundSpellGuid": "5154f2dffa0f882449c97f344b5960c6",
+            "audioClipName": "VO_Nzoth_Male_OldGod_LETL_Death_02",
+            "prefabBundle": "initial_base_global-fc6d50fb-prefab-3.unity3d",
+            "audioBundle": "soundmission_base_zhcn-4670aad5-audio-39.unity3d",
+            "mappingMethod": "named_sfx"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "14009a117807ea64797922013716fced",
+        "attackPrefabGuid": null,
+        "deathPrefabGuid": "5154f2dffa0f882449c97f344b5960c6",
+        "cardDefFiles": [
+          "carddef_base_global-fc6d50fb-prefab-32.unity3d"
+        ]
+      },
+      "sampleBucket": "named_sfx"
+    },
+    {
+      "cardId": "CORE_DMF_060",
+      "name": "幽影猫头鹰",
+      "type": "MINION",
+      "collectible": true,
+      "set": "CORE_HIDDEN",
+      "dbfId": 106324,
+      "voice": {
+        "play": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "playPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        },
+        "attack": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "attackPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        },
+        "death": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "deathPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": null,
+        "attackPrefabGuid": null,
+        "deathPrefabGuid": null,
+        "cardDefFiles": [
+          "carddef_base_global-84b1a5c7-prefab-0.unity3d"
+        ]
+      },
+      "sampleBucket": "no_voice"
+    },
+    {
+      "cardId": "TRL_307",
+      "name": "圣光闪现",
+      "type": "SPELL",
+      "collectible": true,
+      "set": "TROLL",
+      "dbfId": 50028,
+      "voice": {
+        "play": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "playPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        },
+        "attack": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "attackPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        },
+        "death": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "deathPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": null,
+        "attackPrefabGuid": null,
+        "deathPrefabGuid": null,
+        "cardDefFiles": [
+          "carddef_base_global-eba3a536-prefab-2.unity3d"
+        ]
+      },
+      "sampleBucket": "no_voice"
+    },
+    {
+      "cardId": "BOM_06_YoungTamsin_001hb",
+      "name": "塔姆辛·罗姆",
+      "type": "HERO",
+      "collectible": false,
+      "set": "STORMWIND",
+      "dbfId": 78435,
+      "voice": {
+        "play": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "playPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        },
+        "attack": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "attackPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        },
+        "death": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "deathPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": null,
+        "attackPrefabGuid": null,
+        "deathPrefabGuid": null,
+        "cardDefFiles": [
+          "carddef_base_global-40cb6b8d-prefab-0.unity3d"
+        ]
+      },
+      "sampleBucket": "no_voice"
+    },
+    {
+      "cardId": "RLK_Prologue_RLK_711e",
+      "name": "血虫馈赠",
+      "type": "ENCHANTMENT",
+      "collectible": false,
+      "set": "PATH_OF_ARTHAS",
+      "dbfId": 100695,
+      "voice": {
+        "play": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "playPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        },
+        "attack": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "attackPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        },
+        "death": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "deathPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": null,
+        "attackPrefabGuid": null,
+        "deathPrefabGuid": null,
+        "cardDefFiles": [
+          "carddef_base_global-6aa9ba6a-prefab-0.unity3d"
+        ]
+      },
+      "sampleBucket": "no_voice"
+    },
+    {
+      "cardId": "LETL_258e2",
+      "name": "邪能命令",
+      "type": "ENCHANTMENT",
+      "collectible": false,
+      "set": "LETTUCE",
+      "dbfId": 75475,
+      "voice": {
+        "play": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "playPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        },
+        "attack": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "attackPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        },
+        "death": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "deathPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": null,
+        "attackPrefabGuid": null,
+        "deathPrefabGuid": null,
+        "cardDefFiles": [
+          "carddef_base_global-fc6d50fb-prefab-9.unity3d"
+        ]
+      },
+      "sampleBucket": "no_voice"
+    },
+    {
+      "cardId": "DRGA_BOSS_21t",
+      "name": "苟拉斯之眼",
+      "type": "MINION",
+      "collectible": false,
+      "set": "YEAR_OF_THE_DRAGON",
+      "dbfId": 58312,
+      "voice": {
+        "play": {
+          "status": "unresolved",
+          "mappingType": "unresolved",
+          "reason": "soundspell_preload_has_no_vo",
+          "evidence": {
+            "playPrefabGuid": "dc087328668d1f44fb4e313a2db73c40",
+            "prefabGuid": "dc087328668d1f44fb4e313a2db73c40",
+            "soundSpellGuid": "dc087328668d1f44fb4e313a2db73c40",
+            "audioClipName": null,
+            "prefabBundle": "initial_base_global-a9057597-prefab-1.unity3d",
+            "audioBundle": null,
+            "mappingMethod": "unresolved"
+          }
+        },
+        "attack": {
+          "status": "matched",
+          "mappingType": "named_sfx",
+          "voiceKey": "rath_Attack",
+          "voiceSourceCardId": "DRGA_BOSS_21t",
+          "evidence": {
+            "attackPrefabGuid": "c6d6885a1ccf6f74598b132edaf1b476",
+            "prefabGuid": "c6d6885a1ccf6f74598b132edaf1b476",
+            "soundSpellGuid": "c6d6885a1ccf6f74598b132edaf1b476",
+            "audioClipName": "rath_Attack",
+            "prefabBundle": "initial_base_global-a9057597-prefab-1.unity3d",
+            "audioBundle": "initial_base_global-a9057597-prefab-1.unity3d",
+            "mappingMethod": "named_sfx"
+          }
+        },
+        "death": {
+          "status": "matched",
+          "mappingType": "named_sfx",
+          "voiceKey": "rath_Death",
+          "voiceSourceCardId": "DRGA_BOSS_21t",
+          "evidence": {
+            "deathPrefabGuid": "e95f59073d2edf24fbc3812a08400f42",
+            "prefabGuid": "e95f59073d2edf24fbc3812a08400f42",
+            "soundSpellGuid": "e95f59073d2edf24fbc3812a08400f42",
+            "audioClipName": "rath_Death",
+            "prefabBundle": "initial_base_global-a9057597-prefab-1.unity3d",
+            "audioBundle": "initial_base_global-a9057597-prefab-1.unity3d",
+            "mappingMethod": "named_sfx"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": "dc087328668d1f44fb4e313a2db73c40",
+        "attackPrefabGuid": "c6d6885a1ccf6f74598b132edaf1b476",
+        "deathPrefabGuid": "e95f59073d2edf24fbc3812a08400f42",
+        "cardDefFiles": [
+          "carddef_base_global-a9057597-prefab-0.unity3d"
+        ]
+      },
+      "sampleBucket": "unresolved"
+    },
+    {
+      "cardId": "BOM_06_Cariel_004hp",
+      "name": "凯瑞尔",
+      "type": "HERO",
+      "collectible": false,
+      "set": "STORMWIND",
+      "dbfId": 78430,
+      "voice": {
+        "play": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "playPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        },
+        "attack": {
+          "status": "unresolved",
+          "mappingType": "unresolved",
+          "reason": "guid_not_resolved_to_clip",
+          "evidence": {
+            "attackPrefabGuid": "ba4d6bfd941b17444b7b9383793b4d85",
+            "prefabGuid": "ba4d6bfd941b17444b7b9383793b4d85",
+            "soundSpellGuid": "ba4d6bfd941b17444b7b9383793b4d85",
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "unresolved"
+          }
+        },
+        "death": {
+          "status": "no_voice",
+          "mappingType": "no_voice",
+          "evidence": {
+            "deathPrefabGuid": null,
+            "prefabGuid": null,
+            "soundSpellGuid": null,
+            "audioClipName": null,
+            "prefabBundle": null,
+            "audioBundle": null,
+            "mappingMethod": "no_voice"
+          }
+        }
+      },
+      "hasCardDef": true,
+      "evidence": {
+        "playPrefabGuid": null,
+        "attackPrefabGuid": "ba4d6bfd941b17444b7b9383793b4d85",
+        "deathPrefabGuid": null,
+        "cardDefFiles": [
+          "carddef_base_global-40cb6b8d-prefab-0.unity3d"
+        ]
+      },
+      "sampleBucket": "unresolved"
+    }
+  ],
+  "chainVerification": {
+    "method": "CardDef GUID -> guid-voice-index preload VoiceKey -> audio-index clip lookup",
+    "result": "30/30 pass",
+    "checkedAt": "2026-08-28T11:02:40.313Z",
+    "notes": [
+      "matched slots: CardDef prefab GUID present, GUID in prefab container, VoiceKey in SoundSpell preload and audio-index",
+      "no_voice slots: CardDef has no Play/Attack/Death prefab GUID",
+      "unresolved: GUID present; either missing from container or preload has no VO (not auto-fixed)"
+    ]
+  }
+}

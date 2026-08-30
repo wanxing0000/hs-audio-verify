@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/latest/latest",
+    "pages/index/index",
+    "pages/card/card",
+    "pages/audio-test/audio-test",
+    "pages/more/more"
+  ],
+  "window": {
+    "navigationBarTitleText": "卡牌语音图鉴",
+    "navigationBarBackgroundColor": "#141824",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#141824",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#8b93a7",
+    "selectedColor": "#d7b56d",
+    "backgroundColor": "#141824",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/latest/latest",
+        "text": "最新卡牌",
+        "iconPath": "assets/tabbar/latest.png",
+        "selectedIconPath": "assets/tabbar/latest-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "牌库",
+        "iconPath": "assets/tabbar/library.png",
+        "selectedIconPath": "assets/tabbar/library-active.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "更多",
+        "iconPath": "assets/tabbar/more.png",
+        "selectedIconPath": "assets/tabbar/more-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

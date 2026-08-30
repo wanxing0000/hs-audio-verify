@@ -1,0 +1,80 @@
+<view class="page">
+  <view wx:if="{{card}}">
+    <image class="art {{card.rarity === 'LEGENDARY' ? 'legendary' : ''}}" src="{{card.imageUrl}}" mode="widthFix" binderror="onImgErr" />
+
+    <view class="head">
+      <view class="name">{{card.name}}</view>
+      <view class="meta">{{card.rarityLabel}} · {{card.classLabel}}</view>
+      <view wx:if="{{card.voice.play.shared || card.music.shared}}" class="hint">该卡与原版卡牌共用语音</view>
+    </view>
+
+    <view wx:if="{{card.text}}" class="text">{{card.text}}</view>
+    <view wx:if="{{card.flavor}}" class="flavor">{{card.flavor}}</view>
+
+    <view wx:if="{{card.audio.special}}" class="special">{{card.audio.message}}</view>
+
+    <view wx:if="{{card.entrancePreview.available}}" class="entrance-wrap">
+      <view class="entrance-kicker">音乐 + 登场语音</view>
+      <button class="entrance" hover-class="entrance-hover" bindtap="onEntrance">{{entranceText}}</button>
+    </view>
+
+    <view class="tracks">
+      <audio-button
+        cardId="{{card.id}}"
+        name="{{card.name}}"
+        track="play"
+        label="登场语音"
+        available="{{card.voice.play.available}}"
+        note="{{card.voice.play.note}}"
+        emptyLabel="{{card.voice.play.emptyLabel}}"
+        disabled="{{card.voice.play.disabled}}"
+      />
+      <audio-button
+        cardId="{{card.id}}"
+        name="{{card.name}}"
+        track="attack"
+        label="攻击语音"
+        available="{{card.voice.attack.available}}"
+        note="{{card.voice.attack.note}}"
+        emptyLabel="{{card.voice.attack.emptyLabel}}"
+        disabled="{{card.voice.attack.disabled}}"
+      />
+      <audio-button
+        cardId="{{card.id}}"
+        name="{{card.name}}"
+        track="death"
+        label="死亡语音"
+        available="{{card.voice.death.available}}"
+        note="{{card.voice.death.note}}"
+        emptyLabel="{{card.voice.death.emptyLabel}}"
+        disabled="{{card.voice.death.disabled}}"
+      />
+      <audio-button
+        cardId="{{card.id}}"
+        name="{{card.name}}"
+        track="music"
+        label="{{card.music.shared ? '🎵 使用原卡登场音乐' : '🎵 登场音乐'}}"
+        available="{{card.music.available}}"
+        note="{{card.music.note}}"
+        emptyLabel="{{card.music.emptyLabel}}"
+        disabled="{{card.music.disabled}}"
+      />
+    </view>
+  </view>
+
+  <view wx:elif="{{status === 'error'}}" class="empty">
+    <view class="fail-title">加载失败</view>
+    <view>{{error}}</view>
+    <button class="retry" bindtap="onRetry">重新加载</button>
+  </view>
+  <view wx:else class="empty">正在加载...</view>
+
+  <view wx:if="{{showAudioDebug}}" class="audio-debug">
+    <view>state={{dbgStatus}} session={{dbgSession}}</view>
+    <view>type={{dbgType}} card={{dbgCardId}}</view>
+    <view class="audio-debug-src">{{dbgSrc}}</view>
+    <view wx:for="{{dbgEvents}}" wx:key="id" class="audio-debug-line">{{item.text}}</view>
+  </view>
+
+  <mini-player />
+</view>

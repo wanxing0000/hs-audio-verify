@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "mini-player": "../../components/mini-player/mini-player"
+  },
+  "navigationBarTitleText": "更多",
+  "backgroundColor": "#141824"
+}

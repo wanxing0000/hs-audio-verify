@@ -1,0 +1,6 @@
+<view class="wrap">
+  <view wx:if="{{visible}}" class="bar {{liftForTabBar ? 'bar-tab' : ''}}" bindtap="onToggle">
+    <view class="title">{{icon}} {{title}}</view>
+    <view class="act">{{action}}</view>
+  </view>
+</view>

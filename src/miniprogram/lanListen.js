@@ -1,0 +1,248 @@
+const fs = require('fs');
+const os = require('os');
+const http = require('http');
+const path = require('path');
+
+const DEFAULT_HOST = '0.0.0.0';
+const DEFAULT_PORT = 8767;
+const DEFAULT_LOCAL_URL = 'http://127.0.0.1:' + DEFAULT_PORT;
+
+const VIRTUAL_IFACE = /virtual|vmware|vbox|virtualbox|hyper-v|vethernet|vpn|tun\b|tap\b|docker|wsl|loopback|bluetooth|pseudo|isatap|teredo|npcap|openvpn|wireguard|tailscale|zerotier/i;
+
+function trimSlash(url) {
+  return String(url || '').replace(/\/+$/, '');
+}
+
+function resolveMiniListen(env) {
+  env = env || process.env;
+  const rawHost = env.MINI_HOST;
+  const host = rawHost == null || String(rawHost).trim() === ''
+    ? DEFAULT_HOST
+    : String(rawHost).trim();
+  const rawPort = env.MINI_PORT;
+  const parsed = Number(rawPort == null || String(rawPort).trim() === '' ? DEFAULT_PORT : rawPort);
+  const port = Number.isFinite(parsed) && parsed > 0 ? parsed : DEFAULT_PORT;
+  return { host, port };
+}
+
+function isLoopback(ip) {
+  return ip === '127.0.0.1' || ip === '::1' || String(ip).startsWith('127.');
+}
+
+function isLinkLocal(ip) {
+  return String(ip).startsWith('169.254.');
+}
+
+function isRfc1918(ip) {
+  const p = String(ip).split('.').map(Number);
+  if (p.length !== 4 || p.some((n) => !Number.isFinite(n))) return false;
+  if (p[0] === 10) return true;
+  if (p[0] === 192 && p[1] === 168) return true;
+  if (p[0] === 172 && p[1] >= 16 && p[1] <= 31) return true;
+  return false;
+}
+
+function lanRank(ip) {
+  const p = String(ip).split('.').map(Number);
+  if (p[0] === 192 && p[1] === 168) return 0;
+  if (p[0] === 10) return 1;
+  if (p[0] === 172 && p[1] >= 16 && p[1] <= 31) return 2;
+  return 9;
+}
+
+function ipv4Family(addr) {
+  return addr && (addr.family === 'IPv4' || addr.family === 4);
+}
+
+function collectIpv4(nics) {
+  nics = nics || os.networkInterfaces();
+  const out = [];
+  Object.keys(nics || {}).forEach((name) => {
+    (nics[name] || []).forEach((addr) => {
+      if (!ipv4Family(addr) || !addr.address) return;
+      if (addr.internal) return;
+      if (isLoopback(addr.address) || isLinkLocal(addr.address)) return;
+      out.push({
+        ip: addr.address,
+        name: name,
+        virtual: VIRTUAL_IFACE.test(name || ''),
+        rfc1918: isRfc1918(addr.address),
+      });
+    });
+  });
+  out.sort((a, b) => lanRank(a.ip) - lanRank(b.ip) || String(a.ip).localeCompare(String(b.ip)));
+  return out;
+}
+
+function listLanIpv4(nics) {
+  const all = collectIpv4(nics);
+  const preferred = all.filter((row) => row.rfc1918 && !row.virtual);
+  const fallbackRfc = all.filter((row) => row.rfc1918);
+  const shown = preferred.length ? preferred : (fallbackRfc.length ? fallbackRfc : all);
+  return {
+    all: all.map((row) => row.ip),
+    preferred: shown.map((row) => row.ip),
+    details: shown,
+  };
+}
+
+function localUrl(port) {
+  return 'http://127.0.0.1:' + port;
+}
+
+function lanUrl(ip, port) {
+  return 'http://' + ip + ':' + port;
+}
+
+function preferredLanUrl(port, nics, env) {
+  env = env || process.env;
+  const override = env && env.MINI_API_BASE;
+  if (override && String(override).trim()) return trimSlash(override);
+  const lan = listLanIpv4(nics);
+  if (!lan.preferred.length) return null;
+  return lanUrl(lan.preferred[0], port);
+}
+
+function healthPayload(host, port) {
+  return {
+    ok: true,
+    service: 'mini-api',
+    host: host,
+    port: Number(port),
+  };
+}
+
+function formatMiniBanner(opts) {
+  opts = opts || {};
+  const port = opts.port;
+  const host = opts.host;
+  const lan = opts.lan || listLanIpv4();
+  const local = localUrl(port);
+  const lanUrls = (lan.preferred || []).map((ip) => lanUrl(ip, port));
+  const primaryLan = opts.primaryLan || lanUrls[0] || null;
+  const health = (primaryLan || local) + '/api/mini/health';
+  const lines = [
+    '========================================',
+    'Hearthstone Mini API',
+    '========================================',
+    '',
+    'Server listening on ' + host + ':' + port,
+    '',
+    'Local:',
+    '  ' + local,
+    '',
+  ];
+  if (lanUrls.length === 1) {
+    lines.push('LAN:');
+    lines.push('  ' + lanUrls[0]);
+  } else if (lanUrls.length > 1) {
+    lines.push('LAN addresses:');
+    lanUrls.forEach((u) => lines.push('  ' + u));
+  } else {
+    lines.push('LAN:');
+    lines.push('  (no IPv4 LAN address detected)');
+  }
+  lines.push('');
+  lines.push('Health:');
+  lines.push('  ' + health);
+  lines.push('');
+  lines.push('微信开发者工具：');
+  lines.push('  使用 Local');
+  lines.push('');
+  lines.push('手机预览：');
+  lines.push('  使用 LAN');
+  lines.push('');
+  lines.push('开发阶段局域网方案，不是正式上线方案。');
+  lines.push('请关闭域名校验。未修改 C:\\Hearthstone，未批量导出音频。');
+  lines.push('========================================');
+  return lines.join('\n');
+}
+
+function printMiniBanner(opts) {
+  console.log(formatMiniBanner(opts));
+}
+
+function writeLanApiBaseFile(filePath, apiBase) {
+  const url = apiBase ? trimSlash(apiBase) : null;
+  const body = [
+    '\'use strict\';',
+    '// Generated by npm run mini. Do not edit config.js with a machine IP.',
+    'module.exports = {',
+    '  apiBase: ' + JSON.stringify(url) + ',',
+    '};',
+    '',
+  ].join('\n');
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(filePath, body, 'utf8');
+  return url;
+}
+
+function writeLastLanUrl(filePath, url) {
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(filePath, url ? String(url) + '\n' : '', 'utf8');
+}
+
+function requestStatus(url) {
+  return new Promise((resolve) => {
+    const req = http.get(url, { timeout: 2500 }, (res) => {
+      res.resume();
+      resolve({ ok: true, status: res.statusCode });
+    });
+    req.on('timeout', () => {
+      req.destroy();
+      resolve({ ok: false, status: 0, error: 'timeout' });
+    });
+    req.on('error', (err) => {
+      resolve({ ok: false, status: 0, error: err && err.message });
+    });
+  });
+}
+
+async function probeThisPcHealth(port, lanIp) {
+  const local = await requestStatus(localUrl(port) + '/api/mini/health');
+  let lan = null;
+  if (lanIp) lan = await requestStatus(lanUrl(lanIp, port) + '/api/mini/health');
+  return { local, lan };
+}
+
+function formatFirewallHints(port, lanIp, probe) {
+  const lines = [
+    '',
+    '本机探测（不是手机验证）：',
+    '  Local health: ' + (probe.local && probe.local.ok ? 'HTTP ' + probe.local.status : 'FAILED'),
+  ];
+  if (lanIp) {
+    lines.push('  LAN bind health: ' + (probe.lan && probe.lan.ok ? 'HTTP ' + probe.lan.status : 'FAILED'));
+    lines.push('  本机访问 LAN IP 成功 ≠ 手机一定能连（防火墙 / AP 隔离仍可能拦截）。');
+    lines.push('');
+    lines.push('PowerShell 检查（本机）：');
+    lines.push('  Test-NetConnection -ComputerName ' + lanIp + ' -Port ' + port);
+  } else {
+    lines.push('  LAN bind health: skipped (no LAN IPv4)');
+  }
+  lines.push('');
+  lines.push('不要自动修改 Windows 防火墙。若确认入站被拦，需管理员手动放行 TCP ' + port + '。');
+  return lines.join('\n');
+}
+
+module.exports = {
+  DEFAULT_HOST,
+  DEFAULT_PORT,
+  DEFAULT_LOCAL_URL,
+  resolveMiniListen,
+  listLanIpv4,
+  collectIpv4,
+  isRfc1918,
+  localUrl,
+  lanUrl,
+  preferredLanUrl,
+  healthPayload,
+  formatMiniBanner,
+  printMiniBanner,
+  writeLanApiBaseFile,
+  writeLastLanUrl,
+  requestStatus,
+  probeThisPcHealth,
+  formatFirewallHints,
+  trimSlash,
+};

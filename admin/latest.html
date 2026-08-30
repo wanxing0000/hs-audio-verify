@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>最新卡牌 · 炉石语音图鉴 Admin</title>
+  <link rel="stylesheet" href="/admin/admin.css" />
+</head>
+<body class="app-body">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-mark">HS</span>
+      <div>
+        <strong>语音图鉴</strong>
+        <small>Admin</small>
+      </div>
+    </div>
+    <nav>
+      <a class="nav-item" href="/admin/">Dashboard</a>
+      <a class="nav-item active" href="/admin/latest">最新卡牌</a>
+      <a class="nav-item" href="/admin/data">数据更新</a>
+      <a class="nav-item" href="/admin/feedback">用户反馈</a>
+      <span class="nav-item disabled">设置 <em>即将开放</em></span>
+      <span class="nav-item disabled">系统状态 <em>即将开放</em></span>
+    </nav>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <div class="page-head">
+        <h1>最新卡牌</h1>
+        <p>管理当前显示的最新扩展包。</p>
+      </div>
+      <div class="top-actions">
+        <span id="who">加载中…</span>
+        <button type="button" id="logout">退出</button>
+      </div>
+    </header>
+    <section class="notice" id="notice" hidden></section>
+    <section class="panel" id="current-panel">
+      <h2>当前 Latest Card</h2>
+      <p class="empty" id="current-empty" hidden>尚未设置最新扩展包</p>
+      <div class="kv" id="current-kv" hidden></div>
+    </section>
+    <section class="panel">
+      <div class="toolbar">
+        <h2>历史扩展包</h2>
+        <button type="button" class="btn" id="add-btn">添加扩展包</button>
+      </div>
+      <div class="table-wrap">
+        <table class="data">
+          <thead>
+            <tr>
+              <th>扩展包</th>
+              <th>Set Code</th>
+              <th>发布日期</th>
+              <th>卡牌数</th>
+              <th>状态</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="panel" id="editor" hidden>
+      <h2 id="editor-title">添加扩展包</h2>
+      <form class="form-grid" id="editor-form">
+        <label>扩展包代码 Set Code
+          <input id="f-set-code" name="set_code" type="text" required />
+        </label>
+        <label>英文名称
+          <input id="f-name-en" name="name_en" type="text" required />
+        </label>
+        <label>中文名称
+          <input id="f-name-zh" name="name_zh" type="text" required />
+        </label>
+        <label>发布日期
+          <input id="f-release" name="release_date" type="date" />
+        </label>
+        <label>来源
+          <input id="f-source" name="source" type="text" />
+        </label>
+        <label>来源链接
+          <input id="f-source-url" name="source_url" type="url" />
+        </label>
+        <label class="check"><input id="f-verified" name="verified" type="checkbox" /> 已验证</label>
+        <div class="actions">
+          <button type="submit" class="btn" id="save-btn">保存</button>
+          <button type="button" class="btn ghost" id="cancel-btn">取消</button>
+        </div>
+      </form>
+    </section>
+  </div>
+  <div class="modal-backdrop" id="publish-modal" hidden>
+    <div class="modal">
+      <h3>确认发布</h3>
+      <p id="publish-copy"></p>
+      <div class="modal-actions">
+        <button type="button" class="btn ghost" id="publish-cancel">取消</button>
+        <button type="button" class="btn" id="publish-ok">确认发布</button>
+      </div>
+    </div>
+  </div>
+  <div class="toast" id="toast" hidden></div>
+  <script src="/admin/vendor/supabase.js"></script>
+  <script src="/admin/config.js"></script>
+  <script src="/admin/auth.js"></script>
+  <script src="/admin/latest.js"></script>
+</body>
+</html>

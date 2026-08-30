@@ -1,0 +1,36 @@
+<view class="page">
+  <view class="h">Audio Diagnostic 1.3.8</view>
+  <view class="meta">Card: {{cardId}}</view>
+  <view class="meta">Name: {{cardName}}</view>
+  <view class="meta">API: {{apiBase}}</view>
+  <view class="meta">Environment: {{env.environment}}</view>
+  <view class="meta">platform {{env.platform}}　system {{env.system}}</view>
+  <view class="meta">version {{env.version}}　SDKVersion {{env.SDKVersion}}</view>
+  <view class="meta">model {{env.model}}　networkType {{env.networkType}}</view>
+  <view class="hint">{{listenHint}}</view>
+  <view class="url">Voice {{endpoints.voice}}</view>
+  <view class="url">Entrance {{endpoints.entrance}}</view>
+  <view class="url">Tone {{endpoints.tone}}</view>
+  <view class="meta">session {{sessionId}}　busy {{busy}}　verdict {{lastVerdict}}</view>
+
+  <view class="h2">1.3.8 实验（每次只点一个）</view>
+  <button bindtap="onTestA">A HTTP Voice</button>
+  <button bindtap="onTestB">B HTTP Entrance</button>
+  <button bindtap="onTestC">C Download → Voice</button>
+  <button bindtap="onTestD">D Download → Entrance</button>
+  <button bindtap="onTestE">E 检查本地文件</button>
+  <button bindtap="onTestF1">F1 HTTP 基准 WAV</button>
+  <button bindtap="onTestF2">F2 Download → 基准 WAV</button>
+  <button bindtap="onStop">停止当前测试</button>
+
+  <view class="h2">网络 / 日志</view>
+  <button bindtap="onCheckApi">检查 API</button>
+  <button bindtap="onClearLogs">清空日志</button>
+  <button bindtap="onCleanupTemp">清理测试临时文件</button>
+  <button bindtap="onCopy">复制诊断日志</button>
+  <view wx:for="{{httpChecks}}" wx:key="time" class="http">
+    {{item.name}} {{item.status}} {{item.contentType}} len={{item.contentLength}}
+  </view>
+  <view class="note">lastTempPath {{lastTempPath}}</view>
+  <view wx:for="{{logs}}" wx:key="time" class="log">{{item.time}} {{item.event}} {{item.sessionId}} {{item.src}} t={{item.currentTime}} d={{item.duration}} {{item.errMsg}}</view>
+</view>

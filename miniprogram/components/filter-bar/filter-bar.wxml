@@ -1,0 +1,21 @@
+<view class="bar">
+  <scroll-view class="row" scroll-x="true">
+    <view
+      wx:for="{{classes}}"
+      wx:key="id"
+      class="chip {{classValue === item.id ? 'on' : ''}}"
+      data-id="{{item.id}}"
+      bindtap="onClass"
+    >{{item.label}}</view>
+  </scroll-view>
+  <scroll-view class="row" scroll-x="true">
+    <view
+      wx:for="{{rarities}}"
+      wx:key="id"
+      class="chip {{rarityValue === item.id ? 'on' : ''}}"
+      data-id="{{item.id}}"
+      bindtap="onRarity"
+    >{{item.label}}</view>
+    <view class="chip special {{legendaryMusic ? 'on' : ''}}" bindtap="onLegendaryMusic">传说登场音乐</view>
+  </scroll-view>
+</view>

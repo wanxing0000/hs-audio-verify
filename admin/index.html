@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard · 炉石语音图鉴 Admin</title>
+  <link rel="stylesheet" href="/admin/admin.css" />
+</head>
+<body class="app-body">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-mark">HS</span>
+      <div>
+        <strong>语音图鉴</strong>
+        <small>Admin</small>
+      </div>
+    </div>
+    <nav>
+      <a class="nav-item active" href="/admin/">Dashboard</a>
+      <a class="nav-item" href="/admin/latest">最新卡牌</a>
+      <a class="nav-item" href="/admin/data">数据更新</a>
+      <a class="nav-item" href="/admin/feedback">用户反馈</a>
+      <span class="nav-item disabled">设置 <em>即将开放</em></span>
+      <span class="nav-item disabled">系统状态 <em>即将开放</em></span>
+    </nav>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1>Dashboard</h1>
+      <div class="top-actions">
+        <span id="who">加载中…</span>
+        <button type="button" id="logout">退出</button>
+      </div>
+    </header>
+    <section class="notice" id="notice" hidden></section>
+    <section class="cards" id="cards">
+      <article class="card"><h2>Mini API</h2><p class="value" id="mini-status">…</p></article>
+      <article class="card"><h2>Admin Auth</h2><p class="value" id="auth-status">…</p></article>
+      <article class="card"><h2>Supabase</h2><p class="value" id="sb-status">…</p></article>
+      <article class="card"><h2>当前管理员</h2><p class="value" id="admin-email">…</p></article>
+      <article class="card"><h2>Catalog</h2><p class="value" id="catalog-count">…</p></article>
+      <article class="card"><h2>Latest Set</h2><p class="value" id="latest-set">…</p><p class="meta" id="latest-count"></p></article>
+      <article class="card"><h2>待处理反馈</h2><p class="value" id="open-feedback">…</p></article>
+    </section>
+  </div>
+  <script src="/admin/vendor/supabase.js"></script>
+  <script src="/admin/config.js"></script>
+  <script src="/admin/auth.js"></script>
+  <script src="/admin/admin.js"></script>
+</body>
+</html>

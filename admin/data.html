@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>数据更新 · 炉石语音图鉴 Admin</title>
+  <link rel="stylesheet" href="/admin/admin.css" />
+</head>
+<body class="app-body">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-mark">HS</span>
+      <div>
+        <strong>语音图鉴</strong>
+        <small>Admin</small>
+      </div>
+    </div>
+    <nav>
+      <a class="nav-item" href="/admin/">Dashboard</a>
+      <a class="nav-item" href="/admin/latest">最新卡牌</a>
+      <a class="nav-item active" href="/admin/data">数据更新</a>
+      <a class="nav-item" href="/admin/feedback">用户反馈</a>
+      <span class="nav-item disabled">设置 <em>即将开放</em></span>
+      <span class="nav-item disabled">系统状态 <em>即将开放</em></span>
+    </nav>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <div class="page-head">
+        <h1>数据更新</h1>
+        <p>管理 HSJSON 快照更新。更新会重建语音/音频索引并验证 Catalog，不会修改 Latest Set。</p>
+      </div>
+      <div class="top-actions">
+        <span id="who">加载中…</span>
+        <button type="button" id="logout">退出</button>
+      </div>
+    </header>
+    <section class="notice" id="notice" hidden></section>
+    <section class="panel">
+      <div class="toolbar">
+        <h2>当前 Snapshot</h2>
+        <div class="toolbar-actions">
+          <button type="button" class="btn ghost" id="check-btn">检查 HSJSON 更新</button>
+          <button type="button" class="btn" id="update-btn" disabled>更新 HSJSON</button>
+        </div>
+      </div>
+      <p class="empty" id="snapshot-empty" hidden>尚未读取本地快照</p>
+      <div class="kv" id="snapshot-kv"></div>
+    </section>
+    <section class="panel">
+      <h2>Remote Status</h2>
+      <p class="value" id="remote-status">未检查</p>
+      <p class="meta" id="remote-meta"></p>
+      <p class="meta" id="pipeline-step"></p>
+    </section>
+    <section class="panel">
+      <h2>Data Versions</h2>
+      <div class="table-wrap">
+        <table class="data">
+          <thead>
+            <tr>
+              <th>version</th>
+              <th>status</th>
+              <th>build</th>
+              <th>counts</th>
+              <th>createdAt</th>
+            </tr>
+          </thead>
+          <tbody id="version-rows"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="panel">
+      <h2>Update Jobs</h2>
+      <div class="table-wrap">
+        <table class="data">
+          <thead>
+            <tr>
+              <th>type</th>
+              <th>status</th>
+              <th>startedAt</th>
+              <th>finishedAt</th>
+              <th>error</th>
+            </tr>
+          </thead>
+          <tbody id="job-rows"></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+  <div class="toast" id="toast" hidden></div>
+  <script src="/admin/vendor/supabase.js"></script>
+  <script src="/admin/config.js"></script>
+  <script src="/admin/auth.js"></script>
+  <script src="/admin/data.js"></script>
+</body>
+</html>

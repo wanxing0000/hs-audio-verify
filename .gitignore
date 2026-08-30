@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+node_modules/
+tmp/
+data/production-audio/
+data/.production-audio-staging/
+data/.production-audio-backup/

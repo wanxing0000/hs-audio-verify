@@ -1,0 +1,110 @@
+.page {
+  min-height: 100vh;
+  padding: 16px 14px 156px;
+  background: linear-gradient(180deg, #1a2133 0%, #141824 42%, #12141c 100%);
+  color: #f3efe6;
+}
+.hero { margin-bottom: 20px; }
+.kicker {
+  color: rgba(215, 181, 109, 0.72);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.title {
+  margin-top: 4px;
+  color: #f4ead4;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+}
+.sub {
+  margin-top: 6px;
+  color: #9aa3b5;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.list {
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(18, 22, 34, 0.72);
+  border: 1px solid #3a4258;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 52px;
+  padding: 0 16px;
+  border-bottom: 1px solid #2c3346;
+}
+.row:last-child { border-bottom: none; }
+.row-title {
+  color: #c5cad6;
+  font-size: 15px;
+}
+.row-hint {
+  color: #7d8699;
+  font-size: 12px;
+}
+.form {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  background: rgba(18, 22, 34, 0.72);
+  border: 1px solid #3a4258;
+}
+.form-title {
+  color: #f4ead4;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.label {
+  margin-top: 10px;
+  color: #9aa3b5;
+  font-size: 12px;
+}
+.picker {
+  margin-top: 6px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #1a2133;
+  border: 1px solid #3a4258;
+  color: #f3efe6;
+}
+.textarea {
+  margin-top: 6px;
+  width: 100%;
+  min-height: 140px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #1a2133;
+  border: 1px solid #3a4258;
+  color: #f3efe6;
+  box-sizing: border-box;
+}
+.count {
+  margin-top: 6px;
+  color: #7d8699;
+  font-size: 12px;
+  text-align: right;
+}
+.submit {
+  margin-top: 14px;
+  background: #3d8bfd;
+  color: #fff;
+  font-size: 15px;
+}
+.submit[disabled] { opacity: 0.65; }
+.ok {
+  margin-top: 10px;
+  color: #7fd99a;
+  font-size: 13px;
+}
+.err {
+  margin-top: 10px;
+  color: #f07178;
+  font-size: 13px;
+}
+.pad { height: 8px; }

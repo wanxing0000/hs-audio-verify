@@ -1,0 +1,1861 @@
+{
+  "schemaVersion": "1.3.6-resolver-cache",
+  "note": "Diagnostic/runtime resolution cache. Not an index. Safe to delete.",
+  "clips": {
+    "VO_EX1_414_Play_01": {
+      "bundleName": "essential_base_zhcn-content-0.unity3d",
+      "reason": "indexed_content_bundle",
+      "offset": 7506176,
+      "size": 25472,
+      "updatedAt": "2026-08-29T04:15:41.051Z"
+    },
+    "Pegasus_Stinger_Horde1": {
+      "bundleName": "essential_base_global-audio-0.unity3d",
+      "reason": "sibling_audio_bundle",
+      "offset": 8378688,
+      "size": 160640,
+      "updatedAt": "2026-08-29T04:15:41.159Z"
+    },
+    "SFX_EX1_543_EnterPlay": {
+      "bundleName": "essential_base_global-audio-0.unity3d",
+      "reason": "sibling_audio_bundle",
+      "offset": 5410496,
+      "size": 19552,
+      "updatedAt": "2026-08-29T04:15:41.285Z"
+    },
+    "Pegasus_Stinger_Beast_Villain": {
+      "bundleName": "essential_base_global-audio-0.unity3d",
+      "reason": "sibling_audio_bundle",
+      "offset": 31358368,
+      "size": 186272,
+      "updatedAt": "2026-08-29T04:15:41.428Z"
+    },
+    "WW_001t7_Canary_Play": {
+      "bundleName": "playsound_base_global-b10736ab-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 404000,
+      "size": 11008,
+      "updatedAt": "2026-08-29T04:15:41.505Z"
+    },
+    "VO_JAIL_444_Female_Troll_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 513440,
+      "size": 23072,
+      "updatedAt": "2026-08-29T04:15:41.516Z"
+    },
+    "VO_ICCA01_008_Male_Orc_Play_01": {
+      "bundleName": "playsound_base_zhcn-06d41e57-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1670688,
+      "size": 25760,
+      "updatedAt": "2026-08-29T04:15:41.539Z"
+    },
+    "VO_JAIL_EVENT_100_Male_Frog_Play_01": {
+      "bundleName": "playsound_base_global-4864763f-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 0,
+      "size": 20320,
+      "updatedAt": "2026-08-29T04:15:41.552Z"
+    },
+    "VO_VAC_442_Male_Elemental_Play_01": {
+      "bundleName": "playsound_base_zhcn-23b69986-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1012000,
+      "size": 38144,
+      "updatedAt": "2026-08-29T04:15:41.567Z"
+    },
+    "EX1_105_Mountain_Giant_EnterPlay3": {
+      "bundleName": "soundotherminion_base_global-775a814d-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 1394880,
+      "size": 31808,
+      "updatedAt": "2026-08-29T04:15:41.585Z"
+    },
+    "VO_REV_959_Female_Dredger_Play_01": {
+      "bundleName": "playsound_base_zhcn-0516e06c-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1198528,
+      "size": 22720,
+      "updatedAt": "2026-08-29T04:15:41.598Z"
+    },
+    "VO_TRL_131t_Female_TrollUndead_Play_03": {
+      "bundleName": "playsound_base_zhcn-eba3a536-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1789600,
+      "size": 21408,
+      "updatedAt": "2026-08-29T04:15:41.632Z"
+    },
+    "Gandling_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 3082944,
+      "size": 270848,
+      "updatedAt": "2026-08-29T04:15:41.780Z"
+    },
+    "CORE_CATA_006_Ulfar_Stinger": {
+      "bundleName": "soundotherminion_base_global-84b1a5c7-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 79136,
+      "size": 150240,
+      "updatedAt": "2026-08-29T04:15:41.811Z"
+    },
+    "GDB_455_Askara_Stinger": {
+      "bundleName": "soundotherminion_base_global-abe88014-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 6088096,
+      "size": 194464,
+      "updatedAt": "2026-08-29T04:15:41.928Z"
+    },
+    "Finja_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 8621856,
+      "size": 121120,
+      "updatedAt": "2026-08-29T04:15:42.004Z"
+    },
+    "HS_LegendaryStinger_KotoriLightblade": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 23944864,
+      "size": 394496,
+      "updatedAt": "2026-08-29T04:15:42.306Z"
+    },
+    "BG31_BOB_Stinger": {
+      "bundleName": "soundotherminion_base_global-4864763f-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 0,
+      "size": 181120,
+      "updatedAt": "2026-08-29T04:15:42.338Z"
+    },
+    "HS_LegendaryStinger_Deathwing": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 27511232,
+      "size": 218048,
+      "updatedAt": "2026-08-29T04:15:42.466Z"
+    },
+    "Khadgar_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 32255072,
+      "size": 318656,
+      "updatedAt": "2026-08-29T04:15:42.644Z"
+    },
+    "TIME_850_LoGoshBloodFighter_Stinger": {
+      "bundleName": "soundotherminion_base_global-a312696e-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 2639424,
+      "size": 204448,
+      "updatedAt": "2026-08-29T04:15:42.752Z"
+    },
+    "VO_EX1_414_Attack_02": {
+      "bundleName": "essential_base_zhcn-content-0.unity3d",
+      "reason": "indexed_content_bundle",
+      "offset": 10371264,
+      "size": 23584,
+      "updatedAt": "2026-08-29T04:16:39.078Z"
+    },
+    "VO_EX1_414_Death_03": {
+      "bundleName": "essential_base_zhcn-content-0.unity3d",
+      "reason": "indexed_content_bundle",
+      "offset": 9344416,
+      "size": 20416,
+      "updatedAt": "2026-08-29T04:16:39.249Z"
+    },
+    "VO_NEW1_010_Attack_02": {
+      "bundleName": "soundotherminion_base_zhcn-775a814d-audio-1.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1126944,
+      "size": 51200,
+      "updatedAt": "2026-08-29T04:59:05.411Z"
+    },
+    "VO_TSC_087_Female_NagaCentuar_Play_01": {
+      "bundleName": "playsound_base_zhcn-50dcdbf5-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 470592,
+      "size": 37216,
+      "updatedAt": "2026-08-29T05:03:17.560Z"
+    },
+    "HS_LegendaryStinger_CommanderSivara": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 5695360,
+      "size": 333920,
+      "updatedAt": "2026-08-29T05:03:17.795Z"
+    },
+    "VO_GVG_042_Play_01": {
+      "bundleName": "playsound_base_zhcn-3aaf7c48-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 224384,
+      "size": 36192,
+      "updatedAt": "2026-08-29T05:03:39.292Z"
+    },
+    "Neptulon_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 22252224,
+      "size": 230112,
+      "updatedAt": "2026-08-29T05:03:39.394Z"
+    },
+    "VO_DRG_620_Male_Dragon_Play_01": {
+      "bundleName": "playsound_base_zhcn-6eb8705c-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1332416,
+      "size": 51136,
+      "updatedAt": "2026-08-29T05:03:57.819Z"
+    },
+    "GalakrondTier1_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 12093344,
+      "size": 343648,
+      "updatedAt": "2026-08-29T05:03:57.949Z"
+    },
+    "TSC_639_GluggTheGulper_Main_Play_Sound": {
+      "bundleName": "playsound_base_global-50dcdbf5-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 1455424,
+      "size": 162656,
+      "updatedAt": "2026-08-29T05:04:17.130Z"
+    },
+    "HS_LegendaryStinger_GluggTheGulper": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 16454816,
+      "size": 460608,
+      "updatedAt": "2026-08-29T05:04:17.347Z"
+    },
+    "VO_TTN_800_Male_Titan_Play_01": {
+      "bundleName": "playsound_base_zhcn-8e3e520f-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2691008,
+      "size": 47968,
+      "updatedAt": "2026-08-29T05:04:30.406Z"
+    },
+    "TTN_800_GolganneththeThunderer_Stinger": {
+      "bundleName": "soundotherminion_base_global-8e3e520f-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 3690688,
+      "size": 212544,
+      "updatedAt": "2026-08-29T05:04:30.453Z"
+    },
+    "VO_TTN_835_Male_TitanKeeper_Play_01": {
+      "bundleName": "playsound_base_zhcn-8e3e520f-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 3114624,
+      "size": 41120,
+      "updatedAt": "2026-08-29T05:04:37.044Z"
+    },
+    "TTN_835_ThorimStormlord_Stinger": {
+      "bundleName": "soundotherminion_base_global-8e3e520f-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 1278624,
+      "size": 159936,
+      "updatedAt": "2026-08-29T05:04:37.085Z"
+    },
+    "VO_TOY_501_Muckling_Emote_Play_01": {
+      "bundleName": "playsound_base_zhcn-383d0402-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2990144,
+      "size": 49376,
+      "updatedAt": "2026-08-29T05:04:44.767Z"
+    },
+    "VO_WORK_013_Female_Elemental_Play_01": {
+      "bundleName": "playsound_base_zhcn-23b69986-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1852576,
+      "size": 53472,
+      "updatedAt": "2026-08-29T05:04:53.390Z"
+    },
+    "WORK_013_Turbulus_Stinger": {
+      "bundleName": "soundotherminion_base_global-23b69986-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 6492704,
+      "size": 170080,
+      "updatedAt": "2026-08-29T05:04:53.425Z"
+    },
+    "VO_TIME_209_Male_Dwarf_Play_01": {
+      "bundleName": "playsound_base_zhcn-a312696e-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 966464,
+      "size": 33696,
+      "updatedAt": "2026-08-29T05:05:02.855Z"
+    },
+    "TIME_209_MuradinHighKing_Stinger": {
+      "bundleName": "soundotherminion_base_global-a312696e-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 590464,
+      "size": 197952,
+      "updatedAt": "2026-08-29T05:05:02.911Z"
+    },
+    "VO_TIME_209_Male_Dwarf_Attack_01": {
+      "bundleName": "soundotherminion_base_zhcn-a312696e-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2593248,
+      "size": 16896,
+      "updatedAt": "2026-08-29T05:05:18.880Z"
+    },
+    "VO_TIME_209_Male_Dwarf_Death_01": {
+      "bundleName": "soundotherminion_base_zhcn-a312696e-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1890048,
+      "size": 14592,
+      "updatedAt": "2026-08-29T05:05:23.847Z"
+    },
+    "Gilneas_Play_Stinger_6": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 30042432,
+      "size": 157184,
+      "updatedAt": "2026-08-29T05:53:46.874Z"
+    },
+    "Gilneas_Play_Stinger_4": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 18439392,
+      "size": 228064,
+      "updatedAt": "2026-08-29T05:53:47.101Z"
+    },
+    "VO_GIL_692_Male_Worgen_Play_03": {
+      "bundleName": "playsound_base_zhcn-d2f4bda7-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 274784,
+      "size": 42848,
+      "updatedAt": "2026-08-29T06:03:23.259Z"
+    },
+    "VO_GIL_598_Female_Human_Attack_01": {
+      "bundleName": "soundotherminion_base_zhcn-d2f4bda7-audio-1.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 3552640,
+      "size": 14144,
+      "updatedAt": "2026-08-29T07:53:40.672Z"
+    },
+    "VO_EX1_561_Play_01": {
+      "bundleName": "playsound_base_zhcn-775a814d-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 563840,
+      "size": 29088,
+      "updatedAt": "2026-08-29T08:20:07.082Z"
+    },
+    "Pegasus_Stinger_Dragon_Good": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-2.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 10221440,
+      "size": 151616,
+      "updatedAt": "2026-08-29T08:20:07.366Z"
+    },
+    "EX1_062_Old_Murk_Eye_EnterPlay1": {
+      "bundleName": "soundotherminion_base_global-a1df76dc-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 18816,
+      "size": 17472,
+      "updatedAt": "2026-08-29T08:20:14.276Z"
+    },
+    "VO_TUTORIAL_03_MUKLA_01_01": {
+      "bundleName": "soundotherminion_base_zhcn-775a814d-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 50592,
+      "size": 35616,
+      "updatedAt": "2026-08-29T08:20:59.979Z"
+    },
+    "VO_FP1_013_Play_alt_01": {
+      "bundleName": "playsound_base_zhcn-5cbf025a-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 126336,
+      "size": 32576,
+      "updatedAt": "2026-08-29T08:21:05.906Z"
+    },
+    "Pegasus_Stinger_Naxx_6": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-2.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 30730112,
+      "size": 241088,
+      "updatedAt": "2026-08-29T08:21:06.169Z"
+    },
+    "VO_GVG_035_Play_01": {
+      "bundleName": "playsound_base_zhcn-3aaf7c48-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1158496,
+      "size": 28512,
+      "updatedAt": "2026-08-29T08:21:18.611Z"
+    },
+    "VO_GVG_111_Play_01": {
+      "bundleName": "initial_base_zhcn-3aaf7c48-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 0,
+      "size": 32960,
+      "updatedAt": "2026-08-29T08:21:25.179Z"
+    },
+    "Ulduar_Play_Stinger_2": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 21708736,
+      "size": 176512,
+      "updatedAt": "2026-08-29T08:21:25.552Z"
+    },
+    "SFX_GVG_114_EnterPlay": {
+      "bundleName": "soundotherminion_base_global-3aaf7c48-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 1383456,
+      "size": 25888,
+      "updatedAt": "2026-08-29T08:21:32.876Z"
+    },
+    "Battle_Play_Stinger_4": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 14196064,
+      "size": 151584,
+      "updatedAt": "2026-08-29T08:21:32.967Z"
+    },
+    "VO_LOE_079_Play_15": {
+      "bundleName": "playsound_base_zhcn-19c61f11-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 68960,
+      "size": 14272,
+      "updatedAt": "2026-08-29T08:22:46.637Z"
+    },
+    "VO_KAR_114_Male_Human_Play_02": {
+      "bundleName": "playsound_base_zhcn-2173dfcb-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 707264,
+      "size": 44352,
+      "updatedAt": "2026-08-29T08:24:04.083Z"
+    },
+    "Barnes_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 12382112,
+      "size": 325856,
+      "updatedAt": "2026-08-29T08:24:04.183Z"
+    },
+    "VO_CFM_637_Male_Beholder_Attack_01": {
+      "bundleName": "soundotherminion_base_global-25e591d9-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 0,
+      "size": 33024,
+      "updatedAt": "2026-08-29T08:24:15.781Z"
+    },
+    "Pirate_Play_Stinger_2": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-2.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 2256448,
+      "size": 190016,
+      "updatedAt": "2026-08-29T08:24:16.227Z"
+    },
+    "VO_UNG_963_Female_Elemental_Play_01": {
+      "bundleName": "playsound_base_zhcn-46708e9b-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 455264,
+      "size": 37376,
+      "updatedAt": "2026-08-29T08:24:58.892Z"
+    },
+    "Sunshard_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-2.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 25005056,
+      "size": 283360,
+      "updatedAt": "2026-08-29T08:24:59.146Z"
+    },
+    "VO_GIL_198_Female_NightElf_Play_01": {
+      "bundleName": "playsound_base_zhcn-d2f4bda7-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 697600,
+      "size": 41216,
+      "updatedAt": "2026-08-29T08:25:51.209Z"
+    },
+    "Azalina_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 21632512,
+      "size": 212448,
+      "updatedAt": "2026-08-29T08:25:51.357Z"
+    },
+    "VO_GIL_620_Male_BloodElf_Play_01": {
+      "bundleName": "playsound_base_zhcn-d2f4bda7-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 669088,
+      "size": 28512,
+      "updatedAt": "2026-08-29T08:26:06.416Z"
+    },
+    "Dorian_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 22874176,
+      "size": 172576,
+      "updatedAt": "2026-08-29T08:26:06.556Z"
+    },
+    "VO_BOT_411_Female_Elemental_Play_01": {
+      "bundleName": "playsound_base_zhcn-74f91fa9-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1802080,
+      "size": 35296,
+      "updatedAt": "2026-08-29T08:26:22.206Z"
+    },
+    "ElectraStormsurge_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 7587904,
+      "size": 202400,
+      "updatedAt": "2026-08-29T08:26:22.355Z"
+    },
+    "VO_BOT_424_Male_OldGod_Play_01": {
+      "bundleName": "playsound_base_zhcn-74f91fa9-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1127328,
+      "size": 178848,
+      "updatedAt": "2026-08-29T08:26:28.642Z"
+    },
+    "MechaThun_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 20576864,
+      "size": 296864,
+      "updatedAt": "2026-08-29T08:26:28.857Z"
+    },
+    "VO_TRL_085_Male_Troll_Play_01": {
+      "bundleName": "playsound_base_zhcn-eba3a536-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 200192,
+      "size": 41312,
+      "updatedAt": "2026-08-29T08:26:50.625Z"
+    },
+    "Zentimo_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 13064224,
+      "size": 242592,
+      "updatedAt": "2026-08-29T08:26:50.952Z"
+    },
+    "VO_TRL_259_Female_Troll_Play_02": {
+      "bundleName": "playsound_base_zhcn-eba3a536-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 0,
+      "size": 36576,
+      "updatedAt": "2026-08-29T08:27:02.811Z"
+    },
+    "Talanji_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 21885248,
+      "size": 241280,
+      "updatedAt": "2026-08-29T08:27:03.248Z"
+    },
+    "VO_TRL_260_Male_Troll_Play_01": {
+      "bundleName": "playsound_base_zhcn-eba3a536-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2255872,
+      "size": 48416,
+      "updatedAt": "2026-08-29T08:29:53.162Z"
+    },
+    "Bwonsamdi_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 18766432,
+      "size": 327328,
+      "updatedAt": "2026-08-29T08:29:53.297Z"
+    },
+    "VO_BOT_914_Male_Gnome_Play_01": {
+      "bundleName": "playsound_base_zhcn-74f91fa9-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 0,
+      "size": 43776,
+      "updatedAt": "2026-08-29T08:30:03.655Z"
+    },
+    "Gnome_Play_Stinger_5": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 16589536,
+      "size": 232512,
+      "updatedAt": "2026-08-29T08:30:03.833Z"
+    },
+    "VO_DAL_379_Female_HighElf_Play_01": {
+      "bundleName": "playsound_base_zhcn-17e09d12-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2742528,
+      "size": 27648,
+      "updatedAt": "2026-08-29T08:30:30.911Z"
+    },
+    "Vereesa_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 8261472,
+      "size": 290208,
+      "updatedAt": "2026-08-29T08:30:31.263Z"
+    },
+    "VO_DAL_422_Male_Ethereal_Play_02": {
+      "bundleName": "playsound_base_zhcn-17e09d12-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2267520,
+      "size": 43648,
+      "updatedAt": "2026-08-29T08:30:44.153Z"
+    },
+    "AV_Rafaam_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 30046112,
+      "size": 310656,
+      "updatedAt": "2026-08-29T08:30:44.291Z"
+    },
+    "VO_DAL_609_Male_Dragon_Play_01": {
+      "bundleName": "playsound_base_zhcn-17e09d12-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 380384,
+      "size": 33184,
+      "updatedAt": "2026-08-29T08:31:15.729Z"
+    },
+    "Kalecgos_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 30392224,
+      "size": 258176,
+      "updatedAt": "2026-08-29T08:31:15.921Z"
+    },
+    "VO_ULD_001_Male_Djinni_Play_01": {
+      "bundleName": "playsound_base_zhcn-9f363830-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2242528,
+      "size": 30144,
+      "updatedAt": "2026-08-29T08:31:22.939Z"
+    },
+    "Zephrys_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 15064352,
+      "size": 274336,
+      "updatedAt": "2026-08-29T08:31:23.266Z"
+    },
+    "VO_ULD_178_Male_Elemental_Play_01": {
+      "bundleName": "playsound_base_zhcn-9f363830-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 496896,
+      "size": 66560,
+      "updatedAt": "2026-08-29T08:31:34.585Z"
+    },
+    "Siamat_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-2.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 27204224,
+      "size": 206816,
+      "updatedAt": "2026-08-29T08:31:34.825Z"
+    },
+    "VO_EX1_190_Female_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-775a814d-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1551168,
+      "size": 26048,
+      "updatedAt": "2026-08-29T08:31:42.274Z"
+    },
+    "HighInquisitorWhitemane_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 29312224,
+      "size": 223936,
+      "updatedAt": "2026-08-29T08:31:42.468Z"
+    },
+    "DRG_256_Dragonbane_Play": {
+      "bundleName": "playsound_base_global-6eb8705c-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 370912,
+      "size": 27360,
+      "updatedAt": "2026-08-29T08:31:59.362Z"
+    },
+    "Dragonbane_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 8213024,
+      "size": 194880,
+      "updatedAt": "2026-08-29T08:32:01.595Z"
+    },
+    "Alexstrasza_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 4666848,
+      "size": 258368,
+      "updatedAt": "2026-08-29T08:32:09.139Z"
+    },
+    "VO_DRG_090_Male_Dragon_Play_02": {
+      "bundleName": "playsound_base_zhcn-6eb8705c-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 192288,
+      "size": 80864,
+      "updatedAt": "2026-08-29T08:32:18.905Z"
+    },
+    "MurozondTheInfinite_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 10346176,
+      "size": 193024,
+      "updatedAt": "2026-08-29T08:32:19.071Z"
+    },
+    "VO_YOD_009_Male_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-a9057597-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 326976,
+      "size": 43104,
+      "updatedAt": "2026-08-29T08:32:27.237Z"
+    },
+    "RenoTheRelicologist_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-2.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 10005632,
+      "size": 215808,
+      "updatedAt": "2026-08-29T08:32:27.506Z"
+    },
+    "Malygos_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 4250368,
+      "size": 236288,
+      "updatedAt": "2026-08-29T08:32:33.669Z"
+    },
+    "VO_BT_255_Male_BloodElf_Play_01": {
+      "bundleName": "playsound_base_zhcn-5c47a539-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 668704,
+      "size": 52160,
+      "updatedAt": "2026-08-29T08:32:49.310Z"
+    },
+    "Kaelthas_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 30650400,
+      "size": 216416,
+      "updatedAt": "2026-08-29T08:32:49.499Z"
+    },
+    "VO_BT_126_Male_UndeadOrc_Play_02": {
+      "bundleName": "playsound_base_zhcn-5c47a539-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 386336,
+      "size": 47648,
+      "updatedAt": "2026-08-29T08:32:57.085Z"
+    },
+    "Gorefiend_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 2559712,
+      "size": 194240,
+      "updatedAt": "2026-08-29T08:32:57.249Z"
+    },
+    "VO_BT_737_Female_NightElf_Play_01": {
+      "bundleName": "playsound_base_zhcn-5c47a539-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 913824,
+      "size": 35744,
+      "updatedAt": "2026-08-29T08:33:10.658Z"
+    },
+    "Maiev_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 1462624,
+      "size": 168832,
+      "updatedAt": "2026-08-29T08:33:10.812Z"
+    },
+    "VO_BT_187_Male_BloodElf_Play_01": {
+      "bundleName": "playsound_base_zhcn-5c47a539-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 564832,
+      "size": 47040,
+      "updatedAt": "2026-08-29T08:33:28.738Z"
+    },
+    "VO_BT_850_Male_PitLord_Play_01": {
+      "bundleName": "playsound_base_zhcn-5c47a539-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1309920,
+      "size": 48800,
+      "updatedAt": "2026-08-29T08:33:35.128Z"
+    },
+    "Magtheridon_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 17449792,
+      "size": 283360,
+      "updatedAt": "2026-08-29T08:33:35.324Z"
+    },
+    "VO_SCH_224_Male_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-67d2d0c1-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 645088,
+      "size": 50624,
+      "updatedAt": "2026-08-29T08:33:45.018Z"
+    },
+    "HeadmasterKelThuzad_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 7071584,
+      "size": 279424,
+      "updatedAt": "2026-08-29T08:33:45.174Z"
+    },
+    "VO_SCH_526_Male_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-67d2d0c1-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1359392,
+      "size": 28192,
+      "updatedAt": "2026-08-29T08:33:53.833Z"
+    },
+    "LordBarov_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 23247104,
+      "size": 171712,
+      "updatedAt": "2026-08-29T08:33:53.978Z"
+    },
+    "VO_DMF_004_Male_OldGodCreature_Play_01": {
+      "bundleName": "playsound_base_zhcn-384202c8-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 458592,
+      "size": 215808,
+      "updatedAt": "2026-08-29T08:36:58.132Z"
+    },
+    "VO_DMF_529_Male_Tauren_Play_01": {
+      "bundleName": "playsound_base_zhcn-384202c8-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 245376,
+      "size": 44192,
+      "updatedAt": "2026-08-29T08:37:09.108Z"
+    },
+    "ETC_GOM_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 15130368,
+      "size": 186176,
+      "updatedAt": "2026-08-29T08:37:09.222Z"
+    },
+    "VO_BAR_879_Male_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-fd9efb99-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 699616,
+      "size": 38336,
+      "updatedAt": "2026-08-29T08:37:30.648Z"
+    },
+    "HS_LegendaryStinger_CannonmasterSmythe": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 6219392,
+      "size": 205152,
+      "updatedAt": "2026-08-29T08:37:30.758Z"
+    },
+    "VO_BAR_720_Male_Tauren_Play_01": {
+      "bundleName": "playsound_base_zhcn-fd9efb99-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2199808,
+      "size": 32704,
+      "updatedAt": "2026-08-29T08:37:41.905Z"
+    },
+    "HS_LegendaryStinger_GuffRunetotem": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 23464416,
+      "size": 200896,
+      "updatedAt": "2026-08-29T08:37:42.010Z"
+    },
+    "VO_SW_113_Male_Human_Play_02": {
+      "bundleName": "essential_base_zhcn-content-0.unity3d",
+      "reason": "indexed_content_bundle",
+      "offset": 1435040,
+      "size": 39968,
+      "updatedAt": "2026-08-29T08:37:52.889Z"
+    },
+    "HS_LegendaryStinger_GrandMagusAntonidas": {
+      "bundleName": "essential_base_global-audio-0.unity3d",
+      "reason": "sibling_audio_bundle",
+      "offset": 16552192,
+      "size": 261408,
+      "updatedAt": "2026-08-29T08:37:53.071Z"
+    },
+    "VO_SW_047_Male_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-40cb6b8d-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2021248,
+      "size": 37984,
+      "updatedAt": "2026-08-29T08:38:02.257Z"
+    },
+    "HS_LegendaryStinger_HighlordFordragon": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 13778688,
+      "size": 297824,
+      "updatedAt": "2026-08-29T08:38:02.560Z"
+    },
+    "VO_SW_079_Male_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-40cb6b8d-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1908960,
+      "size": 18464,
+      "updatedAt": "2026-08-29T08:38:09.906Z"
+    },
+    "HS_LegendaryStinger_FlightMasterDungar": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 18175136,
+      "size": 255104,
+      "updatedAt": "2026-08-29T08:38:10.291Z"
+    },
+    "VO_SW_081_Male_Human_Play_02": {
+      "bundleName": "playsound_base_zhcn-40cb6b8d-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2495136,
+      "size": 30400,
+      "updatedAt": "2026-08-29T08:38:16.662Z"
+    },
+    "HS_LegendaryStinger_VarianKingOfStormwind": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 21421568,
+      "size": 287168,
+      "updatedAt": "2026-08-29T08:38:17.084Z"
+    },
+    "VO_SW_323_Male_Rat_Play_01": {
+      "bundleName": "playsound_base_global-40cb6b8d-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 290656,
+      "size": 35872,
+      "updatedAt": "2026-08-29T08:38:25.777Z"
+    },
+    "HS_LegendaryStinger_TheRatKing": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 18430240,
+      "size": 218816,
+      "updatedAt": "2026-08-29T08:38:26.126Z"
+    },
+    "VO_CS3_031_Female_Dragon_Play_01": {
+      "bundleName": "playsound_base_zhcn-84b1a5c7-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1526912,
+      "size": 31552,
+      "updatedAt": "2026-08-29T08:38:34.741Z"
+    },
+    "HS_LegendaryStinger_Alexstrasza": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 9445344,
+      "size": 187584,
+      "updatedAt": "2026-08-29T08:38:34.836Z"
+    },
+    "VO_CS3_032_Female_Dragon_Play_01": {
+      "bundleName": "playsound_base_zhcn-84b1a5c7-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 186400,
+      "size": 50720,
+      "updatedAt": "2026-08-29T08:38:42.094Z"
+    },
+    "HS_LegendaryStinger_Onyxia": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 10628608,
+      "size": 165920,
+      "updatedAt": "2026-08-29T08:38:42.174Z"
+    },
+    "VO_CS3_033_Female_Dragon_Play_01": {
+      "bundleName": "playsound_base_zhcn-84b1a5c7-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 815616,
+      "size": 55392,
+      "updatedAt": "2026-08-29T08:38:47.554Z"
+    },
+    "HS_LegendaryStinger_Ysera": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 4925216,
+      "size": 222720,
+      "updatedAt": "2026-08-29T08:38:47.653Z"
+    },
+    "VO_CS3_035_Male_Dragon_Play_01": {
+      "bundleName": "playsound_base_zhcn-84b1a5c7-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 109920,
+      "size": 31424,
+      "updatedAt": "2026-08-29T08:38:54.064Z"
+    },
+    "HS_LegendaryStinger_Nozdormu": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-0.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 20154688,
+      "size": 172384,
+      "updatedAt": "2026-08-29T08:38:54.147Z"
+    },
+    "VO_CS3_036_Male_Dragon_Play_02": {
+      "bundleName": "playsound_base_zhcn-775a814d-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 941632,
+      "size": 91680,
+      "updatedAt": "2026-08-29T08:38:59.169Z"
+    },
+    "VO_TSC_032_Male_Ankoan_Play_01": {
+      "bundleName": "playsound_base_zhcn-50dcdbf5-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1821824,
+      "size": 31200,
+      "updatedAt": "2026-08-29T08:39:49.054Z"
+    },
+    "HS_LegendaryStinger_BlademasterOkani": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 4326720,
+      "size": 349088,
+      "updatedAt": "2026-08-29T08:39:49.418Z"
+    },
+    "TSC_216_BlackwaterBehemoth_Play": {
+      "bundleName": "playsound_base_global-50dcdbf5-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 1818112,
+      "size": 199296,
+      "updatedAt": "2026-08-29T08:39:56.512Z"
+    },
+    "HS_LegendaryStinger_TheBlackwaterBehemoth": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 19526528,
+      "size": 394080,
+      "updatedAt": "2026-08-29T08:39:56.958Z"
+    },
+    "VO_TSC_641_Female_Naga_Play_02": {
+      "bundleName": "playsound_base_zhcn-50dcdbf5-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2156448,
+      "size": 52096,
+      "updatedAt": "2026-08-29T08:40:11.808Z"
+    },
+    "HS_LegendaryStinger_QueenAzshara": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 6918720,
+      "size": 309664,
+      "updatedAt": "2026-08-29T08:40:12.157Z"
+    },
+    "VO_TID_712_Male_Elemental_Play_03": {
+      "bundleName": "playsound_base_zhcn-50dcdbf5-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1964576,
+      "size": 34976,
+      "updatedAt": "2026-08-29T08:40:22.903Z"
+    },
+    "HS_LegendaryStinger_NeptulonTheTidehunter": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-3.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 25122912,
+      "size": 201280,
+      "updatedAt": "2026-08-29T08:40:23.252Z"
+    },
+    "VO_RLK_222_Male_BloodElf_Play_01": {
+      "bundleName": "playsound_base_zhcn-7a441cb3-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 4056096,
+      "size": 25792,
+      "updatedAt": "2026-08-29T08:40:58.117Z"
+    },
+    "HS_AstalorBloodsworn_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-2.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 11476352,
+      "size": 204192,
+      "updatedAt": "2026-08-29T08:40:58.387Z"
+    },
+    "VO_RLK_222_Male_BloodElf_Attack_01": {
+      "bundleName": "soundotherminion_base_zhcn-7a441cb3-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2778592,
+      "size": 10880,
+      "updatedAt": "2026-08-29T08:41:15.643Z"
+    },
+    "VO_CAP_000_Male_Worgen_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1654752,
+      "size": 21056,
+      "updatedAt": "2026-08-29T08:43:26.540Z"
+    },
+    "VO_CAP_003_Female_Gnome_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2519136,
+      "size": 12704,
+      "updatedAt": "2026-08-29T08:43:29.953Z"
+    },
+    "VO_CAP_005_Male_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 977952,
+      "size": 21952,
+      "updatedAt": "2026-08-29T08:43:32.533Z"
+    },
+    "CAP_005_MathiasShaw_Stinger": {
+      "bundleName": "soundotherminion_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 1385664,
+      "size": 168608,
+      "updatedAt": "2026-08-29T08:43:32.604Z"
+    },
+    "VO_CAP_400_Female_Goren_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1485184,
+      "size": 24512,
+      "updatedAt": "2026-08-29T08:43:49.728Z"
+    },
+    "VO_CAP_401_Female_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1093056,
+      "size": 20000,
+      "updatedAt": "2026-08-29T08:43:52.726Z"
+    },
+    "VO_CAP_405_Male_Troll_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 192608,
+      "size": 42144,
+      "updatedAt": "2026-08-29T08:43:56.673Z"
+    },
+    "CAP_405_GodfatherKazakus_Stinger": {
+      "bundleName": "soundotherminion_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 1162688,
+      "size": 161664,
+      "updatedAt": "2026-08-29T08:43:56.726Z"
+    },
+    "VO_CAP_406_Female_Arakkoa_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1979008,
+      "size": 26784,
+      "updatedAt": "2026-08-29T08:44:01.966Z"
+    },
+    "CAP_800_SinfulSteed_Play": {
+      "bundleName": "playsound_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 40224,
+      "size": 36128,
+      "updatedAt": "2026-08-29T08:44:05.718Z"
+    },
+    "VO_CAP_804_Female_BloodElf_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 794368,
+      "size": 13792,
+      "updatedAt": "2026-08-29T08:44:09.826Z"
+    },
+    "VO_CAP_806_Male_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 907744,
+      "size": 45856,
+      "updatedAt": "2026-08-29T08:44:12.483Z"
+    },
+    "CAP_806_RaithVanGeist_Stinger": {
+      "bundleName": "soundotherminion_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 4785152,
+      "size": 149184,
+      "updatedAt": "2026-08-29T08:44:12.526Z"
+    },
+    "VO_JAIL_118_X_Construct_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 808160,
+      "size": 19744,
+      "updatedAt": "2026-08-29T08:44:18.742Z"
+    },
+    "JAIL_118_VamaLoomingDeath_Stinger": {
+      "bundleName": "soundotherminion_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 4956288,
+      "size": 182784,
+      "updatedAt": "2026-08-29T08:44:18.797Z"
+    },
+    "VO_JAIL_122_Male_Gnome_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1920800,
+      "size": 35456,
+      "updatedAt": "2026-08-29T08:44:23.475Z"
+    },
+    "JAIL_122_JailhouseManastorm_Stinger": {
+      "bundleName": "soundotherminion_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 4305856,
+      "size": 150240,
+      "updatedAt": "2026-08-29T08:44:23.528Z"
+    },
+    "VO_JAIL_321_Male_Troll_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2168320,
+      "size": 28960,
+      "updatedAt": "2026-08-29T08:44:32.045Z"
+    },
+    "VO_TLC_810_Male_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-2f546934-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 266112,
+      "size": 30560,
+      "updatedAt": "2026-08-29T08:47:19.752Z"
+    },
+    "TLC_810_HighCultistHerenn_Stinger": {
+      "bundleName": "soundotherminion_base_global-2f546934-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 2626688,
+      "size": 165504,
+      "updatedAt": "2026-08-29T08:47:19.806Z"
+    },
+    "VO_JAIL_719_Female_NightElf_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 656576,
+      "size": 18432,
+      "updatedAt": "2026-08-29T08:57:19.030Z"
+    },
+    "JAIL_719_IridaSinseeker_Stinger": {
+      "bundleName": "soundotherminion_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 977440,
+      "size": 185248,
+      "updatedAt": "2026-08-29T08:57:19.102Z"
+    },
+    "VO_JAIL_721_X_VoidCreature_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 556096,
+      "size": 29088,
+      "updatedAt": "2026-08-29T08:57:24.461Z"
+    },
+    "JAIL_721_TrastathSoulParasite_Stinger": {
+      "bundleName": "soundotherminion_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 4470208,
+      "size": 151296,
+      "updatedAt": "2026-08-29T08:57:24.517Z"
+    },
+    "VO_JAIL_733_Female_Naga_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1113056,
+      "size": 35488,
+      "updatedAt": "2026-08-29T08:57:36.574Z"
+    },
+    "VO_JAIL_890_Male_Nathrezim_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1148544,
+      "size": 34144,
+      "updatedAt": "2026-08-29T08:57:41.026Z"
+    },
+    "VO_JAIL_860_Female_Nerubian_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1825568,
+      "size": 34016,
+      "updatedAt": "2026-08-29T08:57:45.454Z"
+    },
+    "JAIL_860_ChefNethrek_Stinger": {
+      "bundleName": "soundotherminion_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 2375040,
+      "size": 181504,
+      "updatedAt": "2026-08-29T08:57:45.511Z"
+    },
+    "VO_JAIL_831_Male_Rat_Play_01": {
+      "bundleName": "playsound_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 531264,
+      "size": 36864,
+      "updatedAt": "2026-08-29T08:57:52.574Z"
+    },
+    "JAIL_831_KingOfTheUnderbelly_Stinger": {
+      "bundleName": "soundotherminion_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 3095232,
+      "size": 176064,
+      "updatedAt": "2026-08-29T08:57:52.650Z"
+    },
+    "VO_JAIL_882_X_Mech_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 367264,
+      "size": 29760,
+      "updatedAt": "2026-08-29T08:57:59.477Z"
+    },
+    "JAIL_882_R4TC4TCH3R_Stinger": {
+      "bundleName": "soundotherminion_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 25312,
+      "size": 144480,
+      "updatedAt": "2026-08-29T08:57:59.525Z"
+    },
+    "VO_RLK_832_Male_Undead_Play_01": {
+      "bundleName": "playsound_base_zhcn-7a441cb3-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 321408,
+      "size": 45312,
+      "updatedAt": "2026-08-29T12:46:04.762Z"
+    },
+    "HS_HighCultistBasaleph_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-2.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 22626720,
+      "size": 185184,
+      "updatedAt": "2026-08-29T12:46:05.119Z"
+    },
+    "VO_SC_765_Male_Protoss_Play_01": {
+      "bundleName": "playsound_base_zhcn-abe88014-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 4020800,
+      "size": 30272,
+      "updatedAt": "2026-08-29T12:46:11.375Z"
+    },
+    "VO_SCH_141_Female_Draenei_Play_02": {
+      "bundleName": "playsound_base_zhcn-67d2d0c1-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 15168,
+      "size": 28064,
+      "updatedAt": "2026-08-29T12:46:15.865Z"
+    },
+    "HighAbbessAlura_Play_Stinger": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-1.unity3d",
+      "reason": "soundlegend_audio_bundle",
+      "offset": 21608416,
+      "size": 210368,
+      "updatedAt": "2026-08-29T12:46:16.103Z"
+    },
+    "VO_JAIL_446_Female_Vampire_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1895488,
+      "size": 25312,
+      "updatedAt": "2026-08-29T13:43:53.599Z"
+    },
+    "JAIL_446_BloodDoctorThalena_Stinger": {
+      "bundleName": "soundotherminion_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 4083680,
+      "size": 180032,
+      "updatedAt": "2026-08-29T13:43:53.677Z"
+    },
+    "VO_NEW1_024_Play_01": {
+      "bundleName": "playsound_base_zhcn-775a814d-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1622112,
+      "size": 23232,
+      "updatedAt": "2026-08-30T01:36:13.772Z"
+    },
+    "Pegasus_Stinger_Gnome": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-2.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 13181664,
+      "size": 142880,
+      "updatedAt": "2026-08-30T01:36:14.115Z"
+    },
+    "VO_NEW1_038_Play_01": {
+      "bundleName": "playsound_base_zhcn-775a814d-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2514688,
+      "size": 35808,
+      "updatedAt": "2026-08-30T01:36:14.156Z"
+    },
+    "Pegasus_Stinger_Misc2": {
+      "bundleName": "soundlegend_base_global-6c782fd0-audio-2.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 24659872,
+      "size": 121152,
+      "updatedAt": "2026-08-30T01:36:14.490Z"
+    },
+    "VO_CAP_004_Male_Nightelf_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2140992,
+      "size": 27328,
+      "updatedAt": "2026-08-30T01:36:14.536Z"
+    },
+    "VO_CAP_104_Female_Goblin_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 536512,
+      "size": 19584,
+      "updatedAt": "2026-08-30T01:36:14.547Z"
+    },
+    "VO_CAP_803_Male_Ghost_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1859584,
+      "size": 35904,
+      "updatedAt": "2026-08-30T01:36:14.653Z"
+    },
+    "VO_JAIL_007_Female_Imp_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 953600,
+      "size": 24352,
+      "updatedAt": "2026-08-30T01:36:14.666Z"
+    },
+    "VO_JAIL_029_Female_Tauren_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 862112,
+      "size": 20448,
+      "updatedAt": "2026-08-30T01:36:14.676Z"
+    },
+    "VO_JAIL_030_Female_Gnome_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1776544,
+      "size": 22368,
+      "updatedAt": "2026-08-30T01:36:14.697Z"
+    },
+    "VO_JAIL_035_Female_BloodElf_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1047008,
+      "size": 17632,
+      "updatedAt": "2026-08-30T01:36:14.714Z"
+    },
+    "VO_JAIL_101_Female_Orc_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1024288,
+      "size": 22720,
+      "updatedAt": "2026-08-30T01:36:14.725Z"
+    },
+    "VO_JAIL_123_Female_Goblin_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 703168,
+      "size": 25856,
+      "updatedAt": "2026-08-30T01:36:14.736Z"
+    },
+    "JAIL_202_Spiderling_Play": {
+      "bundleName": "playsound_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 377984,
+      "size": 32512,
+      "updatedAt": "2026-08-30T01:36:14.746Z"
+    },
+    "VO_JAIL_204_X_Forsaken_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1418752,
+      "size": 33408,
+      "updatedAt": "2026-08-30T01:36:14.758Z"
+    },
+    "VO_JAIL_205_Male_Kobold_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 343616,
+      "size": 23648,
+      "updatedAt": "2026-08-30T01:36:14.768Z"
+    },
+    "VO_JAIL_303_X_Faceless_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 310400,
+      "size": 33216,
+      "updatedAt": "2026-08-30T01:36:14.780Z"
+    },
+    "VO_JAIL_311_Male_Ogre_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2235872,
+      "size": 19072,
+      "updatedAt": "2026-08-30T01:36:14.808Z"
+    },
+    "VO_JAIL_313_Female_Ethereal_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1064640,
+      "size": 28416,
+      "updatedAt": "2026-08-30T01:36:14.820Z"
+    },
+    "VO_JAIL_328_Female_Orc_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 827904,
+      "size": 34208,
+      "updatedAt": "2026-08-30T01:36:14.837Z"
+    },
+    "VO_JAIL_330_X_Golem_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2563968,
+      "size": 38912,
+      "updatedAt": "2026-08-30T01:36:14.853Z"
+    },
+    "VO_JAIL_379_X_Elemental_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2445568,
+      "size": 46816,
+      "updatedAt": "2026-08-30T01:36:14.867Z"
+    },
+    "VO_JAIL_384_Male_Gnoll_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2400064,
+      "size": 30528,
+      "updatedAt": "2026-08-30T01:36:14.878Z"
+    },
+    "JAIL_395_SewerSwimmer_Play": {
+      "bundleName": "playsound_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 238848,
+      "size": 40320,
+      "updatedAt": "2026-08-30T01:36:14.893Z"
+    },
+    "VO_JAIL_397_Female_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1467296,
+      "size": 17888,
+      "updatedAt": "2026-08-30T01:36:14.908Z"
+    },
+    "VO_JAIL_398_Male_infernalimp_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 255648,
+      "size": 38560,
+      "updatedAt": "2026-08-30T01:36:14.921Z"
+    },
+    "VO_JAIL_399_Male_Imp_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1509696,
+      "size": 28192,
+      "updatedAt": "2026-08-30T01:36:14.931Z"
+    },
+    "VO_JAIL_407_Female_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1182688,
+      "size": 38560,
+      "updatedAt": "2026-08-30T01:36:14.943Z"
+    },
+    "JAIL_421_Warptooth_Play": {
+      "bundleName": "playsound_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 604448,
+      "size": 32992,
+      "updatedAt": "2026-08-30T01:36:14.952Z"
+    },
+    "VO_JAIL_430_Female_NightElf_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1221248,
+      "size": 45536,
+      "updatedAt": "2026-08-30T01:36:14.965Z"
+    },
+    "VO_JAIL_432_X_Faceless_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1306080,
+      "size": 28832,
+      "updatedAt": "2026-08-30T01:36:15.024Z"
+    },
+    "VO_JAIL_434_Female_Shade_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1591488,
+      "size": 25024,
+      "updatedAt": "2026-08-30T01:36:15.034Z"
+    },
+    "JAIL_435_RampagingDiversion_Play": {
+      "bundleName": "playsound_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 164864,
+      "size": 51840,
+      "updatedAt": "2026-08-30T01:36:15.046Z"
+    },
+    "JAIL_440_TowerOfGhouls_Play": {
+      "bundleName": "playsound_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 637440,
+      "size": 28800,
+      "updatedAt": "2026-08-30T01:36:15.054Z"
+    },
+    "VO_JAIL_442_Female_Goblin_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2105152,
+      "size": 35840,
+      "updatedAt": "2026-08-30T01:36:15.066Z"
+    },
+    "JAIL_443_TheLivingPlague_Play": {
+      "bundleName": "playsound_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 410496,
+      "size": 31008,
+      "updatedAt": "2026-08-30T01:36:15.074Z"
+    },
+    "VO_JAIL_447_Male_BloodElf_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1452160,
+      "size": 15136,
+      "updatedAt": "2026-08-30T01:36:15.085Z"
+    },
+    "VO_JAIL_448_Male_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 760736,
+      "size": 33632,
+      "updatedAt": "2026-08-30T01:36:15.096Z"
+    },
+    "VO_JAIL_452_X_Faceless_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 133824,
+      "size": 39104,
+      "updatedAt": "2026-08-30T01:36:15.122Z"
+    },
+    "JAIL_453_Jailbird_Play": {
+      "bundleName": "playsound_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 441504,
+      "size": 21728,
+      "updatedAt": "2026-08-30T01:36:15.130Z"
+    },
+    "VO_JAIL_455_Female_Gnome_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2277056,
+      "size": 30912,
+      "updatedAt": "2026-08-30T01:36:15.141Z"
+    },
+    "VO_JAIL_456_Male_Mech_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 633312,
+      "size": 23264,
+      "updatedAt": "2026-08-30T01:36:15.151Z"
+    },
+    "VO_JAIL_457_X_Elemental_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 467360,
+      "size": 46080,
+      "updatedAt": "2026-08-30T01:36:15.163Z"
+    },
+    "JAIL_459_Arachnathid_Play": {
+      "bundleName": "playsound_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 491040,
+      "size": 40224,
+      "updatedAt": "2026-08-30T01:36:15.173Z"
+    },
+    "VO_JAIL_460_X_Mech_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1753024,
+      "size": 23520,
+      "updatedAt": "2026-08-30T01:36:15.182Z"
+    },
+    "VO_JAIL_461_Female_Orc_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 116960,
+      "size": 16864,
+      "updatedAt": "2026-08-30T01:36:15.200Z"
+    },
+    "VO_JAIL_462_Male_Quilboar_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1956256,
+      "size": 22752,
+      "updatedAt": "2026-08-30T01:36:15.216Z"
+    },
+    "VO_JAIL_470_Female_Hozen_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1334912,
+      "size": 25760,
+      "updatedAt": "2026-08-30T01:36:15.226Z"
+    },
+    "VO_JAIL_501_Female_Mogu_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2371872,
+      "size": 28192,
+      "updatedAt": "2026-08-30T01:36:15.237Z"
+    },
+    "VO_JAIL_504_Female_Pandaren_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2029920,
+      "size": 24320,
+      "updatedAt": "2026-08-30T01:36:15.313Z"
+    },
+    "VO_JAIL_507_Female_KulTiran_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2339840,
+      "size": 32032,
+      "updatedAt": "2026-08-30T01:36:15.324Z"
+    },
+    "VO_JAIL_509_Male_UndeadHuman_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 19840,
+      "size": 44224,
+      "updatedAt": "2026-08-30T01:36:15.392Z"
+    },
+    "VO_JAIL_513_Female_Undead_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 423840,
+      "size": 43520,
+      "updatedAt": "2026-08-30T01:36:15.406Z"
+    },
+    "VO_JAIL_516_Female_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2082144,
+      "size": 23008,
+      "updatedAt": "2026-08-30T01:36:15.416Z"
+    },
+    "VO_JAIL_703_Male_Goblin_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2492384,
+      "size": 26752,
+      "updatedAt": "2026-08-30T01:36:15.426Z"
+    },
+    "VO_JAIL_718_Male_Goblin_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2307968,
+      "size": 31872,
+      "updatedAt": "2026-08-30T01:36:15.437Z"
+    },
+    "VO_JAIL_720_Male_Jinyu_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 999904,
+      "size": 24384,
+      "updatedAt": "2026-08-30T01:36:15.449Z"
+    },
+    "VO_JAIL_734_Male_Orc_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 294208,
+      "size": 16192,
+      "updatedAt": "2026-08-30T01:36:15.471Z"
+    },
+    "VO_JAIL_800_Male_Ogre_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1279584,
+      "size": 26496,
+      "updatedAt": "2026-08-30T01:36:15.488Z"
+    },
+    "VO_JAIL_802_X_Elemental_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 172928,
+      "size": 19680,
+      "updatedAt": "2026-08-30T01:36:15.498Z"
+    },
+    "VO_JAIL_806_Male_Dwarf_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 882560,
+      "size": 25184,
+      "updatedAt": "2026-08-30T01:36:15.508Z"
+    },
+    "VO_JAIL_850_Female_NightElf_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2054240,
+      "size": 27904,
+      "updatedAt": "2026-08-30T01:36:15.520Z"
+    },
+    "VO_JAIL_851_Male_Murloc_Play_01": {
+      "bundleName": "playsound_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 216704,
+      "size": 22144,
+      "updatedAt": "2026-08-30T01:36:15.528Z"
+    },
+    "VO_JAIL_852_Male_Kobold_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 729024,
+      "size": 31712,
+      "updatedAt": "2026-08-30T01:36:15.539Z"
+    },
+    "VO_JAIL_872_Female_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 397024,
+      "size": 26816,
+      "updatedAt": "2026-08-30T01:36:15.605Z"
+    },
+    "JAIL_878_GuardDog_Play": {
+      "bundleName": "playsound_base_global-51b13101-audio-0.unity3d",
+      "reason": "hash_related_audio",
+      "offset": 316064,
+      "size": 17600,
+      "updatedAt": "2026-08-30T01:36:15.612Z"
+    },
+    "VO_JAIL_880_Female_Dwarf_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 0,
+      "size": 19840,
+      "updatedAt": "2026-08-30T01:36:15.623Z"
+    },
+    "VO_JAIL_883_X_Golem_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2254944,
+      "size": 22112,
+      "updatedAt": "2026-08-30T01:36:15.634Z"
+    },
+    "VO_JAIL_906_Male_Observer_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1616512,
+      "size": 38240,
+      "updatedAt": "2026-08-30T01:36:15.647Z"
+    },
+    "VO_JAIL_909_Female_Kobold_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1564928,
+      "size": 26560,
+      "updatedAt": "2026-08-30T01:36:15.657Z"
+    },
+    "VO_JAIL_912_Male_Tauren_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1537888,
+      "size": 27040,
+      "updatedAt": "2026-08-30T01:36:15.668Z"
+    },
+    "VO_JAIL_942_Female_SpecterDraenei_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 1722496,
+      "size": 30528,
+      "updatedAt": "2026-08-30T01:36:15.693Z"
+    },
+    "VO_JAIL_974_Male_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 64064,
+      "size": 29120,
+      "updatedAt": "2026-08-30T01:36:15.706Z"
+    },
+    "VO_JAIL_986_Female_NightElf_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 2005792,
+      "size": 24128,
+      "updatedAt": "2026-08-30T01:36:15.716Z"
+    },
+    "VO_JAIL_998_Female_Human_Play_01": {
+      "bundleName": "playsound_base_zhcn-51b13101-audio-0.unity3d",
+      "reason": "zhcn_audio_bundle",
+      "offset": 234752,
+      "size": 20896,
+      "updatedAt": "2026-08-30T01:36:15.726Z"
+    }
+  }
+}

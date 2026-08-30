@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "card-item": "../../components/card-item/card-item",
+    "mini-player": "../../components/mini-player/mini-player"
+  },
+  "navigationBarTitleText": "最新卡牌",
+  "onReachBottomDistance": 120,
+  "backgroundColor": "#141824"
+}

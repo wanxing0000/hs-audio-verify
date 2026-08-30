@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hearthstone Voice Explorer</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Hearthstone Voice Explorer</h1>
+      <p class="sub">本地验证工具 · 非产品网站 · 按需提取 zhCN 语音</p>
+    </div>
+    <p id="manifest" class="manifest"></p>
+  </header>
+  <main>
+    <section class="pane list-pane">
+      <input id="q" type="search" placeholder="搜索 CardID / 中文名 / 英文名（如 火车王、EX1_116、Leeroy）" autocomplete="off" />
+      <div class="chips" id="chips"></div>
+      <div id="results" class="results"></div>
+    </section>
+    <section class="pane detail-pane" id="detail">
+      <p class="hint">搜索并选择一张卡牌。</p>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

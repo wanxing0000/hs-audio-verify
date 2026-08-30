@@ -1,0 +1,3219 @@
+{
+  "generatedAt": "2026-08-28T10:32:41.685Z",
+  "note": "Metadata only. No FSB/WAV exported.",
+  "seed": 20260828,
+  "manifestCardCount": 35790,
+  "prefabScan": {
+    "scannedFiles": 2140,
+    "parsedCount": 45,
+    "parseErrors": 0,
+    "guidHits": 147
+  },
+  "guidToVoice": {
+    "32a0a333a2f0cad4d915bd71eb10e3b5": {
+      "file": "essential_base_global-prefab-0.unity3d",
+      "pathId": "-4784715551289632304",
+      "preloadIndex": 7781,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_EX1_414_Death_03"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_EX1_414_Death_03",
+          "classId": 114,
+          "pathId": "-3281157825477273136"
+        }
+      ]
+    },
+    "84d290d1a80c18044954116246058f36": {
+      "file": "essential_base_global-prefab-0.unity3d",
+      "pathId": "4438822686597906299",
+      "preloadIndex": 4611,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_EX1_414_Attack_02"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_EX1_414_Attack_02",
+          "classId": 114,
+          "pathId": "-7350075005368598661"
+        }
+      ]
+    },
+    "c55d8de31aba5244ba6e30cc1f6192a2": {
+      "file": "essential_base_global-prefab-0.unity3d",
+      "pathId": "-5967454757313203901",
+      "preloadIndex": 9029,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_EX1_414_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_EX1_414_Play_01",
+          "classId": 114,
+          "pathId": "1185919452088480067"
+        }
+      ]
+    },
+    "3a1ee3d7253edfc409cd8f1050494b80": {
+      "file": "initial_base_global-0516e06c-prefab-1.unity3d",
+      "pathId": "3311834806193363829",
+      "preloadIndex": 1069,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_REV_000_Female_Venthyr_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_REV_000_Female_Venthyr_Play_01",
+          "classId": 1,
+          "pathId": "401918978783189877"
+        },
+        {
+          "key": "VO_REV_000_Female_Venthyr_Play_01",
+          "classId": 114,
+          "pathId": "2630266553451748213"
+        }
+      ]
+    },
+    "4a57bab106ca8db42b5615f31aa767bc": {
+      "file": "initial_base_global-0516e06c-prefab-1.unity3d",
+      "pathId": "-476637496660836984",
+      "preloadIndex": 84,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_REV_000_Female_Venthyr_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_REV_000_Female_Venthyr_Death_01",
+          "classId": 114,
+          "pathId": "-6145636204895060600"
+        },
+        {
+          "key": "VO_REV_000_Female_Venthyr_Death_01",
+          "classId": 1,
+          "pathId": "-2507565287137264248"
+        }
+      ]
+    },
+    "9448877cc88018f42899de50deb4bcf7": {
+      "file": "initial_base_global-0516e06c-prefab-1.unity3d",
+      "pathId": "-7601692183498194491",
+      "preloadIndex": 2660,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_REV_000_Female_Venthyr_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_REV_000_Female_Venthyr_Attack_01",
+          "classId": 1,
+          "pathId": "-4468452650572643899"
+        },
+        {
+          "key": "VO_REV_000_Female_Venthyr_Attack_01",
+          "classId": 114,
+          "pathId": "-1627601345259437627"
+        }
+      ]
+    },
+    "0d0461c80e2fd2e42a446ae2ded52e99": {
+      "file": "initial_base_global-0647217b-prefab-3.unity3d",
+      "pathId": "5605237259506718101",
+      "preloadIndex": 3269,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "CATA_305_IncensedMatriarch_Play"
+      ],
+      "voDetails": [
+        {
+          "key": "CATA_305_IncensedMatriarch_Play",
+          "classId": 114,
+          "pathId": "4801806222041847189"
+        }
+      ]
+    },
+    "1b1b4aea29086004c9cbcee8e4517e25": {
+      "file": "initial_base_global-0647217b-prefab-3.unity3d",
+      "pathId": "-476336387520129855",
+      "preloadIndex": 3806,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "CATA_305_IncensedMatriarch_Attack"
+      ],
+      "voDetails": [
+        {
+          "key": "CATA_305_IncensedMatriarch_Attack",
+          "classId": 114,
+          "pathId": "-8049719346363296575"
+        }
+      ]
+    },
+    "df2d88e31e512fb44a620cf23a63e721": {
+      "file": "initial_base_global-0647217b-prefab-3.unity3d",
+      "pathId": "-5397037047242350771",
+      "preloadIndex": 1403,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "CATA_305_IncensedMatriarch_Death"
+      ],
+      "voDetails": [
+        {
+          "key": "CATA_305_IncensedMatriarch_Death",
+          "classId": 114,
+          "pathId": "-7693274764507799731"
+        }
+      ]
+    },
+    "1fa3117f2e5a57543a5abc5f52c8f43b": {
+      "file": "initial_base_global-0fde4609-prefab-3.unity3d",
+      "pathId": "-5383687413370096317",
+      "preloadIndex": 2512,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_EDR_485_Female_Dryad_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_EDR_485_Female_Dryad_Play_01",
+          "classId": 1,
+          "pathId": "-5967821317862886077"
+        },
+        {
+          "key": "VO_EDR_485_Female_Dryad_Play_01",
+          "classId": 114,
+          "pathId": "-5294851952746138301"
+        }
+      ]
+    },
+    "bf93ac128547ea048acadc5ba02c13e8": {
+      "file": "initial_base_global-0fde4609-prefab-3.unity3d",
+      "pathId": "2025376867619398439",
+      "preloadIndex": 1123,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_EDR_485_Female_Dryad_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_EDR_485_Female_Dryad_Attack_01",
+          "classId": 114,
+          "pathId": "-389380635627003097"
+        },
+        {
+          "key": "VO_EDR_485_Female_Dryad_Attack_01",
+          "classId": 1,
+          "pathId": "4560313404299764519"
+        }
+      ]
+    },
+    "da75d2012d79597499a0876c8771b130": {
+      "file": "initial_base_global-0fde4609-prefab-3.unity3d",
+      "pathId": "3005364826730523778",
+      "preloadIndex": 668,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_EDR_485_Female_Dryad_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_EDR_485_Female_Dryad_Death_01",
+          "classId": 114,
+          "pathId": "-7451754468393948030"
+        },
+        {
+          "key": "VO_EDR_485_Female_Dryad_Death_01",
+          "classId": 1,
+          "pathId": "3472061051927260290"
+        }
+      ]
+    },
+    "5b652d67f03ec7b4ca5de85b25831bba": {
+      "file": "initial_base_global-0fde4609-prefab-5.unity3d",
+      "pathId": "5148902627799380709",
+      "preloadIndex": 845,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "EDR_849_DreamboundRaptor_Attack"
+      ],
+      "voDetails": [
+        {
+          "key": "EDR_849_DreamboundRaptor_Attack",
+          "classId": 114,
+          "pathId": "5936472759613502181"
+        }
+      ]
+    },
+    "66f0a87bf3cb15843b312686eef3faad": {
+      "file": "initial_base_global-0fde4609-prefab-5.unity3d",
+      "pathId": "3796149048215269571",
+      "preloadIndex": 1087,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "EDR_849_DreamboundRaptor_Death"
+      ],
+      "voDetails": [
+        {
+          "key": "EDR_849_DreamboundRaptor_Death",
+          "classId": 114,
+          "pathId": "-5585232315862159165"
+        }
+      ]
+    },
+    "f2a6cefed5784bb42847569a7711a70a": {
+      "file": "initial_base_global-0fde4609-prefab-5.unity3d",
+      "pathId": "4469315426697590192",
+      "preloadIndex": 1427,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "EDR_849_DreamboundRaptor_Play"
+      ],
+      "voDetails": [
+        {
+          "key": "EDR_849_DreamboundRaptor_Play",
+          "classId": 114,
+          "pathId": "-477856566989834832"
+        }
+      ]
+    },
+    "a18826fd9774c6e418d6b47b9b6b53c1": {
+      "file": "initial_base_global-0fde4609-prefab-6.unity3d",
+      "pathId": "-414355017373153596",
+      "preloadIndex": 2621,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_EDR_942_Female_Elemental_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_EDR_942_Female_Elemental_Play_01",
+          "classId": 1,
+          "pathId": "-1217303301999589692"
+        },
+        {
+          "key": "VO_EDR_942_Female_Elemental_Play_01",
+          "classId": 114,
+          "pathId": "5742005539373156036"
+        }
+      ]
+    },
+    "ccc9abd53d5373c429d43b87a263e6bf": {
+      "file": "initial_base_global-0fde4609-prefab-6.unity3d",
+      "pathId": "7450330484619299401",
+      "preloadIndex": 936,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_EDR_942_Female_Elemental_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_EDR_942_Female_Elemental_Death_01",
+          "classId": 114,
+          "pathId": "5521402854495439433"
+        },
+        {
+          "key": "VO_EDR_942_Female_Elemental_Death_01",
+          "classId": 1,
+          "pathId": "8480668806668962377"
+        }
+      ]
+    },
+    "e684730af42e2c24e8de9c1ff37aeae3": {
+      "file": "initial_base_global-0fde4609-prefab-6.unity3d",
+      "pathId": "-4802686859651397367",
+      "preloadIndex": 1503,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_EDR_942_Female_Elemental_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_EDR_942_Female_Elemental_Attack_01",
+          "classId": 114,
+          "pathId": "-7818628772377474807"
+        },
+        {
+          "key": "VO_EDR_942_Female_Elemental_Attack_01",
+          "classId": 1,
+          "pathId": "3106145766183454985"
+        }
+      ]
+    },
+    "25cca77d1553444dc86f839aeff0f42a": {
+      "file": "initial_base_global-17e09d12-prefab-7.unity3d",
+      "pathId": "1026889755490020136",
+      "preloadIndex": 1702,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_DAL_565_Male_Doomguard_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_DAL_565_Male_Doomguard_Play_01",
+          "classId": 1,
+          "pathId": "-6710874030912214232"
+        },
+        {
+          "key": "VO_DAL_565_Male_Doomguard_Play_01",
+          "classId": 114,
+          "pathId": "6116453434008103720"
+        }
+      ]
+    },
+    "5e32bca7a6e3041fa97fcb594a7403f5": {
+      "file": "initial_base_global-17e09d12-prefab-7.unity3d",
+      "pathId": "-3600612384495210860",
+      "preloadIndex": 839,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_DAL_565_Male_Doomguard_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_DAL_565_Male_Doomguard_Attack_01",
+          "classId": 1,
+          "pathId": "-5249704205995446636"
+        },
+        {
+          "key": "VO_DAL_565_Male_Doomguard_Attack_01",
+          "classId": 114,
+          "pathId": "-2519576362366636396"
+        }
+      ]
+    },
+    "7568b2610467d4038ae00d3a8fe1374c": {
+      "file": "initial_base_global-17e09d12-prefab-7.unity3d",
+      "pathId": "-8500045405596547691",
+      "preloadIndex": 166,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_DAL_565_Male_Doomguard_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_DAL_565_Male_Doomguard_Death_01",
+          "classId": 1,
+          "pathId": "-5579524479085640299"
+        },
+        {
+          "key": "VO_DAL_565_Male_Doomguard_Death_01",
+          "classId": 114,
+          "pathId": "4599237415104611733"
+        }
+      ]
+    },
+    "3bb5044b6b5551443b1874712bb2a87f": {
+      "file": "initial_base_global-19c61f11-prefab-1.unity3d",
+      "pathId": "-6561562174735055519",
+      "preloadIndex": 1129,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "SFX_LOE_022_Death"
+      ],
+      "voDetails": [
+        {
+          "key": "SFX_LOE_022_Death",
+          "classId": 114,
+          "pathId": "6095192760919786849"
+        }
+      ]
+    },
+    "4d72f69765ba6514f855fe3c563c2ade": {
+      "file": "initial_base_global-19c61f11-prefab-1.unity3d",
+      "pathId": "-8290631493929809332",
+      "preloadIndex": 727,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "SFX_LOE_022_Play"
+      ],
+      "voDetails": [
+        {
+          "key": "SFX_LOE_022_Play",
+          "classId": 114,
+          "pathId": "304027588242950732"
+        }
+      ]
+    },
+    "cc3eda14b17a95b43ac6e361cbd249db": {
+      "file": "initial_base_global-19c61f11-prefab-1.unity3d",
+      "pathId": "-5045851456230423564",
+      "preloadIndex": 315,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "SFX_LOE_022_Attack"
+      ],
+      "voDetails": [
+        {
+          "key": "SFX_LOE_022_Attack",
+          "classId": 114,
+          "pathId": "-5832910404270128140"
+        }
+      ]
+    },
+    "88009a8af8aef3f478d3b2cc2fb3e140": {
+      "file": "initial_base_global-2173dfcb-prefab-1.unity3d",
+      "pathId": "2741929628669886297",
+      "preloadIndex": 2926,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_KAR_065_Female_NightElf_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_KAR_065_Female_NightElf_Death_01",
+          "classId": 1,
+          "pathId": "2956590602608230233"
+        },
+        {
+          "key": "VO_KAR_065_Female_NightElf_Death_01",
+          "classId": 114,
+          "pathId": "3281377827309010777"
+        }
+      ]
+    },
+    "a2c7825aa750dc8428135118fbb0bda7": {
+      "file": "initial_base_global-2173dfcb-prefab-1.unity3d",
+      "pathId": "3440907284538491840",
+      "preloadIndex": 2911,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_KAR_065_Female_NightElf_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_KAR_065_Female_NightElf_Attack_01",
+          "classId": 1,
+          "pathId": "1216415561283634112"
+        },
+        {
+          "key": "VO_KAR_065_Female_NightElf_Attack_01",
+          "classId": 114,
+          "pathId": "8493088648661795776"
+        }
+      ]
+    },
+    "aa759ef140f0fbe4fac73e7a8df4c6bb": {
+      "file": "initial_base_global-2173dfcb-prefab-1.unity3d",
+      "pathId": "7781871611617048305",
+      "preloadIndex": 818,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_KAR_065_Female_NightElf_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_KAR_065_Female_NightElf_Play_01",
+          "classId": 114,
+          "pathId": "-4880202717726607631"
+        },
+        {
+          "key": "VO_KAR_065_Female_NightElf_Play_01",
+          "classId": 1,
+          "pathId": "1388210492473964273"
+        }
+      ]
+    },
+    "e36ad85ad621968459c993c5dc53fee9": {
+      "file": "initial_base_global-23b69986-prefab-5.unity3d",
+      "pathId": "5802736177298138199",
+      "preloadIndex": 1579,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_VAC_301_Female_Naga_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_VAC_301_Female_Naga_Death_01",
+          "classId": 114,
+          "pathId": "-4240815513919953833"
+        },
+        {
+          "key": "VO_VAC_301_Female_Naga_Death_01",
+          "classId": 1,
+          "pathId": "-3264501599455943593"
+        }
+      ]
+    },
+    "ea0a75f3b2de73c4688e099186460c84": {
+      "file": "initial_base_global-23b69986-prefab-5.unity3d",
+      "pathId": "-6810624509575653891",
+      "preloadIndex": 421,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_VAC_301_Female_Naga_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_VAC_301_Female_Naga_Play_01",
+          "classId": 1,
+          "pathId": "-5100131128918764035"
+        },
+        {
+          "key": "VO_VAC_301_Female_Naga_Play_01",
+          "classId": 114,
+          "pathId": "8497977718823556605"
+        }
+      ]
+    },
+    "f5098f79da6cd9743a990edad26168d6": {
+      "file": "initial_base_global-23b69986-prefab-5.unity3d",
+      "pathId": "5670584610091580208",
+      "preloadIndex": 1478,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_VAC_301_Female_Naga_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_VAC_301_Female_Naga_Attack_01",
+          "classId": 1,
+          "pathId": "-8953940507493385424"
+        },
+        {
+          "key": "VO_VAC_301_Female_Naga_Attack_01",
+          "classId": 114,
+          "pathId": "-5577936660715062480"
+        }
+      ]
+    },
+    "8ef9f15cafd4f1c47991804cf1b761dd": {
+      "file": "initial_base_global-25e591d9-prefab-0.unity3d",
+      "pathId": "5956691124301694940",
+      "preloadIndex": 1735,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "CFM_ClumsyKodo_Death"
+      ],
+      "voDetails": [
+        {
+          "key": "CFM_ClumsyKodo_Death",
+          "classId": 114,
+          "pathId": "-4164406213735053348"
+        }
+      ]
+    },
+    "c8bdcb02f5b00ad429f12d38d252c729": {
+      "file": "initial_base_global-25e591d9-prefab-0.unity3d",
+      "pathId": "-98332031320388443",
+      "preloadIndex": 395,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "CFM_ClumsyKodo_Play"
+      ],
+      "voDetails": [
+        {
+          "key": "CFM_ClumsyKodo_Play",
+          "classId": 114,
+          "pathId": "-2919998592779547483"
+        }
+      ]
+    },
+    "d9bc9f64674fdb6488b82740cc0836f5": {
+      "file": "initial_base_global-25e591d9-prefab-0.unity3d",
+      "pathId": "-328166412185517227",
+      "preloadIndex": 642,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "CFM_ClumsyKodo_Attack"
+      ],
+      "voDetails": [
+        {
+          "key": "CFM_ClumsyKodo_Attack",
+          "classId": 114,
+          "pathId": "2589948225102857045"
+        }
+      ]
+    },
+    "48daa134ce1c1ad4ba6e22fab4ef7013": {
+      "file": "initial_base_global-2f546934-prefab-0.unity3d",
+      "pathId": "7048234462463394960",
+      "preloadIndex": 937,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TLC_225_X_MurlocElemental_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TLC_225_X_MurlocElemental_Attack_01",
+          "classId": 1,
+          "pathId": "-3555784652803341168"
+        },
+        {
+          "key": "VO_TLC_225_X_MurlocElemental_Attack_01",
+          "classId": 114,
+          "pathId": "-1581261048156912496"
+        }
+      ]
+    },
+    "4ddcb535eb8b2a246b4147179e4218e5": {
+      "file": "initial_base_global-2f546934-prefab-0.unity3d",
+      "pathId": "6643893401751580873",
+      "preloadIndex": 1058,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TLC_225_X_MurlocElemental_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TLC_225_X_MurlocElemental_Death_01",
+          "classId": 114,
+          "pathId": "-3498221129215315767"
+        },
+        {
+          "key": "VO_TLC_225_X_MurlocElemental_Death_01",
+          "classId": 1,
+          "pathId": "-24321247321853751"
+        }
+      ]
+    },
+    "bd5903e2dd115d6498678131b20ea786": {
+      "file": "initial_base_global-2f546934-prefab-0.unity3d",
+      "pathId": "8550809034612361256",
+      "preloadIndex": 492,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TLC_225_X_MurlocElemental_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TLC_225_X_MurlocElemental_Play_01",
+          "classId": 114,
+          "pathId": "-7610199362013804504"
+        },
+        {
+          "key": "VO_TLC_225_X_MurlocElemental_Play_01",
+          "classId": 1,
+          "pathId": "-5401072125986584536"
+        }
+      ]
+    },
+    "776c223a77216bc4bbe9414bb9ea2299": {
+      "file": "initial_base_global-384202c8-prefab-0.unity3d",
+      "pathId": "3426544221001805574",
+      "preloadIndex": 1810,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_DMF_067_Male_Murloc_Attack_02"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_DMF_067_Male_Murloc_Attack_02",
+          "classId": 1,
+          "pathId": "-5746531969183650042"
+        },
+        {
+          "key": "VO_DMF_067_Male_Murloc_Attack_02",
+          "classId": 114,
+          "pathId": "6928122996023684870"
+        }
+      ]
+    },
+    "9e4ed0d344f3d7c4281ca4a2c23d25c5": {
+      "file": "initial_base_global-384202c8-prefab-0.unity3d",
+      "pathId": "7607715480342281586",
+      "preloadIndex": 545,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_DMF_067_Male_Murloc_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_DMF_067_Male_Murloc_Death_01",
+          "classId": 1,
+          "pathId": "-1208505097972499086"
+        },
+        {
+          "key": "VO_DMF_067_Male_Murloc_Death_01",
+          "classId": 114,
+          "pathId": "848510263763516786"
+        }
+      ]
+    },
+    "b9ab0fe4a5e5f7749a7b032fd6a0f592": {
+      "file": "initial_base_global-384202c8-prefab-0.unity3d",
+      "pathId": "-3004265576417398219",
+      "preloadIndex": 1260,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_DMF_067_Male_Murloc_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_DMF_067_Male_Murloc_Play_01",
+          "classId": 114,
+          "pathId": "-5483717127781027275"
+        },
+        {
+          "key": "VO_DMF_067_Male_Murloc_Play_01",
+          "classId": 1,
+          "pathId": "9005068886825628213"
+        }
+      ]
+    },
+    "4e21f71016c970642905677e8a010738": {
+      "file": "initial_base_global-384202c8-prefab-5.unity3d",
+      "pathId": "-8142789655813439497",
+      "preloadIndex": 0,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "DMF_523_BumperCar_Play"
+      ],
+      "voDetails": [
+        {
+          "key": "DMF_523_BumperCar_Play",
+          "classId": 114,
+          "pathId": "2125282031560802295"
+        }
+      ]
+    },
+    "6e2b0323008ee764baf33439d2ce8262": {
+      "file": "initial_base_global-384202c8-prefab-5.unity3d",
+      "pathId": "9104276952890042767",
+      "preloadIndex": 551,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "DMF_523_BumperCar_Death"
+      ],
+      "voDetails": [
+        {
+          "key": "DMF_523_BumperCar_Death",
+          "classId": 114,
+          "pathId": "-2060685908360074865"
+        }
+      ]
+    },
+    "ff22436f0add1184db66c983c85607a6": {
+      "file": "initial_base_global-384202c8-prefab-5.unity3d",
+      "pathId": "6891071698310789050",
+      "preloadIndex": 2466,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "DMF_523_BumperCar_Attack"
+      ],
+      "voDetails": [
+        {
+          "key": "DMF_523_BumperCar_Attack",
+          "classId": 114,
+          "pathId": "-6171245826683832390"
+        }
+      ]
+    },
+    "7f8230e6c6c2cfa4a8c096c3b16c4b4a": {
+      "file": "initial_base_global-3aaf7c48-prefab-2.unity3d",
+      "pathId": "3497904986960246403",
+      "preloadIndex": 656,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_GVG_115_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_GVG_115_Play_01",
+          "classId": 1,
+          "pathId": "-3447671850601662845"
+        },
+        {
+          "key": "VO_GVG_115_Play_01",
+          "classId": 114,
+          "pathId": "869667785886414467"
+        }
+      ]
+    },
+    "b20cbee2c6cf48b4a9d6045eeeec1e09": {
+      "file": "initial_base_global-3aaf7c48-prefab-2.unity3d",
+      "pathId": "-6540273681634482059",
+      "preloadIndex": 252,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_GVG_115_Attack_02"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_GVG_115_Attack_02",
+          "classId": 1,
+          "pathId": "-8893375590285694859"
+        },
+        {
+          "key": "VO_GVG_115_Attack_02",
+          "classId": 114,
+          "pathId": "-7477921371940771723"
+        }
+      ]
+    },
+    "dbba25e4726a8d945b7c44a5038a01b4": {
+      "file": "initial_base_global-3aaf7c48-prefab-2.unity3d",
+      "pathId": "-1224928895092218346",
+      "preloadIndex": 511,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_GVG_115_Death_03"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_GVG_115_Death_03",
+          "classId": 114,
+          "pathId": "-8795606659795802602"
+        },
+        {
+          "key": "VO_GVG_115_Death_03",
+          "classId": 1,
+          "pathId": "2404886388289218070"
+        }
+      ]
+    },
+    "232cca86a91c04315843608b6a4c735d": {
+      "file": "initial_base_global-46708e9b-prefab-0.unity3d",
+      "pathId": "-493696193983302272",
+      "preloadIndex": 1091,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "Pyros_UNG_027_Attack"
+      ],
+      "voDetails": [
+        {
+          "key": "Pyros_UNG_027_Attack",
+          "classId": 114,
+          "pathId": "6490213036083099008"
+        }
+      ]
+    },
+    "bb07ea15ab32142669414c0cd64e0f1b": {
+      "file": "initial_base_global-46708e9b-prefab-0.unity3d",
+      "pathId": "5041145725274664447",
+      "preloadIndex": 861,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "Pyros_UNG_027_Play"
+      ],
+      "voDetails": [
+        {
+          "key": "Pyros_UNG_027_Play",
+          "classId": 114,
+          "pathId": "1904861678904782335"
+        }
+      ]
+    },
+    "c1d94cf2f1538490586c95f465023856": {
+      "file": "initial_base_global-46708e9b-prefab-0.unity3d",
+      "pathId": "935731918193336677",
+      "preloadIndex": 729,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "Pyros_UNG_027_Death"
+      ],
+      "voDetails": [
+        {
+          "key": "Pyros_UNG_027_Death",
+          "classId": 114,
+          "pathId": "-1720394546500296347"
+        }
+      ]
+    },
+    "27a7ba3d1a6aa8e4a88ef6d82e4a9379": {
+      "file": "initial_base_global-46708e9b-prefab-1.unity3d",
+      "pathId": "-2923343300665396579",
+      "preloadIndex": 1625,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "UNG_803_EmeraldReaver_Play"
+      ],
+      "voDetails": [
+        {
+          "key": "UNG_803_EmeraldReaver_Play",
+          "classId": 114,
+          "pathId": "906053123110613661"
+        }
+      ]
+    },
+    "3867ea13c81f72e4584a13b73a62e903": {
+      "file": "initial_base_global-46708e9b-prefab-1.unity3d",
+      "pathId": "3666098746327756316",
+      "preloadIndex": 482,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "UNG_803_EmeraldReaver_Attack"
+      ],
+      "voDetails": [
+        {
+          "key": "UNG_803_EmeraldReaver_Attack",
+          "classId": 114,
+          "pathId": "2427070039192890908"
+        }
+      ]
+    },
+    "3c2ebf953cd158b43b7dbcec8eec2c44": {
+      "file": "initial_base_global-46708e9b-prefab-1.unity3d",
+      "pathId": "7443371985028731349",
+      "preloadIndex": 748,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "UNG_803_EmeraldReaver_Death"
+      ],
+      "voDetails": [
+        {
+          "key": "UNG_803_EmeraldReaver_Death",
+          "classId": 114,
+          "pathId": "-8754560685508374059"
+        }
+      ]
+    },
+    "5b92840fb599d5e488da729fd3ccc683": {
+      "file": "initial_base_global-50dcdbf5-prefab-4.unity3d",
+      "pathId": "-5302270138732273427",
+      "preloadIndex": 2294,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TSC_087_Female_NagaCentuar_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TSC_087_Female_NagaCentuar_Death_01",
+          "classId": 1,
+          "pathId": "-6193524903608278803"
+        },
+        {
+          "key": "VO_TSC_087_Female_NagaCentuar_Death_01",
+          "classId": 114,
+          "pathId": "-2767192511516139283"
+        }
+      ]
+    },
+    "c1fbf2941f3d8e2498dc0584358fb47d": {
+      "file": "initial_base_global-50dcdbf5-prefab-4.unity3d",
+      "pathId": "-1751377710309671866",
+      "preloadIndex": 299,
+      "preloadSize": 11,
+      "voiceKeys": [
+        "VO_TSC_087_Female_NagaCentuar_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TSC_087_Female_NagaCentuar_Play_01",
+          "classId": 1,
+          "pathId": "-3512797089937261498"
+        },
+        {
+          "key": "VO_TSC_087_Female_NagaCentuar_Play_01",
+          "classId": 114,
+          "pathId": "424794623500254278"
+        }
+      ]
+    },
+    "dbbec7fb0e8c39a4a8bfc74d1b4b5845": {
+      "file": "initial_base_global-50dcdbf5-prefab-4.unity3d",
+      "pathId": "1432106787207038475",
+      "preloadIndex": 1778,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TSC_087_Female_NagaCentuar_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TSC_087_Female_NagaCentuar_Attack_01",
+          "classId": 1,
+          "pathId": "2736597857560741387"
+        },
+        {
+          "key": "VO_TSC_087_Female_NagaCentuar_Attack_01",
+          "classId": 114,
+          "pathId": "7809254554452411915"
+        }
+      ]
+    },
+    "2086fbf153651d248bbc57b672cca92b": {
+      "file": "initial_base_global-50dcdbf5-prefab-5.unity3d",
+      "pathId": "-2483105127885035980",
+      "preloadIndex": 135,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TSC_620_Female_Naga_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TSC_620_Female_Naga_Attack_01",
+          "classId": 1,
+          "pathId": "-5046749999899793868"
+        },
+        {
+          "key": "VO_TSC_620_Female_Naga_Attack_01",
+          "classId": 114,
+          "pathId": "5823986028634449460"
+        }
+      ]
+    },
+    "75e4b16ec6faa284c8f86fefa5611efb": {
+      "file": "initial_base_global-50dcdbf5-prefab-5.unity3d",
+      "pathId": "-3489046022810528645",
+      "preloadIndex": 1785,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TSC_620_Female_Naga_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TSC_620_Female_Naga_Death_01",
+          "classId": 1,
+          "pathId": "-6564136804804815749"
+        },
+        {
+          "key": "VO_TSC_620_Female_Naga_Death_01",
+          "classId": 114,
+          "pathId": "-2694876292457720709"
+        }
+      ]
+    },
+    "f3f05dc02d00e3b459541f18bc6e9d3a": {
+      "file": "initial_base_global-50dcdbf5-prefab-5.unity3d",
+      "pathId": "5172358753164242204",
+      "preloadIndex": 51,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TSC_620_Female_Naga_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TSC_620_Female_Naga_Play_01",
+          "classId": 114,
+          "pathId": "-8968450154736407268"
+        },
+        {
+          "key": "VO_TSC_620_Female_Naga_Play_01",
+          "classId": 1,
+          "pathId": "3467555044700106012"
+        }
+      ]
+    },
+    "1ad4f9e7161942548b2f67300b0ee374": {
+      "file": "initial_base_global-51b13101-prefab-1.unity3d",
+      "pathId": "-5140163793730566574",
+      "preloadIndex": 2867,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_JAIL_321_Male_Troll_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_JAIL_321_Male_Troll_Attack_01",
+          "classId": 1,
+          "pathId": "-4385000458199529902"
+        },
+        {
+          "key": "VO_JAIL_321_Male_Troll_Attack_01",
+          "classId": 114,
+          "pathId": "-2320515862115744174"
+        }
+      ]
+    },
+    "1f6a8fa910e778a489ff0f964e434274": {
+      "file": "initial_base_global-51b13101-prefab-1.unity3d",
+      "pathId": "-1151213355082901655",
+      "preloadIndex": 3148,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_JAIL_321_Male_Troll_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_JAIL_321_Male_Troll_Play_01",
+          "classId": 114,
+          "pathId": "-1988750942486849687"
+        },
+        {
+          "key": "VO_JAIL_321_Male_Troll_Play_01",
+          "classId": 1,
+          "pathId": "2560186193833301865"
+        }
+      ]
+    },
+    "da6648566631ad94d99df622fb211868": {
+      "file": "initial_base_global-51b13101-prefab-1.unity3d",
+      "pathId": "-3993771817623106328",
+      "preloadIndex": 2401,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_JAIL_321_Male_Troll_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_JAIL_321_Male_Troll_Death_01",
+          "classId": 114,
+          "pathId": "5235870718064053480"
+        },
+        {
+          "key": "VO_JAIL_321_Male_Troll_Death_01",
+          "classId": 1,
+          "pathId": "5279280522011462888"
+        }
+      ]
+    },
+    "46c2496ee3512f148ac2b29f10174f08": {
+      "file": "initial_base_global-51b13101-prefab-7.unity3d",
+      "pathId": "-1334851564838830046",
+      "preloadIndex": 2596,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_CAP_406_Female_Arakkoa_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_CAP_406_Female_Arakkoa_Attack_01",
+          "classId": 114,
+          "pathId": "-9093251093269495774"
+        },
+        {
+          "key": "VO_CAP_406_Female_Arakkoa_Attack_01",
+          "classId": 1,
+          "pathId": "-7763056180924891102"
+        }
+      ]
+    },
+    "628f6c805fa8d4a47ada7e3c2b9371ba": {
+      "file": "initial_base_global-51b13101-prefab-7.unity3d",
+      "pathId": "-2079835586416013172",
+      "preloadIndex": 108,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_CAP_106t_Male_Draenei_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_CAP_106t_Male_Draenei_Play_01",
+          "classId": 114,
+          "pathId": "2030678394413125772"
+        },
+        {
+          "key": "VO_CAP_106t_Male_Draenei_Play_01",
+          "classId": 1,
+          "pathId": "4029877509602676876"
+        }
+      ]
+    },
+    "bae920020d9a0fd43ac9872ce8859d18": {
+      "file": "initial_base_global-51b13101-prefab-7.unity3d",
+      "pathId": "1279380135744055042",
+      "preloadIndex": 209,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_CAP_106t_Male_Draenei_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_CAP_106t_Male_Draenei_Death_01",
+          "classId": 114,
+          "pathId": "-3276296857854073086"
+        },
+        {
+          "key": "VO_CAP_106t_Male_Draenei_Death_01",
+          "classId": 1,
+          "pathId": "1992855995383621378"
+        }
+      ]
+    },
+    "c3c47856ee140df4181ed2c6ae903458": {
+      "file": "initial_base_global-51b13101-prefab-7.unity3d",
+      "pathId": "3345478721351707218",
+      "preloadIndex": 882,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_CAP_406_Female_Arakkoa_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_CAP_406_Female_Arakkoa_Death_01",
+          "classId": 114,
+          "pathId": "-7583750835564778926"
+        },
+        {
+          "key": "VO_CAP_406_Female_Arakkoa_Death_01",
+          "classId": 1,
+          "pathId": "5922467388683643474"
+        }
+      ]
+    },
+    "df1f4d0dbad8ed94a927d887bbf5de5d": {
+      "file": "initial_base_global-51b13101-prefab-7.unity3d",
+      "pathId": "-2191432205847073471",
+      "preloadIndex": 2533,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_CAP_106t_Male_Draenei_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_CAP_106t_Male_Draenei_Attack_01",
+          "classId": 1,
+          "pathId": "-4819373515559441087"
+        },
+        {
+          "key": "VO_CAP_106t_Male_Draenei_Attack_01",
+          "classId": 114,
+          "pathId": "-3118503332468396735"
+        }
+      ]
+    },
+    "e5448909050c9074aa71d69461d83333": {
+      "file": "initial_base_global-51b13101-prefab-7.unity3d",
+      "pathId": "2086368275177340741",
+      "preloadIndex": 1730,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_CAP_406_Female_Arakkoa_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_CAP_406_Female_Arakkoa_Play_01",
+          "classId": 1,
+          "pathId": "1902702745359941445"
+        },
+        {
+          "key": "VO_CAP_406_Female_Arakkoa_Play_01",
+          "classId": 114,
+          "pathId": "3359701834338729797"
+        }
+      ]
+    },
+    "4e4e0c6468ee3944396da3f7b5ef36d9": {
+      "file": "initial_base_global-5c47a539-prefab-6.unity3d",
+      "pathId": "-5312211454769826100",
+      "preloadIndex": 894,
+      "preloadSize": 13,
+      "voiceKeys": [
+        "VO_BT_737_Female_NightElf_Play_01",
+        "VO_BT_737_Female_NightElf_Interaction_Maiev_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_BT_737_Female_NightElf_Play_01",
+          "classId": 1,
+          "pathId": "-6805199464764279092"
+        },
+        {
+          "key": "VO_BT_737_Female_NightElf_Interaction_Maiev_01",
+          "classId": 1,
+          "pathId": "-224313602766080308"
+        },
+        {
+          "key": "VO_BT_737_Female_NightElf_Interaction_Maiev_01",
+          "classId": 114,
+          "pathId": "3932457747832633036"
+        },
+        {
+          "key": "VO_BT_737_Female_NightElf_Play_01",
+          "classId": 114,
+          "pathId": "4693570819956405964"
+        }
+      ]
+    },
+    "7be0b88099d1a4045b9724ddec2ec4b1": {
+      "file": "initial_base_global-5c47a539-prefab-6.unity3d",
+      "pathId": "7605315333929560424",
+      "preloadIndex": 126,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_BT_737_Female_NightElf_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_BT_737_Female_NightElf_Attack_01",
+          "classId": 114,
+          "pathId": "-8783349768737199768"
+        },
+        {
+          "key": "VO_BT_737_Female_NightElf_Attack_01",
+          "classId": 1,
+          "pathId": "1258480176006621544"
+        }
+      ]
+    },
+    "8acdda8c2598f0d449676ac7c4b66fde": {
+      "file": "initial_base_global-5c47a539-prefab-6.unity3d",
+      "pathId": "6179004965353559015",
+      "preloadIndex": 1833,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_BT_737_Female_NightElf_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_BT_737_Female_NightElf_Death_01",
+          "classId": 114,
+          "pathId": "-1383421007582522393"
+        },
+        {
+          "key": "VO_BT_737_Female_NightElf_Death_01",
+          "classId": 1,
+          "pathId": "1926756574458156007"
+        }
+      ]
+    },
+    "0904b5c6281595948ad6b66ef433d2d5": {
+      "file": "initial_base_global-5fc02a26-prefab-7.unity3d",
+      "pathId": "2499088042340692061",
+      "preloadIndex": 1019,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_AV_403_Female_NightElf_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_AV_403_Female_NightElf_Death_01",
+          "classId": 1,
+          "pathId": "756835461016957021"
+        },
+        {
+          "key": "VO_AV_403_Female_NightElf_Death_01",
+          "classId": 114,
+          "pathId": "8723907990274814045"
+        }
+      ]
+    },
+    "3043eb2118e1f2347a8827781acba1a7": {
+      "file": "initial_base_global-5fc02a26-prefab-7.unity3d",
+      "pathId": "-6301097296922223678",
+      "preloadIndex": 80,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_AV_403_Female_NightElf_Play_02"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_AV_403_Female_NightElf_Play_02",
+          "classId": 114,
+          "pathId": "3869476466640542658"
+        },
+        {
+          "key": "VO_AV_403_Female_NightElf_Play_02",
+          "classId": 1,
+          "pathId": "7695701548841622466"
+        }
+      ]
+    },
+    "ae7ad75915898c947b78746e3d584319": {
+      "file": "initial_base_global-5fc02a26-prefab-7.unity3d",
+      "pathId": "1613821959900176692",
+      "preloadIndex": 1143,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_AV_403_Female_NightElf_Attack_02"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_AV_403_Female_NightElf_Attack_02",
+          "classId": 114,
+          "pathId": "152751817745047860"
+        },
+        {
+          "key": "VO_AV_403_Female_NightElf_Attack_02",
+          "classId": 1,
+          "pathId": "6848115458358518068"
+        }
+      ]
+    },
+    "03d306e752830944486f9853e31b5093": {
+      "file": "initial_base_global-5fc02a26-prefab-8.unity3d",
+      "pathId": "-3152688006819957477",
+      "preloadIndex": 1126,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_ONY_028_Male_Naaru_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_ONY_028_Male_Naaru_Death_01",
+          "classId": 1,
+          "pathId": "-5799298225722641125"
+        },
+        {
+          "key": "VO_ONY_028_Male_Naaru_Death_01",
+          "classId": 114,
+          "pathId": "4866135616094647579"
+        }
+      ]
+    },
+    "4948c6323e8d6cc4db0ec6a0bf3a1a7b": {
+      "file": "initial_base_global-5fc02a26-prefab-8.unity3d",
+      "pathId": "-1537815921243887045",
+      "preloadIndex": 133,
+      "preloadSize": 11,
+      "voiceKeys": [
+        "VO_ONY_028_Male_Naaru_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_ONY_028_Male_Naaru_Play_01",
+          "classId": 1,
+          "pathId": "178955454690585147"
+        },
+        {
+          "key": "VO_ONY_028_Male_Naaru_Play_01",
+          "classId": 114,
+          "pathId": "318382570281527867"
+        }
+      ]
+    },
+    "4d59a872f3204f3499bf141c9fe9e492": {
+      "file": "initial_base_global-5fc02a26-prefab-8.unity3d",
+      "pathId": "-8164300451898326170",
+      "preloadIndex": 153,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_ONY_028_Male_Naaru_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_ONY_028_Male_Naaru_Attack_01",
+          "classId": 114,
+          "pathId": "-579647095377034394"
+        },
+        {
+          "key": "VO_ONY_028_Male_Naaru_Attack_01",
+          "classId": 1,
+          "pathId": "5155820243728860006"
+        }
+      ]
+    },
+    "233182cec6c9dd94ebf77b5dfbbfe3e4": {
+      "file": "initial_base_global-61754518-prefab-0.unity3d",
+      "pathId": "-6080553319336926928",
+      "preloadIndex": 1736,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_AT_012_DEATH_03"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_AT_012_DEATH_03",
+          "classId": 1,
+          "pathId": "6551808977150386480"
+        },
+        {
+          "key": "VO_AT_012_DEATH_03",
+          "classId": 114,
+          "pathId": "8712670415234441520"
+        }
+      ]
+    },
+    "47e81391506504a42ab51e024eb452f5": {
+      "file": "initial_base_global-61754518-prefab-0.unity3d",
+      "pathId": "-5924802298681855918",
+      "preloadIndex": 134,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_AT_012_PLAY_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_AT_012_PLAY_01",
+          "classId": 1,
+          "pathId": "1535723740908253266"
+        },
+        {
+          "key": "VO_AT_012_PLAY_01",
+          "classId": 114,
+          "pathId": "1990563097887928402"
+        }
+      ]
+    },
+    "529c65f9581202848aa75e6cd93747df": {
+      "file": "initial_base_global-61754518-prefab-0.unity3d",
+      "pathId": "5437287353416258168",
+      "preloadIndex": 1050,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_AT_012_ATTACK_02"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_AT_012_ATTACK_02",
+          "classId": 1,
+          "pathId": "1508741739479995000"
+        },
+        {
+          "key": "VO_AT_012_ATTACK_02",
+          "classId": 114,
+          "pathId": "3902372866724631160"
+        }
+      ]
+    },
+    "253b6ac95adb58c4c9323ae5dcef6a52": {
+      "file": "initial_base_global-67d2d0c1-prefab-0.unity3d",
+      "pathId": "7576640531053754853",
+      "preloadIndex": 1580,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_SCH_142_Female_Gnome_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_SCH_142_Female_Gnome_Death_01",
+          "classId": 114,
+          "pathId": "3637143092528167397"
+        },
+        {
+          "key": "VO_SCH_142_Female_Gnome_Death_01",
+          "classId": 1,
+          "pathId": "7309159817222109669"
+        }
+      ]
+    },
+    "3b640b0c564c1804eb63ff79d55f227e": {
+      "file": "initial_base_global-67d2d0c1-prefab-0.unity3d",
+      "pathId": "-4175197988353089201",
+      "preloadIndex": 1877,
+      "preloadSize": 11,
+      "voiceKeys": [
+        "SCH_147_BonewebEgg_Play"
+      ],
+      "voDetails": [
+        {
+          "key": "SCH_147_BonewebEgg_Play",
+          "classId": 114,
+          "pathId": "541116855815561551"
+        }
+      ]
+    },
+    "7ec793bc387a383479f31d92c41801e7": {
+      "file": "initial_base_global-67d2d0c1-prefab-0.unity3d",
+      "pathId": "-2301824244084198019",
+      "preloadIndex": 1942,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "SCH_147_BonewebEgg_Attack"
+      ],
+      "voDetails": [
+        {
+          "key": "SCH_147_BonewebEgg_Attack",
+          "classId": 114,
+          "pathId": "-1666065309888039555"
+        }
+      ]
+    },
+    "aca884431e8f6644190cf78e12b2a225": {
+      "file": "initial_base_global-67d2d0c1-prefab-0.unity3d",
+      "pathId": "8617425621876055336",
+      "preloadIndex": 804,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_SCH_142_Female_Gnome_Play_02"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_SCH_142_Female_Gnome_Play_02",
+          "classId": 1,
+          "pathId": "-7658986748467307224"
+        },
+        {
+          "key": "VO_SCH_142_Female_Gnome_Play_02",
+          "classId": 114,
+          "pathId": "1715981409528225064"
+        }
+      ]
+    },
+    "c15e140334b398a419df5313829f20b3": {
+      "file": "initial_base_global-67d2d0c1-prefab-0.unity3d",
+      "pathId": "238036537122623663",
+      "preloadIndex": 795,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_SCH_142_Female_Gnome_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_SCH_142_Female_Gnome_Attack_01",
+          "classId": 114,
+          "pathId": "-2119878962130120529"
+        },
+        {
+          "key": "VO_SCH_142_Female_Gnome_Attack_01",
+          "classId": 1,
+          "pathId": "6046252666874302639"
+        }
+      ]
+    },
+    "ea6933b310b55184c99ed36c8af89e25": {
+      "file": "initial_base_global-67d2d0c1-prefab-0.unity3d",
+      "pathId": "-4782900307408955075",
+      "preloadIndex": 842,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "SCH_147_BonewebEgg_Death"
+      ],
+      "voDetails": [
+        {
+          "key": "SCH_147_BonewebEgg_Death",
+          "classId": 114,
+          "pathId": "4441284636752763197"
+        }
+      ]
+    },
+    "9297d1ca6385b5c439ef07d6496686e9": {
+      "file": "initial_base_global-67d2d0c1-prefab-5.unity3d",
+      "pathId": "8404289459118429074",
+      "preloadIndex": 2367,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_SCH_613_Female_Dryad_Attack_02"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_SCH_613_Female_Dryad_Attack_02",
+          "classId": 1,
+          "pathId": "-5469398617383480430"
+        },
+        {
+          "key": "VO_SCH_613_Female_Dryad_Attack_02",
+          "classId": 114,
+          "pathId": "-1096192513777052782"
+        }
+      ]
+    },
+    "c95b5ca35a204a3458a56426811920dd": {
+      "file": "initial_base_global-67d2d0c1-prefab-5.unity3d",
+      "pathId": "8898084770095765895",
+      "preloadIndex": 918,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_SCH_613_Female_Dryad_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_SCH_613_Female_Dryad_Play_01",
+          "classId": 1,
+          "pathId": "-7511266816023127673"
+        },
+        {
+          "key": "VO_SCH_613_Female_Dryad_Play_01",
+          "classId": 114,
+          "pathId": "2086758431341549959"
+        }
+      ]
+    },
+    "e5085a3e1624ce746bc5ce33e0091f61": {
+      "file": "initial_base_global-67d2d0c1-prefab-5.unity3d",
+      "pathId": "-5560414428701779580",
+      "preloadIndex": 2663,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_SCH_613_Female_Dryad_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_SCH_613_Female_Dryad_Death_01",
+          "classId": 1,
+          "pathId": "-4918525305833711228"
+        },
+        {
+          "key": "VO_SCH_613_Female_Dryad_Death_01",
+          "classId": 114,
+          "pathId": "-1312580000797222524"
+        }
+      ]
+    },
+    "7e0f0767c0327479cabdf519196698ea": {
+      "file": "initial_base_global-74f91fa9-prefab-2.unity3d",
+      "pathId": "4525105869919928269",
+      "preloadIndex": 1204,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_BOT_280_Male_VoidElf_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_BOT_280_Male_VoidElf_Play_01",
+          "classId": 114,
+          "pathId": "7649297678500020173"
+        },
+        {
+          "key": "VO_BOT_280_Male_VoidElf_Play_01",
+          "classId": 1,
+          "pathId": "7799110980607918029"
+        }
+      ]
+    },
+    "bce2dedb6561a4f388942748908cc1c7": {
+      "file": "initial_base_global-74f91fa9-prefab-2.unity3d",
+      "pathId": "8063890460572138099",
+      "preloadIndex": 1527,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_BOT_280_Male_VoidElf_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_BOT_280_Male_VoidElf_Attack_01",
+          "classId": 1,
+          "pathId": "5384239480936872563"
+        },
+        {
+          "key": "VO_BOT_280_Male_VoidElf_Attack_01",
+          "classId": 114,
+          "pathId": "7639639849524607603"
+        }
+      ]
+    },
+    "d8aab5240673e4b859e350145b0d2797": {
+      "file": "initial_base_global-74f91fa9-prefab-2.unity3d",
+      "pathId": "266704313823559385",
+      "preloadIndex": 572,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_BOT_280_Male_VoidElf_Death_02"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_BOT_280_Male_VoidElf_Death_02",
+          "classId": 1,
+          "pathId": "-4274708870571983143"
+        },
+        {
+          "key": "VO_BOT_280_Male_VoidElf_Death_02",
+          "classId": 114,
+          "pathId": "5834795265709080281"
+        }
+      ]
+    },
+    "2b0b86c1e297a4ad8b99978f9cecd90a": {
+      "file": "initial_base_global-74f91fa9-prefab-3.unity3d",
+      "pathId": "2137485922995398170",
+      "preloadIndex": 89,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_BOT_511_Female_Goblin_Attack_02"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_BOT_511_Female_Goblin_Attack_02",
+          "classId": 114,
+          "pathId": "-373758305823365606"
+        },
+        {
+          "key": "VO_BOT_511_Female_Goblin_Attack_02",
+          "classId": 1,
+          "pathId": "6144354895790794266"
+        }
+      ]
+    },
+    "3bec181ad57e048c2b2f0d2436479072": {
+      "file": "initial_base_global-74f91fa9-prefab-3.unity3d",
+      "pathId": "-6018970213261681889",
+      "preloadIndex": 716,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_BOT_511_Female_Goblin_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_BOT_511_Female_Goblin_Play_01",
+          "classId": 1,
+          "pathId": "-7514371118525752545"
+        },
+        {
+          "key": "VO_BOT_511_Female_Goblin_Play_01",
+          "classId": 114,
+          "pathId": "2141374233566403359"
+        }
+      ]
+    },
+    "432a7848449484f5ea92e0c567753508": {
+      "file": "initial_base_global-74f91fa9-prefab-3.unity3d",
+      "pathId": "2350681357514186414",
+      "preloadIndex": 567,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_BOT_511_Female_Goblin_Death_02"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_BOT_511_Female_Goblin_Death_02",
+          "classId": 114,
+          "pathId": "-3252687436840231250"
+        },
+        {
+          "key": "VO_BOT_511_Female_Goblin_Death_02",
+          "classId": 1,
+          "pathId": "-1917306137746465106"
+        }
+      ]
+    },
+    "79bf41bacd07a41cf94c805e57816b99": {
+      "file": "initial_base_global-74f91fa9-prefab-3.unity3d",
+      "pathId": "5857114028876004568",
+      "preloadIndex": 950,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_BOT_531_Male_Elemental_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_BOT_531_Male_Elemental_Death_01",
+          "classId": 114,
+          "pathId": "-8158872970967155496"
+        },
+        {
+          "key": "VO_BOT_531_Male_Elemental_Death_01",
+          "classId": 1,
+          "pathId": "5391047407274851544"
+        }
+      ]
+    },
+    "b23292a62a629442094c25a7d657bd97": {
+      "file": "initial_base_global-74f91fa9-prefab-3.unity3d",
+      "pathId": "-2592432640609412073",
+      "preloadIndex": 452,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_BOT_531_Male_Elemental_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_BOT_531_Male_Elemental_Attack_01",
+          "classId": 1,
+          "pathId": "3941637810107259927"
+        },
+        {
+          "key": "VO_BOT_531_Male_Elemental_Attack_01",
+          "classId": 114,
+          "pathId": "4799428021120670743"
+        }
+      ]
+    },
+    "cf2dbe477a5434ccb947724c19868b6e": {
+      "file": "initial_base_global-74f91fa9-prefab-3.unity3d",
+      "pathId": "7543901523356603212",
+      "preloadIndex": 549,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_BOT_531_Male_Elemental_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_BOT_531_Male_Elemental_Play_01",
+          "classId": 1,
+          "pathId": "-1487937911805324468"
+        },
+        {
+          "key": "VO_BOT_531_Male_Elemental_Play_01",
+          "classId": 114,
+          "pathId": "3942053486548734796"
+        }
+      ]
+    },
+    "81d031fdc95298f4bb7d876a14a8f1eb": {
+      "file": "initial_base_global-775a814d-prefab-0.unity3d",
+      "pathId": "6685804149147018304",
+      "preloadIndex": 1965,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "SFX_CS1_069_Attack"
+      ],
+      "voDetails": [
+        {
+          "key": "SFX_CS1_069_Attack",
+          "classId": 114,
+          "pathId": "-6810103136795319232"
+        }
+      ]
+    },
+    "8bd1578dca6fbaa48a1f91d5b0dce6d1": {
+      "file": "initial_base_global-775a814d-prefab-0.unity3d",
+      "pathId": "-2137249869592747880",
+      "preloadIndex": 1866,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "SFX_CS1_069_EnterPlay"
+      ],
+      "voDetails": [
+        {
+          "key": "SFX_CS1_069_EnterPlay",
+          "classId": 114,
+          "pathId": "-8039062125378953064"
+        }
+      ]
+    },
+    "c0d4a476d911d154ab129432d2802a15": {
+      "file": "initial_base_global-775a814d-prefab-0.unity3d",
+      "pathId": "-2003282384806124038",
+      "preloadIndex": 795,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "SFX_CS1_069_Death"
+      ],
+      "voDetails": [
+        {
+          "key": "SFX_CS1_069_Death",
+          "classId": 114,
+          "pathId": "224564454821750266"
+        }
+      ]
+    },
+    "1c925afe03a386044933a8e601463892": {
+      "file": "initial_base_global-775a814d-prefab-1.unity3d",
+      "pathId": "8276855158633994641",
+      "preloadIndex": 1301,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_EX1_046_Death_03"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_EX1_046_Death_03",
+          "classId": 114,
+          "pathId": "6652902996443142545"
+        }
+      ]
+    },
+    "261a5dd5b62b99e4ebc5d7f53dc37dca": {
+      "file": "initial_base_global-775a814d-prefab-1.unity3d",
+      "pathId": "-6337875676166798250",
+      "preloadIndex": 633,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_EX1_046_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_EX1_046_Play_01",
+          "classId": 114,
+          "pathId": "3439379424040469590"
+        }
+      ]
+    },
+    "74208d9320295c9469d9bd93089b8de6": {
+      "file": "initial_base_global-775a814d-prefab-1.unity3d",
+      "pathId": "2237928147765911440",
+      "preloadIndex": 286,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_EX1_046_Attack_02"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_EX1_046_Attack_02",
+          "classId": 114,
+          "pathId": "-7952576076013281392"
+        }
+      ]
+    },
+    "4f4bfb54d7bc37c40ba016079a82ebf1": {
+      "file": "initial_base_global-775a814d-prefab-2.unity3d",
+      "pathId": "2540633471650437446",
+      "preloadIndex": 522,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "EX1_250_Earth_Elemental_Death2"
+      ],
+      "voDetails": [
+        {
+          "key": "EX1_250_Earth_Elemental_Death2",
+          "classId": 114,
+          "pathId": "-8817240390847489722"
+        }
+      ]
+    },
+    "84de11879c3d4674e88632f22282d9a0": {
+      "file": "initial_base_global-775a814d-prefab-2.unity3d",
+      "pathId": "8244417185748063392",
+      "preloadIndex": 972,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "EX1_250_Earth_Elemental_Attack3"
+      ],
+      "voDetails": [
+        {
+          "key": "EX1_250_Earth_Elemental_Attack3",
+          "classId": 114,
+          "pathId": "-4282630628504005472"
+        }
+      ]
+    },
+    "87a1267891d8ee4418d0d539c873221e": {
+      "file": "initial_base_global-775a814d-prefab-2.unity3d",
+      "pathId": "7307624268587751532",
+      "preloadIndex": 1102,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "EX1_250_Earth_Elemental_EnterPlay2"
+      ],
+      "voDetails": [
+        {
+          "key": "EX1_250_Earth_Elemental_EnterPlay2",
+          "classId": 114,
+          "pathId": "6069787672203188332"
+        }
+      ]
+    },
+    "0cb93c229afdaea4e8d152aa3ffda236": {
+      "file": "initial_base_global-775a814d-prefab-3.unity3d",
+      "pathId": "7601322738731761435",
+      "preloadIndex": 154,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_EX1_559_Attack_03"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_EX1_559_Attack_03",
+          "classId": 114,
+          "pathId": "9150352860500836123"
+        }
+      ]
+    },
+    "3bafdd3d931c7194da53cb57eef90938": {
+      "file": "initial_base_global-775a814d-prefab-3.unity3d",
+      "pathId": "-8295631430376860268",
+      "preloadIndex": 1399,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_EX1_559_Death_04"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_EX1_559_Death_04",
+          "classId": 114,
+          "pathId": "5221406648468526484"
+        }
+      ]
+    },
+    "090d0a07c5d63994685ad77e4453557e": {
+      "file": "initial_base_global-775a814d-prefab-4.unity3d",
+      "pathId": "1699109267249152860",
+      "preloadIndex": 1021,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_EX1_559_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_EX1_559_Play_01",
+          "classId": 114,
+          "pathId": "4465093376169395036"
+        }
+      ]
+    },
+    "1551d2fbadbb8a64489216f5a2d7e02b": {
+      "file": "initial_base_global-775a814d-prefab-4.unity3d",
+      "pathId": "-5952933624649212258",
+      "preloadIndex": 1445,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_NEW1_018_Attack_02"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_NEW1_018_Attack_02",
+          "classId": 114,
+          "pathId": "2710935715440434846"
+        }
+      ]
+    },
+    "1872f97bc8ac5de4d8485d5387b6f569": {
+      "file": "initial_base_global-775a814d-prefab-4.unity3d",
+      "pathId": "7513592943282744734",
+      "preloadIndex": 1409,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_NEW1_010_Death_03"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_NEW1_010_Death_03",
+          "classId": 114,
+          "pathId": "-3803337482877276770"
+        }
+      ]
+    },
+    "31a68cdc8c47adc48aa55735cc9205a2": {
+      "file": "initial_base_global-775a814d-prefab-4.unity3d",
+      "pathId": "6256595195056490910",
+      "preloadIndex": 1601,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_NEW1_018_Death_03"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_NEW1_018_Death_03",
+          "classId": 114,
+          "pathId": "-7774263608240567906"
+        }
+      ]
+    },
+    "68a03aa18dc0ba944b6f860da6871171": {
+      "file": "initial_base_global-775a814d-prefab-4.unity3d",
+      "pathId": "1496096359274612839",
+      "preloadIndex": 365,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_NEW1_018_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_NEW1_018_Play_01",
+          "classId": 114,
+          "pathId": "4383153344234358887"
+        }
+      ]
+    },
+    "737152c48ecd04d4e9623fc141391554": {
+      "file": "initial_base_global-775a814d-prefab-4.unity3d",
+      "pathId": "1429831020943889590",
+      "preloadIndex": 862,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_NEW1_010_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_NEW1_010_Play_01",
+          "classId": 114,
+          "pathId": "-8573409017517255498"
+        }
+      ]
+    },
+    "9efe27516d0f5f146860ef61119e32d3": {
+      "file": "initial_base_global-775a814d-prefab-4.unity3d",
+      "pathId": "1651840133728787414",
+      "preloadIndex": 347,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_NEW1_010_Attack_02"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_NEW1_010_Attack_02",
+          "classId": 114,
+          "pathId": "6870934145116560342"
+        }
+      ]
+    },
+    "8e35f225d50f88d4987399495f3563db": {
+      "file": "initial_base_global-775a814d-prefab-5.unity3d",
+      "pathId": "9121335620902325557",
+      "preloadIndex": 273,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_NEW1_024_Death_03"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_NEW1_024_Death_03",
+          "classId": 114,
+          "pathId": "-2559716875806307019"
+        }
+      ]
+    },
+    "e53f09f1e3c2dca4e91ebf42b8eebea6": {
+      "file": "initial_base_global-775a814d-prefab-5.unity3d",
+      "pathId": "-8068780715313231029",
+      "preloadIndex": 165,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_NEW1_024_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_NEW1_024_Play_01",
+          "classId": 114,
+          "pathId": "-9198204139003016373"
+        }
+      ]
+    },
+    "fd94cbbbc653f5443bd76631bf11b14f": {
+      "file": "initial_base_global-775a814d-prefab-5.unity3d",
+      "pathId": "7216571885148983322",
+      "preloadIndex": 937,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_NEW1_024_Attack_02"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_NEW1_024_Attack_02",
+          "classId": 114,
+          "pathId": "8305740217250172954"
+        }
+      ]
+    },
+    "1f7aa4333b2f77d4baf710ae1bdb0e2d": {
+      "file": "initial_base_global-7a441cb3-prefab-5.unity3d",
+      "pathId": "6151601596225284294",
+      "preloadIndex": 893,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "RLK_592_Invincible_Death"
+      ],
+      "voDetails": [
+        {
+          "key": "RLK_592_Invincible_Death",
+          "classId": 114,
+          "pathId": "-424032321334810426"
+        }
+      ]
+    },
+    "73a19d758092ad140890b9dc9396c5ad": {
+      "file": "initial_base_global-7a441cb3-prefab-5.unity3d",
+      "pathId": "1079293606460662977",
+      "preloadIndex": 1376,
+      "preloadSize": 11,
+      "voiceKeys": [
+        "RLK_592_Invincible_Play"
+      ],
+      "voDetails": [
+        {
+          "key": "RLK_592_Invincible_Play",
+          "classId": 114,
+          "pathId": "-8236015972253817663"
+        }
+      ]
+    },
+    "a836d287a651bc6468497c768b11c5d4": {
+      "file": "initial_base_global-7a441cb3-prefab-5.unity3d",
+      "pathId": "-5182742118649574048",
+      "preloadIndex": 1711,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "RLK_592_Invincible_Attack"
+      ],
+      "voDetails": [
+        {
+          "key": "RLK_592_Invincible_Attack",
+          "classId": 114,
+          "pathId": "1596823845288856928"
+        }
+      ]
+    },
+    "074296ca3b1b513499933b2cf4d5b5be": {
+      "file": "initial_base_global-84b1a5c7-prefab-0.unity3d",
+      "pathId": "-3510316986861935154",
+      "preloadIndex": 1217,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_CS3_031_Female_Dragon_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_CS3_031_Female_Dragon_Play_01",
+          "classId": 1,
+          "pathId": "-6610515198155282994"
+        },
+        {
+          "key": "VO_CS3_031_Female_Dragon_Play_01",
+          "classId": 114,
+          "pathId": "-4589690770462399026"
+        }
+      ]
+    },
+    "3d2885dcb63c28d49aced0a7a6c00332": {
+      "file": "initial_base_global-84b1a5c7-prefab-0.unity3d",
+      "pathId": "-3924005099411726819",
+      "preloadIndex": 1961,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_CS3_031_Female_Dragon_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_CS3_031_Female_Dragon_Attack_01",
+          "classId": 1,
+          "pathId": "-5756429664978461155"
+        },
+        {
+          "key": "VO_CS3_031_Female_Dragon_Attack_01",
+          "classId": 114,
+          "pathId": "8237775236247002653"
+        }
+      ]
+    },
+    "bc7e9aec0573f6346bbbac4d98eddcca": {
+      "file": "initial_base_global-84b1a5c7-prefab-0.unity3d",
+      "pathId": "4759416364159069219",
+      "preloadIndex": 1980,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_CS3_031_Female_Dragon_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_CS3_031_Female_Dragon_Death_01",
+          "classId": 114,
+          "pathId": "-2446949809301885917"
+        },
+        {
+          "key": "VO_CS3_031_Female_Dragon_Death_01",
+          "classId": 1,
+          "pathId": "2593218389477485603"
+        }
+      ]
+    },
+    "494dd5e43633ea6459ed4e17f2c11523": {
+      "file": "initial_base_global-8e3e520f-prefab-6.unity3d",
+      "pathId": "4668426043842144455",
+      "preloadIndex": 1211,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TTN_859_Female_IronDwarf_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TTN_859_Female_IronDwarf_Death_01",
+          "classId": 1,
+          "pathId": "-5536843926931789625"
+        },
+        {
+          "key": "VO_TTN_859_Female_IronDwarf_Death_01",
+          "classId": 114,
+          "pathId": "4314850241427253447"
+        }
+      ]
+    },
+    "6247dc190ae17384a802e0492011d5ef": {
+      "file": "initial_base_global-8e3e520f-prefab-6.unity3d",
+      "pathId": "-920546771717180398",
+      "preloadIndex": 1780,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TTN_859_Female_IronDwarf_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TTN_859_Female_IronDwarf_Attack_01",
+          "classId": 114,
+          "pathId": "-4936764212002212846"
+        },
+        {
+          "key": "VO_TTN_859_Female_IronDwarf_Attack_01",
+          "classId": 1,
+          "pathId": "7750010847014892562"
+        }
+      ]
+    },
+    "d3cdd57900e371f4ea1cbc362dc69981": {
+      "file": "initial_base_global-8e3e520f-prefab-6.unity3d",
+      "pathId": "-3148972513623710159",
+      "preloadIndex": 1798,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TTN_859_Female_IronDwarf_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TTN_859_Female_IronDwarf_Play_01",
+          "classId": 1,
+          "pathId": "-5621320003889240527"
+        },
+        {
+          "key": "VO_TTN_859_Female_IronDwarf_Play_01",
+          "classId": 114,
+          "pathId": "1302632263464347185"
+        }
+      ]
+    },
+    "443c6a52b6d49a346bb374eba59e6586": {
+      "file": "initial_base_global-9f363830-prefab-5.unity3d",
+      "pathId": "1487391361062795474",
+      "preloadIndex": 296,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_ULD_236_Female_Tortollan_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_ULD_236_Female_Tortollan_Death_01",
+          "classId": 114,
+          "pathId": "-4939411805423142702"
+        },
+        {
+          "key": "VO_ULD_236_Female_Tortollan_Death_01",
+          "classId": 1,
+          "pathId": "4847685951124469970"
+        }
+      ]
+    },
+    "a7c055cb7a1146a4195733592fd7b71d": {
+      "file": "initial_base_global-9f363830-prefab-5.unity3d",
+      "pathId": "4080568116335247980",
+      "preloadIndex": 1227,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_ULD_236_Female_Tortollan_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_ULD_236_Female_Tortollan_Play_01",
+          "classId": 1,
+          "pathId": "-3376192871008271764"
+        },
+        {
+          "key": "VO_ULD_236_Female_Tortollan_Play_01",
+          "classId": 114,
+          "pathId": "6668202792822342252"
+        }
+      ]
+    },
+    "d51184a04a5604243b3b97291919d205": {
+      "file": "initial_base_global-9f363830-prefab-5.unity3d",
+      "pathId": "-2553217755220991515",
+      "preloadIndex": 18,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_ULD_236_Female_Tortollan_Attack_03"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_ULD_236_Female_Tortollan_Attack_03",
+          "classId": 114,
+          "pathId": "-6327239237893938715"
+        },
+        {
+          "key": "VO_ULD_236_Female_Tortollan_Attack_03",
+          "classId": 1,
+          "pathId": "-6020783811376963099"
+        }
+      ]
+    },
+    "045d37057df1c3f4fb17e88e91b27ad0": {
+      "file": "initial_base_global-a312696e-prefab-6.unity3d",
+      "pathId": "2110644968595308876",
+      "preloadIndex": 475,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TIME_852_Female_Dragon_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TIME_852_Female_Dragon_Attack_01",
+          "classId": 1,
+          "pathId": "1699768328075657548"
+        },
+        {
+          "key": "VO_TIME_852_Female_Dragon_Attack_01",
+          "classId": 114,
+          "pathId": "8624085122171781452"
+        }
+      ]
+    },
+    "2a810c269a47870419b6ba2cc740398a": {
+      "file": "initial_base_global-a312696e-prefab-6.unity3d",
+      "pathId": "-8452689245774835322",
+      "preloadIndex": 517,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TIME_852_Female_Dragon_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TIME_852_Female_Dragon_Death_01",
+          "classId": 1,
+          "pathId": "4192629852860486022"
+        },
+        {
+          "key": "VO_TIME_852_Female_Dragon_Death_01",
+          "classId": 114,
+          "pathId": "6126401123099382150"
+        }
+      ]
+    },
+    "2c1e537a3b88b4349bafc55693a04951": {
+      "file": "initial_base_global-a312696e-prefab-7.unity3d",
+      "pathId": "7655504622091637890",
+      "preloadIndex": 2050,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TIME_858_Male_Elemental_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TIME_858_Male_Elemental_Death_01",
+          "classId": 114,
+          "pathId": "-6248032891768793982"
+        },
+        {
+          "key": "VO_TIME_858_Male_Elemental_Death_01",
+          "classId": 1,
+          "pathId": "5545109052545569922"
+        }
+      ]
+    },
+    "923325e1bfe43ec47b48870b411b3ed2": {
+      "file": "initial_base_global-a312696e-prefab-7.unity3d",
+      "pathId": "-3968862443319065650",
+      "preloadIndex": 225,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TIME_858_Male_Elemental_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TIME_858_Male_Elemental_Attack_01",
+          "classId": 1,
+          "pathId": "-3393568850694634546"
+        },
+        {
+          "key": "VO_TIME_858_Male_Elemental_Attack_01",
+          "classId": 114,
+          "pathId": "4189892807319749582"
+        }
+      ]
+    },
+    "c5193372c270c9942b7347b7beaf41be": {
+      "file": "initial_base_global-a312696e-prefab-7.unity3d",
+      "pathId": "5141807566586107799",
+      "preloadIndex": 414,
+      "preloadSize": 11,
+      "voiceKeys": [
+        "VO_TIME_852_Female_Dragon_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TIME_852_Female_Dragon_Play_01",
+          "classId": 114,
+          "pathId": "5146779314008872855"
+        },
+        {
+          "key": "VO_TIME_852_Female_Dragon_Play_01",
+          "classId": 1,
+          "pathId": "7387337587589896087"
+        }
+      ]
+    },
+    "e5cbda8e2b804994da6ed5c803329ee2": {
+      "file": "initial_base_global-a312696e-prefab-7.unity3d",
+      "pathId": "1829208552889224847",
+      "preloadIndex": 2884,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_TIME_858_Male_Elemental_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_TIME_858_Male_Elemental_Play_01",
+          "classId": 114,
+          "pathId": "-4707722230012539249"
+        },
+        {
+          "key": "VO_TIME_858_Male_Elemental_Play_01",
+          "classId": 1,
+          "pathId": "-1724115877394739569"
+        }
+      ]
+    },
+    "4045afabe3851f34bbd15903fa39e72e": {
+      "file": "initial_base_global-b10736ab-prefab-1.unity3d",
+      "pathId": "4421611118475440367",
+      "preloadIndex": 1845,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_WW_326_MinecartManiac_Elemental_Emote_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_WW_326_MinecartManiac_Elemental_Emote_Play_01",
+          "classId": 114,
+          "pathId": "-7457173148635795217"
+        },
+        {
+          "key": "VO_WW_326_MinecartManiac_Elemental_Emote_Play_01",
+          "classId": 1,
+          "pathId": "-3080574437209050897"
+        }
+      ]
+    },
+    "add25ab19b689ed45a9071fac518fc4e": {
+      "file": "initial_base_global-b10736ab-prefab-1.unity3d",
+      "pathId": "6237268354326124011",
+      "preloadIndex": 50,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_WW_326_MinecartManiac_Elemental_Emote_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_WW_326_MinecartManiac_Elemental_Emote_Attack_01",
+          "classId": 114,
+          "pathId": "871498535846729195"
+        },
+        {
+          "key": "VO_WW_326_MinecartManiac_Elemental_Emote_Attack_01",
+          "classId": 1,
+          "pathId": "7690003109536257515"
+        }
+      ]
+    },
+    "d1d4c2d9eb6d847499e2197ceaba6ba5": {
+      "file": "initial_base_global-b10736ab-prefab-1.unity3d",
+      "pathId": "7774161879785706235",
+      "preloadIndex": 1413,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_WW_326_MinecartManiac_Elemental_Emote_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_WW_326_MinecartManiac_Elemental_Emote_Death_01",
+          "classId": 1,
+          "pathId": "712357368687071995"
+        },
+        {
+          "key": "VO_WW_326_MinecartManiac_Elemental_Emote_Death_01",
+          "classId": 114,
+          "pathId": "4106982766494454523"
+        }
+      ]
+    },
+    "00f0ecbdb5290ab4db5da69ffca74f83": {
+      "file": "initial_base_global-b10736ab-prefab-5.unity3d",
+      "pathId": "7918769277178656081",
+      "preloadIndex": 2223,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_WW_426_BlastmageMiner_Goblin_Emote_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_WW_426_BlastmageMiner_Goblin_Emote_Attack_01",
+          "classId": 1,
+          "pathId": "1472231816861955409"
+        },
+        {
+          "key": "VO_WW_426_BlastmageMiner_Goblin_Emote_Attack_01",
+          "classId": 114,
+          "pathId": "5197705602162996561"
+        }
+      ]
+    },
+    "aafd57316efe43a4db17758d4adc77d5": {
+      "file": "initial_base_global-b10736ab-prefab-5.unity3d",
+      "pathId": "2456450639249102281",
+      "preloadIndex": 85,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_WW_426_BlastmageMiner_Goblin_Emote_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_WW_426_BlastmageMiner_Goblin_Emote_Play_01",
+          "classId": 114,
+          "pathId": "-1244473289025956407"
+        },
+        {
+          "key": "VO_WW_426_BlastmageMiner_Goblin_Emote_Play_01",
+          "classId": 1,
+          "pathId": "-567349891085412919"
+        }
+      ]
+    },
+    "d451b1b90d286c445aa6ee5d8fb5a370": {
+      "file": "initial_base_global-b10736ab-prefab-5.unity3d",
+      "pathId": "2756828147071705644",
+      "preloadIndex": 977,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_WW_426_BlastmageMiner_Goblin_Emote_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_WW_426_BlastmageMiner_Goblin_Emote_Death_01",
+          "classId": 114,
+          "pathId": "-8884226381300309460"
+        },
+        {
+          "key": "VO_WW_426_BlastmageMiner_Goblin_Emote_Death_01",
+          "classId": 1,
+          "pathId": "8297290314299597356"
+        }
+      ]
+    },
+    "35ebcf04bf25f4347be64d3f3d479b22": {
+      "file": "initial_base_global-e4a983b7-prefab-1.unity3d",
+      "pathId": "-4335973926433523643",
+      "preloadIndex": 516,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_OG_202_Male_Keeper_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_OG_202_Male_Keeper_Attack_01",
+          "classId": 114,
+          "pathId": "-6945050482865801147"
+        },
+        {
+          "key": "VO_OG_202_Male_Keeper_Attack_01",
+          "classId": 1,
+          "pathId": "3253905287424243781"
+        }
+      ]
+    },
+    "731b090123a634bdfad3f33babaca31c": {
+      "file": "initial_base_global-e4a983b7-prefab-1.unity3d",
+      "pathId": "4372110545330616742",
+      "preloadIndex": 72,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_OG_202_Male_Keeper_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_OG_202_Male_Keeper_Play_01",
+          "classId": 114,
+          "pathId": "-3183375048470644314"
+        },
+        {
+          "key": "VO_OG_202_Male_Keeper_Play_01",
+          "classId": 1,
+          "pathId": "9109956889356319142"
+        }
+      ]
+    },
+    "9497d63310b4b4e018f8186f1975b43b": {
+      "file": "initial_base_global-e4a983b7-prefab-1.unity3d",
+      "pathId": "-5919505689161654491",
+      "preloadIndex": 259,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_OG_202_Male_Keeper_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_OG_202_Male_Keeper_Death_01",
+          "classId": 1,
+          "pathId": "-9200008054800933083"
+        },
+        {
+          "key": "VO_OG_202_Male_Keeper_Death_01",
+          "classId": 114,
+          "pathId": "3043877497727393573"
+        }
+      ]
+    },
+    "254d6e64ffd65442ab9a0a43851e05a6": {
+      "file": "initial_base_global-e4a983b7-prefab-2.unity3d",
+      "pathId": "951957163574063015",
+      "preloadIndex": 407,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_OG_267_Female_Faceless_Death_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_OG_267_Female_Faceless_Death_01",
+          "classId": 114,
+          "pathId": "-7683289705005355097"
+        },
+        {
+          "key": "VO_OG_267_Female_Faceless_Death_01",
+          "classId": 1,
+          "pathId": "9157697058974035879"
+        }
+      ]
+    },
+    "86ef547913cd34987a0b5d4dca8d0842": {
+      "file": "initial_base_global-e4a983b7-prefab-2.unity3d",
+      "pathId": "-720879404716462501",
+      "preloadIndex": 784,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_OG_267_Female_Faceless_Play_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_OG_267_Female_Faceless_Play_01",
+          "classId": 114,
+          "pathId": "-6207307591221973413"
+        },
+        {
+          "key": "VO_OG_267_Female_Faceless_Play_01",
+          "classId": 1,
+          "pathId": "-3398145882482413989"
+        }
+      ]
+    },
+    "e7e266b79bb4d44079e71b4dec8b280b": {
+      "file": "initial_base_global-e4a983b7-prefab-2.unity3d",
+      "pathId": "-8138401914566348538",
+      "preloadIndex": 647,
+      "preloadSize": 9,
+      "voiceKeys": [
+        "VO_OG_267_Female_Faceless_Attack_01"
+      ],
+      "voDetails": [
+        {
+          "key": "VO_OG_267_Female_Faceless_Attack_01",
+          "classId": 1,
+          "pathId": "1906344945830523142"
+        },
+        {
+          "key": "VO_OG_267_Female_Faceless_Attack_01",
+          "classId": 114,
+          "pathId": "4716236725956702470"
+        }
+      ]
+    }
+  },
+  "zhcnAudioClips": {
+    "VO_EX1_414_Death_03": [],
+    "VO_EX1_414_Attack_02": [],
+    "VO_EX1_414_Play_01": [],
+    "VO_REV_000_Female_Venthyr_Play_01": [
+      "playsound_base_zhcn-0516e06c-audio-0.unity3d"
+    ],
+    "VO_REV_000_Female_Venthyr_Death_01": [
+      "soundotherminion_base_zhcn-0516e06c-audio-0.unity3d"
+    ],
+    "VO_REV_000_Female_Venthyr_Attack_01": [
+      "soundotherminion_base_zhcn-0516e06c-audio-0.unity3d"
+    ],
+    "CATA_305_IncensedMatriarch_Play": [],
+    "CATA_305_IncensedMatriarch_Attack": [],
+    "CATA_305_IncensedMatriarch_Death": [],
+    "VO_EDR_485_Female_Dryad_Play_01": [
+      "playsound_base_zhcn-0fde4609-audio-0.unity3d"
+    ],
+    "VO_EDR_485_Female_Dryad_Attack_01": [
+      "soundotherminion_base_zhcn-0fde4609-audio-0.unity3d"
+    ],
+    "VO_EDR_485_Female_Dryad_Death_01": [
+      "soundotherminion_base_zhcn-0fde4609-audio-0.unity3d"
+    ],
+    "EDR_849_DreamboundRaptor_Attack": [],
+    "EDR_849_DreamboundRaptor_Death": [],
+    "EDR_849_DreamboundRaptor_Play": [],
+    "VO_EDR_942_Female_Elemental_Play_01": [
+      "playsound_base_zhcn-0fde4609-audio-0.unity3d"
+    ],
+    "VO_EDR_942_Female_Elemental_Death_01": [
+      "soundotherminion_base_zhcn-0fde4609-audio-0.unity3d"
+    ],
+    "VO_EDR_942_Female_Elemental_Attack_01": [
+      "soundotherminion_base_zhcn-0fde4609-audio-0.unity3d"
+    ],
+    "VO_DAL_565_Male_Doomguard_Play_01": [
+      "playsound_base_zhcn-17e09d12-audio-0.unity3d"
+    ],
+    "VO_DAL_565_Male_Doomguard_Attack_01": [
+      "soundotherminion_base_zhcn-17e09d12-audio-2.unity3d"
+    ],
+    "VO_DAL_565_Male_Doomguard_Death_01": [
+      "soundotherminion_base_zhcn-17e09d12-audio-2.unity3d"
+    ],
+    "SFX_LOE_022_Death": [],
+    "SFX_LOE_022_Play": [],
+    "SFX_LOE_022_Attack": [],
+    "VO_KAR_065_Female_NightElf_Death_01": [
+      "soundotherminion_base_zhcn-2173dfcb-audio-0.unity3d"
+    ],
+    "VO_KAR_065_Female_NightElf_Attack_01": [
+      "soundotherminion_base_zhcn-2173dfcb-audio-0.unity3d"
+    ],
+    "VO_KAR_065_Female_NightElf_Play_01": [
+      "playsound_base_zhcn-2173dfcb-audio-0.unity3d"
+    ],
+    "VO_VAC_301_Female_Naga_Death_01": [
+      "soundotherminion_base_zhcn-23b69986-audio-1.unity3d"
+    ],
+    "VO_VAC_301_Female_Naga_Play_01": [
+      "playsound_base_zhcn-23b69986-audio-0.unity3d"
+    ],
+    "VO_VAC_301_Female_Naga_Attack_01": [
+      "soundotherminion_base_zhcn-23b69986-audio-1.unity3d"
+    ],
+    "CFM_ClumsyKodo_Death": [],
+    "CFM_ClumsyKodo_Play": [],
+    "CFM_ClumsyKodo_Attack": [],
+    "VO_TLC_225_X_MurlocElemental_Attack_01": [],
+    "VO_TLC_225_X_MurlocElemental_Death_01": [],
+    "VO_TLC_225_X_MurlocElemental_Play_01": [],
+    "VO_DMF_067_Male_Murloc_Attack_02": [
+      "soundotherminion_base_zhcn-384202c8-audio-0.unity3d"
+    ],
+    "VO_DMF_067_Male_Murloc_Death_01": [
+      "soundotherminion_base_zhcn-384202c8-audio-0.unity3d"
+    ],
+    "VO_DMF_067_Male_Murloc_Play_01": [
+      "playsound_base_zhcn-384202c8-audio-0.unity3d"
+    ],
+    "DMF_523_BumperCar_Play": [],
+    "DMF_523_BumperCar_Death": [],
+    "DMF_523_BumperCar_Attack": [],
+    "VO_GVG_115_Play_01": [
+      "playsound_base_zhcn-3aaf7c48-audio-0.unity3d"
+    ],
+    "VO_GVG_115_Attack_02": [
+      "soundotherminion_base_zhcn-3aaf7c48-audio-0.unity3d"
+    ],
+    "VO_GVG_115_Death_03": [
+      "soundotherminion_base_zhcn-3aaf7c48-audio-0.unity3d"
+    ],
+    "Pyros_UNG_027_Attack": [],
+    "Pyros_UNG_027_Play": [],
+    "Pyros_UNG_027_Death": [],
+    "UNG_803_EmeraldReaver_Play": [],
+    "UNG_803_EmeraldReaver_Attack": [],
+    "UNG_803_EmeraldReaver_Death": [],
+    "VO_TSC_087_Female_NagaCentuar_Death_01": [
+      "soundotherminion_base_zhcn-50dcdbf5-audio-1.unity3d"
+    ],
+    "VO_TSC_087_Female_NagaCentuar_Play_01": [
+      "playsound_base_zhcn-50dcdbf5-audio-0.unity3d"
+    ],
+    "VO_TSC_087_Female_NagaCentuar_Attack_01": [
+      "soundotherminion_base_zhcn-50dcdbf5-audio-1.unity3d"
+    ],
+    "VO_TSC_620_Female_Naga_Attack_01": [
+      "soundotherminion_base_zhcn-50dcdbf5-audio-1.unity3d"
+    ],
+    "VO_TSC_620_Female_Naga_Death_01": [
+      "soundotherminion_base_zhcn-50dcdbf5-audio-1.unity3d"
+    ],
+    "VO_TSC_620_Female_Naga_Play_01": [
+      "playsound_base_zhcn-50dcdbf5-audio-0.unity3d"
+    ],
+    "VO_JAIL_321_Male_Troll_Attack_01": [
+      "soundotherminion_base_zhcn-51b13101-audio-0.unity3d"
+    ],
+    "VO_JAIL_321_Male_Troll_Play_01": [
+      "playsound_base_zhcn-51b13101-audio-0.unity3d"
+    ],
+    "VO_JAIL_321_Male_Troll_Death_01": [
+      "soundotherminion_base_zhcn-51b13101-audio-0.unity3d"
+    ],
+    "VO_CAP_406_Female_Arakkoa_Attack_01": [
+      "soundotherminion_base_zhcn-51b13101-audio-1.unity3d"
+    ],
+    "VO_CAP_106t_Male_Draenei_Play_01": [],
+    "VO_CAP_106t_Male_Draenei_Death_01": [],
+    "VO_CAP_406_Female_Arakkoa_Death_01": [
+      "soundotherminion_base_zhcn-51b13101-audio-1.unity3d"
+    ],
+    "VO_CAP_106t_Male_Draenei_Attack_01": [],
+    "VO_CAP_406_Female_Arakkoa_Play_01": [
+      "playsound_base_zhcn-51b13101-audio-0.unity3d"
+    ],
+    "VO_BT_737_Female_NightElf_Play_01": [
+      "playsound_base_zhcn-5c47a539-audio-0.unity3d"
+    ],
+    "VO_BT_737_Female_NightElf_Interaction_Maiev_01": [
+      "soundotherminion_base_zhcn-5c47a539-audio-1.unity3d"
+    ],
+    "VO_BT_737_Female_NightElf_Attack_01": [
+      "soundotherminion_base_zhcn-5c47a539-audio-1.unity3d"
+    ],
+    "VO_BT_737_Female_NightElf_Death_01": [
+      "soundotherminion_base_zhcn-5c47a539-audio-1.unity3d"
+    ],
+    "VO_AV_403_Female_NightElf_Death_01": [
+      "soundotherminion_base_zhcn-5fc02a26-audio-1.unity3d"
+    ],
+    "VO_AV_403_Female_NightElf_Play_02": [
+      "playsound_base_zhcn-5fc02a26-audio-0.unity3d"
+    ],
+    "VO_AV_403_Female_NightElf_Attack_02": [
+      "soundotherminion_base_zhcn-5fc02a26-audio-1.unity3d"
+    ],
+    "VO_ONY_028_Male_Naaru_Death_01": [
+      "soundotherminion_base_zhcn-5fc02a26-audio-2.unity3d"
+    ],
+    "VO_ONY_028_Male_Naaru_Play_01": [
+      "playsound_base_zhcn-5fc02a26-audio-0.unity3d"
+    ],
+    "VO_ONY_028_Male_Naaru_Attack_01": [
+      "soundotherminion_base_zhcn-5fc02a26-audio-2.unity3d"
+    ],
+    "VO_AT_012_DEATH_03": [
+      "soundotherminion_base_zhcn-61754518-audio-0.unity3d"
+    ],
+    "VO_AT_012_PLAY_01": [
+      "playsound_base_zhcn-61754518-audio-0.unity3d"
+    ],
+    "VO_AT_012_ATTACK_02": [
+      "soundotherminion_base_zhcn-61754518-audio-0.unity3d"
+    ],
+    "VO_SCH_142_Female_Gnome_Death_01": [
+      "soundotherminion_base_zhcn-67d2d0c1-audio-0.unity3d"
+    ],
+    "SCH_147_BonewebEgg_Play": [],
+    "SCH_147_BonewebEgg_Attack": [],
+    "VO_SCH_142_Female_Gnome_Play_02": [
+      "playsound_base_zhcn-67d2d0c1-audio-0.unity3d"
+    ],
+    "VO_SCH_142_Female_Gnome_Attack_01": [
+      "soundotherminion_base_zhcn-67d2d0c1-audio-0.unity3d"
+    ],
+    "SCH_147_BonewebEgg_Death": [],
+    "VO_SCH_613_Female_Dryad_Attack_02": [
+      "soundotherminion_base_zhcn-67d2d0c1-audio-0.unity3d"
+    ],
+    "VO_SCH_613_Female_Dryad_Play_01": [
+      "playsound_base_zhcn-67d2d0c1-audio-0.unity3d"
+    ],
+    "VO_SCH_613_Female_Dryad_Death_01": [
+      "soundotherminion_base_zhcn-67d2d0c1-audio-0.unity3d"
+    ],
+    "VO_BOT_280_Male_VoidElf_Play_01": [
+      "playsound_base_zhcn-74f91fa9-audio-0.unity3d"
+    ],
+    "VO_BOT_280_Male_VoidElf_Attack_01": [
+      "soundotherminion_base_zhcn-74f91fa9-audio-0.unity3d"
+    ],
+    "VO_BOT_280_Male_VoidElf_Death_02": [
+      "soundotherminion_base_zhcn-74f91fa9-audio-0.unity3d"
+    ],
+    "VO_BOT_511_Female_Goblin_Attack_02": [
+      "soundotherminion_base_zhcn-74f91fa9-audio-0.unity3d"
+    ],
+    "VO_BOT_511_Female_Goblin_Play_01": [
+      "playsound_base_zhcn-74f91fa9-audio-0.unity3d"
+    ],
+    "VO_BOT_511_Female_Goblin_Death_02": [
+      "soundotherminion_base_zhcn-74f91fa9-audio-0.unity3d"
+    ],
+    "VO_BOT_531_Male_Elemental_Death_01": [
+      "soundotherminion_base_zhcn-74f91fa9-audio-0.unity3d"
+    ],
+    "VO_BOT_531_Male_Elemental_Attack_01": [
+      "soundotherminion_base_zhcn-74f91fa9-audio-0.unity3d"
+    ],
+    "VO_BOT_531_Male_Elemental_Play_01": [
+      "playsound_base_zhcn-74f91fa9-audio-0.unity3d"
+    ],
+    "SFX_CS1_069_Attack": [],
+    "SFX_CS1_069_EnterPlay": [],
+    "SFX_CS1_069_Death": [],
+    "VO_EX1_046_Death_03": [
+      "soundotherminion_base_zhcn-775a814d-audio-0.unity3d"
+    ],
+    "VO_EX1_046_Play_01": [
+      "playsound_base_zhcn-775a814d-audio-0.unity3d"
+    ],
+    "VO_EX1_046_Attack_02": [
+      "soundotherminion_base_zhcn-775a814d-audio-0.unity3d"
+    ],
+    "EX1_250_Earth_Elemental_Death2": [],
+    "EX1_250_Earth_Elemental_Attack3": [],
+    "EX1_250_Earth_Elemental_EnterPlay2": [],
+    "VO_EX1_559_Attack_03": [
+      "soundotherminion_base_zhcn-775a814d-audio-1.unity3d"
+    ],
+    "VO_EX1_559_Death_04": [
+      "soundotherminion_base_zhcn-775a814d-audio-1.unity3d"
+    ],
+    "VO_EX1_559_Play_01": [
+      "playsound_base_zhcn-775a814d-audio-0.unity3d"
+    ],
+    "VO_NEW1_018_Attack_02": [
+      "soundotherminion_base_zhcn-775a814d-audio-1.unity3d"
+    ],
+    "VO_NEW1_010_Death_03": [
+      "soundotherminion_base_zhcn-775a814d-audio-1.unity3d"
+    ],
+    "VO_NEW1_018_Death_03": [
+      "soundotherminion_base_zhcn-775a814d-audio-1.unity3d"
+    ],
+    "VO_NEW1_018_Play_01": [
+      "playsound_base_zhcn-775a814d-audio-0.unity3d"
+    ],
+    "VO_NEW1_010_Play_01": [
+      "playsound_base_zhcn-775a814d-audio-0.unity3d"
+    ],
+    "VO_NEW1_010_Attack_02": [
+      "soundotherminion_base_zhcn-775a814d-audio-1.unity3d"
+    ],
+    "VO_NEW1_024_Death_03": [
+      "soundotherminion_base_zhcn-775a814d-audio-1.unity3d"
+    ],
+    "VO_NEW1_024_Play_01": [
+      "playsound_base_zhcn-775a814d-audio-0.unity3d"
+    ],
+    "VO_NEW1_024_Attack_02": [
+      "soundotherminion_base_zhcn-775a814d-audio-1.unity3d"
+    ],
+    "RLK_592_Invincible_Death": [],
+    "RLK_592_Invincible_Play": [],
+    "RLK_592_Invincible_Attack": [],
+    "VO_CS3_031_Female_Dragon_Play_01": [
+      "playsound_base_zhcn-84b1a5c7-audio-0.unity3d"
+    ],
+    "VO_CS3_031_Female_Dragon_Attack_01": [
+      "soundotherminion_base_zhcn-84b1a5c7-audio-0.unity3d"
+    ],
+    "VO_CS3_031_Female_Dragon_Death_01": [
+      "soundotherminion_base_zhcn-84b1a5c7-audio-0.unity3d"
+    ],
+    "VO_TTN_859_Female_IronDwarf_Death_01": [
+      "soundotherminion_base_zhcn-8e3e520f-audio-1.unity3d"
+    ],
+    "VO_TTN_859_Female_IronDwarf_Attack_01": [
+      "soundotherminion_base_zhcn-8e3e520f-audio-1.unity3d"
+    ],
+    "VO_TTN_859_Female_IronDwarf_Play_01": [
+      "playsound_base_zhcn-8e3e520f-audio-0.unity3d"
+    ],
+    "VO_ULD_236_Female_Tortollan_Death_01": [
+      "soundotherminion_base_zhcn-9f363830-audio-1.unity3d"
+    ],
+    "VO_ULD_236_Female_Tortollan_Play_01": [
+      "playsound_base_zhcn-9f363830-audio-0.unity3d"
+    ],
+    "VO_ULD_236_Female_Tortollan_Attack_03": [
+      "soundotherminion_base_zhcn-9f363830-audio-1.unity3d"
+    ],
+    "VO_TIME_852_Female_Dragon_Attack_01": [
+      "soundotherminion_base_zhcn-a312696e-audio-1.unity3d"
+    ],
+    "VO_TIME_852_Female_Dragon_Death_01": [
+      "soundotherminion_base_zhcn-a312696e-audio-1.unity3d"
+    ],
+    "VO_TIME_858_Male_Elemental_Death_01": [
+      "soundotherminion_base_zhcn-a312696e-audio-1.unity3d"
+    ],
+    "VO_TIME_858_Male_Elemental_Attack_01": [
+      "soundotherminion_base_zhcn-a312696e-audio-1.unity3d"
+    ],
+    "VO_TIME_852_Female_Dragon_Play_01": [
+      "playsound_base_zhcn-a312696e-audio-0.unity3d"
+    ],
+    "VO_TIME_858_Male_Elemental_Play_01": [
+      "playsound_base_zhcn-a312696e-audio-0.unity3d"
+    ],
+    "VO_WW_326_MinecartManiac_Elemental_Emote_Play_01": [
+      "playsound_base_zhcn-b10736ab-audio-0.unity3d"
+    ],
+    "VO_WW_326_MinecartManiac_Elemental_Emote_Attack_01": [
+      "soundotherminion_base_zhcn-b10736ab-audio-0.unity3d"
+    ],
+    "VO_WW_326_MinecartManiac_Elemental_Emote_Death_01": [
+      "soundotherminion_base_zhcn-b10736ab-audio-0.unity3d"
+    ],
+    "VO_WW_426_BlastmageMiner_Goblin_Emote_Attack_01": [
+      "soundotherminion_base_zhcn-b10736ab-audio-0.unity3d"
+    ],
+    "VO_WW_426_BlastmageMiner_Goblin_Emote_Play_01": [
+      "playsound_base_zhcn-b10736ab-audio-0.unity3d"
+    ],
+    "VO_WW_426_BlastmageMiner_Goblin_Emote_Death_01": [
+      "soundotherminion_base_zhcn-b10736ab-audio-0.unity3d"
+    ],
+    "VO_OG_202_Male_Keeper_Attack_01": [
+      "soundotherminion_base_zhcn-e4a983b7-audio-0.unity3d"
+    ],
+    "VO_OG_202_Male_Keeper_Play_01": [
+      "playsound_base_zhcn-e4a983b7-audio-0.unity3d"
+    ],
+    "VO_OG_202_Male_Keeper_Death_01": [
+      "soundotherminion_base_zhcn-e4a983b7-audio-0.unity3d"
+    ],
+    "VO_OG_267_Female_Faceless_Death_01": [
+      "soundotherminion_base_zhcn-e4a983b7-audio-0.unity3d"
+    ],
+    "VO_OG_267_Female_Faceless_Play_01": [
+      "playsound_base_zhcn-e4a983b7-audio-0.unity3d"
+    ],
+    "VO_OG_267_Female_Faceless_Attack_01": [
+      "soundotherminion_base_zhcn-e4a983b7-audio-0.unity3d"
+    ]
+  }
+}

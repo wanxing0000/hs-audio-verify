@@ -1,0 +1,64 @@
+<view class="page">
+  <view class="hero">
+    <view class="kicker">Hear the Legends</view>
+    <view class="title">卡牌语音图鉴</view>
+    <view class="sub">点卡牌看详情，点按钮直接试听</view>
+  </view>
+
+  <view class="search-wrap">
+    <input
+      class="search"
+      placeholder="搜索卡牌名称或 ID"
+      confirm-type="search"
+      value="{{query}}"
+      bindinput="onSearchInput"
+      bindconfirm="onSearchConfirm"
+    />
+  </view>
+
+  <filter-bar
+    wx:if="{{status !== 'error' || cards.length}}"
+    classValue="{{classFilter}}"
+    rarityValue="{{rarityFilter}}"
+    legendaryMusic="{{legendaryMusic}}"
+    bindchange="onFilter"
+  />
+
+  <view wx:if="{{status === 'loading' && !cards.length}}" class="state">加载卡牌中...</view>
+
+  <view wx:elif="{{status === 'error' && !cards.length}}" class="state fail">
+    <view class="fail-title">加载失败</view>
+    <view>无法连接到本地服务</view>
+    <view>请确认 npm run mini 已启动</view>
+    <button class="retry" bindtap="onRetry">重新加载</button>
+  </view>
+
+  <view wx:else>
+    <view class="section">
+      <view class="h2">{{sectionTitle}}</view>
+      <view wx:if="{{cards.length}}" class="grid">
+        <view class="cell" wx:for="{{cards}}" wx:key="id">
+          <card-item card="{{item}}" bindopen="onOpenCard" />
+        </view>
+      </view>
+      <view wx:else class="empty">{{emptyText}}</view>
+    </view>
+
+    <view wx:if="{{cards.length}}" class="footer">
+      <view wx:if="{{loadingMore}}" class="foot-text">正在加载更多卡牌...</view>
+      <view wx:elif="{{loadMoreError}}" class="foot-fail" bindtap="onRetryMore">加载失败，点击重试</view>
+      <view wx:elif="{{!hasMore}}" class="foot-text">—— 已经到底啦 ——</view>
+    </view>
+  </view>
+
+  <view
+    wx:if="{{showTop}}"
+    class="back-top"
+    hover-class="back-top-hover"
+    hover-stay-time="80"
+    bindtap="onBackTop"
+  >↑</view>
+
+  <view class="pad"></view>
+  <mini-player lift-for-tab-bar="{{true}}" />
+</view>

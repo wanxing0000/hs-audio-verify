@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "card-item": "../../components/card-item/card-item",
+    "filter-bar": "../../components/filter-bar/filter-bar",
+    "mini-player": "../../components/mini-player/mini-player"
+  },
+  "navigationBarTitleText": "卡牌语音图鉴",
+  "onReachBottomDistance": 120,
+  "backgroundColor": "#141824"
+}

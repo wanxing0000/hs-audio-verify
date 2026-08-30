@@ -1,0 +1,13 @@
+{
+  "cardId": "EX1_116",
+  "cardName": "火车王里诺艾",
+  "musicStinger": {
+    "prefab": "MusicStinger.prefab",
+    "guid": "c6aaf3440b38a664db44d8870f3864d1",
+    "bundle": "initial_base_global-775a814d-prefab-1.unity3d",
+    "audioClip": "Pegasus_Stinger_Leeroy_Jenkins",
+    "resource": "archive:/CAB-4235e0476c977c9e859e6e856d7b67cc/CAB-4235e0476c977c9e859e6e856d7b67cc.resource",
+    "format": "FSB5",
+    "duration": 4.2713378684807255
+  }
+}

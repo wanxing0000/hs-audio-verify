@@ -1,0 +1,28 @@
+.bar { margin: 4px 0 8px; }
+.row {
+  white-space: nowrap;
+  margin-bottom: 8px;
+  width: 100%;
+}
+.chip {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 8px 14px;
+  min-height: 36px;
+  line-height: 20px;
+  border-radius: 999px;
+  background: rgba(20, 24, 36, 0.9);
+  border: 1px solid #3a4258;
+  color: #c5cbe0;
+  font-size: 13px;
+}
+.chip.on {
+  background: #3a3220;
+  border-color: #d7b56d;
+  color: #f3efe6;
+  font-weight: 700;
+}
+.chip.special.on {
+  background: #2a2438;
+  border-color: #b9a06a;
+}

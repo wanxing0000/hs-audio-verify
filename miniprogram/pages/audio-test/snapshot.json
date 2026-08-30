@@ -1,0 +1,33 @@
+{
+  "apiBase": "http://127.0.0.1:8767",
+  "generatedAt": "2026-08-29T04:00:05.981Z",
+  "BOT_548": {
+    "voiceFirstSoundMs": 57.895833333333336,
+    "entranceFirstSoundMs": 50.38541666666667,
+    "voicePeak100ms": 22379,
+    "entrancePeak100ms": 22754,
+    "mixCompare": {
+      "windowMs": 80,
+      "voiceStartMs": 0,
+      "voiceEnergyFrames": 1836,
+      "mixedDiffersFrames": 1836,
+      "clippedFrames": 0,
+      "maxVoiceAbs": 21231,
+      "maxMixedAbs": 21287,
+      "maxMusicAbs": 1592,
+      "voicePresentInWindow": true,
+      "truncated": false,
+      "maskedLikely": false,
+      "mixedDurationMs": 6537.9375,
+      "voiceDurationMs": 4756.8125,
+      "durationShortened": false
+    },
+    "tuanPresentInVoiceWav": true,
+    "tuanPresentInEntranceWav": true
+  },
+  "urls": {
+    "voice": "http://127.0.0.1:8767/api/audio/voice/BOT_548/play",
+    "music": "http://127.0.0.1:8767/api/audio/music/BOT_548",
+    "entrance": "http://127.0.0.1:8767/api/audio/entrance/BOT_548"
+  }
+}

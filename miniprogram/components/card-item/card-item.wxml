@@ -1,0 +1,14 @@
+<view class="item {{card.legendary ? 'legendary' : ''}}" hover-class="item-hover" hover-stay-time="80" bindtap="onOpen">
+  <image class="art" src="{{card.imageUrl}}" mode="widthFix" binderror="onImgErr" />
+  <view class="body">
+    <view class="name">{{card.name}}</view>
+    <view class="sub">{{card.classLabel}} · {{card.rarityLabel}}</view>
+    <view
+      wx:if="{{card.quickPlay.available}}"
+      class="play play-{{card.quickPlay.type}}"
+      catchtap="onPlay"
+      hover-class="play-hover"
+      hover-stay-time="80"
+    >{{card.quickPlay.label}}</view>
+  </view>
+</view>

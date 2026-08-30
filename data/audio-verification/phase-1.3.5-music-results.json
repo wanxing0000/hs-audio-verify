@@ -1,0 +1,1917 @@
+{
+  "generatedAt": "2026-08-29T04:00:05.983Z",
+  "rows": [
+    {
+      "cardId": "EX1_414",
+      "name": "格罗玛什·地狱咆哮",
+      "music": {
+        "index": {
+          "status": "FOUND",
+          "musicAssetId": "8a14ada18351c4e4f812beee175d5432",
+          "audioClipName": "Pegasus_Stinger_Horde1",
+          "sourceCardId": "EX1_414",
+          "mappingStatus": "available"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "FOUND",
+          "guid": "8a14ada18351c4e4f812beee175d5432",
+          "prefabName": "MusicStinger",
+          "bundle": "essential_base_global-prefab-0.unity3d",
+          "bundleExists": true
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Horde1",
+          "nameNotes": {
+            "raw": "Pegasus_Stinger_Horde1",
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": false
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Horde1",
+          "indexed": true
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "FOUND",
+          "indexBundle": "essential_base_global-prefab-0.unity3d",
+          "hitBundle": "essential_base_global-prefab-0.unity3d",
+          "zhcnBundles": [],
+          "prefabBundles": [
+            "essential_base_global-prefab-0.unity3d"
+          ],
+          "existingBundles": [
+            "essential_base_global-prefab-0.unity3d"
+          ]
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "MISSING_OR_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (925380421) out of boundary (20737684) (tried essential_base_global-prefab-0.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Horde1)"
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "FAILED"
+        },
+        "extract": {
+          "status": "FAILED",
+          "extractMs": 2129,
+          "code": "EXTRACT_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (925380421) out of boundary (20737684) (tried essential_base_global-prefab-0.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Horde1)"
+        },
+        "api": {
+          "probed": true,
+          "url": "http://127.0.0.1:8767/api/audio/music/EX1_414",
+          "ok": false,
+          "status": 404,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 30,
+          "header": null
+        },
+        "ui": {
+          "available": true,
+          "shared": false
+        },
+        "classification": "Audio Exists but Extraction Failed",
+        "failurePoint": "Extractor",
+        "totalMs": 4105
+      }
+    },
+    {
+      "cardId": "CORE_EX1_414",
+      "name": "格罗玛什·地狱咆哮",
+      "music": {
+        "index": {
+          "status": "FOUND",
+          "musicAssetId": "8a14ada18351c4e4f812beee175d5432",
+          "audioClipName": "Pegasus_Stinger_Horde1",
+          "sourceCardId": "EX1_414",
+          "mappingStatus": "shared"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "FOUND",
+          "guid": "8a14ada18351c4e4f812beee175d5432",
+          "prefabName": "MusicStinger",
+          "bundle": "essential_base_global-prefab-0.unity3d",
+          "bundleExists": true
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Horde1",
+          "nameNotes": {
+            "raw": "Pegasus_Stinger_Horde1",
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": true
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Horde1",
+          "indexed": true
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "FOUND",
+          "indexBundle": "essential_base_global-prefab-0.unity3d",
+          "hitBundle": "essential_base_global-prefab-0.unity3d",
+          "zhcnBundles": [],
+          "prefabBundles": [
+            "essential_base_global-prefab-0.unity3d"
+          ],
+          "existingBundles": [
+            "essential_base_global-prefab-0.unity3d"
+          ]
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "MISSING_OR_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (925380421) out of boundary (20737684) (tried essential_base_global-prefab-0.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Horde1)"
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "FAILED"
+        },
+        "extract": {
+          "status": "FAILED",
+          "extractMs": 2120,
+          "code": "EXTRACT_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (925380421) out of boundary (20737684) (tried essential_base_global-prefab-0.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Horde1)"
+        },
+        "api": {
+          "probed": true,
+          "url": "http://127.0.0.1:8767/api/audio/music/CORE_EX1_414",
+          "ok": false,
+          "status": 404,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 30,
+          "header": null
+        },
+        "ui": {
+          "available": true,
+          "shared": true
+        },
+        "classification": "Audio Exists but Extraction Failed",
+        "failurePoint": "Extractor",
+        "totalMs": 4236
+      }
+    },
+    {
+      "cardId": "VAN_EX1_414",
+      "name": "格罗玛什·地狱咆哮",
+      "music": {
+        "index": {
+          "status": "FOUND",
+          "musicAssetId": "8a14ada18351c4e4f812beee175d5432",
+          "audioClipName": "Pegasus_Stinger_Horde1",
+          "sourceCardId": "EX1_414",
+          "mappingStatus": "shared"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "FOUND",
+          "guid": "8a14ada18351c4e4f812beee175d5432",
+          "prefabName": "MusicStinger",
+          "bundle": "essential_base_global-prefab-0.unity3d",
+          "bundleExists": true
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Horde1",
+          "nameNotes": {
+            "raw": "Pegasus_Stinger_Horde1",
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": true
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Horde1",
+          "indexed": true
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "FOUND",
+          "indexBundle": "essential_base_global-prefab-0.unity3d",
+          "hitBundle": "essential_base_global-prefab-0.unity3d",
+          "zhcnBundles": [],
+          "prefabBundles": [
+            "essential_base_global-prefab-0.unity3d"
+          ],
+          "existingBundles": [
+            "essential_base_global-prefab-0.unity3d"
+          ]
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "MISSING_OR_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (925380421) out of boundary (20737684) (tried essential_base_global-prefab-0.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Horde1)"
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "FAILED"
+        },
+        "extract": {
+          "status": "FAILED",
+          "extractMs": 2250,
+          "code": "EXTRACT_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (925380421) out of boundary (20737684) (tried essential_base_global-prefab-0.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Horde1)"
+        },
+        "api": {
+          "probed": true,
+          "url": "http://127.0.0.1:8767/api/audio/music/VAN_EX1_414",
+          "ok": false,
+          "status": 404,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 30,
+          "header": null
+        },
+        "ui": {
+          "available": true,
+          "shared": true
+        },
+        "classification": "Audio Exists but Extraction Failed",
+        "failurePoint": "Extractor",
+        "totalMs": 4452
+      }
+    },
+    {
+      "cardId": "BOT_548",
+      "name": "奇利亚斯",
+      "music": {
+        "index": {
+          "status": "FOUND",
+          "musicAssetId": "def35f576f08b8f42b7655c81e1a271a",
+          "audioClipName": "Zilliax_Play_Stinger",
+          "sourceCardId": "BOT_548",
+          "mappingStatus": "available"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "FOUND",
+          "guid": "def35f576f08b8f42b7655c81e1a271a",
+          "prefabName": "MusicStinger",
+          "bundle": "initial_base_global-74f91fa9-prefab-4.unity3d",
+          "bundleExists": true
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "FOUND",
+          "audioClipName": "Zilliax_Play_Stinger",
+          "nameNotes": {
+            "raw": "Zilliax_Play_Stinger",
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": false
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "FOUND",
+          "audioClipName": "Zilliax_Play_Stinger",
+          "indexed": true
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "FOUND",
+          "indexBundle": "initial_base_global-74f91fa9-prefab-4.unity3d",
+          "hitBundle": "initial_base_global-74f91fa9-prefab-4.unity3d",
+          "zhcnBundles": [],
+          "prefabBundles": [
+            "initial_base_global-74f91fa9-prefab-4.unity3d"
+          ],
+          "existingBundles": [
+            "initial_base_global-74f91fa9-prefab-4.unity3d"
+          ]
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "FOUND",
+          "reason": null
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "SUCCESS",
+          "header": {
+            "ok": true,
+            "riff": true,
+            "format": 1,
+            "pcm": true,
+            "bitDepth": 16,
+            "sampleRate": 48000,
+            "channels": 2,
+            "bytes": 1255328
+          },
+          "sampleCount": 313821,
+          "durationMs": 6537.9375,
+          "durationSec": 6.5379375,
+          "sampleRate": 48000,
+          "channels": 2,
+          "bitDepth": 16,
+          "voiceFirstSoundMs": 43.5,
+          "leadingSilenceMs": 43.5,
+          "peak100ms": 1671,
+          "rms100ms": 334.93002129798197,
+          "peak200ms": 28090,
+          "rms200ms": 4959.616777130022,
+          "peak300ms": 28090,
+          "rms300ms": 6203.619355593734
+        },
+        "extract": {
+          "status": "SUCCESS",
+          "path": "C:\\Users\\123\\hs-audio-verify\\tmp\\music\\BOT_548_MusicStinger.wav",
+          "cached": true,
+          "extractMs": 2,
+          "clipName": "Zilliax_Play_Stinger",
+          "bundle": "initial_base_global-74f91fa9-prefab-4.unity3d",
+          "wav": {
+            "header": {
+              "ok": true,
+              "riff": true,
+              "format": 1,
+              "pcm": true,
+              "bitDepth": 16,
+              "sampleRate": 48000,
+              "channels": 2,
+              "bytes": 1255328
+            },
+            "sampleCount": 313821,
+            "durationMs": 6537.9375,
+            "durationSec": 6.5379375,
+            "sampleRate": 48000,
+            "channels": 2,
+            "bitDepth": 16,
+            "voiceFirstSoundMs": 43.5,
+            "leadingSilenceMs": 43.5,
+            "peak100ms": 1671,
+            "rms100ms": 334.93002129798197,
+            "peak200ms": 28090,
+            "rms200ms": 4959.616777130022,
+            "peak300ms": 28090,
+            "rms300ms": 6203.619355593734
+          }
+        },
+        "api": {
+          "probed": true,
+          "url": "http://127.0.0.1:8767/api/audio/music/BOT_548",
+          "ok": true,
+          "status": 200,
+          "contentType": "audio/wav",
+          "bytes": 1255328,
+          "header": {
+            "ok": true,
+            "riff": true,
+            "format": 1,
+            "pcm": true,
+            "bitDepth": 16,
+            "sampleRate": 48000,
+            "channels": 2,
+            "bytes": 1255328
+          }
+        },
+        "ui": {
+          "available": true,
+          "shared": false
+        },
+        "classification": "Successfully Playable",
+        "failurePoint": null,
+        "totalMs": 9
+      }
+    },
+    {
+      "cardId": "CORE_BOT_548",
+      "name": "奇利亚斯",
+      "music": {
+        "index": {
+          "status": "FOUND",
+          "musicAssetId": "def35f576f08b8f42b7655c81e1a271a",
+          "audioClipName": "Zilliax_Play_Stinger",
+          "sourceCardId": "BOT_548",
+          "mappingStatus": "shared"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "FOUND",
+          "guid": "def35f576f08b8f42b7655c81e1a271a",
+          "prefabName": "MusicStinger",
+          "bundle": "initial_base_global-74f91fa9-prefab-4.unity3d",
+          "bundleExists": true
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "FOUND",
+          "audioClipName": "Zilliax_Play_Stinger",
+          "nameNotes": {
+            "raw": "Zilliax_Play_Stinger",
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": true
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "FOUND",
+          "audioClipName": "Zilliax_Play_Stinger",
+          "indexed": true
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "FOUND",
+          "indexBundle": "initial_base_global-74f91fa9-prefab-4.unity3d",
+          "hitBundle": "initial_base_global-74f91fa9-prefab-4.unity3d",
+          "zhcnBundles": [],
+          "prefabBundles": [
+            "initial_base_global-74f91fa9-prefab-4.unity3d"
+          ],
+          "existingBundles": [
+            "initial_base_global-74f91fa9-prefab-4.unity3d"
+          ]
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "FOUND",
+          "reason": null
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "SUCCESS",
+          "header": {
+            "ok": true,
+            "riff": true,
+            "format": 1,
+            "pcm": true,
+            "bitDepth": 16,
+            "sampleRate": 48000,
+            "channels": 2,
+            "bytes": 1255328
+          },
+          "sampleCount": 313821,
+          "durationMs": 6537.9375,
+          "durationSec": 6.5379375,
+          "sampleRate": 48000,
+          "channels": 2,
+          "bitDepth": 16,
+          "voiceFirstSoundMs": 43.5,
+          "leadingSilenceMs": 43.5,
+          "peak100ms": 1671,
+          "rms100ms": 334.93002129798197,
+          "peak200ms": 28090,
+          "rms200ms": 4959.616777130022,
+          "peak300ms": 28090,
+          "rms300ms": 6203.619355593734
+        },
+        "extract": {
+          "status": "SUCCESS",
+          "path": "C:\\Users\\123\\hs-audio-verify\\tmp\\music\\CORE_BOT_548_MusicStinger.wav",
+          "cached": true,
+          "extractMs": 2,
+          "clipName": "Zilliax_Play_Stinger",
+          "bundle": "initial_base_global-74f91fa9-prefab-4.unity3d",
+          "wav": {
+            "header": {
+              "ok": true,
+              "riff": true,
+              "format": 1,
+              "pcm": true,
+              "bitDepth": 16,
+              "sampleRate": 48000,
+              "channels": 2,
+              "bytes": 1255328
+            },
+            "sampleCount": 313821,
+            "durationMs": 6537.9375,
+            "durationSec": 6.5379375,
+            "sampleRate": 48000,
+            "channels": 2,
+            "bitDepth": 16,
+            "voiceFirstSoundMs": 43.5,
+            "leadingSilenceMs": 43.5,
+            "peak100ms": 1671,
+            "rms100ms": 334.93002129798197,
+            "peak200ms": 28090,
+            "rms200ms": 4959.616777130022,
+            "peak300ms": 28090,
+            "rms300ms": 6203.619355593734
+          }
+        },
+        "api": {
+          "probed": true,
+          "url": "http://127.0.0.1:8767/api/audio/music/CORE_BOT_548",
+          "ok": true,
+          "status": 200,
+          "contentType": "audio/wav",
+          "bytes": 1255328,
+          "header": {
+            "ok": true,
+            "riff": true,
+            "format": 1,
+            "pcm": true,
+            "bitDepth": 16,
+            "sampleRate": 48000,
+            "channels": 2,
+            "bytes": 1255328
+          }
+        },
+        "ui": {
+          "available": true,
+          "shared": true
+        },
+        "classification": "Successfully Playable",
+        "failurePoint": null,
+        "totalMs": 7
+      }
+    },
+    {
+      "cardId": "TOY_330",
+      "name": "奇利亚斯豪华版3000型",
+      "music": {
+        "index": {
+          "status": "FOUND",
+          "musicAssetId": "27c9f6e8bc048f745b3af67d6ae02276",
+          "audioClipName": "TOY_330_ZilliaxtheCustomizable_Stinger",
+          "sourceCardId": "TOY_330",
+          "mappingStatus": "available"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "FOUND",
+          "guid": "27c9f6e8bc048f745b3af67d6ae02276",
+          "prefabName": "TOY_330_ZilliaxtheCustomizable_Stinger",
+          "bundle": "initial_base_global-383d0402-prefab-0.unity3d",
+          "bundleExists": true
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "FOUND",
+          "audioClipName": "TOY_330_ZilliaxtheCustomizable_Stinger",
+          "nameNotes": {
+            "raw": "TOY_330_ZilliaxtheCustomizable_Stinger",
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": false
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "FOUND",
+          "audioClipName": "TOY_330_ZilliaxtheCustomizable_Stinger",
+          "indexed": true
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "FOUND",
+          "indexBundle": "initial_base_global-383d0402-prefab-0.unity3d",
+          "hitBundle": "initial_base_global-383d0402-prefab-0.unity3d",
+          "zhcnBundles": [],
+          "prefabBundles": [
+            "initial_base_global-383d0402-prefab-0.unity3d"
+          ],
+          "existingBundles": [
+            "initial_base_global-383d0402-prefab-0.unity3d"
+          ]
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "FOUND",
+          "reason": null
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "SUCCESS",
+          "header": {
+            "ok": true,
+            "riff": true,
+            "format": 1,
+            "pcm": true,
+            "bitDepth": 16,
+            "sampleRate": 48000,
+            "channels": 2,
+            "bytes": 768044
+          },
+          "sampleCount": 192000,
+          "durationMs": 4000,
+          "durationSec": 4,
+          "sampleRate": 48000,
+          "channels": 2,
+          "bitDepth": 16,
+          "voiceFirstSoundMs": 2.90625,
+          "leadingSilenceMs": 2.90625,
+          "peak100ms": 21623,
+          "rms100ms": 5569.655280148629,
+          "peak200ms": 21623,
+          "rms200ms": 6331.947375725602,
+          "peak300ms": 21623,
+          "rms300ms": 6395.2013178067955
+        },
+        "extract": {
+          "status": "SUCCESS",
+          "path": "C:\\Users\\123\\hs-audio-verify\\tmp\\music\\TOY_330_MusicStinger.wav",
+          "cached": true,
+          "extractMs": 1,
+          "clipName": "TOY_330_ZilliaxtheCustomizable_Stinger",
+          "bundle": "initial_base_global-383d0402-prefab-0.unity3d",
+          "wav": {
+            "header": {
+              "ok": true,
+              "riff": true,
+              "format": 1,
+              "pcm": true,
+              "bitDepth": 16,
+              "sampleRate": 48000,
+              "channels": 2,
+              "bytes": 768044
+            },
+            "sampleCount": 192000,
+            "durationMs": 4000,
+            "durationSec": 4,
+            "sampleRate": 48000,
+            "channels": 2,
+            "bitDepth": 16,
+            "voiceFirstSoundMs": 2.90625,
+            "leadingSilenceMs": 2.90625,
+            "peak100ms": 21623,
+            "rms100ms": 5569.655280148629,
+            "peak200ms": 21623,
+            "rms200ms": 6331.947375725602,
+            "peak300ms": 21623,
+            "rms300ms": 6395.2013178067955
+          }
+        },
+        "api": {
+          "probed": true,
+          "url": "http://127.0.0.1:8767/api/audio/music/TOY_330",
+          "ok": true,
+          "status": 200,
+          "contentType": "audio/wav",
+          "bytes": 768044,
+          "header": {
+            "ok": true,
+            "riff": true,
+            "format": 1,
+            "pcm": true,
+            "bitDepth": 16,
+            "sampleRate": 48000,
+            "channels": 2,
+            "bytes": 768044
+          }
+        },
+        "ui": {
+          "available": true,
+          "shared": false
+        },
+        "classification": "Successfully Playable",
+        "failurePoint": null,
+        "totalMs": 4
+      }
+    },
+    {
+      "cardId": "EX1_116",
+      "name": "火车王里诺艾",
+      "music": {
+        "index": {
+          "status": "FOUND",
+          "musicAssetId": "c6aaf3440b38a664db44d8870f3864d1",
+          "audioClipName": "Pegasus_Stinger_Leeroy_Jenkins",
+          "sourceCardId": "EX1_116",
+          "mappingStatus": "available"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "FOUND",
+          "guid": "c6aaf3440b38a664db44d8870f3864d1",
+          "prefabName": "MusicStinger",
+          "bundle": "initial_base_global-775a814d-prefab-1.unity3d",
+          "bundleExists": true
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Leeroy_Jenkins",
+          "nameNotes": {
+            "raw": "Pegasus_Stinger_Leeroy_Jenkins",
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": false
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Leeroy_Jenkins",
+          "indexed": true
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "FOUND",
+          "indexBundle": "initial_base_global-775a814d-prefab-1.unity3d",
+          "hitBundle": "initial_base_global-775a814d-prefab-1.unity3d",
+          "zhcnBundles": [],
+          "prefabBundles": [
+            "initial_base_global-775a814d-prefab-1.unity3d",
+            "initial_base_global-6c782fd0-prefab-0.unity3d",
+            "initial_base_global-775a814d-prefab-1.unity3d"
+          ],
+          "existingBundles": [
+            "initial_base_global-775a814d-prefab-1.unity3d",
+            "initial_base_global-6c782fd0-prefab-0.unity3d"
+          ]
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "FOUND",
+          "reason": null
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "SUCCESS",
+          "header": {
+            "ok": true,
+            "riff": true,
+            "format": 1,
+            "pcm": true,
+            "bitDepth": 16,
+            "sampleRate": 44100,
+            "channels": 2,
+            "bytes": 753508
+          },
+          "sampleCount": 188366,
+          "durationMs": 4271.337868480726,
+          "durationSec": 4.2713378684807255,
+          "sampleRate": 44100,
+          "channels": 2,
+          "bitDepth": 16,
+          "voiceFirstSoundMs": 36.678004535147394,
+          "leadingSilenceMs": 36.678004535147394,
+          "peak100ms": 25874,
+          "rms100ms": 3892.5771330779626,
+          "peak200ms": 25874,
+          "rms200ms": 2876.4603286862257,
+          "peak300ms": 25874,
+          "rms300ms": 3068.2401087908265
+        },
+        "extract": {
+          "status": "SUCCESS",
+          "path": "C:\\Users\\123\\hs-audio-verify\\tmp\\music\\EX1_116_MusicStinger.wav",
+          "cached": true,
+          "extractMs": 1,
+          "clipName": "Pegasus_Stinger_Leeroy_Jenkins",
+          "bundle": "initial_base_global-775a814d-prefab-1.unity3d",
+          "wav": {
+            "header": {
+              "ok": true,
+              "riff": true,
+              "format": 1,
+              "pcm": true,
+              "bitDepth": 16,
+              "sampleRate": 44100,
+              "channels": 2,
+              "bytes": 753508
+            },
+            "sampleCount": 188366,
+            "durationMs": 4271.337868480726,
+            "durationSec": 4.2713378684807255,
+            "sampleRate": 44100,
+            "channels": 2,
+            "bitDepth": 16,
+            "voiceFirstSoundMs": 36.678004535147394,
+            "leadingSilenceMs": 36.678004535147394,
+            "peak100ms": 25874,
+            "rms100ms": 3892.5771330779626,
+            "peak200ms": 25874,
+            "rms200ms": 2876.4603286862257,
+            "peak300ms": 25874,
+            "rms300ms": 3068.2401087908265
+          }
+        },
+        "api": {
+          "probed": true,
+          "url": "http://127.0.0.1:8767/api/audio/music/EX1_116",
+          "ok": true,
+          "status": 200,
+          "contentType": "audio/wav",
+          "bytes": 753508,
+          "header": {
+            "ok": true,
+            "riff": true,
+            "format": 1,
+            "pcm": true,
+            "bitDepth": 16,
+            "sampleRate": 44100,
+            "channels": 2,
+            "bytes": 753508
+          }
+        },
+        "ui": {
+          "available": true,
+          "shared": false
+        },
+        "classification": "Successfully Playable",
+        "failurePoint": null,
+        "totalMs": 4
+      }
+    },
+    {
+      "cardId": "EX1_572",
+      "name": "伊瑟拉",
+      "music": {
+        "index": {
+          "status": "FOUND",
+          "musicAssetId": "fa280121f091c1744a28110914a9e729",
+          "audioClipName": "Pegasus_Stinger_Dragon_Good_New",
+          "sourceCardId": "EX1_572",
+          "mappingStatus": "available"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "FOUND",
+          "guid": "fa280121f091c1744a28110914a9e729",
+          "prefabName": "MusicStinger",
+          "bundle": "initial_base_global-775a814d-prefab-4.unity3d",
+          "bundleExists": true
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Dragon_Good_New",
+          "nameNotes": {
+            "raw": "Pegasus_Stinger_Dragon_Good_New",
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": false
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Dragon_Good_New",
+          "indexed": true
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "FOUND",
+          "indexBundle": "initial_base_global-775a814d-prefab-4.unity3d",
+          "hitBundle": "initial_base_global-775a814d-prefab-4.unity3d",
+          "zhcnBundles": [],
+          "prefabBundles": [
+            "initial_base_global-775a814d-prefab-4.unity3d"
+          ],
+          "existingBundles": [
+            "initial_base_global-775a814d-prefab-4.unity3d"
+          ]
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "FOUND",
+          "reason": null
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "SUCCESS",
+          "header": {
+            "ok": true,
+            "riff": true,
+            "format": 1,
+            "pcm": true,
+            "bitDepth": 16,
+            "sampleRate": 48000,
+            "channels": 2,
+            "bytes": 947140
+          },
+          "sampleCount": 236774,
+          "durationMs": 4932.791666666667,
+          "durationSec": 4.932791666666667,
+          "sampleRate": 48000,
+          "channels": 2,
+          "bitDepth": 16,
+          "voiceFirstSoundMs": 94.28125,
+          "leadingSilenceMs": 94.28125,
+          "peak100ms": 615,
+          "rms100ms": 94.02216327813352,
+          "peak200ms": 2270,
+          "rms200ms": 666.4724377740613,
+          "peak300ms": 11280,
+          "rms300ms": 2253.3491037878853
+        },
+        "extract": {
+          "status": "SUCCESS",
+          "path": "C:\\Users\\123\\hs-audio-verify\\tmp\\music\\EX1_572_MusicStinger.wav",
+          "cached": true,
+          "extractMs": 1,
+          "clipName": "Pegasus_Stinger_Dragon_Good_New",
+          "bundle": "initial_base_global-775a814d-prefab-4.unity3d",
+          "wav": {
+            "header": {
+              "ok": true,
+              "riff": true,
+              "format": 1,
+              "pcm": true,
+              "bitDepth": 16,
+              "sampleRate": 48000,
+              "channels": 2,
+              "bytes": 947140
+            },
+            "sampleCount": 236774,
+            "durationMs": 4932.791666666667,
+            "durationSec": 4.932791666666667,
+            "sampleRate": 48000,
+            "channels": 2,
+            "bitDepth": 16,
+            "voiceFirstSoundMs": 94.28125,
+            "leadingSilenceMs": 94.28125,
+            "peak100ms": 615,
+            "rms100ms": 94.02216327813352,
+            "peak200ms": 2270,
+            "rms200ms": 666.4724377740613,
+            "peak300ms": 11280,
+            "rms300ms": 2253.3491037878853
+          }
+        },
+        "api": {
+          "probed": true,
+          "url": "http://127.0.0.1:8767/api/audio/music/EX1_572",
+          "ok": true,
+          "status": 200,
+          "contentType": "audio/wav",
+          "bytes": 947140,
+          "header": {
+            "ok": true,
+            "riff": true,
+            "format": 1,
+            "pcm": true,
+            "bitDepth": 16,
+            "sampleRate": 48000,
+            "channels": 2,
+            "bytes": 947140
+          }
+        },
+        "ui": {
+          "available": true,
+          "shared": false
+        },
+        "classification": "Successfully Playable",
+        "failurePoint": null,
+        "totalMs": 4
+      }
+    },
+    {
+      "cardId": "CORE_EX1_543",
+      "name": "暴龙王克鲁什",
+      "music": {
+        "index": {
+          "status": "FOUND",
+          "musicAssetId": "91e623e875cf84c4b99db57e21c5c788",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "sourceCardId": "EX1_543",
+          "mappingStatus": "shared"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "FOUND",
+          "guid": "91e623e875cf84c4b99db57e21c5c788",
+          "prefabName": "MusicStinger",
+          "bundle": "essential_base_global-prefab-0.unity3d",
+          "bundleExists": true
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "nameNotes": {
+            "raw": "Pegasus_Stinger_Beast_Villain",
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": true
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "indexed": true
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "FOUND",
+          "indexBundle": "essential_base_global-prefab-0.unity3d",
+          "hitBundle": "initial_base_global-775a814d-prefab-0.unity3d",
+          "zhcnBundles": [],
+          "prefabBundles": [
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "essential_base_global-prefab-0.unity3d",
+            "initial_base_global-3aaf7c48-prefab-3.unity3d",
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "initial_base_global-775a814d-prefab-4.unity3d",
+            "initial_base_global-775a814d-prefab-5.unity3d",
+            "initial_base_global-9f363830-prefab-3.unity3d"
+          ],
+          "existingBundles": [
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "essential_base_global-prefab-0.unity3d",
+            "initial_base_global-3aaf7c48-prefab-3.unity3d",
+            "initial_base_global-775a814d-prefab-4.unity3d",
+            "initial_base_global-775a814d-prefab-5.unity3d",
+            "initial_base_global-9f363830-prefab-3.unity3d"
+          ]
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "MISSING_OR_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (2024980470) out of boundary (1542596) (tried initial_base_global-775a814d-prefab-0.unity3d, essential_base_global-prefab-0.unity3d, initial_base_global-3aaf7c48-prefab-3.unity3d, initial_base_global-775a814d-prefab-4.unity3d, initial_base_global-775a814d-prefab-5.unity3d, initial_base_global-9f363830-prefab-3.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d, initial_base_global-775a814d-audio-0.unity3d, playsound_base_global-775a814d-audio-0.unity3d, playsound_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-1.unity3d, soundotherminion_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_zhcn-775a814d-audio-1.unity3d, initial_base_global-3aaf7c48-audio-0.unity3d, initial_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-3aaf7c48-audio-0.unity3d, playsound_base_zhcn-3aaf7c48-audio-0.unity3d, soundotherminion_base_global-3aaf7c48-audio-0.unity3d, soundotherminion_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-9f363830-audio-0.unity3d, playsound_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_adventure_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_global-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-1.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Beast_Villain)"
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "FAILED"
+        },
+        "extract": {
+          "status": "FAILED",
+          "extractMs": 2391,
+          "code": "EXTRACT_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (2024980470) out of boundary (1542596) (tried initial_base_global-775a814d-prefab-0.unity3d, essential_base_global-prefab-0.unity3d, initial_base_global-3aaf7c48-prefab-3.unity3d, initial_base_global-775a814d-prefab-4.unity3d, initial_base_global-775a814d-prefab-5.unity3d, initial_base_global-9f363830-prefab-3.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d, initial_base_global-775a814d-audio-0.unity3d, playsound_base_global-775a814d-audio-0.unity3d, playsound_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-1.unity3d, soundotherminion_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_zhcn-775a814d-audio-1.unity3d, initial_base_global-3aaf7c48-audio-0.unity3d, initial_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-3aaf7c48-audio-0.unity3d, playsound_base_zhcn-3aaf7c48-audio-0.unity3d, soundotherminion_base_global-3aaf7c48-audio-0.unity3d, soundotherminion_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-9f363830-audio-0.unity3d, playsound_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_adventure_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_global-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-1.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Beast_Villain)"
+        },
+        "api": {
+          "probed": true,
+          "url": "http://127.0.0.1:8767/api/audio/music/CORE_EX1_543",
+          "ok": false,
+          "status": 404,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 30,
+          "header": null
+        },
+        "ui": {
+          "available": true,
+          "shared": true
+        },
+        "classification": "Audio Exists but Extraction Failed",
+        "failurePoint": "Extractor",
+        "totalMs": 4806
+      }
+    },
+    {
+      "cardId": "EX1_543",
+      "name": "暴龙王克鲁什",
+      "music": {
+        "index": {
+          "status": "FOUND",
+          "musicAssetId": "91e623e875cf84c4b99db57e21c5c788",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "sourceCardId": "EX1_543",
+          "mappingStatus": "available"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "FOUND",
+          "guid": "91e623e875cf84c4b99db57e21c5c788",
+          "prefabName": "MusicStinger",
+          "bundle": "essential_base_global-prefab-0.unity3d",
+          "bundleExists": true
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "nameNotes": {
+            "raw": "Pegasus_Stinger_Beast_Villain",
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": false
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "indexed": true
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "FOUND",
+          "indexBundle": "essential_base_global-prefab-0.unity3d",
+          "hitBundle": "initial_base_global-775a814d-prefab-0.unity3d",
+          "zhcnBundles": [],
+          "prefabBundles": [
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "essential_base_global-prefab-0.unity3d",
+            "initial_base_global-3aaf7c48-prefab-3.unity3d",
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "initial_base_global-775a814d-prefab-4.unity3d",
+            "initial_base_global-775a814d-prefab-5.unity3d",
+            "initial_base_global-9f363830-prefab-3.unity3d"
+          ],
+          "existingBundles": [
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "essential_base_global-prefab-0.unity3d",
+            "initial_base_global-3aaf7c48-prefab-3.unity3d",
+            "initial_base_global-775a814d-prefab-4.unity3d",
+            "initial_base_global-775a814d-prefab-5.unity3d",
+            "initial_base_global-9f363830-prefab-3.unity3d"
+          ]
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "MISSING_OR_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (2024980470) out of boundary (1542596) (tried initial_base_global-775a814d-prefab-0.unity3d, essential_base_global-prefab-0.unity3d, initial_base_global-3aaf7c48-prefab-3.unity3d, initial_base_global-775a814d-prefab-4.unity3d, initial_base_global-775a814d-prefab-5.unity3d, initial_base_global-9f363830-prefab-3.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d, initial_base_global-775a814d-audio-0.unity3d, playsound_base_global-775a814d-audio-0.unity3d, playsound_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-1.unity3d, soundotherminion_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_zhcn-775a814d-audio-1.unity3d, initial_base_global-3aaf7c48-audio-0.unity3d, initial_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-3aaf7c48-audio-0.unity3d, playsound_base_zhcn-3aaf7c48-audio-0.unity3d, soundotherminion_base_global-3aaf7c48-audio-0.unity3d, soundotherminion_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-9f363830-audio-0.unity3d, playsound_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_adventure_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_global-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-1.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Beast_Villain)"
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "FAILED"
+        },
+        "extract": {
+          "status": "FAILED",
+          "extractMs": 2444,
+          "code": "EXTRACT_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (2024980470) out of boundary (1542596) (tried initial_base_global-775a814d-prefab-0.unity3d, essential_base_global-prefab-0.unity3d, initial_base_global-3aaf7c48-prefab-3.unity3d, initial_base_global-775a814d-prefab-4.unity3d, initial_base_global-775a814d-prefab-5.unity3d, initial_base_global-9f363830-prefab-3.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d, initial_base_global-775a814d-audio-0.unity3d, playsound_base_global-775a814d-audio-0.unity3d, playsound_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-1.unity3d, soundotherminion_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_zhcn-775a814d-audio-1.unity3d, initial_base_global-3aaf7c48-audio-0.unity3d, initial_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-3aaf7c48-audio-0.unity3d, playsound_base_zhcn-3aaf7c48-audio-0.unity3d, soundotherminion_base_global-3aaf7c48-audio-0.unity3d, soundotherminion_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-9f363830-audio-0.unity3d, playsound_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_adventure_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_global-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-1.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Beast_Villain)"
+        },
+        "api": {
+          "probed": true,
+          "url": "http://127.0.0.1:8767/api/audio/music/EX1_543",
+          "ok": false,
+          "status": 404,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 30,
+          "header": null
+        },
+        "ui": {
+          "available": true,
+          "shared": false
+        },
+        "classification": "Audio Exists but Extraction Failed",
+        "failurePoint": "Extractor",
+        "totalMs": 5065
+      }
+    },
+    {
+      "cardId": "HERO_05am_KingKrush_h",
+      "name": "暴龙王克鲁什",
+      "music": {
+        "index": {
+          "status": "MISSING",
+          "musicAssetId": null,
+          "audioClipName": null,
+          "sourceCardId": null,
+          "mappingStatus": "unavailable"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "SKIP",
+          "guid": null,
+          "prefabName": null,
+          "bundle": null,
+          "bundleExists": false
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "SKIP",
+          "audioClipName": null,
+          "nameNotes": {
+            "raw": null,
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": false
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "MISSING",
+          "audioClipName": null,
+          "indexed": false
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "SKIP",
+          "indexBundle": null
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "SKIP",
+          "reason": null
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "SKIP"
+        },
+        "extract": {
+          "status": "SKIPPED"
+        },
+        "api": {
+          "probed": false
+        },
+        "ui": {
+          "available": false,
+          "shared": false
+        },
+        "classification": "No Audio Data",
+        "failurePoint": "Index",
+        "totalMs": 0
+      }
+    },
+    {
+      "cardId": "LETL_037H_01",
+      "name": "暴龙王克鲁什",
+      "music": {
+        "index": {
+          "status": "MISSING",
+          "musicAssetId": null,
+          "audioClipName": null,
+          "sourceCardId": null,
+          "mappingStatus": "unavailable"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "SKIP",
+          "guid": null,
+          "prefabName": null,
+          "bundle": null,
+          "bundleExists": false
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "SKIP",
+          "audioClipName": null,
+          "nameNotes": {
+            "raw": null,
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": false
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "MISSING",
+          "audioClipName": null,
+          "indexed": false
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "SKIP",
+          "indexBundle": null
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "SKIP",
+          "reason": null
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "SKIP"
+        },
+        "extract": {
+          "status": "SKIPPED"
+        },
+        "api": {
+          "probed": false
+        },
+        "ui": {
+          "available": false,
+          "shared": false
+        },
+        "classification": "No Audio Data",
+        "failurePoint": "Index",
+        "totalMs": 0
+      }
+    },
+    {
+      "cardId": "LETL_037H_02",
+      "name": "暴龙王克鲁什",
+      "music": {
+        "index": {
+          "status": "MISSING",
+          "musicAssetId": null,
+          "audioClipName": null,
+          "sourceCardId": null,
+          "mappingStatus": "unavailable"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "SKIP",
+          "guid": null,
+          "prefabName": null,
+          "bundle": null,
+          "bundleExists": false
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "SKIP",
+          "audioClipName": null,
+          "nameNotes": {
+            "raw": null,
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": false
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "MISSING",
+          "audioClipName": null,
+          "indexed": false
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "SKIP",
+          "indexBundle": null
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "SKIP",
+          "reason": null
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "SKIP"
+        },
+        "extract": {
+          "status": "SKIPPED"
+        },
+        "api": {
+          "probed": false
+        },
+        "ui": {
+          "available": false,
+          "shared": false
+        },
+        "classification": "No Audio Data",
+        "failurePoint": "Index",
+        "totalMs": 0
+      }
+    },
+    {
+      "cardId": "LETL_037H_03",
+      "name": "暴龙王克鲁什",
+      "music": {
+        "index": {
+          "status": "MISSING",
+          "musicAssetId": null,
+          "audioClipName": null,
+          "sourceCardId": null,
+          "mappingStatus": "unavailable"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "SKIP",
+          "guid": null,
+          "prefabName": null,
+          "bundle": null,
+          "bundleExists": false
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "SKIP",
+          "audioClipName": null,
+          "nameNotes": {
+            "raw": null,
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": false
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "MISSING",
+          "audioClipName": null,
+          "indexed": false
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "SKIP",
+          "indexBundle": null
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "SKIP",
+          "reason": null
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "SKIP"
+        },
+        "extract": {
+          "status": "SKIPPED"
+        },
+        "api": {
+          "probed": false
+        },
+        "ui": {
+          "available": false,
+          "shared": false
+        },
+        "classification": "No Audio Data",
+        "failurePoint": "Index",
+        "totalMs": 0
+      }
+    },
+    {
+      "cardId": "LT23_031T1_04m",
+      "name": "暴龙王克鲁什",
+      "music": {
+        "index": {
+          "status": "FOUND",
+          "musicAssetId": "91e623e875cf84c4b99db57e21c5c788",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "sourceCardId": "EX1_543",
+          "mappingStatus": "shared"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "FOUND",
+          "guid": "91e623e875cf84c4b99db57e21c5c788",
+          "prefabName": "MusicStinger",
+          "bundle": "essential_base_global-prefab-0.unity3d",
+          "bundleExists": true
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "nameNotes": {
+            "raw": "Pegasus_Stinger_Beast_Villain",
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": true
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "indexed": true
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "FOUND",
+          "indexBundle": "essential_base_global-prefab-0.unity3d",
+          "hitBundle": "initial_base_global-775a814d-prefab-0.unity3d",
+          "zhcnBundles": [],
+          "prefabBundles": [
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "essential_base_global-prefab-0.unity3d",
+            "initial_base_global-3aaf7c48-prefab-3.unity3d",
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "initial_base_global-775a814d-prefab-4.unity3d",
+            "initial_base_global-775a814d-prefab-5.unity3d",
+            "initial_base_global-9f363830-prefab-3.unity3d"
+          ],
+          "existingBundles": [
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "essential_base_global-prefab-0.unity3d",
+            "initial_base_global-3aaf7c48-prefab-3.unity3d",
+            "initial_base_global-775a814d-prefab-4.unity3d",
+            "initial_base_global-775a814d-prefab-5.unity3d",
+            "initial_base_global-9f363830-prefab-3.unity3d"
+          ]
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "MISSING_OR_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (2024980470) out of boundary (1542596) (tried initial_base_global-775a814d-prefab-0.unity3d, essential_base_global-prefab-0.unity3d, initial_base_global-3aaf7c48-prefab-3.unity3d, initial_base_global-775a814d-prefab-4.unity3d, initial_base_global-775a814d-prefab-5.unity3d, initial_base_global-9f363830-prefab-3.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d, initial_base_global-775a814d-audio-0.unity3d, playsound_base_global-775a814d-audio-0.unity3d, playsound_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-1.unity3d, soundotherminion_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_zhcn-775a814d-audio-1.unity3d, initial_base_global-3aaf7c48-audio-0.unity3d, initial_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-3aaf7c48-audio-0.unity3d, playsound_base_zhcn-3aaf7c48-audio-0.unity3d, soundotherminion_base_global-3aaf7c48-audio-0.unity3d, soundotherminion_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-9f363830-audio-0.unity3d, playsound_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_adventure_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_global-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-1.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Beast_Villain)"
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "FAILED"
+        },
+        "extract": {
+          "status": "FAILED",
+          "extractMs": 2480,
+          "code": "EXTRACT_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (2024980470) out of boundary (1542596) (tried initial_base_global-775a814d-prefab-0.unity3d, essential_base_global-prefab-0.unity3d, initial_base_global-3aaf7c48-prefab-3.unity3d, initial_base_global-775a814d-prefab-4.unity3d, initial_base_global-775a814d-prefab-5.unity3d, initial_base_global-9f363830-prefab-3.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d, initial_base_global-775a814d-audio-0.unity3d, playsound_base_global-775a814d-audio-0.unity3d, playsound_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-1.unity3d, soundotherminion_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_zhcn-775a814d-audio-1.unity3d, initial_base_global-3aaf7c48-audio-0.unity3d, initial_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-3aaf7c48-audio-0.unity3d, playsound_base_zhcn-3aaf7c48-audio-0.unity3d, soundotherminion_base_global-3aaf7c48-audio-0.unity3d, soundotherminion_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-9f363830-audio-0.unity3d, playsound_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_adventure_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_global-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-1.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Beast_Villain)"
+        },
+        "api": {
+          "probed": true,
+          "url": "http://127.0.0.1:8767/api/audio/music/LT23_031T1_04m",
+          "ok": false,
+          "status": 404,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 30,
+          "header": null
+        },
+        "ui": {
+          "available": true,
+          "shared": true
+        },
+        "classification": "Audio Exists but Extraction Failed",
+        "failurePoint": "Extractor",
+        "totalMs": 4963
+      }
+    },
+    {
+      "cardId": "LT23_031T1_05m",
+      "name": "暴龙王克鲁什",
+      "music": {
+        "index": {
+          "status": "FOUND",
+          "musicAssetId": "91e623e875cf84c4b99db57e21c5c788",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "sourceCardId": "EX1_543",
+          "mappingStatus": "shared"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "FOUND",
+          "guid": "91e623e875cf84c4b99db57e21c5c788",
+          "prefabName": "MusicStinger",
+          "bundle": "essential_base_global-prefab-0.unity3d",
+          "bundleExists": true
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "nameNotes": {
+            "raw": "Pegasus_Stinger_Beast_Villain",
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": true
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "indexed": true
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "FOUND",
+          "indexBundle": "essential_base_global-prefab-0.unity3d",
+          "hitBundle": "initial_base_global-775a814d-prefab-0.unity3d",
+          "zhcnBundles": [],
+          "prefabBundles": [
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "essential_base_global-prefab-0.unity3d",
+            "initial_base_global-3aaf7c48-prefab-3.unity3d",
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "initial_base_global-775a814d-prefab-4.unity3d",
+            "initial_base_global-775a814d-prefab-5.unity3d",
+            "initial_base_global-9f363830-prefab-3.unity3d"
+          ],
+          "existingBundles": [
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "essential_base_global-prefab-0.unity3d",
+            "initial_base_global-3aaf7c48-prefab-3.unity3d",
+            "initial_base_global-775a814d-prefab-4.unity3d",
+            "initial_base_global-775a814d-prefab-5.unity3d",
+            "initial_base_global-9f363830-prefab-3.unity3d"
+          ]
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "MISSING_OR_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (2024980470) out of boundary (1542596) (tried initial_base_global-775a814d-prefab-0.unity3d, essential_base_global-prefab-0.unity3d, initial_base_global-3aaf7c48-prefab-3.unity3d, initial_base_global-775a814d-prefab-4.unity3d, initial_base_global-775a814d-prefab-5.unity3d, initial_base_global-9f363830-prefab-3.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d, initial_base_global-775a814d-audio-0.unity3d, playsound_base_global-775a814d-audio-0.unity3d, playsound_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-1.unity3d, soundotherminion_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_zhcn-775a814d-audio-1.unity3d, initial_base_global-3aaf7c48-audio-0.unity3d, initial_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-3aaf7c48-audio-0.unity3d, playsound_base_zhcn-3aaf7c48-audio-0.unity3d, soundotherminion_base_global-3aaf7c48-audio-0.unity3d, soundotherminion_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-9f363830-audio-0.unity3d, playsound_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_adventure_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_global-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-1.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Beast_Villain)"
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "FAILED"
+        },
+        "extract": {
+          "status": "FAILED",
+          "extractMs": 2597,
+          "code": "EXTRACT_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (2024980470) out of boundary (1542596) (tried initial_base_global-775a814d-prefab-0.unity3d, essential_base_global-prefab-0.unity3d, initial_base_global-3aaf7c48-prefab-3.unity3d, initial_base_global-775a814d-prefab-4.unity3d, initial_base_global-775a814d-prefab-5.unity3d, initial_base_global-9f363830-prefab-3.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d, initial_base_global-775a814d-audio-0.unity3d, playsound_base_global-775a814d-audio-0.unity3d, playsound_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-1.unity3d, soundotherminion_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_zhcn-775a814d-audio-1.unity3d, initial_base_global-3aaf7c48-audio-0.unity3d, initial_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-3aaf7c48-audio-0.unity3d, playsound_base_zhcn-3aaf7c48-audio-0.unity3d, soundotherminion_base_global-3aaf7c48-audio-0.unity3d, soundotherminion_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-9f363830-audio-0.unity3d, playsound_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_adventure_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_global-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-1.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Beast_Villain)"
+        },
+        "api": {
+          "probed": true,
+          "url": "http://127.0.0.1:8767/api/audio/music/LT23_031T1_05m",
+          "ok": false,
+          "status": 404,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 30,
+          "header": null
+        },
+        "ui": {
+          "available": true,
+          "shared": true
+        },
+        "classification": "Audio Exists but Extraction Failed",
+        "failurePoint": "Extractor",
+        "totalMs": 5210
+      }
+    },
+    {
+      "cardId": "THD_012",
+      "name": "暴龙王克鲁什",
+      "music": {
+        "index": {
+          "status": "MISSING",
+          "musicAssetId": null,
+          "audioClipName": null,
+          "sourceCardId": null,
+          "mappingStatus": "unavailable"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "SKIP",
+          "guid": null,
+          "prefabName": null,
+          "bundle": null,
+          "bundleExists": false
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "SKIP",
+          "audioClipName": null,
+          "nameNotes": {
+            "raw": null,
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": false
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "MISSING",
+          "audioClipName": null,
+          "indexed": false
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "SKIP",
+          "indexBundle": null
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "SKIP",
+          "reason": null
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "SKIP"
+        },
+        "extract": {
+          "status": "SKIPPED"
+        },
+        "api": {
+          "probed": false
+        },
+        "ui": {
+          "available": false,
+          "shared": false
+        },
+        "classification": "No Audio Data",
+        "failurePoint": "Index",
+        "totalMs": 0
+      }
+    },
+    {
+      "cardId": "TUTR_EX1_543",
+      "name": "暴龙王克鲁什",
+      "music": {
+        "index": {
+          "status": "MISSING",
+          "musicAssetId": null,
+          "audioClipName": null,
+          "sourceCardId": null,
+          "mappingStatus": "unresolved"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "SKIP",
+          "guid": null,
+          "prefabName": null,
+          "bundle": null,
+          "bundleExists": false
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "SKIP",
+          "audioClipName": null,
+          "nameNotes": {
+            "raw": null,
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": false
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "MISSING",
+          "audioClipName": null,
+          "indexed": false
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "SKIP",
+          "indexBundle": null
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "SKIP",
+          "reason": null
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "SKIP"
+        },
+        "extract": {
+          "status": "SKIPPED"
+        },
+        "api": {
+          "probed": false
+        },
+        "ui": {
+          "available": false,
+          "shared": false
+        },
+        "classification": "No Audio Data",
+        "failurePoint": "Index",
+        "totalMs": 0
+      }
+    },
+    {
+      "cardId": "ULD_156t3",
+      "name": "暴龙王克鲁什",
+      "music": {
+        "index": {
+          "status": "FOUND",
+          "musicAssetId": "1b4eb1c97d4e51543959490a42a4d4e5",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "sourceCardId": "ULD_156t3",
+          "mappingStatus": "available"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "FOUND",
+          "guid": "1b4eb1c97d4e51543959490a42a4d4e5",
+          "prefabName": "MusicStinger",
+          "bundle": "initial_base_global-9f363830-prefab-3.unity3d",
+          "bundleExists": true
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "nameNotes": {
+            "raw": "Pegasus_Stinger_Beast_Villain",
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": false
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "indexed": true
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "FOUND",
+          "indexBundle": "initial_base_global-9f363830-prefab-3.unity3d",
+          "hitBundle": "initial_base_global-775a814d-prefab-0.unity3d",
+          "zhcnBundles": [],
+          "prefabBundles": [
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "essential_base_global-prefab-0.unity3d",
+            "initial_base_global-3aaf7c48-prefab-3.unity3d",
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "initial_base_global-775a814d-prefab-4.unity3d",
+            "initial_base_global-775a814d-prefab-5.unity3d",
+            "initial_base_global-9f363830-prefab-3.unity3d"
+          ],
+          "existingBundles": [
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "essential_base_global-prefab-0.unity3d",
+            "initial_base_global-3aaf7c48-prefab-3.unity3d",
+            "initial_base_global-775a814d-prefab-4.unity3d",
+            "initial_base_global-775a814d-prefab-5.unity3d",
+            "initial_base_global-9f363830-prefab-3.unity3d"
+          ]
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "MISSING_OR_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (2024980470) out of boundary (1542596) (tried initial_base_global-775a814d-prefab-0.unity3d, essential_base_global-prefab-0.unity3d, initial_base_global-3aaf7c48-prefab-3.unity3d, initial_base_global-775a814d-prefab-4.unity3d, initial_base_global-775a814d-prefab-5.unity3d, initial_base_global-9f363830-prefab-3.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d, initial_base_global-775a814d-audio-0.unity3d, playsound_base_global-775a814d-audio-0.unity3d, playsound_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-1.unity3d, soundotherminion_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_zhcn-775a814d-audio-1.unity3d, initial_base_global-3aaf7c48-audio-0.unity3d, initial_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-3aaf7c48-audio-0.unity3d, playsound_base_zhcn-3aaf7c48-audio-0.unity3d, soundotherminion_base_global-3aaf7c48-audio-0.unity3d, soundotherminion_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-9f363830-audio-0.unity3d, playsound_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_adventure_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_global-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-1.unity3d) (bundle initial_base_global-9f363830-prefab-3.unity3d, recovered Pegasus_Stinger_Beast_Villain)"
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "FAILED"
+        },
+        "extract": {
+          "status": "FAILED",
+          "extractMs": 2351,
+          "code": "EXTRACT_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (2024980470) out of boundary (1542596) (tried initial_base_global-775a814d-prefab-0.unity3d, essential_base_global-prefab-0.unity3d, initial_base_global-3aaf7c48-prefab-3.unity3d, initial_base_global-775a814d-prefab-4.unity3d, initial_base_global-775a814d-prefab-5.unity3d, initial_base_global-9f363830-prefab-3.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d, initial_base_global-775a814d-audio-0.unity3d, playsound_base_global-775a814d-audio-0.unity3d, playsound_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-1.unity3d, soundotherminion_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_zhcn-775a814d-audio-1.unity3d, initial_base_global-3aaf7c48-audio-0.unity3d, initial_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-3aaf7c48-audio-0.unity3d, playsound_base_zhcn-3aaf7c48-audio-0.unity3d, soundotherminion_base_global-3aaf7c48-audio-0.unity3d, soundotherminion_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-9f363830-audio-0.unity3d, playsound_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_adventure_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_global-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-1.unity3d) (bundle initial_base_global-9f363830-prefab-3.unity3d, recovered Pegasus_Stinger_Beast_Villain)"
+        },
+        "api": {
+          "probed": true,
+          "url": "http://127.0.0.1:8767/api/audio/music/ULD_156t3",
+          "ok": false,
+          "status": 404,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 30,
+          "header": null
+        },
+        "ui": {
+          "available": true,
+          "shared": false
+        },
+        "classification": "Audio Exists but Extraction Failed",
+        "failurePoint": "Extractor",
+        "totalMs": 4653
+      }
+    },
+    {
+      "cardId": "VAN_EX1_543",
+      "name": "暴龙王克鲁什",
+      "music": {
+        "index": {
+          "status": "FOUND",
+          "musicAssetId": "91e623e875cf84c4b99db57e21c5c788",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "sourceCardId": "EX1_543",
+          "mappingStatus": "shared"
+        },
+        "prefab": {
+          "name": "Prefab",
+          "status": "FOUND",
+          "guid": "91e623e875cf84c4b99db57e21c5c788",
+          "prefabName": "MusicStinger",
+          "bundle": "essential_base_global-prefab-0.unity3d",
+          "bundleExists": true
+        },
+        "soundDef": {
+          "name": "SoundDef",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "nameNotes": {
+            "raw": "Pegasus_Stinger_Beast_Villain",
+            "hasApostrophe": false,
+            "strippedApostrophe": null,
+            "shared": true
+          }
+        },
+        "clip": {
+          "name": "AudioClip",
+          "status": "FOUND",
+          "audioClipName": "Pegasus_Stinger_Beast_Villain",
+          "indexed": true
+        },
+        "bundle": {
+          "name": "Bundle",
+          "status": "FOUND",
+          "indexBundle": "essential_base_global-prefab-0.unity3d",
+          "hitBundle": "initial_base_global-775a814d-prefab-0.unity3d",
+          "zhcnBundles": [],
+          "prefabBundles": [
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "essential_base_global-prefab-0.unity3d",
+            "initial_base_global-3aaf7c48-prefab-3.unity3d",
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "initial_base_global-775a814d-prefab-4.unity3d",
+            "initial_base_global-775a814d-prefab-5.unity3d",
+            "initial_base_global-9f363830-prefab-3.unity3d"
+          ],
+          "existingBundles": [
+            "initial_base_global-775a814d-prefab-0.unity3d",
+            "essential_base_global-prefab-0.unity3d",
+            "initial_base_global-3aaf7c48-prefab-3.unity3d",
+            "initial_base_global-775a814d-prefab-4.unity3d",
+            "initial_base_global-775a814d-prefab-5.unity3d",
+            "initial_base_global-9f363830-prefab-3.unity3d"
+          ]
+        },
+        "fsb": {
+          "name": "FSB",
+          "status": "MISSING_OR_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (2024980470) out of boundary (1542596) (tried initial_base_global-775a814d-prefab-0.unity3d, essential_base_global-prefab-0.unity3d, initial_base_global-3aaf7c48-prefab-3.unity3d, initial_base_global-775a814d-prefab-4.unity3d, initial_base_global-775a814d-prefab-5.unity3d, initial_base_global-9f363830-prefab-3.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d, initial_base_global-775a814d-audio-0.unity3d, playsound_base_global-775a814d-audio-0.unity3d, playsound_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-1.unity3d, soundotherminion_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_zhcn-775a814d-audio-1.unity3d, initial_base_global-3aaf7c48-audio-0.unity3d, initial_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-3aaf7c48-audio-0.unity3d, playsound_base_zhcn-3aaf7c48-audio-0.unity3d, soundotherminion_base_global-3aaf7c48-audio-0.unity3d, soundotherminion_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-9f363830-audio-0.unity3d, playsound_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_adventure_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_global-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-1.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Beast_Villain)"
+        },
+        "wav": {
+          "name": "WAV",
+          "status": "FAILED"
+        },
+        "extract": {
+          "status": "FAILED",
+          "extractMs": 2587,
+          "code": "EXTRACT_FAILED",
+          "reason": "Failed to extract audio: Failed to extract audio: End position (2024980470) out of boundary (1542596) (tried initial_base_global-775a814d-prefab-0.unity3d, essential_base_global-prefab-0.unity3d, initial_base_global-3aaf7c48-prefab-3.unity3d, initial_base_global-775a814d-prefab-4.unity3d, initial_base_global-775a814d-prefab-5.unity3d, initial_base_global-9f363830-prefab-3.unity3d, heromusic_base_global-a95785c8-audio-0.unity3d, heromusic_base_global-a95785c8-audio-1.unity3d, heromusic_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-0.unity3d, musicexpansion_base_global-a95785c8-audio-1.unity3d, musicexpansion_base_global-a95785c8-audio-2.unity3d, musicexpansion_base_global-a95785c8-audio-3.unity3d, soundlegend_base_global-6c782fd0-audio-0.unity3d, soundlegend_base_global-6c782fd0-audio-1.unity3d, soundlegend_base_global-6c782fd0-audio-2.unity3d, soundlegend_base_global-6c782fd0-audio-3.unity3d, initial_base_global-775a814d-audio-0.unity3d, playsound_base_global-775a814d-audio-0.unity3d, playsound_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-0.unity3d, soundotherminion_base_global-775a814d-audio-1.unity3d, soundotherminion_base_zhcn-775a814d-audio-0.unity3d, soundotherminion_base_zhcn-775a814d-audio-1.unity3d, initial_base_global-3aaf7c48-audio-0.unity3d, initial_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-3aaf7c48-audio-0.unity3d, playsound_base_zhcn-3aaf7c48-audio-0.unity3d, soundotherminion_base_global-3aaf7c48-audio-0.unity3d, soundotherminion_base_zhcn-3aaf7c48-audio-0.unity3d, playsound_base_global-9f363830-audio-0.unity3d, playsound_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_adventure_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_global-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-0.unity3d, soundotherminion_base_zhcn-9f363830-audio-1.unity3d) (bundle essential_base_global-prefab-0.unity3d, recovered Pegasus_Stinger_Beast_Villain)"
+        },
+        "api": {
+          "probed": true,
+          "url": "http://127.0.0.1:8767/api/audio/music/VAN_EX1_543",
+          "ok": false,
+          "status": 404,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 30,
+          "header": null
+        },
+        "ui": {
+          "available": true,
+          "shared": true
+        },
+        "classification": "Audio Exists but Extraction Failed",
+        "failurePoint": "Extractor",
+        "totalMs": 5203
+      }
+    }
+  ]
+}

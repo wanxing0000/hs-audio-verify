@@ -1,0 +1,16 @@
+<view class="wrap">
+  <view class="row {{disabled ? 'row-off' : ''}}">
+    <view class="copy">
+      <view class="label">{{label}}</view>
+      <view wx:if="{{note}}" class="note">{{note}}</view>
+      <view wx:elif="{{emptyLabel}}" class="note">{{emptyLabel}}</view>
+    </view>
+    <button
+      wx:if="{{available}}"
+      class="btn"
+      hover-class="btn-hover"
+      bindtap="onTap"
+    >{{btnText}}</button>
+    <view wx:else class="off">{{emptyLabel || '无登场语音'}}</view>
+  </view>
+</view>

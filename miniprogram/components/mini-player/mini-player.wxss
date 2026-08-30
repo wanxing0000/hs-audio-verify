@@ -1,0 +1,35 @@
+.wrap { height: 0; }
+.bar {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: calc(12px + env(safe-area-inset-bottom));
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 52px;
+  padding: 10px 16px;
+  border-radius: 16px;
+  background: rgba(28, 24, 38, 0.94);
+  border: 1px solid rgba(215, 181, 109, 0.55);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+}
+.bar-tab {
+  bottom: calc(12px + 48px + env(safe-area-inset-bottom));
+}
+.title {
+  flex: 1;
+  min-width: 0;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.act {
+  margin-left: 12px;
+  flex-shrink: 0;
+  color: #d7b56d;
+  font-weight: 700;
+  font-size: 13px;
+}

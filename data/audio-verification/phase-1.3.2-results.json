@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-08-29T03:20:00.000Z",
+  "phase": "1.3.2",
+  "hearthstoneReadOnly": true,
+  "bulkExport": false,
+  "indexChanged": false,
+  "cardIdSpecialCase": false,
+  "rootCause": "B+C",
+  "rootCauseLabel": "InnerAudioContext first-play before canplay; same context warms after Voice",
+  "mixUnchanged": {
+    "musicVolume": 0.7,
+    "voiceVolume": 1,
+    "voiceDelayMs": 0,
+    "leadingPaddingMs": 0,
+    "note": "Phase 1.3.1 preview mix kept; not lowered further; padding100 is diagnostic only"
+  },
+  "experiments": {
+    "A_coldEntrance": { "swallowsFirstSyllable": true, "source": "user_report", "httpCachedRiff": true },
+    "B_voiceThenEntrance": { "swallowsFirstSyllable": false, "source": "user_report" },
+    "C_preloadNoPlay": { "implemented": true, "autoplay": false, "scope": "current_detail_card_only" },
+    "D_playAfterCanplay": { "implemented": true, "lifecycleSim": "5/5" }
+  },
+  "wav": {
+    "BOT_548": {
+      "voiceComplete": true,
+      "entranceTruncated": false,
+      "voiceLeadingSilenceMs": 57.9,
+      "voicePeak100ms": 22379,
+      "entrancePeak100ms": 23046
+    }
+  },
+  "availabilityCollectible": {
+    "full": 1064,
+    "partial": 3739,
+    "none": 2527,
+    "special_audio_system": 824
+  },
+  "acceptance": {
+    "EX1_116": "full",
+    "BOT_548": "full",
+    "HERO_01": "special_audio_system",
+    "CAP_107": "index_shared_extract_404",
+    "ETC_409": "partial_play_no_music"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-08-28T11:00:50.317Z",
+  "count": 13,
+  "records": [
+    {
+      "cardId": "BOM_06_Cariel_002hp",
+      "cardName": "凯瑞尔",
+      "cardType": "HERO",
+      "slot": "attack",
+      "lastStep": "guid_not_resolved_to_clip",
+      "lastGuid": "ba4d6bfd941b17444b7b9383793b4d85",
+      "lastPrefab": null,
+      "possibleReason": "guid_not_resolved_to_clip",
+      "collectible": false
+    },
+    {
+      "cardId": "BOM_06_Cariel_003hp",
+      "cardName": "凯瑞尔",
+      "cardType": "HERO",
+      "slot": "attack",
+      "lastStep": "guid_not_resolved_to_clip",
+      "lastGuid": "ba4d6bfd941b17444b7b9383793b4d85",
+      "lastPrefab": null,
+      "possibleReason": "guid_not_resolved_to_clip",
+      "collectible": false
+    },
+    {
+      "cardId": "BOM_06_Cariel_004hp",
+      "cardName": "凯瑞尔",
+      "cardType": "HERO",
+      "slot": "attack",
+      "lastStep": "guid_not_resolved_to_clip",
+      "lastGuid": "ba4d6bfd941b17444b7b9383793b4d85",
+      "lastPrefab": null,
+      "possibleReason": "guid_not_resolved_to_clip",
+      "collectible": false
+    },
+    {
+      "cardId": "BOM_06_Cariel_005hp",
+      "cardName": "凯瑞尔",
+      "cardType": "HERO",
+      "slot": "attack",
+      "lastStep": "guid_not_resolved_to_clip",
+      "lastGuid": "ba4d6bfd941b17444b7b9383793b4d85",
+      "lastPrefab": null,
+      "possibleReason": "guid_not_resolved_to_clip",
+      "collectible": false
+    },
+    {
+      "cardId": "BOM_06_Cariel_006hp",
+      "cardName": "凯瑞尔",
+      "cardType": "HERO",
+      "slot": "attack",
+      "lastStep": "guid_not_resolved_to_clip",
+      "lastGuid": "ba4d6bfd941b17444b7b9383793b4d85",
+      "lastPrefab": null,
+      "possibleReason": "guid_not_resolved_to_clip",
+      "collectible": false
+    },
+    {
+      "cardId": "BOM_06_Cariel_007hp",
+      "cardName": "凯瑞尔",
+      "cardType": "HERO",
+      "slot": "attack",
+      "lastStep": "guid_not_resolved_to_clip",
+      "lastGuid": "ba4d6bfd941b17444b7b9383793b4d85",
+      "lastPrefab": null,
+      "possibleReason": "guid_not_resolved_to_clip",
+      "collectible": false
+    },
+    {
+      "cardId": "BOM_06_Cariel_008hp",
+      "cardName": "凯瑞尔",
+      "cardType": "HERO",
+      "slot": "attack",
+      "lastStep": "guid_not_resolved_to_clip",
+      "lastGuid": "ba4d6bfd941b17444b7b9383793b4d85",
+      "lastPrefab": null,
+      "possibleReason": "guid_not_resolved_to_clip",
+      "collectible": false
+    },
+    {
+      "cardId": "DINO_421",
+      "cardName": "震地雷龙",
+      "cardType": "MINION",
+      "slot": "play",
+      "lastStep": "soundspell_preload_has_no_vo",
+      "lastGuid": "df55e3615d17f3244abe5590b4766a88",
+      "lastPrefab": "initial_base_global-2f546934-prefab-7.unity3d",
+      "possibleReason": "soundspell_preload_has_no_vo",
+      "collectible": true
+    },
+    {
+      "cardId": "DRGA_BOSS_21t",
+      "cardName": "苟拉斯之眼",
+      "cardType": "MINION",
+      "slot": "play",
+      "lastStep": "soundspell_preload_has_no_vo",
+      "lastGuid": "dc087328668d1f44fb4e313a2db73c40",
+      "lastPrefab": "initial_base_global-a9057597-prefab-1.unity3d",
+      "possibleReason": "soundspell_preload_has_no_vo",
+      "collectible": false
+    },
+    {
+      "cardId": "NX2_022",
+      "cardName": "金翼巨龙",
+      "cardType": "MINION",
+      "slot": "play",
+      "lastStep": "soundspell_preload_has_no_vo",
+      "lastGuid": "c904e17fbb2cec04fa4975b7322ce25f",
+      "lastPrefab": "initial_base_global-7a441cb3-prefab-0.unity3d",
+      "possibleReason": "soundspell_preload_has_no_vo",
+      "collectible": true
+    },
+    {
+      "cardId": "Story_01_Upgrade",
+      "cardName": "升级",
+      "cardType": "SPELL",
+      "slot": "play",
+      "lastStep": "guid_not_resolved_to_clip",
+      "lastGuid": "7b9a35d474f44ba4c85d622b92cea8fd",
+      "lastPrefab": null,
+      "possibleReason": "guid_not_resolved_to_clip",
+      "collectible": false
+    },
+    {
+      "cardId": "Story_06_Valeera_009hb",
+      "cardName": "着魔的瓦莉拉",
+      "cardType": "HERO",
+      "slot": "death",
+      "lastStep": "guid_not_resolved_to_clip",
+      "lastGuid": "b09696811c003d040b6f14a488ca645f",
+      "lastPrefab": null,
+      "possibleReason": "guid_not_resolved_to_clip",
+      "collectible": false
+    },
+    {
+      "cardId": "Story_11_LightningStormPuzzle",
+      "cardName": "闪电风暴",
+      "cardType": "SPELL",
+      "slot": "play",
+      "lastStep": "guid_not_resolved_to_clip",
+      "lastGuid": "45273e5c315241647b5518efed13d33b",
+      "lastPrefab": null,
+      "possibleReason": "guid_not_resolved_to_clip",
+      "collectible": false
+    }
+  ]
+}

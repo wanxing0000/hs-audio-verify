@@ -1,0 +1,8 @@
+{
+  "generatedAt": "2026-08-29T02:46:11.664Z",
+  "indexChanged": false,
+  "changedCards": [],
+  "before": {},
+  "after": {},
+  "reason": "HERO_01 CardDef has no Play.prefab or MusicStinger. Attack/Death and hero emotes exist. Parser did not leak minion Play voice. No index rebuild."
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>炉石传说 · 卡牌语音图鉴</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="/">炉石传说 · 卡牌语音图鉴</a>
+    <form class="search-mini" id="header-search">
+      <input id="q-header" type="search" placeholder="搜索卡牌..." autocomplete="off" />
+    </form>
+  </header>
+
+  <section class="hero" id="hero">
+    <h1>探索炉石卡牌的声音</h1>
+    <p>搜索卡牌，聆听登场、攻击与死亡语音。</p>
+    <form class="search-main" id="main-search">
+      <input id="q" type="search" placeholder="搜索卡牌名称或 Card ID..." autocomplete="off" autofocus />
+    </form>
+  </section>
+
+  <main>
+    <section id="home-block">
+      <h2>热门卡牌</h2>
+      <div class="grid" id="featured"></div>
+    </section>
+    <section id="results-block" hidden>
+      <div class="results-bar">
+        <h2 id="results-title">搜索结果</h2>
+        <p class="muted" id="results-meta"></p>
+      </div>
+      <div class="grid" id="results"></div>
+      <nav class="pager" id="pager" hidden></nav>
+    </section>
+    <p class="empty" id="empty" hidden>没有找到相关卡牌</p>
+  </main>
+
+  <div class="overlay" id="overlay" hidden>
+    <div class="drawer" role="dialog" aria-modal="true" id="drawer">
+      <button class="close" id="close" aria-label="关闭">×</button>
+      <div id="detail"></div>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

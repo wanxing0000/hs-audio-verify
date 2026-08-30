@@ -1,0 +1,1022 @@
+{
+  "dumped": [
+    {
+      "type": 115,
+      "typeName": "MonoScript",
+      "name": "MusicStingerSpell",
+      "pathId": "-806943388116685648",
+      "classId": 115,
+      "typeTreeKeys": [
+        "m_Name",
+        "m_ExecutionOrder",
+        "m_PropertiesHash",
+        "m_ClassName",
+        "m_Namespace",
+        "m_AssemblyName"
+      ],
+      "musicRelated": {},
+      "playbackParams": {
+        "found": false,
+        "keys": [
+          "m_Name",
+          "m_ExecutionOrder",
+          "m_PropertiesHash",
+          "m_ClassName",
+          "m_Namespace",
+          "m_AssemblyName"
+        ],
+        "values": {
+          "m_Volume": null,
+          "m_Pitch": null,
+          "m_Loop": null,
+          "m_PlayOnAwake": null,
+          "m_OutputAudioMixerGroup": null,
+          "m_Priority": null,
+          "m_DopplerLevel": null,
+          "m_SpatialBlend": null,
+          "m_MinDistance": null,
+          "m_MaxDistance": null,
+          "m_DelaySec": null,
+          "duration": null,
+          "fade": null,
+          "trigger": null,
+          "timing": null
+        },
+        "missing": [
+          "m_Volume",
+          "m_Pitch",
+          "m_Loop",
+          "m_PlayOnAwake",
+          "m_OutputAudioMixerGroup",
+          "m_Priority",
+          "m_DopplerLevel",
+          "m_SpatialBlend",
+          "m_MinDistance",
+          "m_MaxDistance",
+          "m_DelaySec",
+          "duration",
+          "fade",
+          "trigger",
+          "timing"
+        ],
+        "note": "未发现该参数: m_Volume, m_Pitch, m_Loop, m_PlayOnAwake, m_OutputAudioMixerGroup, m_Priority, m_DopplerLevel, m_SpatialBlend, m_MinDistance, m_MaxDistance, m_DelaySec, duration, fade, trigger, timing"
+      },
+      "typeTree": {
+        "m_Name": "MusicStingerSpell",
+        "m_ExecutionOrder": 0,
+        "m_PropertiesHash": {
+          "bytes[0]": 198,
+          "bytes[1]": 173,
+          "bytes[2]": 91,
+          "bytes[3]": 251,
+          "bytes[4]": 247,
+          "bytes[5]": 13,
+          "bytes[6]": 19,
+          "bytes[7]": 35,
+          "bytes[8]": 114,
+          "bytes[9]": 97,
+          "bytes[10]": 119,
+          "bytes[11]": 1,
+          "bytes[12]": 70,
+          "bytes[13]": 108,
+          "bytes[14]": 236,
+          "bytes[15]": 45
+        },
+        "m_ClassName": "MusicStingerSpell",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "type": 115,
+      "typeName": "MonoScript",
+      "name": "SoundDef",
+      "pathId": "5395326102866774978",
+      "classId": 115,
+      "typeTreeKeys": [
+        "m_Name",
+        "m_ExecutionOrder",
+        "m_PropertiesHash",
+        "m_ClassName",
+        "m_Namespace",
+        "m_AssemblyName"
+      ],
+      "musicRelated": {},
+      "playbackParams": {
+        "found": false,
+        "keys": [
+          "m_Name",
+          "m_ExecutionOrder",
+          "m_PropertiesHash",
+          "m_ClassName",
+          "m_Namespace",
+          "m_AssemblyName"
+        ],
+        "values": {
+          "m_Volume": null,
+          "m_Pitch": null,
+          "m_Loop": null,
+          "m_PlayOnAwake": null,
+          "m_OutputAudioMixerGroup": null,
+          "m_Priority": null,
+          "m_DopplerLevel": null,
+          "m_SpatialBlend": null,
+          "m_MinDistance": null,
+          "m_MaxDistance": null,
+          "m_DelaySec": null,
+          "duration": null,
+          "fade": null,
+          "trigger": null,
+          "timing": null
+        },
+        "missing": [
+          "m_Volume",
+          "m_Pitch",
+          "m_Loop",
+          "m_PlayOnAwake",
+          "m_OutputAudioMixerGroup",
+          "m_Priority",
+          "m_DopplerLevel",
+          "m_SpatialBlend",
+          "m_MinDistance",
+          "m_MaxDistance",
+          "m_DelaySec",
+          "duration",
+          "fade",
+          "trigger",
+          "timing"
+        ],
+        "note": "未发现该参数: m_Volume, m_Pitch, m_Loop, m_PlayOnAwake, m_OutputAudioMixerGroup, m_Priority, m_DopplerLevel, m_SpatialBlend, m_MinDistance, m_MaxDistance, m_DelaySec, duration, fade, trigger, timing"
+      },
+      "typeTree": {
+        "m_Name": "SoundDef",
+        "m_ExecutionOrder": 0,
+        "m_PropertiesHash": {
+          "bytes[0]": 239,
+          "bytes[1]": 245,
+          "bytes[2]": 243,
+          "bytes[3]": 177,
+          "bytes[4]": 228,
+          "bytes[5]": 21,
+          "bytes[6]": 142,
+          "bytes[7]": 114,
+          "bytes[8]": 42,
+          "bytes[9]": 24,
+          "bytes[10]": 44,
+          "bytes[11]": 78,
+          "bytes[12]": 29,
+          "bytes[13]": 89,
+          "bytes[14]": 250,
+          "bytes[15]": 53
+        },
+        "m_ClassName": "SoundDef",
+        "m_Namespace": "",
+        "m_AssemblyName": "Assembly-CSharp"
+      }
+    },
+    {
+      "type": 1,
+      "typeName": "GameObject",
+      "name": "MusicStinger",
+      "pathId": "-6869705248599366916",
+      "classId": 1,
+      "typeTreeKeys": [
+        "m_Component",
+        "m_Layer",
+        "m_Name",
+        "m_Tag",
+        "m_IsActive"
+      ],
+      "musicRelated": {},
+      "playbackParams": {
+        "found": false,
+        "keys": [
+          "m_Component",
+          "m_Layer",
+          "m_Name",
+          "m_Tag",
+          "m_IsActive"
+        ],
+        "values": {
+          "m_Volume": null,
+          "m_Pitch": null,
+          "m_Loop": null,
+          "m_PlayOnAwake": null,
+          "m_OutputAudioMixerGroup": null,
+          "m_Priority": null,
+          "m_DopplerLevel": null,
+          "m_SpatialBlend": null,
+          "m_MinDistance": null,
+          "m_MaxDistance": null,
+          "m_DelaySec": null,
+          "duration": null,
+          "fade": null,
+          "trigger": null,
+          "timing": null
+        },
+        "missing": [
+          "m_Volume",
+          "m_Pitch",
+          "m_Loop",
+          "m_PlayOnAwake",
+          "m_OutputAudioMixerGroup",
+          "m_Priority",
+          "m_DopplerLevel",
+          "m_SpatialBlend",
+          "m_MinDistance",
+          "m_MaxDistance",
+          "m_DelaySec",
+          "duration",
+          "fade",
+          "trigger",
+          "timing"
+        ],
+        "note": "未发现该参数: m_Volume, m_Pitch, m_Loop, m_PlayOnAwake, m_OutputAudioMixerGroup, m_Priority, m_DopplerLevel, m_SpatialBlend, m_MinDistance, m_MaxDistance, m_DelaySec, duration, fade, trigger, timing"
+      },
+      "typeTree": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": "-734603208528616708"
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": "-566000345922723076"
+            }
+          }
+        ],
+        "m_Layer": 0,
+        "m_Name": "MusicStinger",
+        "m_Tag": 0,
+        "m_IsActive": true
+      }
+    },
+    {
+      "type": 1,
+      "typeName": "GameObject",
+      "name": "AudioSource",
+      "pathId": "-5359749773598907652",
+      "classId": 1,
+      "typeTreeKeys": [
+        "m_Component",
+        "m_Layer",
+        "m_Name",
+        "m_Tag",
+        "m_IsActive"
+      ],
+      "musicRelated": {},
+      "playbackParams": {
+        "found": false,
+        "keys": [
+          "m_Component",
+          "m_Layer",
+          "m_Name",
+          "m_Tag",
+          "m_IsActive"
+        ],
+        "values": {
+          "m_Volume": null,
+          "m_Pitch": null,
+          "m_Loop": null,
+          "m_PlayOnAwake": null,
+          "m_OutputAudioMixerGroup": null,
+          "m_Priority": null,
+          "m_DopplerLevel": null,
+          "m_SpatialBlend": null,
+          "m_MinDistance": null,
+          "m_MaxDistance": null,
+          "m_DelaySec": null,
+          "duration": null,
+          "fade": null,
+          "trigger": null,
+          "timing": null
+        },
+        "missing": [
+          "m_Volume",
+          "m_Pitch",
+          "m_Loop",
+          "m_PlayOnAwake",
+          "m_OutputAudioMixerGroup",
+          "m_Priority",
+          "m_DopplerLevel",
+          "m_SpatialBlend",
+          "m_MinDistance",
+          "m_MaxDistance",
+          "m_DelaySec",
+          "duration",
+          "fade",
+          "trigger",
+          "timing"
+        ],
+        "note": "未发现该参数: m_Volume, m_Pitch, m_Loop, m_PlayOnAwake, m_OutputAudioMixerGroup, m_Priority, m_DopplerLevel, m_SpatialBlend, m_MinDistance, m_MaxDistance, m_DelaySec, duration, fade, trigger, timing"
+      },
+      "typeTree": {
+        "m_Component": [
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": "7920709725662421756"
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": "945668466993734396"
+            }
+          },
+          {
+            "component": {
+              "m_FileID": 0,
+              "m_PathID": "724239773088621308"
+            }
+          }
+        ],
+        "m_Layer": 0,
+        "m_Name": "AudioSource",
+        "m_Tag": 0,
+        "m_IsActive": true
+      }
+    },
+    {
+      "type": 4,
+      "typeName": "Transform",
+      "name": "",
+      "pathId": "-734603208528616708",
+      "classId": 4,
+      "typeTreeKeys": [
+        "m_GameObject",
+        "m_LocalRotation",
+        "m_LocalPosition",
+        "m_LocalScale",
+        "m_Children",
+        "m_Father"
+      ],
+      "musicRelated": {},
+      "playbackParams": {
+        "found": false,
+        "keys": [
+          "m_GameObject",
+          "m_LocalRotation",
+          "m_LocalPosition",
+          "m_LocalScale",
+          "m_Children",
+          "m_Father"
+        ],
+        "values": {
+          "m_Volume": null,
+          "m_Pitch": null,
+          "m_Loop": null,
+          "m_PlayOnAwake": null,
+          "m_OutputAudioMixerGroup": null,
+          "m_Priority": null,
+          "m_DopplerLevel": null,
+          "m_SpatialBlend": null,
+          "m_MinDistance": null,
+          "m_MaxDistance": null,
+          "m_DelaySec": null,
+          "duration": null,
+          "fade": null,
+          "trigger": null,
+          "timing": null
+        },
+        "missing": [
+          "m_Volume",
+          "m_Pitch",
+          "m_Loop",
+          "m_PlayOnAwake",
+          "m_OutputAudioMixerGroup",
+          "m_Priority",
+          "m_DopplerLevel",
+          "m_SpatialBlend",
+          "m_MinDistance",
+          "m_MaxDistance",
+          "m_DelaySec",
+          "duration",
+          "fade",
+          "trigger",
+          "timing"
+        ],
+        "note": "未发现该参数: m_Volume, m_Pitch, m_Loop, m_PlayOnAwake, m_OutputAudioMixerGroup, m_Priority, m_DopplerLevel, m_SpatialBlend, m_MinDistance, m_MaxDistance, m_DelaySec, duration, fade, trigger, timing"
+      },
+      "typeTree": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": "-6869705248599366916"
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": "7920709725662421756"
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": "0"
+        }
+      }
+    },
+    {
+      "type": 114,
+      "typeName": "MonoBehaviour",
+      "name": "",
+      "pathId": "-566000345922723076",
+      "classId": 114,
+      "typeTreeKeys": [
+        "m_GameObject",
+        "m_Enabled",
+        "m_Script",
+        "m_Name",
+        "m_Location",
+        "m_LocationTransformName",
+        "m_SetParentToLocation",
+        "m_Facing",
+        "m_FacingOptions",
+        "m_source",
+        "m_BlockServerEvents",
+        "m_BlockPowerProcessing",
+        "m_ObjectContainer",
+        "m_TargetReticle",
+        "m_ZonesToDisable",
+        "m_ZoneLayoutDelayForDeaths",
+        "m_UseFastActorTriggers",
+        "m_ExclusivelyUseMetadataForTargeting",
+        "m_CardSoundData",
+        "m_MusicStingerData"
+      ],
+      "musicRelated": {
+        "m_ZoneLayoutDelayForDeaths": 0,
+        "m_MusicStingerData": {}
+      },
+      "playbackParams": {
+        "found": true,
+        "keys": [
+          "m_GameObject",
+          "m_Enabled",
+          "m_Script",
+          "m_Name",
+          "m_Location",
+          "m_LocationTransformName",
+          "m_SetParentToLocation",
+          "m_Facing",
+          "m_FacingOptions",
+          "m_source",
+          "m_BlockServerEvents",
+          "m_BlockPowerProcessing",
+          "m_ObjectContainer",
+          "m_TargetReticle",
+          "m_ZonesToDisable",
+          "m_ZoneLayoutDelayForDeaths",
+          "m_UseFastActorTriggers",
+          "m_ExclusivelyUseMetadataForTargeting",
+          "m_CardSoundData",
+          "m_MusicStingerData"
+        ],
+        "values": {
+          "m_Volume": null,
+          "m_Pitch": null,
+          "m_Loop": null,
+          "m_PlayOnAwake": null,
+          "m_OutputAudioMixerGroup": null,
+          "m_Priority": null,
+          "m_DopplerLevel": null,
+          "m_SpatialBlend": null,
+          "m_MinDistance": null,
+          "m_MaxDistance": null,
+          "m_DelaySec": 0,
+          "duration": null,
+          "fade": null,
+          "trigger": null,
+          "timing": null
+        },
+        "missing": [
+          "m_Volume",
+          "m_Pitch",
+          "m_Loop",
+          "m_PlayOnAwake",
+          "m_OutputAudioMixerGroup",
+          "m_Priority",
+          "m_DopplerLevel",
+          "m_SpatialBlend",
+          "m_MinDistance",
+          "m_MaxDistance",
+          "duration",
+          "fade",
+          "trigger",
+          "timing"
+        ],
+        "note": "未发现该参数: m_Volume, m_Pitch, m_Loop, m_PlayOnAwake, m_OutputAudioMixerGroup, m_Priority, m_DopplerLevel, m_SpatialBlend, m_MinDistance, m_MaxDistance, duration, fade, trigger, timing",
+        "m_CardSoundData": {
+          "m_AudioSource": {
+            "m_FileID": 0,
+            "m_PathID": "945668466993734396"
+          },
+          "m_DelaySec": 0
+        },
+        "m_MusicStingerData": {},
+        "typeTreeKeys": [
+          "m_GameObject",
+          "m_Enabled",
+          "m_Script",
+          "m_Name",
+          "m_Location",
+          "m_LocationTransformName",
+          "m_SetParentToLocation",
+          "m_Facing",
+          "m_FacingOptions",
+          "m_source",
+          "m_BlockServerEvents",
+          "m_BlockPowerProcessing",
+          "m_ObjectContainer",
+          "m_TargetReticle",
+          "m_ZonesToDisable",
+          "m_ZoneLayoutDelayForDeaths",
+          "m_UseFastActorTriggers",
+          "m_ExclusivelyUseMetadataForTargeting",
+          "m_CardSoundData",
+          "m_MusicStingerData"
+        ]
+      },
+      "typeTree": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": "-6869705248599366916"
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 0,
+          "m_PathID": "-806943388116685648"
+        },
+        "m_Name": "",
+        "m_Location": 2,
+        "m_LocationTransformName": "",
+        "m_SetParentToLocation": 0,
+        "m_Facing": 0,
+        "m_FacingOptions": {
+          "m_RotateX": 1,
+          "m_RotateY": 1
+        },
+        "m_source": {
+          "m_FileID": 0,
+          "m_PathID": "0"
+        },
+        "m_BlockServerEvents": 0,
+        "m_BlockPowerProcessing": {
+          "m_OnEnterDeathState": 0
+        },
+        "m_ObjectContainer": {
+          "m_FileID": 0,
+          "m_PathID": "0"
+        },
+        "m_TargetReticle": 0,
+        "m_ZonesToDisable": [],
+        "m_ZoneLayoutDelayForDeaths": 0,
+        "m_UseFastActorTriggers": 0,
+        "m_ExclusivelyUseMetadataForTargeting": 0,
+        "m_CardSoundData": {
+          "m_AudioSource": {
+            "m_FileID": 0,
+            "m_PathID": "945668466993734396"
+          },
+          "m_DelaySec": 0
+        },
+        "m_MusicStingerData": {}
+      }
+    },
+    {
+      "type": 114,
+      "typeName": "MonoBehaviour",
+      "name": "",
+      "pathId": "724239773088621308",
+      "classId": 114,
+      "typeTreeKeys": [
+        "m_GameObject",
+        "m_Enabled",
+        "m_Script",
+        "m_Name",
+        "m_AudioClip",
+        "m_Category",
+        "m_RandomClips",
+        "m_RandomPitchMin",
+        "m_RandomPitchMax",
+        "m_RandomVolumeMin",
+        "m_RandomVolumeMax",
+        "m_IgnoreDucking",
+        "m_persistPastGameEnd",
+        "m_InstanceLimited",
+        "m_InstanceLimitedDuration",
+        "m_InstanceLimitMaximum",
+        "m_LimitMaxOutOption"
+      ],
+      "musicRelated": {
+        "m_AudioClip": "Pegasus_Stinger_Leeroy_Jenkins.wav:46bf63d9a1db6644ca1dec9ec5a61103",
+        "m_RandomClips": [],
+        "m_RandomVolumeMin": 1,
+        "m_RandomVolumeMax": 1
+      },
+      "playbackParams": {
+        "found": false,
+        "keys": [
+          "m_GameObject",
+          "m_Enabled",
+          "m_Script",
+          "m_Name",
+          "m_AudioClip",
+          "m_Category",
+          "m_RandomClips",
+          "m_RandomPitchMin",
+          "m_RandomPitchMax",
+          "m_RandomVolumeMin",
+          "m_RandomVolumeMax",
+          "m_IgnoreDucking",
+          "m_persistPastGameEnd",
+          "m_InstanceLimited",
+          "m_InstanceLimitedDuration",
+          "m_InstanceLimitMaximum",
+          "m_LimitMaxOutOption"
+        ],
+        "values": {
+          "m_Volume": null,
+          "m_Pitch": null,
+          "m_Loop": null,
+          "m_PlayOnAwake": null,
+          "m_OutputAudioMixerGroup": null,
+          "m_Priority": null,
+          "m_DopplerLevel": null,
+          "m_SpatialBlend": null,
+          "m_MinDistance": null,
+          "m_MaxDistance": null,
+          "m_DelaySec": null,
+          "duration": null,
+          "fade": null,
+          "trigger": null,
+          "timing": null
+        },
+        "missing": [
+          "m_Volume",
+          "m_Pitch",
+          "m_Loop",
+          "m_PlayOnAwake",
+          "m_OutputAudioMixerGroup",
+          "m_Priority",
+          "m_DopplerLevel",
+          "m_SpatialBlend",
+          "m_MinDistance",
+          "m_MaxDistance",
+          "m_DelaySec",
+          "duration",
+          "fade",
+          "trigger",
+          "timing"
+        ],
+        "note": "未发现该参数: m_Volume, m_Pitch, m_Loop, m_PlayOnAwake, m_OutputAudioMixerGroup, m_Priority, m_DopplerLevel, m_SpatialBlend, m_MinDistance, m_MaxDistance, m_DelaySec, duration, fade, trigger, timing"
+      },
+      "typeTree": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": "-5359749773598907652"
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 0,
+          "m_PathID": "5395326102866774978"
+        },
+        "m_Name": "",
+        "m_AudioClip": "Pegasus_Stinger_Leeroy_Jenkins.wav:46bf63d9a1db6644ca1dec9ec5a61103",
+        "m_Category": 5,
+        "m_RandomClips": [],
+        "m_RandomPitchMin": 1,
+        "m_RandomPitchMax": 1,
+        "m_RandomVolumeMin": 1,
+        "m_RandomVolumeMax": 1,
+        "m_IgnoreDucking": 0,
+        "m_persistPastGameEnd": 0,
+        "m_InstanceLimited": 0,
+        "m_InstanceLimitedDuration": 0,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "type": 82,
+      "typeName": "AudioSource",
+      "name": "",
+      "pathId": "945668466993734396",
+      "classId": 82,
+      "typeTreeKeys": [
+        "m_GameObject",
+        "m_Enabled",
+        "OutputAudioMixerGroup",
+        "m_audioClip",
+        "m_Resource",
+        "m_PlayOnAwake",
+        "m_Volume",
+        "m_Pitch",
+        "Loop",
+        "Mute",
+        "Spatialize",
+        "SpatializePostEffects",
+        "Priority",
+        "DopplerLevel",
+        "MinDistance",
+        "MaxDistance",
+        "Pan2D",
+        "rolloffMode",
+        "BypassEffects",
+        "BypassListenerEffects",
+        "BypassReverbZones",
+        "rolloffCustomCurve",
+        "panLevelCustomCurve",
+        "spreadCustomCurve",
+        "reverbZoneMixCustomCurve"
+      ],
+      "musicRelated": {
+        "OutputAudioMixerGroup": {
+          "m_FileID": 0,
+          "m_PathID": "0"
+        },
+        "m_audioClip": {
+          "m_FileID": 0,
+          "m_PathID": "0"
+        },
+        "m_Volume": 1,
+        "Loop": false
+      },
+      "playbackParams": {
+        "found": true,
+        "keys": [
+          "m_GameObject",
+          "m_Enabled",
+          "OutputAudioMixerGroup",
+          "m_audioClip",
+          "m_Resource",
+          "m_PlayOnAwake",
+          "m_Volume",
+          "m_Pitch",
+          "Loop",
+          "Mute",
+          "Spatialize",
+          "SpatializePostEffects",
+          "Priority",
+          "DopplerLevel",
+          "MinDistance",
+          "MaxDistance",
+          "Pan2D",
+          "rolloffMode",
+          "BypassEffects",
+          "BypassListenerEffects",
+          "BypassReverbZones",
+          "rolloffCustomCurve",
+          "panLevelCustomCurve",
+          "spreadCustomCurve",
+          "reverbZoneMixCustomCurve"
+        ],
+        "values": {
+          "m_Volume": 1,
+          "m_Pitch": 1,
+          "m_Loop": false,
+          "m_PlayOnAwake": false,
+          "m_OutputAudioMixerGroup": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Priority": 128,
+          "m_DopplerLevel": 1,
+          "m_SpatialBlend": null,
+          "m_MinDistance": 100,
+          "m_MaxDistance": 500,
+          "m_DelaySec": null,
+          "duration": null,
+          "fade": null,
+          "trigger": null,
+          "timing": null
+        },
+        "missing": [
+          "m_SpatialBlend",
+          "m_DelaySec",
+          "duration",
+          "fade",
+          "trigger",
+          "timing"
+        ],
+        "note": "未发现该参数: m_SpatialBlend, m_DelaySec, duration, fade, trigger, timing"
+      },
+      "typeTree": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": "-5359749773598907652"
+        },
+        "m_Enabled": 1,
+        "OutputAudioMixerGroup": {
+          "m_FileID": 0,
+          "m_PathID": "0"
+        },
+        "m_audioClip": {
+          "m_FileID": 0,
+          "m_PathID": "0"
+        },
+        "m_Resource": {
+          "m_FileID": 0,
+          "m_PathID": "0"
+        },
+        "m_PlayOnAwake": false,
+        "m_Volume": 1,
+        "m_Pitch": 1,
+        "Loop": false,
+        "Mute": false,
+        "Spatialize": false,
+        "SpatializePostEffects": false,
+        "Priority": 128,
+        "DopplerLevel": 1,
+        "MinDistance": 100,
+        "MaxDistance": 500,
+        "Pan2D": 0,
+        "rolloffMode": 1,
+        "BypassEffects": false,
+        "BypassListenerEffects": false,
+        "BypassReverbZones": false,
+        "rolloffCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0,
+              "value": 1,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            },
+            {
+              "time": 1,
+              "value": 0,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "panLevelCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0,
+              "value": 0,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "spreadCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0,
+              "value": 0,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "reverbZoneMixCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0,
+              "value": 1,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      }
+    },
+    {
+      "type": 4,
+      "typeName": "Transform",
+      "name": "",
+      "pathId": "7920709725662421756",
+      "classId": 4,
+      "typeTreeKeys": [
+        "m_GameObject",
+        "m_LocalRotation",
+        "m_LocalPosition",
+        "m_LocalScale",
+        "m_Children",
+        "m_Father"
+      ],
+      "musicRelated": {},
+      "playbackParams": {
+        "found": false,
+        "keys": [
+          "m_GameObject",
+          "m_LocalRotation",
+          "m_LocalPosition",
+          "m_LocalScale",
+          "m_Children",
+          "m_Father"
+        ],
+        "values": {
+          "m_Volume": null,
+          "m_Pitch": null,
+          "m_Loop": null,
+          "m_PlayOnAwake": null,
+          "m_OutputAudioMixerGroup": null,
+          "m_Priority": null,
+          "m_DopplerLevel": null,
+          "m_SpatialBlend": null,
+          "m_MinDistance": null,
+          "m_MaxDistance": null,
+          "m_DelaySec": null,
+          "duration": null,
+          "fade": null,
+          "trigger": null,
+          "timing": null
+        },
+        "missing": [
+          "m_Volume",
+          "m_Pitch",
+          "m_Loop",
+          "m_PlayOnAwake",
+          "m_OutputAudioMixerGroup",
+          "m_Priority",
+          "m_DopplerLevel",
+          "m_SpatialBlend",
+          "m_MinDistance",
+          "m_MaxDistance",
+          "m_DelaySec",
+          "duration",
+          "fade",
+          "trigger",
+          "timing"
+        ],
+        "note": "未发现该参数: m_Volume, m_Pitch, m_Loop, m_PlayOnAwake, m_OutputAudioMixerGroup, m_Priority, m_DopplerLevel, m_SpatialBlend, m_MinDistance, m_MaxDistance, m_DelaySec, duration, fade, trigger, timing"
+      },
+      "typeTree": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": "-5359749773598907652"
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 1.3856810331344604,
+          "y": -2.644774913787842,
+          "z": -5.73980712890625
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": "-734603208528616708"
+        }
+      }
+    }
+  ],
+  "file": "initial_base_global-775a814d-prefab-1.unity3d"
+}
