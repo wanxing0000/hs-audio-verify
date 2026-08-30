@@ -3,9 +3,17 @@ const fs = require('fs');
 const path = require('path');
 const { inspectWav, writePcm16Wav } = require('../src/explorer/wavPcm16.js');
 const { mixPcm16 } = require('../src/music/mixPcm16.js');
+const { phase010ArtifactPaths, skipDevelopmentOnly } = require('./devVerificationEnv.js');
 
 const ROOT = path.resolve(__dirname, '..');
 const HS = 'C:\\Hearthstone';
+const artifacts = phase010ArtifactPaths();
+if (!artifacts.available) {
+  skipDevelopmentOnly(
+    'musicStinger.test.js',
+    'Hearthstone development verification assets unavailable',
+  );
+}
 const GUID = 'c6aaf3440b38a664db44d8870f3864d1';
 const CLIP = 'Pegasus_Stinger_Leeroy_Jenkins';
 

@@ -26,7 +26,8 @@
     "production:check-package": "node scripts/check-production-package.cjs",
     "production:check-env": "node scripts/check-production-env.cjs",
     "production:check-git": "node scripts/check-git-readiness.cjs",
-    "git:check": "node scripts/check-git-release.cjs"
+    "git:check": "node scripts/check-git-release.cjs",
+    "test:production": "node scripts/test-production.cjs"
   },
   "keywords": [],
   "author": "",

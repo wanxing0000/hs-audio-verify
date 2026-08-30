@@ -29,6 +29,7 @@ const git = run('check-git-readiness.cjs');
 assert.strictEqual(git.status, 0, git.stderr || git.stdout);
 assert.ok(/GIT_NOT_INITIALIZED|GIT_INITIALIZED|status=GIT_READY/.test(git.stdout), git.stdout);
 assert.strictEqual(pkg.scripts['git:check'], 'node scripts/check-git-release.cjs');
+assert.strictEqual(pkg.scripts['test:production'], 'node scripts/test-production.cjs');
 
 const cleanEnv = {
   PATH: process.env.PATH,

@@ -63,6 +63,20 @@ assert.ok(!/card\.music\.status\s*===\s*['"]available['"]/.test(
   fs.readFileSync(path.join(ROOT, 'miniprogram', 'pages', 'card', 'card.js'), 'utf8'),
 ));
 
+const { hearthstoneInstallPresent, skipDevelopmentOnly } = require('./devVerificationEnv.js');
+if (!hearthstoneInstallPresent()) {
+  console.log('ok musicPlaybackCoverage catalog', {
+    totalLegendaryMinions: lists.totalLegendaryMinions,
+    musicAvailable: lists.musicAvailable,
+    musicShared: lists.musicShared,
+    musicUnavailable: lists.musicUnavailable,
+  });
+  skipDevelopmentOnly(
+    'musicPlaybackCoverage.test.js extract',
+    'Hearthstone development verification assets unavailable',
+  );
+}
+
 const tmp = path.join(ROOT, 'tmp');
 fs.mkdirSync(tmp, { recursive: true });
 function copyWasm(src, destName) {

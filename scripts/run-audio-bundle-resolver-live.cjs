@@ -1,5 +1,13 @@
 const { spawnSync } = require('child_process');
 const path = require('path');
+const { hearthstoneInstallPresent, skipDevelopmentOnly } = require('../test/devVerificationEnv.js');
+
+if (!hearthstoneInstallPresent()) {
+  skipDevelopmentOnly(
+    'run-audio-bundle-resolver-live.cjs',
+    'Hearthstone development verification assets unavailable',
+  );
+}
 
 process.env.DIAGNOSE_ENTRY = 'test/audioBundleResolver.live.js';
 process.env.DIAGNOSE_OUT = 'tmp/audio-bundle-resolver-live.cjs';
