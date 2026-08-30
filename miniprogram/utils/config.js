@@ -1,4 +1,5 @@
-const DEFAULT_API_BASE = 'http://127.0.0.1:8767';
+const PRODUCTION_API_BASE = 'https://api.hsvoiceguide.online';
+const DEFAULT_API_BASE = PRODUCTION_API_BASE;
 const overrideFile = require('./apiBase.override.js');
 const lanFile = require('./apiBase.lan.js');
 
@@ -38,6 +39,7 @@ function getApiBase() {
 }
 
 module.exports = {
+  PRODUCTION_API_BASE,
   DEFAULT_API_BASE,
   imageBase: 'https://art.hearthstonejson.com/v1/render/latest/zhCN/256x',
   getApiBase,

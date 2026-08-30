@@ -44,6 +44,11 @@ const {
   createProductionExtractorGuard,
 } = require('../services/audioSourceMode.js');
 const {
+  loadProductionAudioInventory,
+  applyProductionToCatalog,
+  applyProductionToPublicDetail,
+} = require('../services/productionAudioAvailability.js');
+const {
   resolveMiniListen,
   listLanIpv4,
   preferredLanUrl,
@@ -144,6 +149,10 @@ let unified = loadJson(path.join(ROOT, 'data', 'index', 'card-audio-index.json')
 let audioIndex = loadJson(path.join(ROOT, 'data', 'index', 'audio-index.json'));
 let musicAssets = loadJson(path.join(ROOT, 'data', 'index', 'music-assets.json'));
 let catalog = buildCatalog(unified);
+const productionInventory = isProductionAudioSource(audioSourceMode)
+  ? loadProductionAudioInventory(audioDirs.packageDir)
+  : null;
+if (productionInventory) catalog = applyProductionToCatalog(catalog, productionInventory);
 function loadLatestSetJsonFallback() {
   return loadLatestSetConfig(path.join(ROOT, 'data', 'index', 'latest-set.json'));
 }
@@ -179,6 +188,7 @@ function reloadCatalogFromDisk() {
   audioIndex = loadJson(path.join(ROOT, 'data', 'index', 'audio-index.json'));
   musicAssets = loadJson(path.join(ROOT, 'data', 'index', 'music-assets.json'));
   catalog = buildCatalog(unified);
+  if (productionInventory) catalog = applyProductionToCatalog(catalog, productionInventory);
   repo.reload(unified, audioIndex, musicAssets);
   return catalog;
 }
@@ -414,7 +424,8 @@ const server = http.createServer(async (req, res) => {
       if (!card) return send(res, 404, { error: '没有找到相关卡牌' });
       const raw = unified.cards[id];
       const diag = getCardAudioAvailability(raw, audioIndex.clips);
-      const body = publicDetail(card, diag);
+      let body = publicDetail(card, diag);
+      if (productionInventory) body = applyProductionToPublicDetail(body, productionInventory);
       if (isDebug(url)) body.debug = card;
       return send(res, 200, body);
     }

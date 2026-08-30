@@ -49,7 +49,7 @@ Page({
       self.setData({
         status: 'error',
         card: null,
-        error: '无法连接到本地服务，请确认 npm run mini 已启动',
+        error: '网络异常，请稍后重试',
       });
     });
   },

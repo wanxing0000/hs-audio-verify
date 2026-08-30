@@ -28,8 +28,7 @@
 
   <view wx:elif="{{status === 'error' && !cards.length}}" class="state fail">
     <view class="fail-title">加载失败</view>
-    <view>无法连接到本地服务</view>
-    <view>请确认 npm run mini 已启动</view>
+    <view>网络异常，请稍后重试</view>
     <button class="retry" bindtap="onRetry">重新加载</button>
   </view>
 

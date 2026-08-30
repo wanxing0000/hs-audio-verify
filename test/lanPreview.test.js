@@ -63,14 +63,16 @@ const onlyVpn = listLanIpv4({
 });
 assert.ok(onlyVpn.preferred.includes('172.22.0.1'), 'if no physical LAN, still print RFC1918 candidates');
 
-assert.strictEqual(DEFAULT_API_BASE, 'http://127.0.0.1:8767');
-assert.strictEqual(getApiBase(), 'http://127.0.0.1:8767');
-assert.strictEqual(resolveApiBase({ platform: 'devtools', lan: 'http://192.168.1.50:8767' }), 'http://127.0.0.1:8767');
+assert.strictEqual(DEFAULT_API_BASE, 'https://api.hsvoiceguide.online');
+assert.strictEqual(getApiBase(), 'https://api.hsvoiceguide.online');
+assert.strictEqual(resolveApiBase({ platform: 'devtools', lan: 'http://192.168.1.50:8767' }), 'https://api.hsvoiceguide.online');
 assert.strictEqual(resolveApiBase({ platform: 'android', lan: 'http://192.168.1.50:8767' }), 'http://192.168.1.50:8767');
 assert.strictEqual(resolveApiBase({ override: 'http://10.0.0.8:8767/', platform: 'devtools' }), 'http://10.0.0.8:8767');
 
 const configSrc = fs.readFileSync(path.join(ROOT, 'miniprogram', 'utils', 'config.js'), 'utf8');
-assert.ok(configSrc.includes('http://127.0.0.1:8767'));
+assert.ok(configSrc.includes('https://api.hsvoiceguide.online'));
+assert.ok(!configSrc.includes('127.0.0.1:8767'));
+assert.ok(!configSrc.includes('101.43.155.194'));
 assert.ok(!/https?:\/\/192\.168\./.test(configSrc), 'config.js must not hardcode a LAN IP');
 assert.ok(!/https?:\/\/10\.\d/.test(configSrc));
 assert.ok(!/https?:\/\/172\.(1[6-9]|2\d|3[0-1])\./.test(configSrc));

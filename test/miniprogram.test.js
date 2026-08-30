@@ -131,7 +131,7 @@ const miniJs = fs.readFileSync(path.join(ROOT, 'miniprogram', 'pages', 'card', '
   + fs.readFileSync(path.join(ROOT, 'miniprogram', 'utils', 'audio.js'), 'utf8');
 assert.ok(!/if\s*\(\s*card\.id\s*===\s*['"]EX1_116['"]/.test(miniJs));
 assert.ok(!miniJs.includes('C:\\\\Hearthstone'));
-assert.ok(fs.readFileSync(path.join(ROOT, 'miniprogram', 'utils', 'config.js'), 'utf8').includes('127.0.0.1:8767'));
+assert.ok(fs.readFileSync(path.join(ROOT, 'miniprogram', 'utils', 'config.js'), 'utf8').includes('https://api.hsvoiceguide.online'));
 assert.ok(fs.readFileSync(path.join(ROOT, 'miniprogram', 'app.js'), 'utf8').indexOf('loadCatalog') < 0);
 assert.ok(fs.readFileSync(path.join(ROOT, 'miniprogram', 'pages', 'index', 'index.js'), 'utf8').includes('loadCatalogPage'));
 assert.ok(fs.readFileSync(path.join(ROOT, 'miniprogram', 'components', 'mini-player', 'mini-player.wxml'), 'utf8').includes('<view class="wrap">'));

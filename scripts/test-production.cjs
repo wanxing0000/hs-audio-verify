@@ -53,6 +53,10 @@ const GROUPS = [
     labels: ['miniprogram catalog'],
   },
   {
+    file: 'test/productionAudioAvailability.test.js',
+    labels: ['production audio availability'],
+  },
+  {
     file: 'test/tabBar.test.js',
     labels: ['tabBar'],
   },
