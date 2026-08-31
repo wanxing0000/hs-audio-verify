@@ -1,0 +1,425 @@
+{
+  "phase": "2.10-I-2",
+  "status": "COMPLETE_VERIFIED",
+  "generatedAt": "2026-08-31T08:52:13.517Z",
+  "git": {
+    "branch": "master",
+    "head": "1d7ba785a196ac1e83ed13f5f910086e92467fac",
+    "headMismatch": "NO",
+    "worktree": "M package.json |  M project.config.json |  M project.private.config.json |  M scripts/test-production.cjs |  M src/audit/relatedAudioDiscovery.js | ?? data/card-verification/phase-2.10-C-report.md | ?? data/card-verification/phase-2.10-I-1-extraction-result.json | ?? data/card-verification/phase-2.10-I-1-report.md | ?? data/card-verification/phase-2.10-I-extraction-priority.json | ?? data/card-verification/phase-2.10-I-report.md | ?? phase-2.10-D-G-before-cleanup.patch | ?? scripts/run-phase210-I-1-first-batch-extraction.cjs | ?? scripts/run-phase210-I-2-first-batch-production-copy.cjs | ?? scripts/run-phase210-extraction-priority.cjs | ?? src/audit/phase210ExtractionPriority.js | ?? src/audit/phase210I1TargetedExtractCli.js | ?? src/audit/phase210I1TargetedExtraction.js | ?? src/audit/phase210I2ProductionCopy.js | ?? src/audit/phase210I2ProductionCopyCli.js | ?? test/phase210ExtractionPriority.test.js | ?? test/phase210I1TargetedExtraction.test.js | ?? test/phase210I2ProductionCopy.test.js",
+    "unrelated": "scripts/test-production.cjs (Phase 2.10-I/I-1 test wiring; does not affect production copy); src/audit/relatedAudioDiscovery.js (Phase 2.10-I/I-1 test wiring; does not affect production copy)"
+  },
+  "before": {
+    "files": 685,
+    "bytes": 493400551,
+    "voice": 386,
+    "music": 200,
+    "entrance": 98,
+    "manifestSha256": "a7cd2e1e923348123064e4f67dafe1aa255a266576871ae47493f90569376bec",
+    "schemaVersion": 1,
+    "entranceMixVersion": 3
+  },
+  "after": {
+    "files": 709,
+    "bytes": 496546284,
+    "voice": 410,
+    "music": 200,
+    "entrance": 98,
+    "manifestSha256": "45a26f2c67951e57b4442d81ebc7718bb3d09d2071486d5318685d76a9065ae7",
+    "schemaVersion": 1,
+    "entranceMixVersion": 3
+  },
+  "dryRun": {
+    "counts": {
+      "TARGETS_TOTAL": 24,
+      "SOURCE_FOUND": 24,
+      "SOURCE_MISSING": 0,
+      "WAV_VALID": 24,
+      "WAV_INVALID": 0,
+      "ALREADY_PRESENT": 0,
+      "TO_COPY": 24,
+      "CONFLICT": 0,
+      "AMBIGUOUS": 0,
+      "IDENTITY_CONFLICT": 0,
+      "DUPLICATE_OUTPUT": 0,
+      "OTHER_FAMILY": 0,
+      "BAD_SLOT": 0
+    },
+    "rows": [
+      {
+        "cardId": "GDB_471t",
+        "slot": "play",
+        "voiceKey": "VO_GDB_471t_Female_Draenei_Play_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t_Female_Draenei_Play_01.wav",
+        "sha256": "554d6043e177b69064acc72a66ffa34113b006a2fb21bd46109cb4b58c3b82d5",
+        "bytes": 148458
+      },
+      {
+        "cardId": "GDB_471t",
+        "slot": "attack",
+        "voiceKey": "VO_GDB_471t_Female_Draenei_Attack_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t_Female_Draenei_Attack_01.wav",
+        "sha256": "1c58df0ad137c1d67ffdbf93c22b0ee8a0de7857de6e4a47b25ee1f33528f304",
+        "bytes": 86916
+      },
+      {
+        "cardId": "GDB_471t",
+        "slot": "death",
+        "voiceKey": "VO_GDB_471t_Female_Draenei_Death_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t_Female_Draenei_Death_01.wav",
+        "sha256": "b309093e87f601cddef56b87478676919521046f25e8f87f6aff366a888a99d1",
+        "bytes": 106074
+      },
+      {
+        "cardId": "GDB_471t2",
+        "slot": "play",
+        "voiceKey": "VO_GDB_471t2_Male_Draenei_Play_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t2_Male_Draenei_Play_01.wav",
+        "sha256": "8c5ad945c0cd64dc227b64a94aab4f6ab0f86ad93f9bc0dafb140a02ebffae3d",
+        "bytes": 153272
+      },
+      {
+        "cardId": "GDB_471t2",
+        "slot": "attack",
+        "voiceKey": "VO_GDB_471t2_Male_Draenei_Attack_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t2_Male_Draenei_Attack_01.wav",
+        "sha256": "a77282f72e9be12836ade36ad326e931547b96da466cc6474ef7a7294cfd31ba",
+        "bytes": 120006
+      },
+      {
+        "cardId": "GDB_471t2",
+        "slot": "death",
+        "voiceKey": "VO_GDB_471t2_Male_Draenei_Death_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t2_Male_Draenei_Death_01.wav",
+        "sha256": "e6bbd450fa2f57b41e52534119c927c9422bd53a887c7edb2dae316bb17f1c27",
+        "bytes": 133024
+      },
+      {
+        "cardId": "GDB_471t3",
+        "slot": "play",
+        "voiceKey": "VO_GDB_471t3_X_Draenei_Play_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t3_X_Draenei_Play_01.wav",
+        "sha256": "5cdc94ea2a57465672227dc8cf3f71dd95c01fafd81e3dd00e509de4f4d892c0",
+        "bytes": 151350
+      },
+      {
+        "cardId": "GDB_471t3",
+        "slot": "attack",
+        "voiceKey": "VO_GDB_471t3_X_Draenei_Attack_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t3_X_Draenei_Attack_01.wav",
+        "sha256": "eae1a4aaf234054a6aa9a518178d0cf0b27703bd2ba2047463944452801d7411",
+        "bytes": 105038
+      },
+      {
+        "cardId": "GDB_471t3",
+        "slot": "death",
+        "voiceKey": "VO_GDB_471t3_X_Draenei_Death_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t3_X_Draenei_Death_01.wav",
+        "sha256": "2f156ab1afa75f594559f406c28df58a17338d384f31e3ce7edbdb57381f1a6c",
+        "bytes": 149988
+      },
+      {
+        "cardId": "GDB_471t4",
+        "slot": "play",
+        "voiceKey": "VO_GDB_471t4_Female_Draenei_Play_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t4_Female_Draenei_Play_01.wav",
+        "sha256": "f4d290c13a39198754fbc309626ca3852378608c38b00baf3916f76021b15857",
+        "bytes": 139736
+      },
+      {
+        "cardId": "GDB_471t4",
+        "slot": "attack",
+        "voiceKey": "VO_GDB_471t4_Female_Draenei_Attack_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t4_Female_Draenei_Attack_01.wav",
+        "sha256": "f73a492771bac35c0c223d358492c4a05f51d4d9941693cce4709642437693fc",
+        "bytes": 86778
+      },
+      {
+        "cardId": "GDB_471t4",
+        "slot": "death",
+        "voiceKey": "VO_GDB_471t4_Female_Draenei_Death_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t4_Female_Draenei_Death_01.wav",
+        "sha256": "ff260010f64577ea57073cc39e49701d0869978236a456b5c85e521a81921c47",
+        "bytes": 139082
+      },
+      {
+        "cardId": "GDB_471t5",
+        "slot": "play",
+        "voiceKey": "VO_GDB_471t5_Male_Draenei_Play_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t5_Male_Draenei_Play_01.wav",
+        "sha256": "85e88c1a40b7fa6e6a75e818d4d17d561238d81f46cbe765879c70f47419e775",
+        "bytes": 131868
+      },
+      {
+        "cardId": "GDB_471t5",
+        "slot": "attack",
+        "voiceKey": "VO_GDB_471t5_Male_Draenei_Attack_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t5_Male_Draenei_Attack_01.wav",
+        "sha256": "85fae725b8c508511176a64696cc62f2067b07e1ce5e1d424bc93904bc3020e8",
+        "bytes": 90182
+      },
+      {
+        "cardId": "GDB_471t5",
+        "slot": "death",
+        "voiceKey": "VO_GDB_471t5_Male_Draenei_Death_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t5_Male_Draenei_Death_01.wav",
+        "sha256": "8e2b45b358fb3948fb83386d8b899168cb7e97d267b5d7cf62f11e003545e904",
+        "bytes": 157024
+      },
+      {
+        "cardId": "GDB_471t6",
+        "slot": "play",
+        "voiceKey": "VO_GDB_471t6_X_Draenei_Play_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t6_X_Draenei_Play_01.wav",
+        "sha256": "b95944b83be00c46d0567c41d18ffe1fa2953f0136096489d9cb1305890b28b8",
+        "bytes": 171166
+      },
+      {
+        "cardId": "GDB_471t6",
+        "slot": "attack",
+        "voiceKey": "VO_GDB_471t6_X_Draenei_Attack_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t6_X_Draenei_Attack_01.wav",
+        "sha256": "c858fedf8dc4f8fcd09b9054f41b925ba658398c7796755779ea30037740804b",
+        "bytes": 93314
+      },
+      {
+        "cardId": "GDB_471t6",
+        "slot": "death",
+        "voiceKey": "VO_GDB_471t6_X_Draenei_Death_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t6_X_Draenei_Death_01.wav",
+        "sha256": "32307bb0dd10e0beeca447dd7c784a157d1dfe4aebd0838b41706649b155e09f",
+        "bytes": 82294
+      },
+      {
+        "cardId": "GDB_471t7",
+        "slot": "play",
+        "voiceKey": "VO_GDB_471t7_Female_Draenei_Play_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t7_Female_Draenei_Play_01.wav",
+        "sha256": "73c64fca882b522dc64e48f6445b01acd83fb204b98d34e620e58afb059606bf",
+        "bytes": 118736
+      },
+      {
+        "cardId": "GDB_471t7",
+        "slot": "attack",
+        "voiceKey": "VO_GDB_471t7_Female_Draenei_Attack_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t7_Female_Draenei_Attack_01.wav",
+        "sha256": "6512cc31daf1963c5d29e6df6d331eb7c4696b17f6eba46ea61532d9069be2b2",
+        "bytes": 79162
+      },
+      {
+        "cardId": "GDB_471t7",
+        "slot": "death",
+        "voiceKey": "VO_GDB_471t7_Female_Draenei_Death_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t7_Female_Draenei_Death_01.wav",
+        "sha256": "202542c1cfeac44f17a9916f26826082dd0f22ca80e166468b2692187cf54bdb",
+        "bytes": 138094
+      },
+      {
+        "cardId": "GDB_471t8",
+        "slot": "play",
+        "voiceKey": "VO_GDB_471t8_Male_Draenei_Play_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t8_Male_Draenei_Play_01.wav",
+        "sha256": "73fc12f7aa871e7c3b17848e55c4b8ddc993d0944e9ee236a8e567d014b2058c",
+        "bytes": 212214
+      },
+      {
+        "cardId": "GDB_471t8",
+        "slot": "attack",
+        "voiceKey": "VO_GDB_471t8_Male_Draenei_Attack_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t8_Male_Draenei_Attack_01.wav",
+        "sha256": "a077c94e0150b743b330bfa0dfb91d6579477e4795097817f8f68d6820976326",
+        "bytes": 159672
+      },
+      {
+        "cardId": "GDB_471t8",
+        "slot": "death",
+        "voiceKey": "VO_GDB_471t8_Male_Draenei_Death_01",
+        "classify": "TO_COPY",
+        "destRel": "voice/VO_GDB_471t8_Male_Draenei_Death_01.wav",
+        "sha256": "67e1fd445b9b0973769acb2420456c533b0ed95cc29a3aee7b586e30082dc7f6",
+        "bytes": 184452
+      }
+    ]
+  },
+  "copy": {
+    "copied": 24,
+    "shaMatch": true,
+    "existingModified": 0,
+    "added": {
+      "voice": 24,
+      "music": 0,
+      "entrance": 0
+    }
+  },
+  "coverage": {
+    "GDB_471t": {
+      "play": true,
+      "attack": true,
+      "death": true
+    },
+    "GDB_471t2": {
+      "play": true,
+      "attack": true,
+      "death": true
+    },
+    "GDB_471t3": {
+      "play": true,
+      "attack": true,
+      "death": true
+    },
+    "GDB_471t4": {
+      "play": true,
+      "attack": true,
+      "death": true
+    },
+    "GDB_471t5": {
+      "play": true,
+      "attack": true,
+      "death": true
+    },
+    "GDB_471t6": {
+      "play": true,
+      "attack": true,
+      "death": true
+    },
+    "GDB_471t7": {
+      "play": true,
+      "attack": true,
+      "death": true
+    },
+    "GDB_471t8": {
+      "play": true,
+      "attack": true,
+      "death": true
+    }
+  },
+  "parent": {
+    "ok": true,
+    "relatedCount": 8,
+    "uiVisible": 8,
+    "uiIds": [
+      "GDB_471t",
+      "GDB_471t2",
+      "GDB_471t3",
+      "GDB_471t4",
+      "GDB_471t5",
+      "GDB_471t6",
+      "GDB_471t7",
+      "GDB_471t8"
+    ],
+    "missing": [],
+    "multiSlot": true,
+    "catalogTotal": 7263
+  },
+  "historical": {
+    "ok": true,
+    "time609": true,
+    "time005": true,
+    "alias": true,
+    "cards": {
+      "TIME_609t1": {
+        "play": true,
+        "attack": true,
+        "death": true
+      },
+      "TIME_609t2": {
+        "play": true,
+        "attack": true,
+        "death": true
+      },
+      "TIME_005t1": {
+        "play": true,
+        "attack": true,
+        "death": true
+      },
+      "TIME_005t2": {
+        "play": true,
+        "attack": true,
+        "death": true
+      },
+      "TIME_005t3": {
+        "play": true,
+        "attack": true,
+        "death": true
+      },
+      "TIME_005t4": {
+        "play": true,
+        "attack": true,
+        "death": true
+      },
+      "TIME_005t5": {
+        "play": true,
+        "attack": true,
+        "death": true
+      },
+      "TIME_005t6": {
+        "play": true,
+        "attack": true,
+        "death": true
+      },
+      "TIME_005t7": {
+        "play": true,
+        "attack": true,
+        "death": true
+      },
+      "TIME_005t8": {
+        "play": true,
+        "attack": true,
+        "death": true
+      },
+      "TIME_005t9": {
+        "play": true,
+        "attack": true,
+        "death": true
+      },
+      "TIME_005t9t": {
+        "play": true,
+        "attack": true,
+        "death": true
+      }
+    }
+  },
+  "negative": {
+    "cap": "AUDIO_NOT_AVAILABLE / 404",
+    "jail": "AUDIO_NOT_AVAILABLE / 404",
+    "unknown": "NO_VOICE / 404"
+  },
+  "runtime": {
+    "gdbOk": true,
+    "historicalOk": true,
+    "ok": true
+  },
+  "tests": {
+    "npmTest": "PASS",
+    "productionTest": "PASS",
+    "phase210I2": "PASS"
+  },
+  "safety": {
+    "EXTRACTOR": "NOT_CALLED",
+    "HEARTHSTONE": "NOT_ACCESSED",
+    "CATALOG": "UNCHANGED"
+  }
+}

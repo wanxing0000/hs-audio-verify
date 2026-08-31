@@ -89,6 +89,18 @@ const GROUPS = [
     labels: ['related card audio discovery audit'],
   },
   {
+    file: 'test/phase210ExtractionPriority.test.js',
+    labels: ['related card extraction priority audit'],
+  },
+  {
+    file: 'test/phase210I1TargetedExtraction.test.js',
+    labels: ['first batch targeted extraction'],
+  },
+  {
+    file: 'test/phase210I2ProductionCopy.test.js',
+    labels: ['first batch production copy'],
+  },
+  {
     file: 'test/tabBar.test.js',
     labels: ['tabBar'],
   },

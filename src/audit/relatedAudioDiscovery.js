@@ -724,11 +724,13 @@ function renderDiscoveryMarkdown(result, extra) {
 
 module.exports = {
   MAX_DEPTH,
+  UI_SLICE,
   FOCUS_12,
   HISTORY_FILES,
   loadHistory,
   walkRelated,
   buildChildren,
+  collectUiVisible,
   runRelatedAudioDiscovery,
   compactDiscovery,
   renderDiscoveryMarkdown,
