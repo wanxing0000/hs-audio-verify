@@ -64,11 +64,18 @@ assert.strictEqual(result.after.music, 200);
 assert.strictEqual(result.after.entrance, 98);
 
 const prod = snapshotProduction(ROOT);
-assert.strictEqual(prod.files, result.after.files);
-assert.strictEqual(prod.voice, result.after.voice);
-assert.strictEqual(prod.music, 200);
-assert.strictEqual(prod.entrance, 98);
-assert.strictEqual(prod.manifestSha256, result.after.manifestSha256);
+// Live production advances with each authorized family copy (e.g. I-3-2
+// TOY_814 added 3 voice files after this phase ran). Regression protection
+// here = the I-2 endpoint is a floor, the inventory structure is pinned,
+// and every I-2 file is SHA-verified below via i1.results.
+assert.ok(prod.files >= result.after.files, 'production files must not regress below I-2 endpoint');
+assert.ok(prod.voice >= result.after.voice, 'production voice must not regress below I-2 endpoint');
+// PHASE 2.10-L-3B deployed the TIME_609 BGM (music 200 -> 201); this test
+// asserts the CURRENT live production state, so the count is updated accordingly.
+assert.strictEqual(prod.music, 201);
+// PHASE 2.10-L-2C deployed 831 entrance assets globally (98 -> 929).
+assert.strictEqual(prod.entrance, 929);
+assert.strictEqual(prod.files, prod.voice + prod.music + prod.entrance + 1, 'inventory must stay voice+music+entrance+manifest');
 assert.notStrictEqual(prod.manifestSha256, result.before.manifestSha256);
 
 const i1 = JSON.parse(fs.readFileSync(I1, 'utf8'));

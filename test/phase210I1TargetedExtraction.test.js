@@ -4,6 +4,7 @@ const assert = require('assert');
 const fs = require('fs');
 const path = require('path');
 const { isForbiddenCandidate, isBattlegroundsCard, snapshotProduction } = require('../src/audit/relatedAudioProductionAudit.js');
+const { createProductionAudioInventory } = require('../src/services/productionAudioAvailability.js');
 const {
   EXPECTED_FAMILY,
   EXPECTED_CARD_COUNT,
@@ -17,6 +18,9 @@ const {
 const ROOT = path.resolve(__dirname, '..');
 const PRIORITY = path.join(ROOT, 'data', 'card-verification', 'phase-2.10-I-extraction-priority.json');
 const RESULT = path.join(ROOT, 'data', 'card-verification', 'phase-2.10-I-1-extraction-result.json');
+const inventory = createProductionAudioInventory(JSON.parse(
+  fs.readFileSync(path.join(ROOT, 'data', 'production-audio', 'manifest.json'), 'utf8')
+));
 const EXPECTED_SHA = 'a7cd2e1e923348123064e4f67dafe1aa255a266576871ae47493f90569376bec';
 const SLOTS = ['play', 'attack', 'death'];
 
@@ -79,10 +83,17 @@ validated.targets.forEach((t) => {
 });
 
 const prod = snapshotProduction(ROOT);
-assert.strictEqual(prod.music, 200);
-assert.strictEqual(prod.entrance, 98);
+// Live production advances with each authorized deployment (e.g. L-3B TIME_609
+// BGM raised music 200 -> 201; the git-ignored manifest is deployment state,
+// its integrity is verified by test:production). Regression protection here =
+// the pre-TIME_609 count stays a floor, TIME_609 music stays pinned, and the
+// I-1 artifacts stay pinned to the exact historical state they froze.
+assert.ok(prod.music >= 200, 'music must not regress below pre-TIME_609 floor');
+assert.strictEqual(inventory.hasMusic('TIME_609'), true, 'TIME_609 BGM must stay deployed');
+// PHASE 2.10-L-2C deployed 831 entrance assets globally (98 -> 929); this test
+// asserts the CURRENT live production state, so the floor is updated accordingly.
+assert.strictEqual(prod.entrance, 929);
 
-assert.ok(fs.existsSync(RESULT), 'extraction result JSON missing');
 const result = JSON.parse(fs.readFileSync(RESULT, 'utf8'));
 assert.strictEqual(result.family, 'GDB_471');
 assert.ok(result.status === 'COMPLETE_VERIFIED' || result.status === 'PARTIAL_VERIFIED');

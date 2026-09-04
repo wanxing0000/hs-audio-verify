@@ -1,6 +1,7 @@
 'use strict';
 
 const assert = require('assert');
+const fs = require('fs');
 const path = require('path');
 const { shouldDisplayRelatedEdge } = require('../src/miniprogram/relatedCards.js');
 const {
@@ -18,8 +19,12 @@ const {
   missingExtractable,
   runExtractionPriority,
 } = require('../src/audit/phase210ExtractionPriority.js');
+const { createProductionAudioInventory } = require('../src/services/productionAudioAvailability.js');
 
 const ROOT = path.resolve(__dirname, '..');
+const inventory = createProductionAudioInventory(JSON.parse(
+  fs.readFileSync(path.join(ROOT, 'data', 'production-audio', 'manifest.json'), 'utf8')
+));
 
 assert.strictEqual(RELATED_DEPTH_MAX, 2);
 assert.strictEqual(UI_SLICE, 12);
@@ -208,8 +213,14 @@ assert.strictEqual(before.manifestSha256, after.manifestSha256);
 assert.strictEqual(before.files, after.files);
 assert.strictEqual(before.bytes, after.bytes);
 assert.strictEqual(live.blocked, false);
-assert.strictEqual(live.productionBaseline.music, 200);
-assert.strictEqual(live.productionBaseline.entrance, 98);
+// Live production advances with each authorized deployment (e.g. L-3B TIME_609
+// BGM raised music 200 -> 201; manifest is git-ignored deployment state, its
+// integrity is verified by test:production). Regression protection = the
+// pre-TIME_609 count stays a floor and TIME_609 music stays pinned.
+assert.ok(live.productionBaseline.music >= 200, 'music must not regress below pre-TIME_609 floor');
+assert.strictEqual(inventory.hasMusic('TIME_609'), true, 'TIME_609 BGM must stay deployed');
+// PHASE 2.10-L-2C deployed 831 entrance assets globally (98 -> 929).
+assert.strictEqual(live.productionBaseline.entrance, 929);
 assert.strictEqual(live.productionBaseline.manifestSha256, before.manifestSha256);
 
 FOCUS_12.forEach((id) => {
